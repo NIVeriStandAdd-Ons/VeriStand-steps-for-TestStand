@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RealTimeSequence xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<FileFormatVersion Major="2012" Minor="0" Fix="0" Build="0" />
+	<Version Major="1" Minor="0" Fix="0" Build="13" />
+	<References />
+	<Variables>
+		<ReturnType>
+			<Identifier>RiseTime</Identifier>
+			<DefaultValue xsi:type="DoubleValue">
+				<Value>0</Value>
+			</DefaultValue>
+		</ReturnType>
+		<Parameters>
+			<ParameterDeclaration>
+				<Identifier>EnginePower</Identifier>
+				<DefaultValue xsi:type="DoubleValue">
+					<Value>0</Value>
+				</DefaultValue>
+				<EvaluationMethod>ByReference</EvaluationMethod>
+				<DefaultAssignment Path="Aliases/EnginePower" />
+			</ParameterDeclaration>
+			<ParameterDeclaration>
+				<Identifier>DesiredRPM</Identifier>
+				<DefaultValue xsi:type="DoubleValue">
+					<Value>0</Value>
+				</DefaultValue>
+				<EvaluationMethod>ByReference</EvaluationMethod>
+				<DefaultAssignment Path="Aliases/DesiredRPM" />
+			</ParameterDeclaration>
+			<ParameterDeclaration>
+				<Identifier>CommandedRPM</Identifier>
+				<DefaultValue xsi:type="DoubleValue">
+					<Value>0</Value>
+				</DefaultValue>
+				<EvaluationMethod>ByValue</EvaluationMethod>
+				<DefaultAssignment Path="5000" />
+			</ParameterDeclaration>
+			<ParameterDeclaration>
+				<Identifier>ActualRPM</Identifier>
+				<DefaultValue xsi:type="DoubleValue">
+					<Value>0</Value>
+				</DefaultValue>
+				<EvaluationMethod>ByReference</EvaluationMethod>
+				<DefaultAssignment Path="Aliases/ActualRPM" />
+			</ParameterDeclaration>
+		</Parameters>
+		<LocalVariables>
+			<LocalDeclaration>
+				<Identifier>t0</Identifier>
+				<DefaultValue xsi:type="DoubleValue">
+					<Value>0</Value>
+				</DefaultValue>
+			</LocalDeclaration>
+		</LocalVariables>
+	</Variables>
+	<Code>
+		<Setup>
+			<Body>
+				<Statement xsi:type="Comment">
+					<Text>Set the desired RPM to 0.</Text>
+				</Statement>
+				<Statement xsi:type="Expression">
+					<ExpressionString>DesiredRPM = 0</ExpressionString>
+				</Statement>
+				<Statement xsi:type="Comment">
+					<Text>Wait until the actual RPM is 0.</Text>
+				</Statement>
+				<Statement xsi:type="WhileLoop">
+					<AutoYield>true</AutoYield>
+					<Body />
+					<LoopTest>
+						<ExpressionString>ActualRPM != 0</ExpressionString>
+					</LoopTest>
+				</Statement>
+				<Statement xsi:type="Comment">
+					<Text>Start the engine</Text>
+				</Statement>
+				<Statement xsi:type="Expression">
+					<ExpressionString>EnginePower = 1</ExpressionString>
+				</Statement>
+			</Body>
+		</Setup>
+		<Main>
+			<Body>
+				<Statement xsi:type="Comment">
+					<Text>Get the current sequence time</Text>
+				</Statement>
+				<Statement xsi:type="Expression">
+					<ExpressionString>t0 = seqtime()</ExpressionString>
+				</Statement>
+				<Statement xsi:type="Comment">
+					<Text>Set the desired RPM to the commanded RPM</Text>
+				</Statement>
+				<Statement xsi:type="Expression">
+					<ExpressionString>DesiredRPM = CommandedRPM</ExpressionString>
+				</Statement>
+				<Statement xsi:type="Comment">
+					<Text>Wait until the actual RPM reaches the commanded RPM</Text>
+				</Statement>
+				<Statement xsi:type="WhileLoop">
+					<AutoYield>true</AutoYield>
+					<Body>
+						<Statement xsi:type="Expression">
+							<ExpressionString>RiseTime = seqtime()-t0</ExpressionString>
+						</Statement>
+					</Body>
+					<LoopTest>
+						<ExpressionString>ActualRPM&lt;=CommandedRPM</ExpressionString>
+					</LoopTest>
+				</Statement>
+			</Body>
+		</Main>
+		<CleanUp>
+			<Body>
+				<Statement xsi:type="Comment">
+					<Text>Stop the engine</Text>
+				</Statement>
+				<Statement xsi:type="Expression">
+					<ExpressionString>EnginePower = 0</ExpressionString>
+				</Statement>
+			</Body>
+		</CleanUp>
+	</Code>
+</RealTimeSequence>
