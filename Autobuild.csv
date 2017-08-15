@@ -1,0 +1,11 @@
+mc	Source\LabVIEW Code\Misc
+mc	Source\LabVIEW Code\RT Sequence
+mc	Source\LabVIEW Code\Set Channels
+mc	Source\LabVIEW Code\TS VS Logger
+
+Source\LabVIEW Code\Misc\MiscHelperVIs.lvproj	My Computer	MiscHelperVIs Packed Project Library
+Source\LabVIEW Code\RT Sequence\RTSequenceVIs.lvproj	My Computer	RTSequenceVIs Packed Project Library
+Source\LabVIEW Code\Set Channels\Set Channels.lvproj	My Computer	Set Channels Packed Project Library
+Source\LabVIEW Code\TS VS Logger\TS VS Logger.lvproj	My Computer	Logging Packed Project Library
+
+Source\LabVIEW Code\VeriStand Silent Start\SilentVS.lvproj	My Computer	SilentVS
