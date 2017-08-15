@@ -1,62 +1,19 @@
-# Libraries
-*.lvlibp
-*.llb
-
-# Shared objects (inc. Windows DLLs)
-*.so
-*.so.*
-*.dylib
-*.dll		
-
-# Executables
-*.exe
-
-# Metadata
+Source/LabVIEW Code/Assembly Redirection/XML Assembly Redirection Project.aliases
+Source/LabVIEW Code/Assembly Redirection/XML Assembly Redirection Project.lvlps
+Source/LabVIEW Code/Assembly Redirection/builds/RedirectRemovePaletteItemsProjectXML/RedirectRemovePaletteItemsProjectXMLApp.aliases
+Source/LabVIEW Code/Assembly Redirection/builds/RedirectTestStandPaletteFile/RedirectTestStandPaletteFileApp.aliases
+Source/LabVIEW Code/Assembly Redirection/builds/RedirectVeriStandsStepsProjectXML/RedirectVeriStandsStepsProjectXML.aliases
+Source/LabVIEW Code/Misc/MiscHelperVIs.aliases
+Source/LabVIEW Code/Misc/MiscHelperVIs.lvlps
+Source/LabVIEW Code/RT Sequence/RTSequenceVIs.aliases
+Source/LabVIEW Code/RT Sequence/RTSequenceVIs.lvlps
+Source/LabVIEW Code/Set Channels/Set Channels.aliases
+Source/LabVIEW Code/Set Channels/Set Channels.lvlps
+Source/LabVIEW Code/TS VS Logger/TS VS Logger.aliases
+Source/LabVIEW Code/TS VS Logger/TS VS Logger.lvlps
+Source/LabVIEW Code/VeriStand Silent Start/SilentVS.aliases
+Source/LabVIEW Code/VeriStand Silent Start/SilentVS.lvlps
+*.cache
+*.manifest
 *.aliases
 *.lvlps
-
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Icon must end with two \r
-Icon
-# Thumbnails
-._*
-
-# Files that might appear on external disk
-.Spotlight-V100
-.Trashes
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
-
-# Windows
-# =========================
-
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
-
-# Folder config file
-Desktop.ini
-
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
