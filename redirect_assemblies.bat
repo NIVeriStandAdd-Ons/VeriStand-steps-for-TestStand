@@ -81,20 +81,10 @@ IF %2==2015.1 (
 IF %2==2016.0 (
 	SET VeriStandVersion=2016
 	SET VeriStandAssemblyVersion=2016.0.0.0
-	SET VeriStandGACAssemblyVersion=4.0.2016.0.0.0
+	SET VeriStandGACAssemblyVersion=4.0.2016.1.0.0
 	SET StepsVersion=16.0.5.0
 	SET LabviewEXEConfigPath="C:\Program Files (x86)\National Instruments\LabVIEW 2016\LabVIEW.exe.config"
 	SET InstallPath="C:\Program Files (x86)\National Instruments\VeriStand 2016"
-	)
-	
-	:: Set up VeriStand 2017 variables.
-IF %2==2017.0 (
-	SET VeriStandVersion=2017
-	SET VeriStandAssemblyVersion=2017.0.0.0
-	SET VeriStandGACAssemblyVersion=4.0.2017.0.0.0
-	SET StepsVersion=17.0.5.0
-	SET LabviewEXEConfigPath="C:\Program Files (x86)\National Instruments\LabVIEW 2017\LabVIEW.exe.config"
-	SET InstallPath="C:\Program Files (x86)\National Instruments\VeriStand 2017"
 	)
 	
 :: Set up TestStand 2013 variables.
@@ -122,7 +112,7 @@ IF %3==2016.0 (
 	SET TestStandInstallPathString="2016 (32-bit)"
 	)
 	
-echo "Redirect assemblies in LabVIEW.exe config file."
+echo Redirect assemblies in LabVIEW.exe config file.
 :: Arguments
 :: 1: Old LV.exe config file path.
 :: 2: New LV.exe config file path. 
@@ -131,7 +121,7 @@ echo "Redirect assemblies in LabVIEW.exe config file."
 
 %RedirectLabviewConfigFileAppPath% %LabviewEXEConfigPath% %LabviewEXEConfigPath% %TestStandInteropAssemblyVersion% %VeristandAssemblyVersion%
 
-echo "Redirect assemblies in RemoveOldInsertionPaletteItems Project (.vsproj) File."
+echo Redirect assemblies in RemoveOldInsertionPaletteItems Project (.vsproj) File. 
 ::    Arguments
 :: 1: Old Project Path
 :: 2: New Project Path
@@ -141,7 +131,7 @@ echo "Redirect assemblies in RemoveOldInsertionPaletteItems Project (.vsproj) Fi
 
 %RedirectRemovePaletteItemsProjectAppPath% %OldRemovePaletteItemsProjectPath% %NewRemovePaletteItemsProjectPath% %3 %TestStandUtilityAssemblyVersion% %TestStandInteropAssemblyVersion%
 
-echo "Redirect assemblies in VeristandSteps Assembly Project (.vsproj) file."
+echo Redirect assemblies in VeristandSteps Assembly Project (.vsproj) file.
 ::Arguments
 :: 1: original path (string)
 :: 2: new path (string)
@@ -153,7 +143,7 @@ echo "Redirect assemblies in VeristandSteps Assembly Project (.vsproj) file."
 
 %RedirectVeristandStepsAssemblyProjectAppPath% %OldAssemblyProjectPath% %NewAssemblyProjectPath% %TestStandVersion% %TestStandInteropAssemblyVersion% %TestStandUtilityAssemblyVersion% %VeristandGACAssemblyVersion% %VeristandAssemblyVersion%
 
-echo "Redirect assemblies in TestStand Custom TypePalette (.ini) file."
+echo Redirect assemblies in TestStand Custom TypePalette (.ini) file.
 :: Arguments
 :: 1: Old TS ini File Location
 :: 2: New TS ini File Location
@@ -163,7 +153,7 @@ echo "Redirect assemblies in TestStand Custom TypePalette (.ini) file."
 
 %RedirectTeststandPaletteFileAppPath% %OldPaletteFilePath% %NewPaletteFilePath% %VeristandAssemblyVersion% %StepsVersion% %InstallPath%
 
-echo "Updating versions in Setup and Deployment project (.vdproj) file."
+echo Updating versions in Setup & Deployment project (.vdproj) file.
 :: Arguments
 :: .vdproj File Source Path
 :: .vdproj File Destination Path
