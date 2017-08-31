@@ -41,10 +41,10 @@
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Set Channels Packed Project Library" Type="Packed Library">
+			<Item Name="Set Channels PPL" Type="Packed Library">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{CC4DFED7-603F-4CAF-95F7-202BDF8FD47B}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Set Channels Packed Project Library</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Set Channels PPL</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
@@ -64,7 +64,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E73079FE-BD6E-434F-9DA5-AF4A703F5F00}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{AD800219-9992-47A1-BB77-4EFDE49AF25E}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Set Channels.lvlib</Property>
@@ -76,10 +76,10 @@
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">NIC SE</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Set Channels Packed Project Library</Property>
-				<Property Name="TgtF_internalName" Type="Str">Set Channels Packed Project Library</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Set Channels PPL</Property>
+				<Property Name="TgtF_internalName" Type="Str">Set Channels PPL</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2017 NIC SE</Property>
-				<Property Name="TgtF_productName" Type="Str">Set Channels Packed Project Library</Property>
+				<Property Name="TgtF_productName" Type="Str">Set Channels PPL</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{FBF9CE4E-1E26-4948-88B8-728B4F49CFD8}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Set Channels.lvlibp</Property>
 			</Item>
