@@ -196,6 +196,7 @@
 				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
 				<Property Name="INST_buildSpecName" Type="Str">VeriStand Custom Step Types</Property>
 				<Property Name="INST_defaultDir" Type="Str">{8A84B098-97AA-4F5B-8F0A-427266B807F6}</Property>
+				<Property Name="INST_includeError" Type="Bool">false</Property>
 				<Property Name="INST_productName" Type="Str">VeriStand Custom Step Types 2016</Property>
 				<Property Name="INST_productVersion" Type="Str">1.0.57</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
@@ -216,6 +217,7 @@
 				<Property Name="Source[10].name" Type="Str">PreUninstallAction.aliases</Property>
 				<Property Name="Source[10].tag" Type="Ref">/My Computer/Install Actions/PreUninstallAction.aliases</Property>
 				<Property Name="Source[10].type" Type="Str">File</Property>
+				<Property Name="Source[11].cmdArg_uninstall" Type="Str">2016</Property>
 				<Property Name="Source[11].dest" Type="Str">{B1C272DB-7A45-4FF9-BC63-49FC8311081D}</Property>
 				<Property Name="Source[11].File[0].dest" Type="Str">{B1C272DB-7A45-4FF9-BC63-49FC8311081D}</Property>
 				<Property Name="Source[11].File[0].name" Type="Str">PreUninstallAction.exe</Property>
@@ -224,6 +226,7 @@
 				<Property Name="Source[11].File[0].Shortcut[0].subDir" Type="Str">VeriStand Custom Step Types 2016</Property>
 				<Property Name="Source[11].File[0].tag" Type="Str">{6A868695-0396-416C-B3C6-331127C1834F}</Property>
 				<Property Name="Source[11].name" Type="Str">PreUninstallAction.exe</Property>
+				<Property Name="Source[11].runEXE_uninstall" Type="Bool">true</Property>
 				<Property Name="Source[11].tag" Type="Ref">/My Computer/Install Actions/PreUninstallAction.exe</Property>
 				<Property Name="Source[11].type" Type="Str">File</Property>
 				<Property Name="Source[12].dest" Type="Str">{B1C272DB-7A45-4FF9-BC63-49FC8311081D}</Property>
@@ -284,6 +287,7 @@
 				<Property Name="Source[7].type" Type="Str">File</Property>
 				<Property Name="Source[8].dest" Type="Str">{B1C272DB-7A45-4FF9-BC63-49FC8311081D}</Property>
 				<Property Name="Source[8].name" Type="Str">PostInstallAction.exe</Property>
+				<Property Name="Source[8].runEXE" Type="Bool">true</Property>
 				<Property Name="Source[8].tag" Type="Ref">/My Computer/Install Actions/PostInstallAction.exe</Property>
 				<Property Name="Source[8].type" Type="Str">File</Property>
 				<Property Name="Source[9].dest" Type="Str">{B1C272DB-7A45-4FF9-BC63-49FC8311081D}</Property>
