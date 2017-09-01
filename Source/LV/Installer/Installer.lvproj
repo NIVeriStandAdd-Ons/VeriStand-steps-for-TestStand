@@ -44,7 +44,7 @@
 		</Item>
 		<Item Name="TypePalette File" Type="Folder">
 			<Item Name="NI_VeristandTypes.ini" Type="Document" URL="../../../../build_temp/NI_VeristandTypes.ini"/>
-			<Item Name="Veristand_icon_vista.ico" Type="Document" URL="../../../TypePalette INI File/Veristand_icon_vista.ico"/>
+			<Item Name="Veristand_icon_vista.ico" Type="Document" URL="../../../../build_temp/Veristand_icon_vista.ico"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
 			<Item Name="Components Directory Install Files String Array.ctl" Type="VI" URL="../Types/Components Directory Install Files String Array.ctl"/>
@@ -213,8 +213,8 @@
 				<Property Name="Source[1].tag" Type="Ref">/My Computer/PPLs/MiscHelperVIs.lvlibp</Property>
 				<Property Name="Source[1].type" Type="Str">File</Property>
 				<Property Name="Source[10].dest" Type="Str">{B1C272DB-7A45-4FF9-BC63-49FC8311081D}</Property>
-				<Property Name="Source[10].name" Type="Str">PostInstallAction.ini</Property>
-				<Property Name="Source[10].tag" Type="Ref">/My Computer/Install Actions/PostInstallAction.ini</Property>
+				<Property Name="Source[10].name" Type="Str">PreUninstallAction.aliases</Property>
+				<Property Name="Source[10].tag" Type="Ref">/My Computer/Install Actions/PreUninstallAction.aliases</Property>
 				<Property Name="Source[10].type" Type="Str">File</Property>
 				<Property Name="Source[11].dest" Type="Str">{B1C272DB-7A45-4FF9-BC63-49FC8311081D}</Property>
 				<Property Name="Source[11].File[0].dest" Type="Str">{B1C272DB-7A45-4FF9-BC63-49FC8311081D}</Property>
@@ -223,28 +223,28 @@
 				<Property Name="Source[11].File[0].Shortcut[0].name" Type="Str">PreUninstallAction</Property>
 				<Property Name="Source[11].File[0].Shortcut[0].subDir" Type="Str">VeriStand Custom Step Types 2016</Property>
 				<Property Name="Source[11].File[0].tag" Type="Str">{6A868695-0396-416C-B3C6-331127C1834F}</Property>
-				<Property Name="Source[11].name" Type="Str">PreUninstallAction.aliases</Property>
-				<Property Name="Source[11].tag" Type="Ref">/My Computer/Install Actions/PreUninstallAction.aliases</Property>
+				<Property Name="Source[11].name" Type="Str">PreUninstallAction.exe</Property>
+				<Property Name="Source[11].tag" Type="Ref">/My Computer/Install Actions/PreUninstallAction.exe</Property>
 				<Property Name="Source[11].type" Type="Str">File</Property>
 				<Property Name="Source[12].dest" Type="Str">{B1C272DB-7A45-4FF9-BC63-49FC8311081D}</Property>
-				<Property Name="Source[12].name" Type="Str">PreUninstallAction.exe</Property>
-				<Property Name="Source[12].tag" Type="Ref">/My Computer/Install Actions/PreUninstallAction.exe</Property>
+				<Property Name="Source[12].name" Type="Str">PreUninstallAction.ini</Property>
+				<Property Name="Source[12].tag" Type="Ref">/My Computer/Install Actions/PreUninstallAction.ini</Property>
 				<Property Name="Source[12].type" Type="Str">File</Property>
 				<Property Name="Source[13].dest" Type="Str">{B1C272DB-7A45-4FF9-BC63-49FC8311081D}</Property>
-				<Property Name="Source[13].name" Type="Str">PreUninstallAction.ini</Property>
-				<Property Name="Source[13].tag" Type="Ref">/My Computer/Install Actions/PreUninstallAction.ini</Property>
+				<Property Name="Source[13].name" Type="Str">InstallToGAC.exe</Property>
+				<Property Name="Source[13].tag" Type="Ref">/My Computer/GAC Install Utilities/InstallToGAC.exe</Property>
 				<Property Name="Source[13].type" Type="Str">File</Property>
 				<Property Name="Source[14].dest" Type="Str">{B1C272DB-7A45-4FF9-BC63-49FC8311081D}</Property>
-				<Property Name="Source[14].name" Type="Str">Veristand_icon_vista.ico</Property>
-				<Property Name="Source[14].tag" Type="Ref">/My Computer/TypePalette File/Veristand_icon_vista.ico</Property>
+				<Property Name="Source[14].name" Type="Str">RemoveFromGAC.exe</Property>
+				<Property Name="Source[14].tag" Type="Ref">/My Computer/GAC Install Utilities/RemoveFromGAC.exe</Property>
 				<Property Name="Source[14].type" Type="Str">File</Property>
 				<Property Name="Source[15].dest" Type="Str">{B1C272DB-7A45-4FF9-BC63-49FC8311081D}</Property>
-				<Property Name="Source[15].name" Type="Str">InstallToGAC.exe</Property>
-				<Property Name="Source[15].tag" Type="Ref">/My Computer/GAC Install Utilities/InstallToGAC.exe</Property>
+				<Property Name="Source[15].name" Type="Str">Veristand_icon_vista.ico</Property>
+				<Property Name="Source[15].tag" Type="Ref">/My Computer/TypePalette File/Veristand_icon_vista.ico</Property>
 				<Property Name="Source[15].type" Type="Str">File</Property>
 				<Property Name="Source[16].dest" Type="Str">{B1C272DB-7A45-4FF9-BC63-49FC8311081D}</Property>
-				<Property Name="Source[16].name" Type="Str">RemoveFromGAC.exe</Property>
-				<Property Name="Source[16].tag" Type="Ref">/My Computer/GAC Install Utilities/RemoveFromGAC.exe</Property>
+				<Property Name="Source[16].name" Type="Str">NI_VeristandTypes.ini</Property>
+				<Property Name="Source[16].tag" Type="Ref">/My Computer/TypePalette File/NI_VeristandTypes.ini</Property>
 				<Property Name="Source[16].type" Type="Str">File</Property>
 				<Property Name="Source[2].dest" Type="Str">{B1C272DB-7A45-4FF9-BC63-49FC8311081D}</Property>
 				<Property Name="Source[2].name" Type="Str">RTSequenceVIs.lvlibp</Property>
@@ -268,27 +268,27 @@
 				<Property Name="Source[5].File[0].Shortcut[0].name" Type="Str">PostInstallAction</Property>
 				<Property Name="Source[5].File[0].Shortcut[0].subDir" Type="Str">VeriStand Custom Step Types 2016</Property>
 				<Property Name="Source[5].File[0].tag" Type="Str">{6B1F5EA1-F3F7-42B3-822A-6F64DBEACC14}</Property>
-				<Property Name="Source[5].name" Type="Str">NI_VeristandTypes.ini</Property>
-				<Property Name="Source[5].tag" Type="Ref">/My Computer/TypePalette File/NI_VeristandTypes.ini</Property>
+				<Property Name="Source[5].name" Type="Str">NationalInstruments.Veristand.VeristandSteps.dll</Property>
+				<Property Name="Source[5].tag" Type="Ref">/My Computer/VeristandSteps Assembly/NationalInstruments.Veristand.VeristandSteps.dll</Property>
 				<Property Name="Source[5].type" Type="Str">File</Property>
 				<Property Name="Source[6].dest" Type="Str">{B1C272DB-7A45-4FF9-BC63-49FC8311081D}</Property>
-				<Property Name="Source[6].name" Type="Str">NationalInstruments.Veristand.VeristandSteps.dll</Property>
-				<Property Name="Source[6].tag" Type="Ref">/My Computer/VeristandSteps Assembly/NationalInstruments.Veristand.VeristandSteps.dll</Property>
+				<Property Name="Source[6].name" Type="Str">SilentVeriStand.exe</Property>
+				<Property Name="Source[6].tag" Type="Ref">/My Computer/Silent VeriStand Executable/SilentVeriStand.exe</Property>
 				<Property Name="Source[6].type" Type="Str">File</Property>
 				<Property Name="Source[7].dest" Type="Str">{B1C272DB-7A45-4FF9-BC63-49FC8311081D}</Property>
 				<Property Name="Source[7].File[0].dest" Type="Str">{B1C272DB-7A45-4FF9-BC63-49FC8311081D}</Property>
 				<Property Name="Source[7].File[0].name" Type="Str">PreUninstallAction.exe</Property>
 				<Property Name="Source[7].File[0].tag" Type="Str">{6A868695-0396-416C-B3C6-331127C1834F}</Property>
-				<Property Name="Source[7].name" Type="Str">SilentVeriStand.exe</Property>
-				<Property Name="Source[7].tag" Type="Ref">/My Computer/Silent VeriStand Executable/SilentVeriStand.exe</Property>
+				<Property Name="Source[7].name" Type="Str">PostInstallAction.aliases</Property>
+				<Property Name="Source[7].tag" Type="Ref">/My Computer/Install Actions/PostInstallAction.aliases</Property>
 				<Property Name="Source[7].type" Type="Str">File</Property>
 				<Property Name="Source[8].dest" Type="Str">{B1C272DB-7A45-4FF9-BC63-49FC8311081D}</Property>
-				<Property Name="Source[8].name" Type="Str">PostInstallAction.aliases</Property>
-				<Property Name="Source[8].tag" Type="Ref">/My Computer/Install Actions/PostInstallAction.aliases</Property>
+				<Property Name="Source[8].name" Type="Str">PostInstallAction.exe</Property>
+				<Property Name="Source[8].tag" Type="Ref">/My Computer/Install Actions/PostInstallAction.exe</Property>
 				<Property Name="Source[8].type" Type="Str">File</Property>
 				<Property Name="Source[9].dest" Type="Str">{B1C272DB-7A45-4FF9-BC63-49FC8311081D}</Property>
-				<Property Name="Source[9].name" Type="Str">PostInstallAction.exe</Property>
-				<Property Name="Source[9].tag" Type="Ref">/My Computer/Install Actions/PostInstallAction.exe</Property>
+				<Property Name="Source[9].name" Type="Str">PostInstallAction.ini</Property>
+				<Property Name="Source[9].tag" Type="Ref">/My Computer/Install Actions/PostInstallAction.ini</Property>
 				<Property Name="Source[9].type" Type="Str">File</Property>
 				<Property Name="SourceCount" Type="Int">17</Property>
 			</Item>
