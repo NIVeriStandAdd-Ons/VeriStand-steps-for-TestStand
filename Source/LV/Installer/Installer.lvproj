@@ -11,8 +11,8 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="GAC Install Utilities" Type="Folder">
-			<Item Name="InstallToGAC.exe" Type="Document" URL="../../../C# Code/InstallToGAC/InstallToGAC.exe"/>
-			<Item Name="RemoveFromGAC.exe" Type="Document" URL="../../../C# Code/RemoveFromGAC/RemoveFromGAC.exe"/>
+			<Item Name="InstallToGAC.exe" Type="Document" URL="../../../CSharp/InstallToGAC/InstallToGAC.exe"/>
+			<Item Name="RemoveFromGAC.exe" Type="Document" URL="../../../CSharp/RemoveFromGAC/RemoveFromGAC.exe"/>
 		</Item>
 		<Item Name="Install Actions" Type="Folder">
 			<Item Name="Post-Install Action.vi" Type="VI" URL="../Actions/Post-Install Action.vi"/>
@@ -231,20 +231,20 @@
 				<Property Name="Source[12].tag" Type="Ref">/My Computer/Install Actions/PreUninstallAction.ini</Property>
 				<Property Name="Source[12].type" Type="Str">File</Property>
 				<Property Name="Source[13].dest" Type="Str">{B1C272DB-7A45-4FF9-BC63-49FC8311081D}</Property>
-				<Property Name="Source[13].name" Type="Str">InstallToGAC.exe</Property>
-				<Property Name="Source[13].tag" Type="Ref">/My Computer/GAC Install Utilities/InstallToGAC.exe</Property>
+				<Property Name="Source[13].name" Type="Str">Veristand_icon_vista.ico</Property>
+				<Property Name="Source[13].tag" Type="Ref">/My Computer/TypePalette File/Veristand_icon_vista.ico</Property>
 				<Property Name="Source[13].type" Type="Str">File</Property>
 				<Property Name="Source[14].dest" Type="Str">{B1C272DB-7A45-4FF9-BC63-49FC8311081D}</Property>
-				<Property Name="Source[14].name" Type="Str">RemoveFromGAC.exe</Property>
-				<Property Name="Source[14].tag" Type="Ref">/My Computer/GAC Install Utilities/RemoveFromGAC.exe</Property>
+				<Property Name="Source[14].name" Type="Str">NI_VeristandTypes.ini</Property>
+				<Property Name="Source[14].tag" Type="Ref">/My Computer/TypePalette File/NI_VeristandTypes.ini</Property>
 				<Property Name="Source[14].type" Type="Str">File</Property>
 				<Property Name="Source[15].dest" Type="Str">{B1C272DB-7A45-4FF9-BC63-49FC8311081D}</Property>
-				<Property Name="Source[15].name" Type="Str">Veristand_icon_vista.ico</Property>
-				<Property Name="Source[15].tag" Type="Ref">/My Computer/TypePalette File/Veristand_icon_vista.ico</Property>
+				<Property Name="Source[15].name" Type="Str">InstallToGAC.exe</Property>
+				<Property Name="Source[15].tag" Type="Ref">/My Computer/GAC Install Utilities/InstallToGAC.exe</Property>
 				<Property Name="Source[15].type" Type="Str">File</Property>
 				<Property Name="Source[16].dest" Type="Str">{B1C272DB-7A45-4FF9-BC63-49FC8311081D}</Property>
-				<Property Name="Source[16].name" Type="Str">NI_VeristandTypes.ini</Property>
-				<Property Name="Source[16].tag" Type="Ref">/My Computer/TypePalette File/NI_VeristandTypes.ini</Property>
+				<Property Name="Source[16].name" Type="Str">RemoveFromGAC.exe</Property>
+				<Property Name="Source[16].tag" Type="Ref">/My Computer/GAC Install Utilities/RemoveFromGAC.exe</Property>
 				<Property Name="Source[16].type" Type="Str">File</Property>
 				<Property Name="Source[2].dest" Type="Str">{B1C272DB-7A45-4FF9-BC63-49FC8311081D}</Property>
 				<Property Name="Source[2].name" Type="Str">RTSequenceVIs.lvlibp</Property>
