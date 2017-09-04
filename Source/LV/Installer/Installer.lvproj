@@ -231,6 +231,7 @@
 				<Property Name="Source[0].name" Type="Str">veristand_steps_install_log.txt</Property>
 				<Property Name="Source[0].tag" Type="Ref">/My Computer/Install Log File/veristand_steps_install_log.txt</Property>
 				<Property Name="Source[0].type" Type="Str">File</Property>
+				<Property Name="Source[1].cmdArg" Type="Str">2014</Property>
 				<Property Name="Source[1].dest" Type="Str">{B1C272DB-7A45-4FF9-BC63-49FC8311081D}</Property>
 				<Property Name="Source[1].name" Type="Str">PostInstallAction.exe</Property>
 				<Property Name="Source[1].runEXE" Type="Bool">true</Property>
@@ -258,8 +259,10 @@
 				<Property Name="Source[2].name" Type="Str">NationalInstruments.Veristand.VeristandSteps.dll</Property>
 				<Property Name="Source[2].tag" Type="Ref">/My Computer/VeristandSteps Assembly/NationalInstruments.Veristand.VeristandSteps.dll</Property>
 				<Property Name="Source[2].type" Type="Str">File</Property>
+				<Property Name="Source[3].cmdArg_uninstall" Type="Str">2014</Property>
 				<Property Name="Source[3].dest" Type="Str">{8A84B098-97AA-4F5B-8F0A-427266B807F6}</Property>
 				<Property Name="Source[3].name" Type="Str">PreUninstallAction.exe</Property>
+				<Property Name="Source[3].runEXE_uninstall" Type="Bool">true</Property>
 				<Property Name="Source[3].tag" Type="Ref">/My Computer/Install Actions/PreUninstallAction.exe</Property>
 				<Property Name="Source[3].type" Type="Str">File</Property>
 				<Property Name="Source[4].dest" Type="Str">{776AB4F2-7C99-4F58-A725-FC0B4DDF82B9}</Property>
