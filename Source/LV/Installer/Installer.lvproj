@@ -221,7 +221,7 @@
 				<Property Name="INST_buildLocation" Type="Path">../Installer/builds/Installer</Property>
 				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
 				<Property Name="INST_buildSpecName" Type="Str">VeriStand Custom Step Types</Property>
-				<Property Name="INST_defaultDir" Type="Str">{5AF82D49-5426-4BB4-A5CC-F364891255C8}</Property>
+				<Property Name="INST_defaultDir" Type="Str">{C4C299A5-A16B-4251-A638-73B631234187}</Property>
 				<Property Name="INST_includeError" Type="Bool">false</Property>
 				<Property Name="INST_productName" Type="Str">VeriStand 2014 Custom Step Types</Property>
 				<Property Name="INST_productVersion" Type="Str">1.0.57</Property>
@@ -235,117 +235,59 @@
 				<Property Name="Source[0].name" Type="Str">veristand_steps_install_log.txt</Property>
 				<Property Name="Source[0].tag" Type="Ref">/My Computer/Install Log File/veristand_steps_install_log.txt</Property>
 				<Property Name="Source[0].type" Type="Str">File</Property>
-				<Property Name="Source[1].cmdArg" Type="Str">2014 2014</Property>
 				<Property Name="Source[1].dest" Type="Str">{B1C272DB-7A45-4FF9-BC63-49FC8311081D}</Property>
-				<Property Name="Source[1].name" Type="Str">PostInstallAction.exe</Property>
-				<Property Name="Source[1].runEXE" Type="Bool">true</Property>
-				<Property Name="Source[1].tag" Type="Ref">/My Computer/Install Actions/PostInstallAction.exe</Property>
+				<Property Name="Source[1].name" Type="Str">InstallToGAC.exe</Property>
+				<Property Name="Source[1].tag" Type="Ref">/My Computer/GAC Install Utilities/InstallToGAC.exe</Property>
 				<Property Name="Source[1].type" Type="Str">File</Property>
-				<Property Name="Source[10].dest" Type="Str">{B1C272DB-7A45-4FF9-BC63-49FC8311081D}</Property>
-				<Property Name="Source[10].name" Type="Str">InstallToGAC.exe</Property>
-				<Property Name="Source[10].tag" Type="Ref">/My Computer/GAC Install Utilities/InstallToGAC.exe</Property>
+				<Property Name="Source[10].dest" Type="Str">{C4C299A5-A16B-4251-A638-73B631234187}</Property>
+				<Property Name="Source[10].name" Type="Str">NI_VeristandTypes.ini</Property>
+				<Property Name="Source[10].tag" Type="Ref">/My Computer/TypePalette File/NI_VeristandTypes.ini</Property>
 				<Property Name="Source[10].type" Type="Str">File</Property>
-				<Property Name="Source[11].dest" Type="Str">{8A84B098-97AA-4F5B-8F0A-427266B807F6}</Property>
-				<Property Name="Source[11].File[0].dest" Type="Str">{B1C272DB-7A45-4FF9-BC63-49FC8311081D}</Property>
-				<Property Name="Source[11].File[0].name" Type="Str">PreUninstallAction.exe</Property>
-				<Property Name="Source[11].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
-				<Property Name="Source[11].File[0].Shortcut[0].name" Type="Str">PreUninstallAction</Property>
-				<Property Name="Source[11].File[0].Shortcut[0].subDir" Type="Str">VeriStand Custom Step Types 2016</Property>
-				<Property Name="Source[11].File[0].tag" Type="Str">{6A868695-0396-416C-B3C6-331127C1834F}</Property>
-				<Property Name="Source[11].name" Type="Str">RemoveFromGAC.exe</Property>
-				<Property Name="Source[11].tag" Type="Ref">/My Computer/GAC Install Utilities/RemoveFromGAC.exe</Property>
+				<Property Name="Source[11].dest" Type="Str">{C4C299A5-A16B-4251-A638-73B631234187}</Property>
+				<Property Name="Source[11].name" Type="Str">Veristand_icon_vista.ico</Property>
+				<Property Name="Source[11].tag" Type="Ref">/My Computer/TypePalette File/Veristand_icon_vista.ico</Property>
 				<Property Name="Source[11].type" Type="Str">File</Property>
-				<Property Name="Source[12].dest" Type="Str">{C121735A-2CFB-4C1B-8A00-13628B2EF40C}</Property>
-				<Property Name="Source[12].name" Type="Str">MiscHelperVIs.lvlibp</Property>
-				<Property Name="Source[12].tag" Type="Ref">/My Computer/PPLs/MiscHelperVIs.lvlibp</Property>
+				<Property Name="Source[12].dest" Type="Str">{8A84B098-97AA-4F5B-8F0A-427266B807F6}</Property>
+				<Property Name="Source[12].name" Type="Str">NationalInstruments.Veristand.VeristandSteps.dll</Property>
+				<Property Name="Source[12].tag" Type="Ref">/My Computer/VeristandSteps Assembly/NationalInstruments.Veristand.VeristandSteps.dll</Property>
 				<Property Name="Source[12].type" Type="Str">File</Property>
-				<Property Name="Source[13].dest" Type="Str">{C121735A-2CFB-4C1B-8A00-13628B2EF40C}</Property>
-				<Property Name="Source[13].name" Type="Str">NI_VeristandTypes.ini</Property>
-				<Property Name="Source[13].tag" Type="Ref">/My Computer/TypePalette File/NI_VeristandTypes.ini</Property>
-				<Property Name="Source[13].type" Type="Str">File</Property>
-				<Property Name="Source[14].dest" Type="Str">{C121735A-2CFB-4C1B-8A00-13628B2EF40C}</Property>
-				<Property Name="Source[14].name" Type="Str">Veristand_icon_vista.ico</Property>
-				<Property Name="Source[14].tag" Type="Ref">/My Computer/TypePalette File/Veristand_icon_vista.ico</Property>
-				<Property Name="Source[14].type" Type="Str">File</Property>
-				<Property Name="Source[15].dest" Type="Str">{C121735A-2CFB-4C1B-8A00-13628B2EF40C}</Property>
-				<Property Name="Source[15].name" Type="Str">RTSequenceVIs.lvlibp</Property>
-				<Property Name="Source[15].tag" Type="Ref">/My Computer/PPLs/RTSequenceVIs.lvlibp</Property>
-				<Property Name="Source[15].type" Type="Str">File</Property>
-				<Property Name="Source[16].dest" Type="Str">{C121735A-2CFB-4C1B-8A00-13628B2EF40C}</Property>
-				<Property Name="Source[16].name" Type="Str">Set Channels.lvlibp</Property>
-				<Property Name="Source[16].tag" Type="Ref">/My Computer/PPLs/Set Channels.lvlibp</Property>
-				<Property Name="Source[16].type" Type="Str">File</Property>
-				<Property Name="Source[17].dest" Type="Str">{C4C299A5-A16B-4251-A638-73B631234187}</Property>
-				<Property Name="Source[17].name" Type="Str">Logging.lvlibp</Property>
-				<Property Name="Source[17].tag" Type="Ref">/My Computer/PPLs/Logging.lvlibp</Property>
-				<Property Name="Source[17].type" Type="Str">File</Property>
-				<Property Name="Source[18].dest" Type="Str">{C4C299A5-A16B-4251-A638-73B631234187}</Property>
-				<Property Name="Source[18].name" Type="Str">MiscHelperVIs.lvlibp</Property>
-				<Property Name="Source[18].tag" Type="Ref">/My Computer/PPLs/MiscHelperVIs.lvlibp</Property>
-				<Property Name="Source[18].type" Type="Str">File</Property>
-				<Property Name="Source[19].dest" Type="Str">{C4C299A5-A16B-4251-A638-73B631234187}</Property>
-				<Property Name="Source[19].name" Type="Str">RTSequenceVIs.lvlibp</Property>
-				<Property Name="Source[19].tag" Type="Ref">/My Computer/PPLs/RTSequenceVIs.lvlibp</Property>
-				<Property Name="Source[19].type" Type="Str">File</Property>
 				<Property Name="Source[2].dest" Type="Str">{8A84B098-97AA-4F5B-8F0A-427266B807F6}</Property>
-				<Property Name="Source[2].name" Type="Str">NationalInstruments.Veristand.VeristandSteps.dll</Property>
-				<Property Name="Source[2].tag" Type="Ref">/My Computer/VeristandSteps Assembly/NationalInstruments.Veristand.VeristandSteps.dll</Property>
+				<Property Name="Source[2].name" Type="Str">RemoveFromGAC.exe</Property>
+				<Property Name="Source[2].tag" Type="Ref">/My Computer/GAC Install Utilities/RemoveFromGAC.exe</Property>
 				<Property Name="Source[2].type" Type="Str">File</Property>
-				<Property Name="Source[20].dest" Type="Str">{C4C299A5-A16B-4251-A638-73B631234187}</Property>
-				<Property Name="Source[20].name" Type="Str">Set Channels.lvlibp</Property>
-				<Property Name="Source[20].tag" Type="Ref">/My Computer/PPLs/Set Channels.lvlibp</Property>
-				<Property Name="Source[20].type" Type="Str">File</Property>
-				<Property Name="Source[21].dest" Type="Str">{C4C299A5-A16B-4251-A638-73B631234187}</Property>
-				<Property Name="Source[21].name" Type="Str">Veristand_icon_vista.ico</Property>
-				<Property Name="Source[21].tag" Type="Ref">/My Computer/TypePalette File/Veristand_icon_vista.ico</Property>
-				<Property Name="Source[21].type" Type="Str">File</Property>
-				<Property Name="Source[22].dest" Type="Str">{C4C299A5-A16B-4251-A638-73B631234187}</Property>
-				<Property Name="Source[22].name" Type="Str">NI_VeristandTypes.ini</Property>
-				<Property Name="Source[22].tag" Type="Ref">/My Computer/TypePalette File/NI_VeristandTypes.ini</Property>
-				<Property Name="Source[22].type" Type="Str">File</Property>
-				<Property Name="Source[3].cmdArg_uninstall" Type="Str">2014</Property>
-				<Property Name="Source[3].dest" Type="Str">{8A84B098-97AA-4F5B-8F0A-427266B807F6}</Property>
-				<Property Name="Source[3].name" Type="Str">PreUninstallAction.exe</Property>
-				<Property Name="Source[3].runEXE_uninstall" Type="Bool">true</Property>
-				<Property Name="Source[3].tag" Type="Ref">/My Computer/Install Actions/PreUninstallAction.exe</Property>
+				<Property Name="Source[3].cmdArg" Type="Str">2014 2014</Property>
+				<Property Name="Source[3].dest" Type="Str">{B1C272DB-7A45-4FF9-BC63-49FC8311081D}</Property>
+				<Property Name="Source[3].name" Type="Str">PostInstallAction.exe</Property>
+				<Property Name="Source[3].runEXE" Type="Bool">true</Property>
+				<Property Name="Source[3].tag" Type="Ref">/My Computer/Install Actions/PostInstallAction.exe</Property>
 				<Property Name="Source[3].type" Type="Str">File</Property>
-				<Property Name="Source[4].dest" Type="Str">{776AB4F2-7C99-4F58-A725-FC0B4DDF82B9}</Property>
-				<Property Name="Source[4].File[0].dest" Type="Str">{B1C272DB-7A45-4FF9-BC63-49FC8311081D}</Property>
-				<Property Name="Source[4].File[0].name" Type="Str">PostInstallAction.exe</Property>
-				<Property Name="Source[4].File[0].tag" Type="Str">{6B1F5EA1-F3F7-42B3-822A-6F64DBEACC14}</Property>
-				<Property Name="Source[4].name" Type="Str">MiscHelperVIs.lvlibp</Property>
-				<Property Name="Source[4].tag" Type="Ref">/My Computer/PPLs/MiscHelperVIs.lvlibp</Property>
+				<Property Name="Source[4].cmdArg_uninstall" Type="Str">2014 </Property>
+				<Property Name="Source[4].dest" Type="Str">{8A84B098-97AA-4F5B-8F0A-427266B807F6}</Property>
+				<Property Name="Source[4].name" Type="Str">PreUninstallAction.exe</Property>
+				<Property Name="Source[4].runEXE_uninstall" Type="Bool">true</Property>
+				<Property Name="Source[4].tag" Type="Ref">/My Computer/Install Actions/PreUninstallAction.exe</Property>
 				<Property Name="Source[4].type" Type="Str">File</Property>
-				<Property Name="Source[5].dest" Type="Str">{776AB4F2-7C99-4F58-A725-FC0B4DDF82B9}</Property>
-				<Property Name="Source[5].File[0].dest" Type="Str">{B1C272DB-7A45-4FF9-BC63-49FC8311081D}</Property>
-				<Property Name="Source[5].File[0].name" Type="Str">PostInstallAction.exe</Property>
-				<Property Name="Source[5].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
-				<Property Name="Source[5].File[0].Shortcut[0].name" Type="Str">PostInstallAction</Property>
-				<Property Name="Source[5].File[0].Shortcut[0].subDir" Type="Str">VeriStand Custom Step Types 2016</Property>
-				<Property Name="Source[5].File[0].tag" Type="Str">{6B1F5EA1-F3F7-42B3-822A-6F64DBEACC14}</Property>
-				<Property Name="Source[5].name" Type="Str">NI_VeristandTypes.ini</Property>
-				<Property Name="Source[5].tag" Type="Ref">/My Computer/TypePalette File/NI_VeristandTypes.ini</Property>
+				<Property Name="Source[5].dest" Type="Str">{07CB2EDC-AE7E-4885-8E98-72AAB33FFEBB}</Property>
+				<Property Name="Source[5].name" Type="Str">SilentVeriStand.exe</Property>
+				<Property Name="Source[5].tag" Type="Ref">/My Computer/Silent VeriStand Executable/SilentVeriStand.exe</Property>
 				<Property Name="Source[5].type" Type="Str">File</Property>
-				<Property Name="Source[6].dest" Type="Str">{776AB4F2-7C99-4F58-A725-FC0B4DDF82B9}</Property>
-				<Property Name="Source[6].name" Type="Str">RTSequenceVIs.lvlibp</Property>
-				<Property Name="Source[6].tag" Type="Ref">/My Computer/PPLs/RTSequenceVIs.lvlibp</Property>
+				<Property Name="Source[6].dest" Type="Str">{C4C299A5-A16B-4251-A638-73B631234187}</Property>
+				<Property Name="Source[6].name" Type="Str">Logging.lvlibp</Property>
+				<Property Name="Source[6].tag" Type="Ref">/My Computer/PPLs/Logging.lvlibp</Property>
 				<Property Name="Source[6].type" Type="Str">File</Property>
-				<Property Name="Source[7].dest" Type="Str">{776AB4F2-7C99-4F58-A725-FC0B4DDF82B9}</Property>
-				<Property Name="Source[7].File[0].dest" Type="Str">{B1C272DB-7A45-4FF9-BC63-49FC8311081D}</Property>
-				<Property Name="Source[7].File[0].name" Type="Str">PreUninstallAction.exe</Property>
-				<Property Name="Source[7].File[0].tag" Type="Str">{6A868695-0396-416C-B3C6-331127C1834F}</Property>
-				<Property Name="Source[7].name" Type="Str">Set Channels.lvlibp</Property>
-				<Property Name="Source[7].tag" Type="Ref">/My Computer/PPLs/Set Channels.lvlibp</Property>
+				<Property Name="Source[7].dest" Type="Str">{C4C299A5-A16B-4251-A638-73B631234187}</Property>
+				<Property Name="Source[7].name" Type="Str">MiscHelperVIs.lvlibp</Property>
+				<Property Name="Source[7].tag" Type="Ref">/My Computer/PPLs/MiscHelperVIs.lvlibp</Property>
 				<Property Name="Source[7].type" Type="Str">File</Property>
-				<Property Name="Source[8].dest" Type="Str">{776AB4F2-7C99-4F58-A725-FC0B4DDF82B9}</Property>
-				<Property Name="Source[8].name" Type="Str">Veristand_icon_vista.ico</Property>
-				<Property Name="Source[8].tag" Type="Ref">/My Computer/TypePalette File/Veristand_icon_vista.ico</Property>
+				<Property Name="Source[8].dest" Type="Str">{C4C299A5-A16B-4251-A638-73B631234187}</Property>
+				<Property Name="Source[8].name" Type="Str">RTSequenceVIs.lvlibp</Property>
+				<Property Name="Source[8].tag" Type="Ref">/My Computer/PPLs/RTSequenceVIs.lvlibp</Property>
 				<Property Name="Source[8].type" Type="Str">File</Property>
-				<Property Name="Source[9].dest" Type="Str">{07CB2EDC-AE7E-4885-8E98-72AAB33FFEBB}</Property>
-				<Property Name="Source[9].name" Type="Str">SilentVeriStand.exe</Property>
-				<Property Name="Source[9].tag" Type="Ref">/My Computer/Silent VeriStand Executable/SilentVeriStand.exe</Property>
+				<Property Name="Source[9].dest" Type="Str">{C4C299A5-A16B-4251-A638-73B631234187}</Property>
+				<Property Name="Source[9].name" Type="Str">Set Channels.lvlibp</Property>
+				<Property Name="Source[9].tag" Type="Ref">/My Computer/PPLs/Set Channels.lvlibp</Property>
 				<Property Name="Source[9].type" Type="Str">File</Property>
-				<Property Name="SourceCount" Type="Int">23</Property>
+				<Property Name="SourceCount" Type="Int">13</Property>
 			</Item>
 		</Item>
 	</Item>
