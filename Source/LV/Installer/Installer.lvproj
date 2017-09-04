@@ -217,7 +217,7 @@
 				<Property Name="INST_buildLocation" Type="Path">../Installer/builds/Installer</Property>
 				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
 				<Property Name="INST_buildSpecName" Type="Str">VeriStand Custom Step Types</Property>
-				<Property Name="INST_defaultDir" Type="Str">{07CB2EDC-AE7E-4885-8E98-72AAB33FFEBB}</Property>
+				<Property Name="INST_defaultDir" Type="Str">{8A84B098-97AA-4F5B-8F0A-427266B807F6}</Property>
 				<Property Name="INST_includeError" Type="Bool">false</Property>
 				<Property Name="INST_productName" Type="Str">VeriStand 2014 Custom Step Types</Property>
 				<Property Name="INST_productVersion" Type="Str">1.0.57</Property>
@@ -231,7 +231,7 @@
 				<Property Name="Source[0].name" Type="Str">veristand_steps_install_log.txt</Property>
 				<Property Name="Source[0].tag" Type="Ref">/My Computer/Install Log File/veristand_steps_install_log.txt</Property>
 				<Property Name="Source[0].type" Type="Str">File</Property>
-				<Property Name="Source[1].cmdArg" Type="Str">2014</Property>
+				<Property Name="Source[1].cmdArg" Type="Str">2014 2014</Property>
 				<Property Name="Source[1].dest" Type="Str">{B1C272DB-7A45-4FF9-BC63-49FC8311081D}</Property>
 				<Property Name="Source[1].name" Type="Str">PostInstallAction.exe</Property>
 				<Property Name="Source[1].runEXE" Type="Bool">true</Property>
