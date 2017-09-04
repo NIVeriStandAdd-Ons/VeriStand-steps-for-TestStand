@@ -203,21 +203,25 @@
 				<Property Name="Destination[4].parent" Type="Str">{C06F42D9-8548-4D1E-8C81-A5F0400B34FC}</Property>
 				<Property Name="Destination[4].tag" Type="Str">{F9BFCB0A-3881-447F-9DE7-8BFE6068B4CC}</Property>
 				<Property Name="Destination[4].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[5].name" Type="Str">National Instruments</Property>
+				<Property Name="Destination[5].name" Type="Str">Public Documents</Property>
 				<Property Name="Destination[5].parent" Type="Str">{F9BFCB0A-3881-447F-9DE7-8BFE6068B4CC}</Property>
-				<Property Name="Destination[5].tag" Type="Str">{5AF82D49-5426-4BB4-A5CC-F364891255C8}</Property>
+				<Property Name="Destination[5].tag" Type="Str">{8B54A63F-F1CA-47EE-95D3-F3152757A407}</Property>
 				<Property Name="Destination[5].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[6].name" Type="Str">TestStand 2014 (32-bit)</Property>
-				<Property Name="Destination[6].parent" Type="Str">{5AF82D49-5426-4BB4-A5CC-F364891255C8}</Property>
-				<Property Name="Destination[6].tag" Type="Str">{C121735A-2CFB-4C1B-8A00-13628B2EF40C}</Property>
+				<Property Name="Destination[6].name" Type="Str">National Instruments</Property>
+				<Property Name="Destination[6].parent" Type="Str">{8B54A63F-F1CA-47EE-95D3-F3152757A407}</Property>
+				<Property Name="Destination[6].tag" Type="Str">{F434B829-AA04-43D8-AB92-6BE88BF55E0F}</Property>
 				<Property Name="Destination[6].type" Type="Str">userFolder</Property>
-				<Property Name="DestinationCount" Type="Int">7</Property>
+				<Property Name="Destination[7].name" Type="Str">TestStand 2014 (32-bit)</Property>
+				<Property Name="Destination[7].parent" Type="Str">{F434B829-AA04-43D8-AB92-6BE88BF55E0F}</Property>
+				<Property Name="Destination[7].tag" Type="Str">{C4C299A5-A16B-4251-A638-73B631234187}</Property>
+				<Property Name="Destination[7].type" Type="Str">userFolder</Property>
+				<Property Name="DestinationCount" Type="Int">8</Property>
 				<Property Name="INST_author" Type="Str">NIC SE</Property>
 				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
 				<Property Name="INST_buildLocation" Type="Path">../Installer/builds/Installer</Property>
 				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
 				<Property Name="INST_buildSpecName" Type="Str">VeriStand Custom Step Types</Property>
-				<Property Name="INST_defaultDir" Type="Str">{7A6A31D1-1FC0-4BCB-8D39-A32C3A3D313A}</Property>
+				<Property Name="INST_defaultDir" Type="Str">{5AF82D49-5426-4BB4-A5CC-F364891255C8}</Property>
 				<Property Name="INST_includeError" Type="Bool">false</Property>
 				<Property Name="INST_productName" Type="Str">VeriStand 2014 Custom Step Types</Property>
 				<Property Name="INST_productVersion" Type="Str">1.0.57</Property>
@@ -252,33 +256,53 @@
 				<Property Name="Source[11].tag" Type="Ref">/My Computer/GAC Install Utilities/RemoveFromGAC.exe</Property>
 				<Property Name="Source[11].type" Type="Str">File</Property>
 				<Property Name="Source[12].dest" Type="Str">{C121735A-2CFB-4C1B-8A00-13628B2EF40C}</Property>
-				<Property Name="Source[12].name" Type="Str">Logging.lvlibp</Property>
-				<Property Name="Source[12].tag" Type="Ref">/My Computer/PPLs/Logging.lvlibp</Property>
+				<Property Name="Source[12].name" Type="Str">MiscHelperVIs.lvlibp</Property>
+				<Property Name="Source[12].tag" Type="Ref">/My Computer/PPLs/MiscHelperVIs.lvlibp</Property>
 				<Property Name="Source[12].type" Type="Str">File</Property>
 				<Property Name="Source[13].dest" Type="Str">{C121735A-2CFB-4C1B-8A00-13628B2EF40C}</Property>
-				<Property Name="Source[13].name" Type="Str">MiscHelperVIs.lvlibp</Property>
-				<Property Name="Source[13].tag" Type="Ref">/My Computer/PPLs/MiscHelperVIs.lvlibp</Property>
+				<Property Name="Source[13].name" Type="Str">NI_VeristandTypes.ini</Property>
+				<Property Name="Source[13].tag" Type="Ref">/My Computer/TypePalette File/NI_VeristandTypes.ini</Property>
 				<Property Name="Source[13].type" Type="Str">File</Property>
 				<Property Name="Source[14].dest" Type="Str">{C121735A-2CFB-4C1B-8A00-13628B2EF40C}</Property>
-				<Property Name="Source[14].name" Type="Str">NI_VeristandTypes.ini</Property>
-				<Property Name="Source[14].tag" Type="Ref">/My Computer/TypePalette File/NI_VeristandTypes.ini</Property>
+				<Property Name="Source[14].name" Type="Str">Veristand_icon_vista.ico</Property>
+				<Property Name="Source[14].tag" Type="Ref">/My Computer/TypePalette File/Veristand_icon_vista.ico</Property>
 				<Property Name="Source[14].type" Type="Str">File</Property>
 				<Property Name="Source[15].dest" Type="Str">{C121735A-2CFB-4C1B-8A00-13628B2EF40C}</Property>
-				<Property Name="Source[15].name" Type="Str">Veristand_icon_vista.ico</Property>
-				<Property Name="Source[15].tag" Type="Ref">/My Computer/TypePalette File/Veristand_icon_vista.ico</Property>
+				<Property Name="Source[15].name" Type="Str">RTSequenceVIs.lvlibp</Property>
+				<Property Name="Source[15].tag" Type="Ref">/My Computer/PPLs/RTSequenceVIs.lvlibp</Property>
 				<Property Name="Source[15].type" Type="Str">File</Property>
 				<Property Name="Source[16].dest" Type="Str">{C121735A-2CFB-4C1B-8A00-13628B2EF40C}</Property>
-				<Property Name="Source[16].name" Type="Str">RTSequenceVIs.lvlibp</Property>
-				<Property Name="Source[16].tag" Type="Ref">/My Computer/PPLs/RTSequenceVIs.lvlibp</Property>
+				<Property Name="Source[16].name" Type="Str">Set Channels.lvlibp</Property>
+				<Property Name="Source[16].tag" Type="Ref">/My Computer/PPLs/Set Channels.lvlibp</Property>
 				<Property Name="Source[16].type" Type="Str">File</Property>
-				<Property Name="Source[17].dest" Type="Str">{C121735A-2CFB-4C1B-8A00-13628B2EF40C}</Property>
-				<Property Name="Source[17].name" Type="Str">Set Channels.lvlibp</Property>
-				<Property Name="Source[17].tag" Type="Ref">/My Computer/PPLs/Set Channels.lvlibp</Property>
+				<Property Name="Source[17].dest" Type="Str">{C4C299A5-A16B-4251-A638-73B631234187}</Property>
+				<Property Name="Source[17].name" Type="Str">Logging.lvlibp</Property>
+				<Property Name="Source[17].tag" Type="Ref">/My Computer/PPLs/Logging.lvlibp</Property>
 				<Property Name="Source[17].type" Type="Str">File</Property>
+				<Property Name="Source[18].dest" Type="Str">{C4C299A5-A16B-4251-A638-73B631234187}</Property>
+				<Property Name="Source[18].name" Type="Str">MiscHelperVIs.lvlibp</Property>
+				<Property Name="Source[18].tag" Type="Ref">/My Computer/PPLs/MiscHelperVIs.lvlibp</Property>
+				<Property Name="Source[18].type" Type="Str">File</Property>
+				<Property Name="Source[19].dest" Type="Str">{C4C299A5-A16B-4251-A638-73B631234187}</Property>
+				<Property Name="Source[19].name" Type="Str">RTSequenceVIs.lvlibp</Property>
+				<Property Name="Source[19].tag" Type="Ref">/My Computer/PPLs/RTSequenceVIs.lvlibp</Property>
+				<Property Name="Source[19].type" Type="Str">File</Property>
 				<Property Name="Source[2].dest" Type="Str">{8A84B098-97AA-4F5B-8F0A-427266B807F6}</Property>
 				<Property Name="Source[2].name" Type="Str">NationalInstruments.Veristand.VeristandSteps.dll</Property>
 				<Property Name="Source[2].tag" Type="Ref">/My Computer/VeristandSteps Assembly/NationalInstruments.Veristand.VeristandSteps.dll</Property>
 				<Property Name="Source[2].type" Type="Str">File</Property>
+				<Property Name="Source[20].dest" Type="Str">{C4C299A5-A16B-4251-A638-73B631234187}</Property>
+				<Property Name="Source[20].name" Type="Str">Set Channels.lvlibp</Property>
+				<Property Name="Source[20].tag" Type="Ref">/My Computer/PPLs/Set Channels.lvlibp</Property>
+				<Property Name="Source[20].type" Type="Str">File</Property>
+				<Property Name="Source[21].dest" Type="Str">{C4C299A5-A16B-4251-A638-73B631234187}</Property>
+				<Property Name="Source[21].name" Type="Str">Veristand_icon_vista.ico</Property>
+				<Property Name="Source[21].tag" Type="Ref">/My Computer/TypePalette File/Veristand_icon_vista.ico</Property>
+				<Property Name="Source[21].type" Type="Str">File</Property>
+				<Property Name="Source[22].dest" Type="Str">{C4C299A5-A16B-4251-A638-73B631234187}</Property>
+				<Property Name="Source[22].name" Type="Str">NI_VeristandTypes.ini</Property>
+				<Property Name="Source[22].tag" Type="Ref">/My Computer/TypePalette File/NI_VeristandTypes.ini</Property>
+				<Property Name="Source[22].type" Type="Str">File</Property>
 				<Property Name="Source[3].cmdArg_uninstall" Type="Str">2014</Property>
 				<Property Name="Source[3].dest" Type="Str">{8A84B098-97AA-4F5B-8F0A-427266B807F6}</Property>
 				<Property Name="Source[3].name" Type="Str">PreUninstallAction.exe</Property>
@@ -321,7 +345,7 @@
 				<Property Name="Source[9].name" Type="Str">SilentVeriStand.exe</Property>
 				<Property Name="Source[9].tag" Type="Ref">/My Computer/Silent VeriStand Executable/SilentVeriStand.exe</Property>
 				<Property Name="Source[9].type" Type="Str">File</Property>
-				<Property Name="SourceCount" Type="Int">18</Property>
+				<Property Name="SourceCount" Type="Int">23</Property>
 			</Item>
 		</Item>
 	</Item>
