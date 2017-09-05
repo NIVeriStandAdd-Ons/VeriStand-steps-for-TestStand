@@ -215,7 +215,15 @@
 				<Property Name="Destination[7].parent" Type="Str">{F434B829-AA04-43D8-AB92-6BE88BF55E0F}</Property>
 				<Property Name="Destination[7].tag" Type="Str">{C4C299A5-A16B-4251-A638-73B631234187}</Property>
 				<Property Name="Destination[7].type" Type="Str">userFolder</Property>
-				<Property Name="DestinationCount" Type="Int">8</Property>
+				<Property Name="Destination[8].name" Type="Str">Components</Property>
+				<Property Name="Destination[8].parent" Type="Str">{C4C299A5-A16B-4251-A638-73B631234187}</Property>
+				<Property Name="Destination[8].tag" Type="Str">{FC770C68-A456-41BE-B3EA-F8A5A2087763}</Property>
+				<Property Name="Destination[8].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[9].name" Type="Str">TypePalettes</Property>
+				<Property Name="Destination[9].parent" Type="Str">{FC770C68-A456-41BE-B3EA-F8A5A2087763}</Property>
+				<Property Name="Destination[9].tag" Type="Str">{3370C310-171D-4863-93D3-AF04A10FD864}</Property>
+				<Property Name="Destination[9].type" Type="Str">userFolder</Property>
+				<Property Name="DestinationCount" Type="Int">10</Property>
 				<Property Name="INST_author" Type="Str">NIC SE</Property>
 				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
 				<Property Name="INST_buildLocation" Type="Path">../Installer/builds/Installer</Property>
@@ -239,17 +247,17 @@
 				<Property Name="Source[1].name" Type="Str">InstallToGAC.exe</Property>
 				<Property Name="Source[1].tag" Type="Ref">/My Computer/GAC Install Utilities/InstallToGAC.exe</Property>
 				<Property Name="Source[1].type" Type="Str">File</Property>
-				<Property Name="Source[10].dest" Type="Str">{C4C299A5-A16B-4251-A638-73B631234187}</Property>
-				<Property Name="Source[10].name" Type="Str">NI_VeristandTypes.ini</Property>
-				<Property Name="Source[10].tag" Type="Ref">/My Computer/TypePalette File/NI_VeristandTypes.ini</Property>
+				<Property Name="Source[10].dest" Type="Str">{3370C310-171D-4863-93D3-AF04A10FD864}</Property>
+				<Property Name="Source[10].name" Type="Str">RTSequenceVIs.lvlibp</Property>
+				<Property Name="Source[10].tag" Type="Ref">/My Computer/PPLs/RTSequenceVIs.lvlibp</Property>
 				<Property Name="Source[10].type" Type="Str">File</Property>
-				<Property Name="Source[11].dest" Type="Str">{C4C299A5-A16B-4251-A638-73B631234187}</Property>
-				<Property Name="Source[11].name" Type="Str">Veristand_icon_vista.ico</Property>
-				<Property Name="Source[11].tag" Type="Ref">/My Computer/TypePalette File/Veristand_icon_vista.ico</Property>
+				<Property Name="Source[11].dest" Type="Str">{3370C310-171D-4863-93D3-AF04A10FD864}</Property>
+				<Property Name="Source[11].name" Type="Str">Set Channels.lvlibp</Property>
+				<Property Name="Source[11].tag" Type="Ref">/My Computer/PPLs/Set Channels.lvlibp</Property>
 				<Property Name="Source[11].type" Type="Str">File</Property>
-				<Property Name="Source[12].dest" Type="Str">{8A84B098-97AA-4F5B-8F0A-427266B807F6}</Property>
-				<Property Name="Source[12].name" Type="Str">NationalInstruments.Veristand.VeristandSteps.dll</Property>
-				<Property Name="Source[12].tag" Type="Ref">/My Computer/VeristandSteps Assembly/NationalInstruments.Veristand.VeristandSteps.dll</Property>
+				<Property Name="Source[12].dest" Type="Str">{3370C310-171D-4863-93D3-AF04A10FD864}</Property>
+				<Property Name="Source[12].name" Type="Str">Veristand_icon_vista.ico</Property>
+				<Property Name="Source[12].tag" Type="Ref">/My Computer/TypePalette File/Veristand_icon_vista.ico</Property>
 				<Property Name="Source[12].type" Type="Str">File</Property>
 				<Property Name="Source[2].dest" Type="Str">{8A84B098-97AA-4F5B-8F0A-427266B807F6}</Property>
 				<Property Name="Source[2].name" Type="Str">RemoveFromGAC.exe</Property>
@@ -271,21 +279,21 @@
 				<Property Name="Source[5].name" Type="Str">SilentVeriStand.exe</Property>
 				<Property Name="Source[5].tag" Type="Ref">/My Computer/Silent VeriStand Executable/SilentVeriStand.exe</Property>
 				<Property Name="Source[5].type" Type="Str">File</Property>
-				<Property Name="Source[6].dest" Type="Str">{C4C299A5-A16B-4251-A638-73B631234187}</Property>
-				<Property Name="Source[6].name" Type="Str">Logging.lvlibp</Property>
-				<Property Name="Source[6].tag" Type="Ref">/My Computer/PPLs/Logging.lvlibp</Property>
+				<Property Name="Source[6].dest" Type="Str">{8A84B098-97AA-4F5B-8F0A-427266B807F6}</Property>
+				<Property Name="Source[6].name" Type="Str">NationalInstruments.Veristand.VeristandSteps.dll</Property>
+				<Property Name="Source[6].tag" Type="Ref">/My Computer/VeristandSteps Assembly/NationalInstruments.Veristand.VeristandSteps.dll</Property>
 				<Property Name="Source[6].type" Type="Str">File</Property>
-				<Property Name="Source[7].dest" Type="Str">{C4C299A5-A16B-4251-A638-73B631234187}</Property>
-				<Property Name="Source[7].name" Type="Str">MiscHelperVIs.lvlibp</Property>
-				<Property Name="Source[7].tag" Type="Ref">/My Computer/PPLs/MiscHelperVIs.lvlibp</Property>
+				<Property Name="Source[7].dest" Type="Str">{3370C310-171D-4863-93D3-AF04A10FD864}</Property>
+				<Property Name="Source[7].name" Type="Str">Logging.lvlibp</Property>
+				<Property Name="Source[7].tag" Type="Ref">/My Computer/PPLs/Logging.lvlibp</Property>
 				<Property Name="Source[7].type" Type="Str">File</Property>
-				<Property Name="Source[8].dest" Type="Str">{C4C299A5-A16B-4251-A638-73B631234187}</Property>
-				<Property Name="Source[8].name" Type="Str">RTSequenceVIs.lvlibp</Property>
-				<Property Name="Source[8].tag" Type="Ref">/My Computer/PPLs/RTSequenceVIs.lvlibp</Property>
+				<Property Name="Source[8].dest" Type="Str">{3370C310-171D-4863-93D3-AF04A10FD864}</Property>
+				<Property Name="Source[8].name" Type="Str">MiscHelperVIs.lvlibp</Property>
+				<Property Name="Source[8].tag" Type="Ref">/My Computer/PPLs/MiscHelperVIs.lvlibp</Property>
 				<Property Name="Source[8].type" Type="Str">File</Property>
-				<Property Name="Source[9].dest" Type="Str">{C4C299A5-A16B-4251-A638-73B631234187}</Property>
-				<Property Name="Source[9].name" Type="Str">Set Channels.lvlibp</Property>
-				<Property Name="Source[9].tag" Type="Ref">/My Computer/PPLs/Set Channels.lvlibp</Property>
+				<Property Name="Source[9].dest" Type="Str">{3370C310-171D-4863-93D3-AF04A10FD864}</Property>
+				<Property Name="Source[9].name" Type="Str">NI_VeristandTypes.ini</Property>
+				<Property Name="Source[9].tag" Type="Ref">/My Computer/TypePalette File/NI_VeristandTypes.ini</Property>
 				<Property Name="Source[9].type" Type="Str">File</Property>
 				<Property Name="SourceCount" Type="Int">13</Property>
 			</Item>
