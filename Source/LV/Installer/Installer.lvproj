@@ -203,7 +203,7 @@
 				<Property Name="Destination[4].parent" Type="Str">{C06F42D9-8548-4D1E-8C81-A5F0400B34FC}</Property>
 				<Property Name="Destination[4].tag" Type="Str">{F9BFCB0A-3881-447F-9DE7-8BFE6068B4CC}</Property>
 				<Property Name="Destination[4].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[5].name" Type="Str">Public Documents</Property>
+				<Property Name="Destination[5].name" Type="Str">Documents</Property>
 				<Property Name="Destination[5].parent" Type="Str">{F9BFCB0A-3881-447F-9DE7-8BFE6068B4CC}</Property>
 				<Property Name="Destination[5].tag" Type="Str">{8B54A63F-F1CA-47EE-95D3-F3152757A407}</Property>
 				<Property Name="Destination[5].type" Type="Str">userFolder</Property>
