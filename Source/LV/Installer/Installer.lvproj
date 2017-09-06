@@ -191,6 +191,10 @@
 				<Property Name="Destination[1].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
 				<Property Name="Destination[1].tag" Type="Str">{17DAAC9C-E192-4350-B727-6F41C6E35DE0}</Property>
 				<Property Name="Destination[1].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[10].name" Type="Str">Icons</Property>
+				<Property Name="Destination[10].parent" Type="Str">{FC770C68-A456-41BE-B3EA-F8A5A2087763}</Property>
+				<Property Name="Destination[10].tag" Type="Str">{968110B2-0B8A-47E2-8AF7-B02E77CECE2C}</Property>
+				<Property Name="Destination[10].type" Type="Str">userFolder</Property>
 				<Property Name="Destination[2].name" Type="Str">NI VeriStand 2014</Property>
 				<Property Name="Destination[2].parent" Type="Str">{17DAAC9C-E192-4350-B727-6F41C6E35DE0}</Property>
 				<Property Name="Destination[2].tag" Type="Str">{07CB2EDC-AE7E-4885-8E98-72AAB33FFEBB}</Property>
@@ -223,7 +227,7 @@
 				<Property Name="Destination[9].parent" Type="Str">{FC770C68-A456-41BE-B3EA-F8A5A2087763}</Property>
 				<Property Name="Destination[9].tag" Type="Str">{3370C310-171D-4863-93D3-AF04A10FD864}</Property>
 				<Property Name="Destination[9].type" Type="Str">userFolder</Property>
-				<Property Name="DestinationCount" Type="Int">10</Property>
+				<Property Name="DestinationCount" Type="Int">11</Property>
 				<Property Name="INST_author" Type="Str">NIC SE</Property>
 				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
 				<Property Name="INST_buildLocation" Type="Path">../Installer/builds/Installer</Property>
@@ -255,7 +259,7 @@
 				<Property Name="Source[11].name" Type="Str">Set Channels.lvlibp</Property>
 				<Property Name="Source[11].tag" Type="Ref">/My Computer/PPLs/Set Channels.lvlibp</Property>
 				<Property Name="Source[11].type" Type="Str">File</Property>
-				<Property Name="Source[12].dest" Type="Str">{3370C310-171D-4863-93D3-AF04A10FD864}</Property>
+				<Property Name="Source[12].dest" Type="Str">{968110B2-0B8A-47E2-8AF7-B02E77CECE2C}</Property>
 				<Property Name="Source[12].name" Type="Str">Veristand_icon_vista.ico</Property>
 				<Property Name="Source[12].tag" Type="Ref">/My Computer/TypePalette File/Veristand_icon_vista.ico</Property>
 				<Property Name="Source[12].type" Type="Str">File</Property>
