@@ -1,35 +1,67 @@
 #!/usr/bin/env groovy
 
-//note: this script assumes that it will be invoked from another script after that script has defined the necessary parameters
-
-//These are: utfPath, vipbPath, lvVersion
-
-def lvBuild(path, target_name, spec_name, lv_version) {
-		echo "Build the build spec: ${spec_name} under target ${target_name} in project at ${path}"
-        bat "labview-cli --kill --lv-ver ${lv_version} \"L:\\lv-build.vi\" -- \"${path}\" \"${target_name}\" \"${spec_name}\" \"build_temp\" \"${WORKSPACE}\""
-}
-
-def Mutate(veristand_version, teststand_version, step_types_version, lv_version) {
-		echo "Mutate all the project files."
-		bat "labview-cli --kill --lv-ver ${lv_version} \"${WORKSPACE}\\Source\\LabVIEW Code\\Version Mutation\\Mutate.vi\" -- \"${veristand_version}\" \"${teststand_version}\" \"${step_types_version}\" \"${WORKSPACE}\""
-}
-
 node{
-	stage("SCM_Checkout"){
-        checkout([$class: 'GitSCM', branches: [[name: '*/build_dev']], doGenerateSubmoduleConfigurations: false, extensions: [[$class: 'CleanBeforeCheckout']], submoduleCfg: [], userRemoteConfigs: [[credentialsId: '1f3dd241-f32c-451a-b1a6-a01a3e3dd6c2', url: 'http://de-mun-repo1.ni.corp.natinst.com:5000/Real-Time-Test/Utilities-and-Tools/VeriStand-Custom-Steps-For-TestStand']]])
-    }
-	
-	
-	
-	stage("Version_Mutation"){
-		 Mutate(2014, 2014, "0.0.0.0", 2014)
-	}
-	stage("Build_PPLs"){
-		lvBuild("Source\\LabVIEW Code\\Misc\\MiscHelperVIs.lvproj","My Computer","MiscHelperVIs Packed Project Library",2014)
-		lvBuild("Source\\LabVIEW Code\\RT Sequence\\RTSequenceVIs.lvproj","My Computer","RTSequenceVIs Packed Project Library",2014)
-		lvBuild("Source\\LabVIEW Code\\Set Channels\\Set Channels.lvproj","My Computer","Set Channels Packed Project Library",2014)
-		lvBuild("Source\\LabVIEW Code\\TS VS Logger\\TS VS Logger.lvproj","My Computer","Logging Packed Project Library",2014)
-	}
-}
-	
 
+    stage("Cleanup"){
+        cleanWs()
+    }
+    
+   stage("Checkout"){
+       checkout([$class: 'GitSCM', branches: [[name: '*/build_dev']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: '12b9186f-e93f-4620-9a18-74b7287a7339', url: 'https://github.com/adchurch/VeriStand-steps-for-TestStand']]])
+   }
+    
+    stage("vs2015sp1_ts2014_x86"){
+        
+        veristand_version="2015 SP1"
+        teststand_version="2014"
+        lv_version=2015
+        types_version="15.1.5.0"
+        veristand_assembly_version="2015.1.0.0"
+        veristand_gac_assembly_version="4.0.2015.1.0.0"
+        teststand_assembly_version="14.0.0.103"
+        teststand_pub_docs_install_dir="TestStand 2014 (32-bit)"
+        installer_build_dest="veristand2015sp1-teststand2014-x86\\installer"
+        vs_install_path="C:\\Program Files (x86)\\National Instruments\\VeriStand 2015\\NI VeriStand.exe"
+        x64_build_flag=false
+        
+        veristandStepsPipeline(veristand_version, teststand_version, x64_build_flag, types_version, veristand_assembly_version, teststand_pub_docs_install_dir, teststand_assembly_version, installer_build_dest, lv_version, vs_install_path)
+    }
+    
+
+    stage("vs2016_ts2016_x64"){
+        
+        veristand_version="2016"
+        teststand_version="2016"
+        lv_version=2016
+        types_version="16.0.5.0"
+        veristand_assembly_version="2016.0.0.0"
+        veristand_gac_assembly_version="4.0.2016.0.0.0"
+        teststand_assembly_version="16.0.0.185"
+        teststand_pub_docs_install_dir="TestStand 2016 (64-bit)"
+        installer_build_dest="veristand2016-teststand2016-x64\\installer"
+        vs_install_path="C:\\Program Files (x86)\\National Instruments\\VeriStand 2016\\NI VeriStand.exe"
+        x64_build_flag=true
+        
+        veristandStepsPipeline(veristand_version, teststand_version, x64_build_flag, types_version, veristand_assembly_version, teststand_pub_docs_install_dir, teststand_assembly_version, installer_build_dest, lv_version, vs_install_path)
+    }
+    
+    stage("vs2017_ts2016_x86"){
+        
+        veristand_version="2017"
+        teststand_version="2016"
+        lv_version=2017
+        types_version="17.0.5.0"
+        veristand_assembly_version="2017.0.0.0"
+        veristand_gac_assembly_version="4.0.2017.0.0.0"
+        teststand_assembly_version="16.0.0.185"
+        teststand_pub_docs_install_dir="TestStand 2016 (32-bit)"
+        installer_build_dest="veristand2017-teststand2016-x86\\installer"
+        vs_install_path="C:\\Program Files (x86)\\National Instruments\\VeriStand 2017\\NI VeriStand.exe"
+        x64_build_flag=false
+        
+        veristandStepsPipeline(veristand_version, teststand_version, x64_build_flag, types_version, veristand_assembly_version, teststand_pub_docs_install_dir, teststand_assembly_version, installer_build_dest, lv_version, vs_install_path)
+    }
+    
+}
+    
+    
