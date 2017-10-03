@@ -27,6 +27,9 @@
 		<Item Name="Install Log File" Type="Folder">
 			<Item Name="veristand_steps_install_log.txt" Type="Document" URL="../veristand_steps_install_log.txt"/>
 		</Item>
+		<Item Name="License" Type="Folder">
+			<Item Name="LICENSE.txt" Type="Document" URL="../../../../LICENSE.txt"/>
+		</Item>
 		<Item Name="PPLs" Type="Folder">
 			<Item Name="Logging.lvlibp" Type="LVLibp" URL="../../../../build_temp/Logging.lvlibp"/>
 			<Item Name="MiscHelperVIs.lvlibp" Type="LVLibp" URL="../../../../build_temp/MiscHelperVIs.lvlibp"/>
@@ -258,6 +261,10 @@
 				<Property Name="Source[11].name" Type="Str">Veristand_icon_vista.ico</Property>
 				<Property Name="Source[11].tag" Type="Ref">/My Computer/TypePalette File/Veristand_icon_vista.ico</Property>
 				<Property Name="Source[11].type" Type="Str">File</Property>
+				<Property Name="Source[12].dest" Type="Str">{8A84B098-97AA-4F5B-8F0A-427266B807F6}</Property>
+				<Property Name="Source[12].name" Type="Str">LICENSE.txt</Property>
+				<Property Name="Source[12].tag" Type="Ref">/My Computer/License/LICENSE.txt</Property>
+				<Property Name="Source[12].type" Type="Str">File</Property>
 				<Property Name="Source[2].cmdArg" Type="Str">2014 2014</Property>
 				<Property Name="Source[2].dest" Type="Str">{B1C272DB-7A45-4FF9-BC63-49FC8311081D}</Property>
 				<Property Name="Source[2].name" Type="Str">PostInstallAction.exe</Property>
@@ -294,7 +301,7 @@
 				<Property Name="Source[9].name" Type="Str">RTSequenceVIs.lvlibp</Property>
 				<Property Name="Source[9].tag" Type="Ref">/My Computer/PPLs/RTSequenceVIs.lvlibp</Property>
 				<Property Name="Source[9].type" Type="Str">File</Property>
-				<Property Name="SourceCount" Type="Int">12</Property>
+				<Property Name="SourceCount" Type="Int">13</Property>
 			</Item>
 		</Item>
 	</Item>
