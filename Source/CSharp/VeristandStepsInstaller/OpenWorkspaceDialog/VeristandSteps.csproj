@@ -1,0 +1,416 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A04297CF-17BC-4111-92CE-86E23C02AEA1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OpenWorkspaceDialog</RootNamespace>
+    <AssemblyName>NationalInstruments.Veristand.VeristandSteps</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>VeristandStepsKey.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <WarningLevel>0</WarningLevel>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="NationalInstruments.TestStand.Interop.API, Version=2014.0.1.103, Culture=neutral, PublicKeyToken=ad9244eb3b825cd8, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\National Instruments\TestStand 2014\API\DotNet\Assemblies\CurrentVersion\NationalInstruments.TestStand.Interop.API.dll</HintPath>
+    </Reference>
+    <Reference Include="NationalInstruments.TestStand.Interop.UI, Version=2014.0.1.103, Culture=neutral, PublicKeyToken=ad9244eb3b825cd8, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\National Instruments\TestStand 2014\API\DotNet\Assemblies\CurrentVersion\NationalInstruments.TestStand.Interop.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="NationalInstruments.TestStand.Interop.UI.AxControls, Version=2014.0.1.103, Culture=neutral, PublicKeyToken=ad9244eb3b825cd8, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\National Instruments\TestStand 2014\API\DotNet\Assemblies\CurrentVersion\NationalInstruments.TestStand.Interop.UI.AxControls.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="NationalInstruments.TestStand.Interop.UI.Support, Version=2014.0.1.103, Culture=neutral, PublicKeyToken=ad9244eb3b825cd8, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\National Instruments\TestStand 2014\API\DotNet\Assemblies\CurrentVersion\NationalInstruments.TestStand.Interop.UI.Support.dll</HintPath>
+    </Reference>
+    <Reference Include="NationalInstruments.TestStand.Interop.Utility, Version=2014.0.1.103, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\National Instruments\TestStand 2014\Bin\NationalInstruments.TestStand.Utility.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="NationalInstruments.VeriStand, Version=2015.0.0.0, Culture=neutral, PublicKeyToken=a6d690c380daa308, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\Windows\Microsoft.NET\assembly\GAC_MSIL\NationalInstruments.VeriStand\v4.0_2015.0.0.0__a6d690c380daa308\NationalInstruments.VeriStand.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="NationalInstruments.VeriStand.ClientAPI, Version=2015.0.0.0, Culture=neutral, PublicKeyToken=a6d690c380daa308, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\Windows\Microsoft.NET\assembly\GAC_MSIL\NationalInstruments.VeriStand.ClientAPI\v4.0_2015.0.0.0__a6d690c380daa308\NationalInstruments.VeriStand.ClientAPI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="NationalInstruments.VeriStand.DataTypes, Version=2015.0.0.0, Culture=neutral, PublicKeyToken=a6d690c380daa308, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\Windows\Microsoft.NET\assembly\GAC_MSIL\NationalInstruments.VeriStand.DataTypes\v4.0_2015.0.0.0__a6d690c380daa308\NationalInstruments.VeriStand.DataTypes.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="NationalInstruments.VeriStand.RealTimeSequenceDefinitionApi, Version=2015.0.0.0, Culture=neutral, PublicKeyToken=a6d690c380daa308, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\Windows\Microsoft.NET\assembly\GAC_MSIL\NationalInstruments.VeriStand.RealTimeSequenceDefinitionAPI\v4.0_2015.0.0.0__a6d690c380daa308\NationalInstruments.VeriStand.RealTimeSequenceDefinitionAPI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="NationalInstruments.VeriStand.SystemDefinitionAPI, Version=2015.0.0.0, Culture=neutral, PublicKeyToken=a6d690c380daa308, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\Windows\Microsoft.NET\assembly\GAC_MSIL\NationalInstruments.VeriStand.SystemDefinitionAPI\v4.0_2015.0.0.0__a6d690c380daa308\NationalInstruments.VeriStand.SystemDefinitionAPI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="NationalInstruments.VeriStand.SystemStorage, Version=2015.0.0.0, Culture=neutral, PublicKeyToken=a6d690c380daa308, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\Windows\Microsoft.NET\assembly\GAC_MSIL\NationalInstruments.VeriStand.SystemStorage\v4.0_2015.0.0.0__a6d690c380daa308\NationalInstruments.VeriStand.SystemStorage.dll</HintPath>
+    </Reference>
+    <Reference Include="NationalInstruments.VeriStand.SystemStorageUI, Version=2015.0.0.0, Culture=neutral, PublicKeyToken=a6d690c380daa308, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\Windows\Microsoft.NET\assembly\GAC_MSIL\NationalInstruments.VeriStand.SystemStorageUI\v4.0_2015.0.0.0__a6d690c380daa308\NationalInstruments.VeriStand.SystemStorageUI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="NationalInstruments.VeriStand.WorkspaceMacro, Version=2015.0.0.0, Culture=neutral, PublicKeyToken=a6d690c380daa308, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\Windows\Microsoft.NET\assembly\GAC_MSIL\NationalInstruments.VeriStand.WorkspaceMacro\v4.0_2015.0.0.0__a6d690c380daa308\NationalInstruments.VeriStand.WorkspaceMacro.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdvancedLoggingProperties.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdvancedLoggingProperties.Designer.cs">
+      <DependentUpon>AdvancedLoggingProperties.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigureLoggingFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConfigureLoggingFile.Designer.cs">
+      <DependentUpon>ConfigureLoggingFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigureRTSequenceNative.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConfigureRTSequenceNative.Designer.cs">
+      <DependentUpon>ConfigureRTSequenceNative.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigureRTSequenceNumericLimitTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConfigureRTSequenceNumericLimitTest.Designer.cs">
+      <DependentUpon>ConfigureRTSequenceNumericLimitTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectTargetDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectTargetDialog.Designer.cs">
+      <DependentUpon>SelectTargetDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectSingleChannelPanelNumLimit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectSingleChannelPanelNumLimit.Designer.cs">
+      <DependentUpon>SelectSingleChannelPanelNumLimit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GetChannelsDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GetChannelsDialog.Designer.cs">
+      <DependentUpon>GetChannelsDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectChannelsDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectChannelsDialog.Designer.cs">
+      <DependentUpon>SelectChannelsDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectSingleChannelPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectSingleChannelPanel.Designer.cs">
+      <DependentUpon>SelectSingleChannelPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SetMultipleChannelsDialogDGV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SetMultipleChannelsDialogDGV.Designer.cs">
+      <DependentUpon>SetMultipleChannelsDialogDGV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SetMultipleChannelsDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SetMultipleChannelsDialog.Designer.cs">
+      <DependentUpon>SetMultipleChannelsDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StimulusProfileDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StimulusProfileDialog.Designer.cs">
+      <DependentUpon>StimulusProfileDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StringUtilities.cs" />
+    <Compile Include="ConfigureAlarm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConfigureAlarm.Designer.cs">
+      <DependentUpon>ConfigureAlarm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigureGateway.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConfigureGateway.Designer.cs">
+      <DependentUpon>ConfigureGateway.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigureLegacyStimulusProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConfigureLegacyStimulusProfile.Designer.cs">
+      <DependentUpon>ConfigureLegacyStimulusProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigureRTSequence.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConfigureRTSequence.Designer.cs">
+      <DependentUpon>ConfigureRTSequence.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigureSequenceName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConfigureSequenceName.Designer.cs">
+      <DependentUpon>ConfigureSequenceName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigureSystemDefinition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConfigureSystemDefinition.Designer.cs">
+      <DependentUpon>ConfigureSystemDefinition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChannelSelectionDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChannelSelectionDialog.Designer.cs">
+      <DependentUpon>ChannelSelectionDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModelParametersFromFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModelParametersFromFile.Designer.cs">
+      <DependentUpon>ModelParametersFromFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NativeChannelSelectionDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NativeChannelSelectionDialog.Designer.cs">
+      <DependentUpon>NativeChannelSelectionDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VSChannelBrowserTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VSChannelBrowserTest.Designer.cs">
+      <DependentUpon>VSChannelBrowserTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VSDialogs.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WarningForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WarningForm.Designer.cs">
+      <DependentUpon>WarningForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AdvancedLoggingProperties.resx">
+      <DependentUpon>AdvancedLoggingProperties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChannelSelectionDialog.resx">
+      <DependentUpon>ChannelSelectionDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigureAlarm.resx">
+      <DependentUpon>ConfigureAlarm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigureGateway.resx">
+      <DependentUpon>ConfigureGateway.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigureLegacyStimulusProfile.resx">
+      <DependentUpon>ConfigureLegacyStimulusProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigureLoggingFile.resx">
+      <DependentUpon>ConfigureLoggingFile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigureRTSequence.resx">
+      <DependentUpon>ConfigureRTSequence.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigureRTSequenceNative.yo-NG.resx">
+      <DependentUpon>ConfigureRTSequenceNative.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigureSequenceName.resx">
+      <DependentUpon>ConfigureSequenceName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigureSystemDefinition.resx">
+      <DependentUpon>ConfigureSystemDefinition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigureRTSequenceNative.resx">
+      <DependentUpon>ConfigureRTSequenceNative.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigureRTSequenceNumericLimitTest.resx">
+      <DependentUpon>ConfigureRTSequenceNumericLimitTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigureRTSequenceNumericLimitTest.yo-NG.resx">
+      <DependentUpon>ConfigureRTSequenceNumericLimitTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectTargetDialog.resx">
+      <DependentUpon>SelectTargetDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectSingleChannelPanelNumLimit.resx">
+      <DependentUpon>SelectSingleChannelPanelNumLimit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GetChannelsDialog.resx">
+      <DependentUpon>GetChannelsDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectChannelsDialog.resx">
+      <DependentUpon>SelectChannelsDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectSingleChannelPanel.resx">
+      <DependentUpon>SelectSingleChannelPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SetMultipleChannelsDialogDGV.resx">
+      <DependentUpon>SetMultipleChannelsDialogDGV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModelParametersFromFile.resx">
+      <DependentUpon>ModelParametersFromFile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NativeChannelSelectionDialog.resx">
+      <DependentUpon>NativeChannelSelectionDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SetMultipleChannelsDialog.resx">
+      <DependentUpon>SetMultipleChannelsDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StimulusProfileDialog.resx">
+      <DependentUpon>StimulusProfileDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VSChannelBrowserTest.resx">
+      <DependentUpon>VSChannelBrowserTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WarningForm.resx">
+      <DependentUpon>WarningForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="VeristandStepsKey.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
