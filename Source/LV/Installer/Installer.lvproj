@@ -19,7 +19,6 @@
 			<Item Name="PostInstallAction.aliases" Type="Document" URL="../../../../build_temp/PostInstallAction.aliases"/>
 			<Item Name="PostInstallAction.exe" Type="Document" URL="../../../../build_temp/PostInstallAction.exe"/>
 			<Item Name="PostInstallAction.ini" Type="Document" URL="../../../../build_temp/PostInstallAction.ini"/>
-			<Item Name="Pre-Build Action.vi" Type="VI" URL="../Actions/Pre-Build Action.vi"/>
 			<Item Name="Pre-Uninstall Action.vi" Type="VI" URL="../Actions/Pre-Uninstall Action.vi"/>
 			<Item Name="PreUninstallAction.aliases" Type="Document" URL="../../../../build_temp/PreUninstallAction.aliases"/>
 			<Item Name="PreUninstallAction.exe" Type="Document" URL="../../../../build_temp/PreUninstallAction.exe"/>
@@ -125,7 +124,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{F4ECBAD1-C8A2-4DCB-B04F-0D4FD1F1A9E4}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Install Actions/Pre-Build Action.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref"></Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Install Actions/Post-Install Action.vi</Property>
@@ -183,7 +182,7 @@
 				<Property Name="TgtF_targetfileName" Type="Str">PreUninstallAction.exe</Property>
 			</Item>
 			<Item Name="VeriStand Custom Step Types" Type="Installer">
-				<Property Name="Destination[0].name" Type="Str">VeriStand 2014 Custom Step Types</Property>
+				<Property Name="Destination[0].name" Type="Str">VeriStand Step Types for TestStand</Property>
 				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
 				<Property Name="Destination[0].tag" Type="Str">{8A84B098-97AA-4F5B-8F0A-427266B807F6}</Property>
 				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
@@ -233,7 +232,7 @@
 				<Property Name="INST_buildLocation" Type="Path">../Installer/builds/Installer</Property>
 				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
 				<Property Name="INST_buildSpecName" Type="Str">VeriStand Custom Step Types</Property>
-				<Property Name="INST_defaultDir" Type="Str">{C4C299A5-A16B-4251-A638-73B631234187}</Property>
+				<Property Name="INST_defaultDir" Type="Str">{8A84B098-97AA-4F5B-8F0A-427266B807F6}</Property>
 				<Property Name="INST_includeError" Type="Bool">false</Property>
 				<Property Name="INST_productName" Type="Str">VeriStand 2014 Custom Step Types</Property>
 				<Property Name="INST_productVersion" Type="Str">1.0.57</Property>
