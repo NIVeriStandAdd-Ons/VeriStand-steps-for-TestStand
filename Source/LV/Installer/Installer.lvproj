@@ -185,7 +185,7 @@
 				<Property Name="TgtF_targetfileName" Type="Str">PreUninstallAction.exe</Property>
 			</Item>
 			<Item Name="VeriStand Custom Step Types" Type="Installer">
-				<Property Name="Destination[0].name" Type="Str">VeriStand Step Types for TestStand</Property>
+				<Property Name="Destination[0].name" Type="Str">VeriStand Steps for TestStand</Property>
 				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
 				<Property Name="Destination[0].tag" Type="Str">{8A84B098-97AA-4F5B-8F0A-427266B807F6}</Property>
 				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
@@ -237,7 +237,7 @@
 				<Property Name="INST_buildSpecName" Type="Str">VeriStand Custom Step Types</Property>
 				<Property Name="INST_defaultDir" Type="Str">{8A84B098-97AA-4F5B-8F0A-427266B807F6}</Property>
 				<Property Name="INST_includeError" Type="Bool">false</Property>
-				<Property Name="INST_productName" Type="Str">VeriStand Step Types for TestStand</Property>
+				<Property Name="INST_productName" Type="Str">VeriStand Steps for TestStand</Property>
 				<Property Name="INST_productVersion" Type="Str">1.0.57</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">14018008</Property>
