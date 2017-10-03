@@ -12,7 +12,7 @@ node{
         veristand_version="2015 SP1"
         teststand_version="2014"
         lv_version=2015
-        types_version="15.1.5.0"
+        types_version="15.1.6.0"
         veristand_assembly_version="2015.1.0.0"
         veristand_gac_assembly_version="4.0.2015.1.0.0"
         teststand_assembly_version="14.0.0.103"
@@ -29,7 +29,7 @@ node{
         veristand_version="2016"
         teststand_version="2014"
         lv_version=2016
-        types_version="16.0.5.0"
+        types_version="16.0.6.0"
         veristand_assembly_version="2016.0.0.0"
         veristand_gac_assembly_version="4.0.2016.0.0.0"
         teststand_assembly_version="14.0.0.103"
@@ -46,7 +46,7 @@ node{
         veristand_version="2017"
         teststand_version="2014"
         lv_version=2017
-        types_version="17.0.5.0"
+        types_version="17.0.6.0"
         veristand_assembly_version="2017.0.0.0"
         veristand_gac_assembly_version="4.0.2017.0.0.0"
         teststand_assembly_version="14.0.0.103"
@@ -64,7 +64,7 @@ node{
         veristand_version="2015 SP1"
         teststand_version="2016"
         lv_version=2015
-        types_version="15.1.5.0"
+        types_version="15.1.6.0"
         veristand_assembly_version="2015.1.0.0"
         veristand_gac_assembly_version="4.0.2015.1.0.0"
         teststand_assembly_version="16.0.0.185"
@@ -81,7 +81,7 @@ node{
         veristand_version="2016"
         teststand_version="2016"
         lv_version=2016
-        types_version="16.0.5.0"
+        types_version="16.0.6.0"
         veristand_assembly_version="2016.0.0.0"
         veristand_gac_assembly_version="4.0.2016.0.0.0"
         teststand_assembly_version="16.0.0.185"
@@ -98,7 +98,7 @@ node{
         veristand_version="2017"
         teststand_version="2016"
         lv_version=2017
-        types_version="17.0.5.0"
+        types_version="17.0.6.0"
         veristand_assembly_version="2017.0.0.0"
         veristand_gac_assembly_version="4.0.2017.0.0.0"
         teststand_assembly_version="16.0.0.185"
@@ -116,7 +116,7 @@ node{
         veristand_version="2015 SP1"
         teststand_version="2016"
         lv_version=2015
-        types_version="15.1.5.0"
+        types_version="15.1.6.0"
         veristand_assembly_version="2015.1.0.0"
         veristand_gac_assembly_version="4.0.2015.1.0.0"
         teststand_assembly_version="16.0.0.103"
@@ -133,7 +133,7 @@ node{
         veristand_version="2016"
         teststand_version="2016"
         lv_version=2016
-        types_version="16.0.5.0"
+        types_version="16.0.6.0"
         veristand_assembly_version="2016.0.0.0"
         veristand_gac_assembly_version="4.0.2016.0.0.0"
         teststand_assembly_version="16.0.0.103"
@@ -150,7 +150,7 @@ node{
         veristand_version="2017"
         teststand_version="2016"
         lv_version=2017
-        types_version="17.0.5.0"
+        types_version="17.0.6.0"
         veristand_assembly_version="2017.0.0.0"
         veristand_gac_assembly_version="4.0.2017.0.0.0"
         teststand_assembly_version="16.0.0.103"
