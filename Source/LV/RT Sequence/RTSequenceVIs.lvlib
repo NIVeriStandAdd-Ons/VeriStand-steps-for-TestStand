@@ -10,5 +10,6 @@
 	<Item Name="Remove First and Last Characters.vi" Type="VI" URL="../Remove First and Last Characters.vi"/>
 	<Item Name="Run RT Sequence Numeric Limit Test.vi" Type="VI" URL="../Run RT Sequence Numeric Limit Test.vi"/>
 	<Item Name="Run RT Sequence Pass Fail Test.vi" Type="VI" URL="../Run RT Sequence Pass Fail Test.vi"/>
+	<Item Name="Run RT Sequence.vi" Type="VI" URL="../Run RT Sequence.vi"/>
 	<Item Name="Run Stimulus Profile.vi" Type="VI" URL="../Run Stimulus Profile.vi"/>
 </Library>
