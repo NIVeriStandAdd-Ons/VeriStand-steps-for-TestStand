@@ -19,11 +19,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="UI Menus" Type="Folder">
-			<Item Name="main file settings panel.vi" Type="VI" URL="../main file settings panel.vi"/>
-		</Item>
 		<Item Name="Logger.lvlib" Type="Library" URL="../Logger.lvlib"/>
-		<Item Name="tester.vi" Type="VI" URL="../tester.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -55,7 +51,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F1126CD9-2012-4971-BA4A-32AFEA4582D4}</Property>
-				<Property Name="Bld_version.build" Type="Int">9</Property>
+				<Property Name="Bld_version.build" Type="Int">11</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Logging.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../build_temp/Logging.lvlibp</Property>

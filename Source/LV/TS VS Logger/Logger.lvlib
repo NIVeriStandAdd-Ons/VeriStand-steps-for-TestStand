@@ -4,12 +4,6 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">352354304</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
-	<Item Name="Start Logging" Type="Folder">
-		<Item Name="AddLoggingGlobals.vi" Type="VI" URL="../AddLoggingGlobals.vi"/>
-		<Item Name="dummy menu vi.vi" Type="VI" URL="../dummy menu vi.vi"/>
-		<Item Name="Start logging.vi" Type="VI" URL="../Start logging.vi"/>
-	</Item>
-	<Item Name="Stop Logging" Type="Folder">
-		<Item Name="Stop Logging.vi" Type="VI" URL="../Stop Logging.vi"/>
-	</Item>
+	<Item Name="Start logging.vi" Type="VI" URL="../Start logging.vi"/>
+	<Item Name="Stop Logging.vi" Type="VI" URL="../Stop Logging.vi"/>
 </Library>

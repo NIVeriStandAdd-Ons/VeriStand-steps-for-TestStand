@@ -5,9 +5,9 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="subVIs" Type="Folder">
-		<Item Name="Build Parameter Assignment Array.vi" Type="VI" URL="../Build Parameter Assignment Array.vi"/>
-		<Item Name="Expression Array String to Expression Array.vi" Type="VI" URL="../Expression Array String to Expression Array.vi"/>
-		<Item Name="Remove First and Last Characters.vi" Type="VI" URL="../Remove First and Last Characters.vi"/>
+		<Item Name="Build Parameter Assignment Array.vi" Type="VI" URL="../subVIs/Build Parameter Assignment Array.vi"/>
+		<Item Name="Expression Array String to Expression Array.vi" Type="VI" URL="../subVIs/Expression Array String to Expression Array.vi"/>
+		<Item Name="Remove First and Last Characters.vi" Type="VI" URL="../subVIs/Remove First and Last Characters.vi"/>
 	</Item>
 	<Item Name="Open and Deploy RT Sequence blocking call.vi" Type="VI" URL="../Open and Deploy RT Sequence blocking call.vi"/>
 	<Item Name="Run RT Sequence.vi" Type="VI" URL="../Run RT Sequence.vi"/>

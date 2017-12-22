@@ -4,12 +4,11 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">352354304</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
-	<Item Name="Create Reference Locals.vi" Type="VI" URL="../Create Reference Locals.vi"/>
-	<Item Name="Create Reference Locals_Mod.vi" Type="VI" URL="../Create Reference Locals_Mod.vi"/>
+	<Item Name="subVIs" Type="Folder">
+		<Item Name="OpenVS.vi" Type="VI" URL="../subVIs/OpenVS.vi"/>
+		<Item Name="WINAPI Is 64 Bit OS.vi" Type="VI" URL="../subVIs/WINAPI Is 64 Bit OS.vi"/>
+	</Item>
 	<Item Name="Launch NIVS.vi" Type="VI" URL="../Launch NIVS.vi"/>
-	<Item Name="OpenVS(Silent).vi" Type="VI" URL="../OpenVS(Silent).vi"/>
-	<Item Name="OpenVS.vi" Type="VI" URL="../OpenVS.vi"/>
 	<Item Name="PassThrough.vi" Type="VI" URL="../PassThrough.vi"/>
 	<Item Name="StartVeriStandBundle_Create Reference Locals.vi" Type="VI" URL="../StartVeriStandBundle_Create Reference Locals.vi"/>
-	<Item Name="WINAPI Is 64 Bit OS.vi" Type="VI" URL="../WINAPI Is 64 Bit OS.vi"/>
 </Library>
