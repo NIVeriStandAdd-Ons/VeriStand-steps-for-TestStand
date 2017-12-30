@@ -8,7 +8,7 @@ node{
     
     branch="master"
     org="adchurch"
-    release_version=6
+    release_version=7
     
     stage("build"){
         
