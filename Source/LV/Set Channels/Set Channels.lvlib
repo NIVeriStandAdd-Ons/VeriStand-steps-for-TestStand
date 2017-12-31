@@ -5,5 +5,5 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="Set Channel.vi" Type="VI" URL="../Set Channel.vi"/>
-	<Item Name="Set multiple channels.vi" Type="VI" URL="../Set multiple channels.vi"/>
+	<Item Name="Set Multiple Channels.vi" Type="VI" URL="../Set Multiple Channels.vi"/>
 </Library>
