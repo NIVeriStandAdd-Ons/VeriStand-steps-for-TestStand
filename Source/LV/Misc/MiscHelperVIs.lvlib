@@ -4,11 +4,23 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">352354304</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
-	<Item Name="subVIs" Type="Folder">
-		<Item Name="OpenVS.vi" Type="VI" URL="../subVIs/OpenVS.vi"/>
-		<Item Name="WINAPI Is 64 Bit OS.vi" Type="VI" URL="../subVIs/WINAPI Is 64 Bit OS.vi"/>
+	<Item Name="Project" Type="Folder">
+		<Item Name="ProjectClose.vi" Type="VI" URL="../project/ProjectClose.vi"/>
+		<Item Name="ProjectConnect.vi" Type="VI" URL="../project/ProjectConnect.vi"/>
+		<Item Name="ProjectDeploy.vi" Type="VI" URL="../project/ProjectDeploy.vi"/>
+		<Item Name="ProjectDisconnect.vi" Type="VI" URL="../project/ProjectDisconnect.vi"/>
+		<Item Name="ProjectOpen.vi" Type="VI" URL="../project/ProjectOpen.vi"/>
+		<Item Name="ProjectRun.vi" Type="VI" URL="../project/ProjectRun.vi"/>
+		<Item Name="ProjectSilentConnect.vi" Type="VI" URL="../project/ProjectSilentConnect.vi"/>
+		<Item Name="ProjectSilentDisconnect.vi" Type="VI" URL="../project/ProjectSilentDisconnect.vi"/>
+		<Item Name="ProjectUndeploy.vi" Type="VI" URL="../project/ProjectUndeploy.vi"/>
 	</Item>
-	<Item Name="Launch NIVS.vi" Type="VI" URL="../Launch NIVS.vi"/>
-	<Item Name="PassThrough.vi" Type="VI" URL="../PassThrough.vi"/>
-	<Item Name="StartVeriStandBundle_Create Reference Locals.vi" Type="VI" URL="../StartVeriStandBundle_Create Reference Locals.vi"/>
+	<Item Name="subVIs" Type="Folder">
+		<Item Name="64BitOSCheck.vi" Type="VI" URL="../subVIs/64BitOSCheck.vi"/>
+	</Item>
+	<Item Name="FileGlobalsCreate.vi" Type="VI" URL="../FileGlobalsCreate.vi"/>
+	<Item Name="ResolveError.vi" Type="VI" URL="../ResolveError.vi"/>
+	<Item Name="VeristandInitialize.vi" Type="VI" URL="../VeristandInitialize.vi"/>
+	<Item Name="VeristandStart.vi" Type="VI" URL="../VeristandStart.vi"/>
+	<Item Name="WorkspaceOpenClose.vi" Type="VI" URL="../WorkspaceOpenClose.vi"/>
 </Library>
