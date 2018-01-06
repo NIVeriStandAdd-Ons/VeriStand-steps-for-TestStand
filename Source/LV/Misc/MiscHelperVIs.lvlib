@@ -4,12 +4,29 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">352354304</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="App" Type="Folder">
+		<Item Name="VeristandInitialize.vi" Type="VI" URL="../VeristandInitialize.vi"/>
+		<Item Name="VeristandStart.vi" Type="VI" URL="../VeristandStart.vi"/>
+		<Item Name="VeristandStop.vi" Type="VI" URL="../VeristandStop.vi"/>
+	</Item>
+	<Item Name="Faults" Type="Folder">
+		<Item Name="FaultClear.vi" Type="VI" URL="../faults/FaultClear.vi"/>
+		<Item Name="FaultClearAll.vi" Type="VI" URL="../faults/FaultClearAll.vi"/>
+		<Item Name="FaultGetValue.vi" Type="VI" URL="../faults/FaultGetValue.vi"/>
+		<Item Name="FaultSetValue.vi" Type="VI" URL="../faults/FaultSetValue.vi"/>
+	</Item>
+	<Item Name="Models" Type="Folder">
+		<Item Name="ModelParameterValueGet.vi" Type="VI" URL="../Models/ModelParameterValueGet.vi"/>
+		<Item Name="ModelParameterValueSet.vi" Type="VI" URL="../Models/ModelParameterValueSet.vi"/>
+		<Item Name="ModelParameterValueUpdateFromFile.vi" Type="VI" URL="../Models/ModelParameterValueUpdateFromFile.vi"/>
+	</Item>
 	<Item Name="Project" Type="Folder">
 		<Item Name="ProjectClose.vi" Type="VI" URL="../project/ProjectClose.vi"/>
 		<Item Name="ProjectConnect.vi" Type="VI" URL="../project/ProjectConnect.vi"/>
 		<Item Name="ProjectDeploy.vi" Type="VI" URL="../project/ProjectDeploy.vi"/>
 		<Item Name="ProjectDisconnect.vi" Type="VI" URL="../project/ProjectDisconnect.vi"/>
 		<Item Name="ProjectOpen.vi" Type="VI" URL="../project/ProjectOpen.vi"/>
+		<Item Name="ProjectOpenReferences.vi" Type="VI" URL="../project/ProjectOpenReferences.vi"/>
 		<Item Name="ProjectRun.vi" Type="VI" URL="../project/ProjectRun.vi"/>
 		<Item Name="ProjectSilentConnect.vi" Type="VI" URL="../project/ProjectSilentConnect.vi"/>
 		<Item Name="ProjectSilentDisconnect.vi" Type="VI" URL="../project/ProjectSilentDisconnect.vi"/>
@@ -18,9 +35,9 @@
 	<Item Name="subVIs" Type="Folder">
 		<Item Name="64BitOSCheck.vi" Type="VI" URL="../subVIs/64BitOSCheck.vi"/>
 	</Item>
+	<Item Name="Workspace" Type="Folder">
+		<Item Name="WorkspaceOpenClose.vi" Type="VI" URL="../WorkspaceOpenClose.vi"/>
+	</Item>
 	<Item Name="FileGlobalsCreate.vi" Type="VI" URL="../FileGlobalsCreate.vi"/>
 	<Item Name="ResolveError.vi" Type="VI" URL="../ResolveError.vi"/>
-	<Item Name="VeristandInitialize.vi" Type="VI" URL="../VeristandInitialize.vi"/>
-	<Item Name="VeristandStart.vi" Type="VI" URL="../VeristandStart.vi"/>
-	<Item Name="WorkspaceOpenClose.vi" Type="VI" URL="../WorkspaceOpenClose.vi"/>
 </Library>
