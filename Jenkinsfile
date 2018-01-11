@@ -24,7 +24,8 @@ node{
             [ts_version: '2016', vs_year_version: '2016', x64_build_flag: false, sp_version: 0],
             [ts_version: '2016', vs_year_version: '2016', x64_build_flag: true, sp_version: 0],
             [ts_version: '2016', vs_year_version: '2017', x64_build_flag: false, sp_version: 0],
-            [ts_version: '2016', vs_year_version: '2017', x64_build_flag: true, sp_version: 0]]
+            [ts_version: '2016', vs_year_version: '2017', x64_build_flag: true, sp_version: 0],
+			[ts_version: '2017', vs_year_version: '2017', x64_build_flag: false, sp_version: 0]]
              
         build_list.each { buildConfiguration ->
             veristandStepsPipeline(branch, org, release_version, buildConfiguration)
