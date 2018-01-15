@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; This will add a new drive mounted at K:\
+; Use this file to create a new drive letter for a test file directory..
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\DOS Devices]
+"K:"="\\DosDevices\\C:\\Users\\achurch\\Desktop\\Test Files"
