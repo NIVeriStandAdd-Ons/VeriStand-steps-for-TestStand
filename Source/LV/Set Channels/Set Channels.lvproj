@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="14008000">
+<Project Type="Project" LVVersion="15008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
@@ -19,8 +19,6 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Set Channels.lvlib" Type="Library" URL="../Set Channels.lvlib"/>
-		<Item Name="test for set channel.vi" Type="VI" URL="../test for set channel.vi"/>
-		<Item Name="test for set multiple channels.vi" Type="VI" URL="../test for set multiple channels.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="MergeError.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/Execution/Shared/MergeError.vi"/>
@@ -41,10 +39,10 @@
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Set Channels PPL" Type="Packed Library">
+			<Item Name="Packed Library" Type="Packed Library">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{CC4DFED7-603F-4CAF-95F7-202BDF8FD47B}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Set Channels PPL</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Packed Library</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
@@ -52,7 +50,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A7AC2F65-3DB5-4E0A-A79D-389D77BA1816}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">7</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Set Channels.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../build_temp/NI_AB_PROJECTNAME.lvlibp</Property>
@@ -64,7 +62,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{AD800219-9992-47A1-BB77-4EFDE49AF25E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{76957974-2DFB-4CEA-BED4-BCCBC2E92D9D}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Set Channels.lvlib</Property>
@@ -76,10 +74,10 @@
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">NIC SE</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Set Channels PPL</Property>
-				<Property Name="TgtF_internalName" Type="Str">Set Channels PPL</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Packed Library</Property>
+				<Property Name="TgtF_internalName" Type="Str">Packed Library</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2017 NIC SE</Property>
-				<Property Name="TgtF_productName" Type="Str">Set Channels PPL</Property>
+				<Property Name="TgtF_productName" Type="Str">Packed Library</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{FBF9CE4E-1E26-4948-88B8-728B4F49CFD8}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Set Channels.lvlibp</Property>
 			</Item>

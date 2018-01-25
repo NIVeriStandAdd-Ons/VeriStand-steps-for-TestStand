@@ -17,3 +17,5 @@ Source/LabVIEW Code/VeriStand Silent Start/SilentVS.lvlps
 *.manifest
 *.aliases
 *.lvlps
+*.lvlibp
+*.suo

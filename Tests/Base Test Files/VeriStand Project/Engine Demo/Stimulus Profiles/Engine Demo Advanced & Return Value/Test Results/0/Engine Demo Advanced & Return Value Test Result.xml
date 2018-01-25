@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="TRML.xsl"?>
+<TestResults xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" uuid="c893ad4f-75d5-4aa6-967b-d9b3c2347893" xmlns="urn:IEEE-1636.1:2013:TestResults">
+	<Personnel>
+		<SystemOperator ID="VS-STEPS-BUILD-\admin" />
+	</Personnel>
+	<References>
+		<Reference uuid="306cd06e-be15-4395-853d-6711a822af9a" name="Engine Demo Advanced &amp; Return Value">
+			<Text xmlns="urn:IEEE-1671:2010:Common">C:\Users\Public\Documents\National Instruments\NI VeriStand 2015\Examples\Stimulus Profile\Engine Demo\Stimulus Profiles\Engine Demo Advanced &amp; Return Value\Engine Demo Advanced &amp; Return Value.nivsstimprof</Text>
+		</Reference>
+	</References>
+	<ResultSet endDateTime="2017-12-30T11:23:12.7499561-06:00" startDateTime="2017-12-30T11:23:12.6549582-06:00" name="C:\Users\Public\Documents\National Instruments\NI VeriStand 2015\Examples\Stimulus Profile\Engine Demo\Stimulus Profiles\Engine Demo Advanced &amp; Return Value\Test Results\0\Engine Demo Advanced &amp; Return Value Test Result.xml" ID="Test Result">
+		<Outcome value="Failed" />
+		<TestGroup endDateTime="2017-12-30T11:23:12.6549582-06:00" startDateTime="2017-12-30T11:23:12.6549582-06:00" name="Setup" ID="Setup">
+			<Outcome value="Passed" />
+			<Test endDateTime="2017-12-30T11:23:12.6669577-06:00" startDateTime="2017-12-30T11:23:12.6549582-06:00" name="Open Workspace" ID="Setup/Open Workspace">
+				<Outcome value="Passed" />
+			</Test>
+		</TestGroup>
+		<TestGroup endDateTime="2017-12-30T11:23:12.6669577-06:00" startDateTime="2017-12-30T11:23:12.6669577-06:00" name="Main" ID="Main">
+			<Outcome value="Failed" />
+			<Test endDateTime="2017-12-30T11:23:12.7429562-06:00" startDateTime="2017-12-30T11:23:12.6669577-06:00" name="Engine Demo Advanced &amp; Return Value" ID="Main/Call RealTimeSequence: Engine Demo Advanced &amp; Return Value.nivsseq">
+				<Parameters>
+					<Parameter ID="EnginePower">
+						<Data>
+							<Datum xsi:type="string" xmlns="urn:IEEE-1671:2010:Common">
+								<Value>Aliases/EnginePower</Value>
+							</Datum>
+						</Data>
+					</Parameter>
+					<Parameter ID="DesiredRPM">
+						<Data>
+							<Datum xsi:type="string" xmlns="urn:IEEE-1671:2010:Common">
+								<Value>Aliases/DesiredRPM</Value>
+							</Datum>
+						</Data>
+					</Parameter>
+					<Parameter ID="ActualRPM">
+						<Data>
+							<Datum xsi:type="string" xmlns="urn:IEEE-1671:2010:Common">
+								<Value>Aliases/ActualRPM</Value>
+							</Datum>
+						</Data>
+					</Parameter>
+					<Parameter ID="EngineTemperature">
+						<Data>
+							<Datum xsi:type="string" xmlns="urn:IEEE-1671:2010:Common">
+								<Value>Aliases/EngineTemp</Value>
+							</Datum>
+						</Data>
+					</Parameter>
+					<Parameter ID="Main/Call RealTimeSequence: Engine Demo Advanced &amp; Return Value.nivsseq.SequenceFile" name="Engine Demo Advanced &amp; Return Value">
+						<Reference uuid="8e7e8af4-a561-4159-8063-e065c0b4c0c0" name="Engine Demo Advanced &amp; Return Value">
+							<Text xmlns="urn:IEEE-1671:2010:Common">C:\Users\Public\Documents\National Instruments\NI VeriStand 2015\Examples\Stimulus Profile\Engine Demo\Stimulus Profiles\Engine Demo Advanced &amp; Return Value\Engine Demo Advanced &amp; Return Value.nivsseq</Text>
+						</Reference>
+					</Parameter>
+				</Parameters>
+				<Outcome value="Failed" />
+				<TestResult ID="ID_7d5f19e9-c185-4d1c-a9c1-6701dfe0ff89" name="WarmUpSucceeded">
+					<TestData>
+						<Datum xsi:type="boolean" value="false" xmlns="urn:IEEE-1671:2010:Common" />
+					</TestData>
+					<TestLimits>
+						<Limits>
+							<Expected comparator="EQ" xmlns="urn:IEEE-1671:2010:Common">
+								<Datum xsi:type="boolean" value="true" />
+							</Expected>
+						</Limits>
+					</TestLimits>
+				</TestResult>
+			</Test>
+		</TestGroup>
+		<Test endDateTime="2017-12-30T11:23:12.7499561-06:00" startDateTime="2017-12-30T11:23:12.7499561-06:00" name="Clean Up" ID="Clean Up">
+			<Outcome value="Passed" />
+		</Test>
+	</ResultSet>
+	<TestDescription>
+		<Definition version="1_0_0_0" xmlns="urn:IEEE-1671:2010:Common">
+			<Description>This example demonstrates how to use multi-tasking in a real-time sequence.
+
+The real-time sequence simulates two engine warmup phases. The first warmup phase sets the desired RPM to 2500 and waits for 25 seconds. 
+The second warmup phase sets the desired RPM to 8000 and it also waits for 25 seconds before the engine turns off.
+
+During both warmup phases, a parallel task monitors the engine temperature so that the engine does not overheat. As soon as the engine temperature rises above a certain value, the currently-active warmup phase stops and the engine shuts down.
+
+In addition to the Engine Demo Advanced example, this real-time sequence updates the return value depending on the outcome of the warmup phases. If the engine shuts down due to an over-temperature problem, the return value is false.
+
+Practice using the 'Stop Execution on Fail' option. If this parameter is not checked, the execution of the project will not stop even if a return value does not meet the configured conditions. If this parameter is checked, the execution of the project stops immediately.</Description>
+			<Identification>
+				<ModelName>_</ModelName>
+			</Identification>
+		</Definition>
+	</TestDescription>
+	<UUT>
+		<SerialNumber xmlns="urn:IEEE-1671:2010:Common">0</SerialNumber>
+	</UUT>
+</TestResults>
