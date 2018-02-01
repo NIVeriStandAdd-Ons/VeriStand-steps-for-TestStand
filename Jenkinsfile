@@ -6,7 +6,7 @@ node{
     
     branch="master"
     org="NIVeriStandAdd-Ons"
-    release_version=7
+    release_version="7.1"
     
     stage("build"){
         
