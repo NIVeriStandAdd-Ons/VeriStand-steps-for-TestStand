@@ -6,7 +6,7 @@ node{
     
     branch="master"
     org="adchurch"
-    release_version=7
+    release_version="7.${script.currentBuild.number}"
     
     stage("build"){
         
