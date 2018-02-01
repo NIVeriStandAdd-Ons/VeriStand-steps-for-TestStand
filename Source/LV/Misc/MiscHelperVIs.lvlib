@@ -9,6 +9,9 @@
 		<Item Name="VeristandStart.vi" Type="VI" URL="../application/VeristandStart.vi"/>
 		<Item Name="VeristandStop.vi" Type="VI" URL="../application/VeristandStop.vi"/>
 	</Item>
+	<Item Name="controls" Type="Folder">
+		<Item Name="VeriStand dotNet References.ctl" Type="VI" URL="../controls/VeriStand dotNet References.ctl"/>
+	</Item>
 	<Item Name="errors" Type="Folder">
 		<Item Name="ResolveError.vi" Type="VI" URL="../errors/ResolveError.vi"/>
 	</Item>
@@ -37,6 +40,7 @@
 	</Item>
 	<Item Name="references" Type="Folder">
 		<Item Name="FileGlobalsCreate.vi" Type="VI" URL="../references/FileGlobalsCreate.vi"/>
+		<Item Name="ReferencesFGV.vi" Type="VI" URL="../references/ReferencesFGV.vi"/>
 	</Item>
 	<Item Name="subVIs" Type="Folder">
 		<Item Name="64BitOSCheck.vi" Type="VI" URL="../subVIs/64BitOSCheck.vi"/>
