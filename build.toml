@@ -1,0 +1,42 @@
+[archive]
+build_output_dir = 'Built'
+archive_location = '\\us-aus-hilbuild\builds\niveristandadd-ons\archive\addons\veristand steps for teststand'
+
+[projects.misc]
+path = 'Source\LV\Misc\MiscHelperVIs.lvproj'
+
+[projects.rtSequence]
+path = 'Source\LV\RT Sequence\RTSequenceVIs.lvproj'
+
+[projects.channels]
+path = 'Source\LV\Set Channels.lvproj'
+
+[projects.logger]
+path = 'Source\LV\TS VS Logger\TS VS Logger.lvproj'
+
+[projects.installer]
+path = 'Source\LV\Installer\Installer.lvproj'
+
+[[codegen.steps]]
+name = 'Update Project Files'
+type = 'lvUpdateProjectFiles'
+
+[[build.steps]]
+name = 'MiscHelperVIs PPL'
+type = 'lvBuildAll'
+project = '{misc}'
+
+[[build.steps]]
+name = 'RTSequenceVIs PPL'
+type = 'lvBuildAll'
+project = '{rtSequence}'
+
+[[build.steps]]
+name = 'Set Channels PPL'
+type = 'lvBuildAll'
+project = '{channels}'
+
+[[build.steps]]
+name = 'Logger PPL'
+type = 'lvBuildAll'
+project = '{logger}'
