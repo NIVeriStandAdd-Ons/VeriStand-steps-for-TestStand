@@ -4,6 +4,4 @@
 
 def lvVersions = ['2017']
 
-List<String> dependencies = ''
-
-ni.vsbuild.PipelineExecutor.execute(this, lvVersions, dependencies)
+ni.vsbuild.PipelineExecutor.execute(this, lvVersions)
