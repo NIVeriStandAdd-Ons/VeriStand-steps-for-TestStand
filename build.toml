@@ -1,6 +1,6 @@
 [archive]
 build_output_dir = 'Source\LV\Installer\built'
-archive_location = '\\us-aus-hilbuild\builds\niveristandadd-ons\archive\addons\veristand steps for teststand'
+archive_location = '\\us-aus-hilbuild\builds\adchurch\archive\addons\veristand steps for teststand'
 
 [projects.misc]
 path = 'Source\LV\Misc\MiscHelperVIs.lvproj'
