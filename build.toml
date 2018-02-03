@@ -97,3 +97,17 @@ type = 'lvBuildSpec'
 project = '{installer}'
 target = 'My Computer'
 build_spec = 'TestStand 2014 Installer'
+
+[[build.steps]]
+name = 'TestStand 2014 Installer'
+type = 'lvBuildSpec'
+project = '{installer}'
+target = 'My Computer'
+build_spec = 'TestStand 2016 Installer'
+
+[[build.steps]]
+name = 'TestStand 2014 Installer'
+type = 'lvBuildSpec'
+project = '{installer}'
+target = 'My Computer'
+build_spec = 'TestStand 2017 Installer'
