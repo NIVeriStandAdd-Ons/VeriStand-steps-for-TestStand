@@ -23,23 +23,59 @@ type = 'lvUpdateProjectFiles'
 
 [[build.steps]]
 name = 'MiscHelperVIs PPL'
-type = 'lvBuildAll'
+type = 'lvBuildSpec'
 project = '{misc}'
+target = 'My Computer'
+build_spec = 'Packed Library'
 
 [[build.steps]]
 name = 'RTSequenceVIs PPL'
-type = 'lvBuildAll'
+type = 'lvBuildSpec'
 project = '{rtSequence}'
+target = 'My Computer'
+build_spec = 'Packed Library'
 
 [[build.steps]]
 name = 'Set Channels PPL'
-type = 'lvBuildAll'
+type = 'lvBuildSpec'
 project = '{channels}'
+target = 'My Computer'
+build_spec = 'Packed Library'
 
 [[build.steps]]
 name = 'Logger PPL'
-type = 'lvBuildAll'
+type = 'lvBuildSpec'
 project = '{logger}'
+target = 'My Computer'
+build_spec = 'Packed Library'
+
+[[build.steps]]
+name = 'MiscHelperVIs PPL'
+type = 'lv64BuildSpec'
+project = '{misc}'
+target = 'My Computer'
+build_spec = 'Packed Library'
+
+[[build.steps]]
+name = 'RTSequenceVIs PPL'
+type = 'lv64BuildSpec'
+project = '{rtSequence}'
+target = 'My Computer'
+build_spec = 'Packed Library'
+
+[[build.steps]]
+name = 'Set Channels PPL'
+type = 'lv64BuildSpec'
+project = '{channels}'
+target = 'My Computer'
+build_spec = 'Packed Library'
+
+[[build.steps]]
+name = 'Logger PPL'
+type = 'lv64BuildSpec'
+project = '{logger}'
+target = 'My Computer'
+build_spec = 'Packed Library'
 
 [[build.steps]]
 name = 'Post Install Action'
