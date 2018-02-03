@@ -105,32 +105,28 @@
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/admin/Documents/github/adchurch/VeriStand-steps-for-TestStand/build_temp</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B304BD25-3C20-4104-8DAF-694A7DC08EDC}</Property>
 				<Property Name="Bld_version.build" Type="Int">50</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">PostInstallAction.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/PostInstallAction.exe</Property>
-				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/admin/Documents/github/adchurch/VeriStand-steps-for-TestStand/build_temp/PostInstallAction.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/data</Property>
-				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Users/admin/Documents/github/adchurch/VeriStand-steps-for-TestStand/build_temp/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F4ECBAD1-C8A2-4DCB-B04F-0D4FD1F1A9E4}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{393E4D33-A82B-43C0-AF6D-346FA96C41FA}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref"></Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Install Actions/Post-Install Action.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Install Actions/Post-Install Action.vi</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[2].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">NIC SE</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Post Install Action</Property>
 				<Property Name="TgtF_internalName" Type="Str">Post Install Action</Property>
@@ -150,23 +146,22 @@
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/admin/Documents/github/adchurch/VeriStand-steps-for-TestStand/build_temp</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{DB3A548B-1162-40B0-A1A9-44D31209883C}</Property>
 				<Property Name="Bld_version.build" Type="Int">8</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">PreUninstallAction.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/PreUninstallAction.exe</Property>
-				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/admin/Documents/github/adchurch/VeriStand-steps-for-TestStand/build_temp/PreUninstallAction.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/data</Property>
-				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Users/admin/Documents/github/adchurch/VeriStand-steps-for-TestStand/build_temp/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F4ECBAD1-C8A2-4DCB-B04F-0D4FD1F1A9E4}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{393E4D33-A82B-43C0-AF6D-346FA96C41FA}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Install Actions/Pre-Uninstall Action.vi</Property>
@@ -181,57 +176,48 @@
 				<Property Name="TgtF_targetfileGUID" Type="Str">{6A868695-0396-416C-B3C6-331127C1834F}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">PreUninstallAction.exe</Property>
 			</Item>
-			<Item Name="VeriStand Custom Step Types" Type="Installer">
+			<Item Name="TestStand 2014 Installer" Type="Installer">
 				<Property Name="Destination[0].name" Type="Str">VeriStand Steps for TestStand</Property>
 				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
 				<Property Name="Destination[0].tag" Type="Str">{8A84B098-97AA-4F5B-8F0A-427266B807F6}</Property>
 				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[1].name" Type="Str">National Instruments</Property>
-				<Property Name="Destination[1].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
-				<Property Name="Destination[1].tag" Type="Str">{17DAAC9C-E192-4350-B727-6F41C6E35DE0}</Property>
+				<Property Name="Destination[1].name" Type="Str">Users</Property>
+				<Property Name="Destination[1].parent" Type="Str">{C63B6F86-C439-4240-9AAE-EC6A9DDD0A29}</Property>
+				<Property Name="Destination[1].tag" Type="Str">{C06F42D9-8548-4D1E-8C81-A5F0400B34FC}</Property>
 				<Property Name="Destination[1].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[10].name" Type="Str">Icons</Property>
-				<Property Name="Destination[10].parent" Type="Str">{FC770C68-A456-41BE-B3EA-F8A5A2087763}</Property>
-				<Property Name="Destination[10].tag" Type="Str">{968110B2-0B8A-47E2-8AF7-B02E77CECE2C}</Property>
-				<Property Name="Destination[10].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[2].name" Type="Str">NI VeriStand 2014</Property>
-				<Property Name="Destination[2].parent" Type="Str">{17DAAC9C-E192-4350-B727-6F41C6E35DE0}</Property>
-				<Property Name="Destination[2].tag" Type="Str">{07CB2EDC-AE7E-4885-8E98-72AAB33FFEBB}</Property>
+				<Property Name="Destination[2].name" Type="Str">Public</Property>
+				<Property Name="Destination[2].parent" Type="Str">{C06F42D9-8548-4D1E-8C81-A5F0400B34FC}</Property>
+				<Property Name="Destination[2].tag" Type="Str">{F9BFCB0A-3881-447F-9DE7-8BFE6068B4CC}</Property>
 				<Property Name="Destination[2].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[3].name" Type="Str">Users</Property>
-				<Property Name="Destination[3].parent" Type="Str">{C63B6F86-C439-4240-9AAE-EC6A9DDD0A29}</Property>
-				<Property Name="Destination[3].tag" Type="Str">{C06F42D9-8548-4D1E-8C81-A5F0400B34FC}</Property>
+				<Property Name="Destination[3].name" Type="Str">Documents</Property>
+				<Property Name="Destination[3].parent" Type="Str">{F9BFCB0A-3881-447F-9DE7-8BFE6068B4CC}</Property>
+				<Property Name="Destination[3].tag" Type="Str">{8B54A63F-F1CA-47EE-95D3-F3152757A407}</Property>
 				<Property Name="Destination[3].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[4].name" Type="Str">Public</Property>
-				<Property Name="Destination[4].parent" Type="Str">{C06F42D9-8548-4D1E-8C81-A5F0400B34FC}</Property>
-				<Property Name="Destination[4].tag" Type="Str">{F9BFCB0A-3881-447F-9DE7-8BFE6068B4CC}</Property>
+				<Property Name="Destination[4].name" Type="Str">National Instruments</Property>
+				<Property Name="Destination[4].parent" Type="Str">{8B54A63F-F1CA-47EE-95D3-F3152757A407}</Property>
+				<Property Name="Destination[4].tag" Type="Str">{F434B829-AA04-43D8-AB92-6BE88BF55E0F}</Property>
 				<Property Name="Destination[4].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[5].name" Type="Str">Documents</Property>
-				<Property Name="Destination[5].parent" Type="Str">{F9BFCB0A-3881-447F-9DE7-8BFE6068B4CC}</Property>
-				<Property Name="Destination[5].tag" Type="Str">{8B54A63F-F1CA-47EE-95D3-F3152757A407}</Property>
+				<Property Name="Destination[5].name" Type="Str">TestStand 2014 (32-bit)</Property>
+				<Property Name="Destination[5].parent" Type="Str">{F434B829-AA04-43D8-AB92-6BE88BF55E0F}</Property>
+				<Property Name="Destination[5].tag" Type="Str">{C4C299A5-A16B-4251-A638-73B631234187}</Property>
 				<Property Name="Destination[5].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[6].name" Type="Str">National Instruments</Property>
-				<Property Name="Destination[6].parent" Type="Str">{8B54A63F-F1CA-47EE-95D3-F3152757A407}</Property>
-				<Property Name="Destination[6].tag" Type="Str">{F434B829-AA04-43D8-AB92-6BE88BF55E0F}</Property>
+				<Property Name="Destination[6].name" Type="Str">Components</Property>
+				<Property Name="Destination[6].parent" Type="Str">{C4C299A5-A16B-4251-A638-73B631234187}</Property>
+				<Property Name="Destination[6].tag" Type="Str">{FC770C68-A456-41BE-B3EA-F8A5A2087763}</Property>
 				<Property Name="Destination[6].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[7].name" Type="Str">TestStand 2014 (32-bit)</Property>
-				<Property Name="Destination[7].parent" Type="Str">{F434B829-AA04-43D8-AB92-6BE88BF55E0F}</Property>
-				<Property Name="Destination[7].tag" Type="Str">{C4C299A5-A16B-4251-A638-73B631234187}</Property>
+				<Property Name="Destination[7].name" Type="Str">TypePalettes</Property>
+				<Property Name="Destination[7].parent" Type="Str">{FC770C68-A456-41BE-B3EA-F8A5A2087763}</Property>
+				<Property Name="Destination[7].tag" Type="Str">{3370C310-171D-4863-93D3-AF04A10FD864}</Property>
 				<Property Name="Destination[7].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[8].name" Type="Str">Components</Property>
-				<Property Name="Destination[8].parent" Type="Str">{C4C299A5-A16B-4251-A638-73B631234187}</Property>
-				<Property Name="Destination[8].tag" Type="Str">{FC770C68-A456-41BE-B3EA-F8A5A2087763}</Property>
+				<Property Name="Destination[8].name" Type="Str">Icons</Property>
+				<Property Name="Destination[8].parent" Type="Str">{FC770C68-A456-41BE-B3EA-F8A5A2087763}</Property>
+				<Property Name="Destination[8].tag" Type="Str">{968110B2-0B8A-47E2-8AF7-B02E77CECE2C}</Property>
 				<Property Name="Destination[8].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[9].name" Type="Str">TypePalettes</Property>
-				<Property Name="Destination[9].parent" Type="Str">{FC770C68-A456-41BE-B3EA-F8A5A2087763}</Property>
-				<Property Name="Destination[9].tag" Type="Str">{3370C310-171D-4863-93D3-AF04A10FD864}</Property>
-				<Property Name="Destination[9].type" Type="Str">userFolder</Property>
-				<Property Name="DestinationCount" Type="Int">11</Property>
+				<Property Name="DestinationCount" Type="Int">9</Property>
 				<Property Name="INST_author" Type="Str">NIC SE</Property>
 				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
-				<Property Name="INST_buildLocation" Type="Path">../Installer/builds/Installer</Property>
-				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
-				<Property Name="INST_buildSpecName" Type="Str">VeriStand Custom Step Types</Property>
+				<Property Name="INST_buildLocation" Type="Path">/C/Users/admin/Documents/github/adchurch/VeriStand-steps-for-TestStand/built/teststand-2014</Property>
+				<Property Name="INST_buildSpecName" Type="Str">TestStand 2014 Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{8A84B098-97AA-4F5B-8F0A-427266B807F6}</Property>
 				<Property Name="INST_includeError" Type="Bool">false</Property>
 				<Property Name="INST_productName" Type="Str">VeriStand Steps for TestStand</Property>
@@ -239,9 +225,9 @@
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">15018004</Property>
 				<Property Name="MSI_arpCompany" Type="Str">National Instruments Systems Engineering</Property>
-				<Property Name="MSI_distID" Type="Str">{A0B7C8E1-FF10-47F6-A81C-FAC474B85E1E}</Property>
+				<Property Name="MSI_distID" Type="Str">{4205FD00-DB79-4B2A-970F-6408050E8E68}</Property>
 				<Property Name="MSI_osCheck" Type="Int">0</Property>
-				<Property Name="MSI_upgradeCode" Type="Str">{B5B389F1-0845-417E-8767-FF8FBBD2EC6B}</Property>
+				<Property Name="MSI_upgradeCode" Type="Str">{B34DA3BB-B19F-4BB2-B8C0-D1FB9B933B92}</Property>
 				<Property Name="Source[0].dest" Type="Str">{B1C272DB-7A45-4FF9-BC63-49FC8311081D}</Property>
 				<Property Name="Source[0].name" Type="Str">InstallToGAC.exe</Property>
 				<Property Name="Source[0].tag" Type="Ref">/My Computer/GAC Install Utilities/InstallToGAC.exe</Property>
@@ -258,13 +244,219 @@
 				<Property Name="Source[11].name" Type="Str">LICENSE.txt</Property>
 				<Property Name="Source[11].tag" Type="Ref">/My Computer/License/LICENSE.txt</Property>
 				<Property Name="Source[11].type" Type="Str">File</Property>
-				<Property Name="Source[2].cmdArg" Type="Str">2014 2014</Property>
 				<Property Name="Source[2].dest" Type="Str">{B1C272DB-7A45-4FF9-BC63-49FC8311081D}</Property>
 				<Property Name="Source[2].name" Type="Str">PostInstallAction.exe</Property>
 				<Property Name="Source[2].runEXE" Type="Bool">true</Property>
 				<Property Name="Source[2].tag" Type="Ref">/My Computer/Install Actions/PostInstallAction.exe</Property>
 				<Property Name="Source[2].type" Type="Str">File</Property>
-				<Property Name="Source[3].cmdArg_uninstall" Type="Str">2014 </Property>
+				<Property Name="Source[3].dest" Type="Str">{8A84B098-97AA-4F5B-8F0A-427266B807F6}</Property>
+				<Property Name="Source[3].name" Type="Str">PreUninstallAction.exe</Property>
+				<Property Name="Source[3].runEXE_uninstall" Type="Bool">true</Property>
+				<Property Name="Source[3].tag" Type="Ref">/My Computer/Install Actions/PreUninstallAction.exe</Property>
+				<Property Name="Source[3].type" Type="Str">File</Property>
+				<Property Name="Source[4].dest" Type="Str">{8A84B098-97AA-4F5B-8F0A-427266B807F6}</Property>
+				<Property Name="Source[4].name" Type="Str">NationalInstruments.Veristand.VeristandSteps.dll</Property>
+				<Property Name="Source[4].tag" Type="Ref">/My Computer/VeristandSteps Assembly/NationalInstruments.Veristand.VeristandSteps.dll</Property>
+				<Property Name="Source[4].type" Type="Str">File</Property>
+				<Property Name="Source[5].dest" Type="Str">{3370C310-171D-4863-93D3-AF04A10FD864}</Property>
+				<Property Name="Source[5].name" Type="Str">Logging.lvlibp</Property>
+				<Property Name="Source[5].tag" Type="Ref">/My Computer/PPLs/Logging.lvlibp</Property>
+				<Property Name="Source[5].type" Type="Str">File</Property>
+				<Property Name="Source[6].dest" Type="Str">{3370C310-171D-4863-93D3-AF04A10FD864}</Property>
+				<Property Name="Source[6].name" Type="Str">MiscHelperVIs.lvlibp</Property>
+				<Property Name="Source[6].tag" Type="Ref">/My Computer/PPLs/MiscHelperVIs.lvlibp</Property>
+				<Property Name="Source[6].type" Type="Str">File</Property>
+				<Property Name="Source[7].dest" Type="Str">{3370C310-171D-4863-93D3-AF04A10FD864}</Property>
+				<Property Name="Source[7].name" Type="Str">NI_VeristandTypes.ini</Property>
+				<Property Name="Source[7].tag" Type="Ref">/My Computer/TypePalette File/NI_VeristandTypes.ini</Property>
+				<Property Name="Source[7].type" Type="Str">File</Property>
+				<Property Name="Source[8].dest" Type="Str">{3370C310-171D-4863-93D3-AF04A10FD864}</Property>
+				<Property Name="Source[8].name" Type="Str">RTSequenceVIs.lvlibp</Property>
+				<Property Name="Source[8].tag" Type="Ref">/My Computer/PPLs/RTSequenceVIs.lvlibp</Property>
+				<Property Name="Source[8].type" Type="Str">File</Property>
+				<Property Name="Source[9].dest" Type="Str">{3370C310-171D-4863-93D3-AF04A10FD864}</Property>
+				<Property Name="Source[9].name" Type="Str">Set Channels.lvlibp</Property>
+				<Property Name="Source[9].tag" Type="Ref">/My Computer/PPLs/Set Channels.lvlibp</Property>
+				<Property Name="Source[9].type" Type="Str">File</Property>
+				<Property Name="SourceCount" Type="Int">12</Property>
+			</Item>
+			<Item Name="TestStand 2016 Installer" Type="Installer">
+				<Property Name="Destination[0].name" Type="Str">VeriStand Steps for TestStand</Property>
+				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
+				<Property Name="Destination[0].tag" Type="Str">{8A84B098-97AA-4F5B-8F0A-427266B807F6}</Property>
+				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[1].name" Type="Str">Users</Property>
+				<Property Name="Destination[1].parent" Type="Str">{C63B6F86-C439-4240-9AAE-EC6A9DDD0A29}</Property>
+				<Property Name="Destination[1].tag" Type="Str">{C06F42D9-8548-4D1E-8C81-A5F0400B34FC}</Property>
+				<Property Name="Destination[1].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[2].name" Type="Str">Public</Property>
+				<Property Name="Destination[2].parent" Type="Str">{C06F42D9-8548-4D1E-8C81-A5F0400B34FC}</Property>
+				<Property Name="Destination[2].tag" Type="Str">{F9BFCB0A-3881-447F-9DE7-8BFE6068B4CC}</Property>
+				<Property Name="Destination[2].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[3].name" Type="Str">Documents</Property>
+				<Property Name="Destination[3].parent" Type="Str">{F9BFCB0A-3881-447F-9DE7-8BFE6068B4CC}</Property>
+				<Property Name="Destination[3].tag" Type="Str">{8B54A63F-F1CA-47EE-95D3-F3152757A407}</Property>
+				<Property Name="Destination[3].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[4].name" Type="Str">National Instruments</Property>
+				<Property Name="Destination[4].parent" Type="Str">{8B54A63F-F1CA-47EE-95D3-F3152757A407}</Property>
+				<Property Name="Destination[4].tag" Type="Str">{F434B829-AA04-43D8-AB92-6BE88BF55E0F}</Property>
+				<Property Name="Destination[4].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[5].name" Type="Str">TestStand 2016 (32-bit)</Property>
+				<Property Name="Destination[5].parent" Type="Str">{F434B829-AA04-43D8-AB92-6BE88BF55E0F}</Property>
+				<Property Name="Destination[5].tag" Type="Str">{C4C299A5-A16B-4251-A638-73B631234187}</Property>
+				<Property Name="Destination[5].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[6].name" Type="Str">Components</Property>
+				<Property Name="Destination[6].parent" Type="Str">{C4C299A5-A16B-4251-A638-73B631234187}</Property>
+				<Property Name="Destination[6].tag" Type="Str">{FC770C68-A456-41BE-B3EA-F8A5A2087763}</Property>
+				<Property Name="Destination[6].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[7].name" Type="Str">TypePalettes</Property>
+				<Property Name="Destination[7].parent" Type="Str">{FC770C68-A456-41BE-B3EA-F8A5A2087763}</Property>
+				<Property Name="Destination[7].tag" Type="Str">{3370C310-171D-4863-93D3-AF04A10FD864}</Property>
+				<Property Name="Destination[7].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[8].name" Type="Str">Icons</Property>
+				<Property Name="Destination[8].parent" Type="Str">{FC770C68-A456-41BE-B3EA-F8A5A2087763}</Property>
+				<Property Name="Destination[8].tag" Type="Str">{968110B2-0B8A-47E2-8AF7-B02E77CECE2C}</Property>
+				<Property Name="Destination[8].type" Type="Str">userFolder</Property>
+				<Property Name="DestinationCount" Type="Int">9</Property>
+				<Property Name="INST_author" Type="Str">NIC SE</Property>
+				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
+				<Property Name="INST_buildLocation" Type="Path">/C/Users/admin/Documents/github/adchurch/VeriStand-steps-for-TestStand/built/teststand-2016</Property>
+				<Property Name="INST_buildSpecName" Type="Str">TestStand 2016 Installer</Property>
+				<Property Name="INST_defaultDir" Type="Str">{8A84B098-97AA-4F5B-8F0A-427266B807F6}</Property>
+				<Property Name="INST_includeError" Type="Bool">false</Property>
+				<Property Name="INST_productName" Type="Str">VeriStand Steps for TestStand</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.57</Property>
+				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
+				<Property Name="InstSpecVersion" Type="Str">15018004</Property>
+				<Property Name="MSI_arpCompany" Type="Str">National Instruments Systems Engineering</Property>
+				<Property Name="MSI_distID" Type="Str">{EF9F0FAE-4E3D-4FE3-903C-2BEADF2868DC}</Property>
+				<Property Name="MSI_osCheck" Type="Int">0</Property>
+				<Property Name="MSI_upgradeCode" Type="Str">{4084CD7C-F20C-4982-A98B-EA20D380938F}</Property>
+				<Property Name="Source[0].dest" Type="Str">{B1C272DB-7A45-4FF9-BC63-49FC8311081D}</Property>
+				<Property Name="Source[0].name" Type="Str">InstallToGAC.exe</Property>
+				<Property Name="Source[0].tag" Type="Ref">/My Computer/GAC Install Utilities/InstallToGAC.exe</Property>
+				<Property Name="Source[0].type" Type="Str">File</Property>
+				<Property Name="Source[1].dest" Type="Str">{8A84B098-97AA-4F5B-8F0A-427266B807F6}</Property>
+				<Property Name="Source[1].name" Type="Str">RemoveFromGAC.exe</Property>
+				<Property Name="Source[1].tag" Type="Ref">/My Computer/GAC Install Utilities/RemoveFromGAC.exe</Property>
+				<Property Name="Source[1].type" Type="Str">File</Property>
+				<Property Name="Source[10].dest" Type="Str">{968110B2-0B8A-47E2-8AF7-B02E77CECE2C}</Property>
+				<Property Name="Source[10].name" Type="Str">Veristand_icon_vista.ico</Property>
+				<Property Name="Source[10].tag" Type="Ref">/My Computer/TypePalette File/Veristand_icon_vista.ico</Property>
+				<Property Name="Source[10].type" Type="Str">File</Property>
+				<Property Name="Source[11].dest" Type="Str">{8A84B098-97AA-4F5B-8F0A-427266B807F6}</Property>
+				<Property Name="Source[11].name" Type="Str">LICENSE.txt</Property>
+				<Property Name="Source[11].tag" Type="Ref">/My Computer/License/LICENSE.txt</Property>
+				<Property Name="Source[11].type" Type="Str">File</Property>
+				<Property Name="Source[2].dest" Type="Str">{B1C272DB-7A45-4FF9-BC63-49FC8311081D}</Property>
+				<Property Name="Source[2].name" Type="Str">PostInstallAction.exe</Property>
+				<Property Name="Source[2].runEXE" Type="Bool">true</Property>
+				<Property Name="Source[2].tag" Type="Ref">/My Computer/Install Actions/PostInstallAction.exe</Property>
+				<Property Name="Source[2].type" Type="Str">File</Property>
+				<Property Name="Source[3].dest" Type="Str">{8A84B098-97AA-4F5B-8F0A-427266B807F6}</Property>
+				<Property Name="Source[3].name" Type="Str">PreUninstallAction.exe</Property>
+				<Property Name="Source[3].runEXE_uninstall" Type="Bool">true</Property>
+				<Property Name="Source[3].tag" Type="Ref">/My Computer/Install Actions/PreUninstallAction.exe</Property>
+				<Property Name="Source[3].type" Type="Str">File</Property>
+				<Property Name="Source[4].dest" Type="Str">{8A84B098-97AA-4F5B-8F0A-427266B807F6}</Property>
+				<Property Name="Source[4].name" Type="Str">NationalInstruments.Veristand.VeristandSteps.dll</Property>
+				<Property Name="Source[4].tag" Type="Ref">/My Computer/VeristandSteps Assembly/NationalInstruments.Veristand.VeristandSteps.dll</Property>
+				<Property Name="Source[4].type" Type="Str">File</Property>
+				<Property Name="Source[5].dest" Type="Str">{3370C310-171D-4863-93D3-AF04A10FD864}</Property>
+				<Property Name="Source[5].name" Type="Str">Logging.lvlibp</Property>
+				<Property Name="Source[5].tag" Type="Ref">/My Computer/PPLs/Logging.lvlibp</Property>
+				<Property Name="Source[5].type" Type="Str">File</Property>
+				<Property Name="Source[6].dest" Type="Str">{3370C310-171D-4863-93D3-AF04A10FD864}</Property>
+				<Property Name="Source[6].name" Type="Str">MiscHelperVIs.lvlibp</Property>
+				<Property Name="Source[6].tag" Type="Ref">/My Computer/PPLs/MiscHelperVIs.lvlibp</Property>
+				<Property Name="Source[6].type" Type="Str">File</Property>
+				<Property Name="Source[7].dest" Type="Str">{3370C310-171D-4863-93D3-AF04A10FD864}</Property>
+				<Property Name="Source[7].name" Type="Str">NI_VeristandTypes.ini</Property>
+				<Property Name="Source[7].tag" Type="Ref">/My Computer/TypePalette File/NI_VeristandTypes.ini</Property>
+				<Property Name="Source[7].type" Type="Str">File</Property>
+				<Property Name="Source[8].dest" Type="Str">{3370C310-171D-4863-93D3-AF04A10FD864}</Property>
+				<Property Name="Source[8].name" Type="Str">RTSequenceVIs.lvlibp</Property>
+				<Property Name="Source[8].tag" Type="Ref">/My Computer/PPLs/RTSequenceVIs.lvlibp</Property>
+				<Property Name="Source[8].type" Type="Str">File</Property>
+				<Property Name="Source[9].dest" Type="Str">{3370C310-171D-4863-93D3-AF04A10FD864}</Property>
+				<Property Name="Source[9].name" Type="Str">Set Channels.lvlibp</Property>
+				<Property Name="Source[9].tag" Type="Ref">/My Computer/PPLs/Set Channels.lvlibp</Property>
+				<Property Name="Source[9].type" Type="Str">File</Property>
+				<Property Name="SourceCount" Type="Int">12</Property>
+			</Item>
+			<Item Name="TestStand 2017 Installer" Type="Installer">
+				<Property Name="Destination[0].name" Type="Str">VeriStand Steps for TestStand</Property>
+				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
+				<Property Name="Destination[0].tag" Type="Str">{8A84B098-97AA-4F5B-8F0A-427266B807F6}</Property>
+				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[1].name" Type="Str">Users</Property>
+				<Property Name="Destination[1].parent" Type="Str">{C63B6F86-C439-4240-9AAE-EC6A9DDD0A29}</Property>
+				<Property Name="Destination[1].tag" Type="Str">{C06F42D9-8548-4D1E-8C81-A5F0400B34FC}</Property>
+				<Property Name="Destination[1].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[2].name" Type="Str">Public</Property>
+				<Property Name="Destination[2].parent" Type="Str">{C06F42D9-8548-4D1E-8C81-A5F0400B34FC}</Property>
+				<Property Name="Destination[2].tag" Type="Str">{F9BFCB0A-3881-447F-9DE7-8BFE6068B4CC}</Property>
+				<Property Name="Destination[2].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[3].name" Type="Str">Documents</Property>
+				<Property Name="Destination[3].parent" Type="Str">{F9BFCB0A-3881-447F-9DE7-8BFE6068B4CC}</Property>
+				<Property Name="Destination[3].tag" Type="Str">{8B54A63F-F1CA-47EE-95D3-F3152757A407}</Property>
+				<Property Name="Destination[3].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[4].name" Type="Str">National Instruments</Property>
+				<Property Name="Destination[4].parent" Type="Str">{8B54A63F-F1CA-47EE-95D3-F3152757A407}</Property>
+				<Property Name="Destination[4].tag" Type="Str">{F434B829-AA04-43D8-AB92-6BE88BF55E0F}</Property>
+				<Property Name="Destination[4].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[5].name" Type="Str">TestStand 2017 (32-bit)</Property>
+				<Property Name="Destination[5].parent" Type="Str">{F434B829-AA04-43D8-AB92-6BE88BF55E0F}</Property>
+				<Property Name="Destination[5].tag" Type="Str">{C4C299A5-A16B-4251-A638-73B631234187}</Property>
+				<Property Name="Destination[5].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[6].name" Type="Str">Components</Property>
+				<Property Name="Destination[6].parent" Type="Str">{C4C299A5-A16B-4251-A638-73B631234187}</Property>
+				<Property Name="Destination[6].tag" Type="Str">{FC770C68-A456-41BE-B3EA-F8A5A2087763}</Property>
+				<Property Name="Destination[6].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[7].name" Type="Str">TypePalettes</Property>
+				<Property Name="Destination[7].parent" Type="Str">{FC770C68-A456-41BE-B3EA-F8A5A2087763}</Property>
+				<Property Name="Destination[7].tag" Type="Str">{3370C310-171D-4863-93D3-AF04A10FD864}</Property>
+				<Property Name="Destination[7].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[8].name" Type="Str">Icons</Property>
+				<Property Name="Destination[8].parent" Type="Str">{FC770C68-A456-41BE-B3EA-F8A5A2087763}</Property>
+				<Property Name="Destination[8].tag" Type="Str">{968110B2-0B8A-47E2-8AF7-B02E77CECE2C}</Property>
+				<Property Name="Destination[8].type" Type="Str">userFolder</Property>
+				<Property Name="DestinationCount" Type="Int">9</Property>
+				<Property Name="INST_author" Type="Str">NIC SE</Property>
+				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
+				<Property Name="INST_buildLocation" Type="Path">/C/Users/admin/Documents/github/adchurch/VeriStand-steps-for-TestStand/built/teststand-2017</Property>
+				<Property Name="INST_buildSpecName" Type="Str">TestStand 2017 Installer</Property>
+				<Property Name="INST_defaultDir" Type="Str">{8A84B098-97AA-4F5B-8F0A-427266B807F6}</Property>
+				<Property Name="INST_includeError" Type="Bool">false</Property>
+				<Property Name="INST_productName" Type="Str">VeriStand Steps for TestStand</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.57</Property>
+				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
+				<Property Name="InstSpecVersion" Type="Str">15018004</Property>
+				<Property Name="MSI_arpCompany" Type="Str">National Instruments Systems Engineering</Property>
+				<Property Name="MSI_distID" Type="Str">{F7887678-AB22-4798-8DC7-6F4DC04F1438}</Property>
+				<Property Name="MSI_osCheck" Type="Int">0</Property>
+				<Property Name="MSI_upgradeCode" Type="Str">{373854CC-96F0-4171-A720-6F9344AAB01A}</Property>
+				<Property Name="Source[0].dest" Type="Str">{B1C272DB-7A45-4FF9-BC63-49FC8311081D}</Property>
+				<Property Name="Source[0].name" Type="Str">InstallToGAC.exe</Property>
+				<Property Name="Source[0].tag" Type="Ref">/My Computer/GAC Install Utilities/InstallToGAC.exe</Property>
+				<Property Name="Source[0].type" Type="Str">File</Property>
+				<Property Name="Source[1].dest" Type="Str">{8A84B098-97AA-4F5B-8F0A-427266B807F6}</Property>
+				<Property Name="Source[1].name" Type="Str">RemoveFromGAC.exe</Property>
+				<Property Name="Source[1].tag" Type="Ref">/My Computer/GAC Install Utilities/RemoveFromGAC.exe</Property>
+				<Property Name="Source[1].type" Type="Str">File</Property>
+				<Property Name="Source[10].dest" Type="Str">{968110B2-0B8A-47E2-8AF7-B02E77CECE2C}</Property>
+				<Property Name="Source[10].name" Type="Str">Veristand_icon_vista.ico</Property>
+				<Property Name="Source[10].tag" Type="Ref">/My Computer/TypePalette File/Veristand_icon_vista.ico</Property>
+				<Property Name="Source[10].type" Type="Str">File</Property>
+				<Property Name="Source[11].dest" Type="Str">{8A84B098-97AA-4F5B-8F0A-427266B807F6}</Property>
+				<Property Name="Source[11].name" Type="Str">LICENSE.txt</Property>
+				<Property Name="Source[11].tag" Type="Ref">/My Computer/License/LICENSE.txt</Property>
+				<Property Name="Source[11].type" Type="Str">File</Property>
+				<Property Name="Source[2].dest" Type="Str">{B1C272DB-7A45-4FF9-BC63-49FC8311081D}</Property>
+				<Property Name="Source[2].name" Type="Str">PostInstallAction.exe</Property>
+				<Property Name="Source[2].runEXE" Type="Bool">true</Property>
+				<Property Name="Source[2].tag" Type="Ref">/My Computer/Install Actions/PostInstallAction.exe</Property>
+				<Property Name="Source[2].type" Type="Str">File</Property>
 				<Property Name="Source[3].dest" Type="Str">{8A84B098-97AA-4F5B-8F0A-427266B807F6}</Property>
 				<Property Name="Source[3].name" Type="Str">PreUninstallAction.exe</Property>
 				<Property Name="Source[3].runEXE_uninstall" Type="Bool">true</Property>
