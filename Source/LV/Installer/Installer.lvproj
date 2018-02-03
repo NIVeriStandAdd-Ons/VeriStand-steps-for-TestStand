@@ -32,198 +32,16 @@
 		</Item>
 		<Item Name="PPLs" Type="Folder">
 			<Item Name="x64" Type="Folder">
-				<Item Name="Logging.lvlibp" Type="LVLibp" URL="../../../../build_temp/lvlibp/x64/Logging.lvlibp">
-					<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/Logging.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
-					<Item Name="MergeError.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/Logging.lvlibp/1abvi3w/vi.lib/NI VeriStand/Execution/Shared/MergeError.vi"/>
-					<Item Name="NI_VS Data Logging API.lvlib" Type="Library" URL="../../../../build_temp/lvlibp/x64/Logging.lvlibp/1abvi3w/vi.lib/NI Veristand/Execution/DataLogging/NI_VS Data Logging API.lvlib"/>
-					<Item Name="NI_VS Workspace ExecutionAPI.lvlib" Type="Library" URL="../../../../build_temp/lvlibp/x64/Logging.lvlibp/1abvi3w/vi.lib/NI VeriStand/Execution/Workspace/NI_VS Workspace ExecutionAPI.lvlib"/>
-					<Item Name="Start logging.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/Logging.lvlibp/Start logging.vi"/>
-					<Item Name="Stop Logging.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/Logging.lvlibp/Stop Logging.vi"/>
-					<Item Name="To .NET Object.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/Logging.lvlibp/1abvi3w/vi.lib/Platform/dotnet.llb/To .NET Object.vi"/>
-					<Item Name="VariantType.lvlib" Type="Library" URL="../../../../build_temp/lvlibp/x64/Logging.lvlibp/1abvi3w/vi.lib/Utility/VariantDataType/VariantType.lvlib"/>
-				</Item>
-				<Item Name="MiscHelperVIs.lvlibp" Type="LVLibp" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp">
-					<Item Name="application" Type="Folder">
-						<Item Name="VeristandInitialize.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/application/VeristandInitialize.vi"/>
-						<Item Name="VeristandStart.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/application/VeristandStart.vi"/>
-						<Item Name="VeristandStop.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/application/VeristandStop.vi"/>
-					</Item>
-					<Item Name="controls" Type="Folder">
-						<Item Name="VeriStand dotNet References.ctl" Type="VI" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/controls/VeriStand dotNet References.ctl"/>
-					</Item>
-					<Item Name="errors" Type="Folder">
-						<Item Name="ResolveError.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/errors/ResolveError.vi"/>
-					</Item>
-					<Item Name="faults" Type="Folder">
-						<Item Name="FaultClear.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/faults/FaultClear.vi"/>
-						<Item Name="FaultClearAll.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/faults/FaultClearAll.vi"/>
-						<Item Name="FaultGetValue.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/faults/FaultGetValue.vi"/>
-						<Item Name="FaultSetValue.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/faults/FaultSetValue.vi"/>
-					</Item>
-					<Item Name="models" Type="Folder">
-						<Item Name="ModelParameterValueGet.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/Models/ModelParameterValueGet.vi"/>
-						<Item Name="ModelParameterValueSet.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/Models/ModelParameterValueSet.vi"/>
-						<Item Name="ModelParameterValueUpdateFromFile.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/Models/ModelParameterValueUpdateFromFile.vi"/>
-					</Item>
-					<Item Name="project" Type="Folder">
-						<Item Name="ProjectClose.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/project/ProjectClose.vi"/>
-						<Item Name="ProjectConnect.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/project/ProjectConnect.vi"/>
-						<Item Name="ProjectDeploy.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/project/ProjectDeploy.vi"/>
-						<Item Name="ProjectDisconnect.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/project/ProjectDisconnect.vi"/>
-						<Item Name="ProjectOpen.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/project/ProjectOpen.vi"/>
-						<Item Name="ProjectOpenReferences.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/project/ProjectOpenReferences.vi"/>
-						<Item Name="ProjectRun.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/project/ProjectRun.vi"/>
-						<Item Name="ProjectSilentConnect.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/project/ProjectSilentConnect.vi"/>
-						<Item Name="ProjectSilentDisconnect.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/project/ProjectSilentDisconnect.vi"/>
-						<Item Name="ProjectUndeploy.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/project/ProjectUndeploy.vi"/>
-					</Item>
-					<Item Name="references" Type="Folder">
-						<Item Name="FileGlobalsCreate.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/references/FileGlobalsCreate.vi"/>
-						<Item Name="ReferencesFGV.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/references/ReferencesFGV.vi"/>
-					</Item>
-					<Item Name="subVIs" Type="Folder">
-						<Item Name="64BitOSCheck.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/subVIs/64BitOSCheck.vi"/>
-					</Item>
-					<Item Name="workspace" Type="Folder">
-						<Item Name="WorkspaceOpenClose.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/workspace/WorkspaceOpenClose.vi"/>
-					</Item>
-					<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
-					<Item Name="Get System Directory.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/1abvi3w/vi.lib/Utility/sysdir.llb/Get System Directory.vi"/>
-					<Item Name="MergeError.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/1abvi3w/vi.lib/NI VeriStand/Execution/Shared/MergeError.vi"/>
-					<Item Name="NI_VS ChannelFault ExecutionAPI.lvlib" Type="Library" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/1abvi3w/vi.lib/NI Veristand/Execution/ChannelFaultManager/NI_VS ChannelFault ExecutionAPI.lvlib"/>
-					<Item Name="NI_VS ModelManager ExecutionAPI.lvlib" Type="Library" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/1abvi3w/vi.lib/NI Veristand/Execution/ModelManager/NI_VS ModelManager ExecutionAPI.lvlib"/>
-					<Item Name="NI_VS Project ExecutionAPI.lvlib" Type="Library" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/1abvi3w/vi.lib/NI Veristand/Execution/Project/NI_VS Project ExecutionAPI.lvlib"/>
-					<Item Name="NI_VS Workspace ExecutionAPI.lvlib" Type="Library" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/1abvi3w/vi.lib/NI Veristand/Execution/Workspace/NI_VS Workspace ExecutionAPI.lvlib"/>
-					<Item Name="Space Constant.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/1abvi3w/vi.lib/dlg_ctls.llb/Space Constant.vi"/>
-					<Item Name="System Exec.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/1abvi3w/vi.lib/Platform/system.llb/System Exec.vi"/>
-				</Item>
-				<Item Name="RTSequenceVIs.lvlibp" Type="LVLibp" URL="../../../../build_temp/lvlibp/x64/RTSequenceVIs.lvlibp">
-					<Item Name="subVIs" Type="Folder">
-						<Item Name="Build Parameter Assignment Array.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/RTSequenceVIs.lvlibp/subVIs/Build Parameter Assignment Array.vi"/>
-						<Item Name="Expression Array String to Expression Array.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/RTSequenceVIs.lvlibp/subVIs/Expression Array String to Expression Array.vi"/>
-						<Item Name="Remove First and Last Characters.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/RTSequenceVIs.lvlibp/subVIs/Remove First and Last Characters.vi"/>
-					</Item>
-					<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/RTSequenceVIs.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
-					<Item Name="LabVIEW Test - Sequence Context.ctl" Type="VI" URL="../../../../build_temp/lvlibp/x64/RTSequenceVIs.lvlibp/1abvi3w/vi.lib/addons/TestStand/_TSLegacy.llb/LabVIEW Test - Sequence Context.ctl"/>
-					<Item Name="MergeError.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/RTSequenceVIs.lvlibp/1abvi3w/vi.lib/NI VeriStand/Execution/Shared/MergeError.vi"/>
-					<Item Name="NI_VS Sequence Execution Interface.lvlib" Type="Library" URL="../../../../build_temp/lvlibp/x64/RTSequenceVIs.lvlibp/1abvi3w/vi.lib/NI Veristand/Execution/SequenceExecutionInterface/NI_VS Sequence Execution Interface.lvlib"/>
-					<Item Name="NI_VS Workspace ExecutionAPI.lvlib" Type="Library" URL="../../../../build_temp/lvlibp/x64/RTSequenceVIs.lvlibp/1abvi3w/vi.lib/NI VeriStand/Execution/Workspace/NI_VS Workspace ExecutionAPI.lvlib"/>
-					<Item Name="Run RT Sequence.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/RTSequenceVIs.lvlibp/Run RT Sequence.vi"/>
-					<Item Name="Run Stimulus Profile.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/RTSequenceVIs.lvlibp/Run Stimulus Profile.vi"/>
-					<Item Name="TestStand - Close Termination Monitor.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/RTSequenceVIs.lvlibp/1abvi3w/vi.lib/addons/TestStand/_TSUtility.llb/TestStand - Close Termination Monitor.vi"/>
-					<Item Name="TestStand - Get Termination Monitor Status.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/RTSequenceVIs.lvlibp/1abvi3w/vi.lib/addons/TestStand/_TSUtility.llb/TestStand - Get Termination Monitor Status.vi"/>
-					<Item Name="TestStand - Initialize Termination Monitor.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/RTSequenceVIs.lvlibp/1abvi3w/vi.lib/addons/TestStand/_TSUtility.llb/TestStand - Initialize Termination Monitor.vi"/>
-					<Item Name="TestStand - Status Monitor.ctl" Type="VI" URL="../../../../build_temp/lvlibp/x64/RTSequenceVIs.lvlibp/1abvi3w/vi.lib/addons/TestStand/_TSUtility.llb/TestStand - Status Monitor.ctl"/>
-				</Item>
-				<Item Name="Set Channels.lvlibp" Type="LVLibp" URL="../../../../build_temp/lvlibp/x64/Set Channels.lvlibp">
-					<Item Name="Get Channel.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/Set Channels.lvlibp/Get Channel.vi"/>
-					<Item Name="Get Multiple Channels.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/Set Channels.lvlibp/Get Multiple Channels.vi"/>
-					<Item Name="MergeError.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/Set Channels.lvlibp/1abvi3w/vi.lib/NI VeriStand/Execution/Shared/MergeError.vi"/>
-					<Item Name="NI_VS Workspace ExecutionAPI.lvlib" Type="Library" URL="../../../../build_temp/lvlibp/x64/Set Channels.lvlibp/1abvi3w/vi.lib/NI Veristand/Execution/Workspace/NI_VS Workspace ExecutionAPI.lvlib"/>
-					<Item Name="Set Channel.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/Set Channels.lvlibp/Set Channel.vi"/>
-					<Item Name="Set Multiple Channels.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/Set Channels.lvlibp/Set Multiple Channels.vi"/>
-					<Item Name="TestStand - Close Termination Monitor.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/Set Channels.lvlibp/1abvi3w/vi.lib/addons/TestStand/_TSUtility.llb/TestStand - Close Termination Monitor.vi"/>
-					<Item Name="TestStand - Get Termination Monitor Status.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/Set Channels.lvlibp/1abvi3w/vi.lib/addons/TestStand/_TSUtility.llb/TestStand - Get Termination Monitor Status.vi"/>
-					<Item Name="TestStand - Initialize Termination Monitor.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/Set Channels.lvlibp/1abvi3w/vi.lib/addons/TestStand/_TSUtility.llb/TestStand - Initialize Termination Monitor.vi"/>
-					<Item Name="TestStand - Status Monitor.ctl" Type="VI" URL="../../../../build_temp/lvlibp/x64/Set Channels.lvlibp/1abvi3w/vi.lib/addons/TestStand/_TSUtility.llb/TestStand - Status Monitor.ctl"/>
-				</Item>
+				<Item Name="Logging.lvlibp" Type="LVLibp" URL="../../../../build_temp/lvlibp/x64/Logging.lvlibp"/>
+				<Item Name="MiscHelperVIs.lvlibp" Type="LVLibp" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp"/>
+				<Item Name="RTSequenceVIs.lvlibp" Type="LVLibp" URL="../../../../build_temp/lvlibp/x64/RTSequenceVIs.lvlibp"/>
+				<Item Name="Set Channels.lvlibp" Type="LVLibp" URL="../../../../build_temp/lvlibp/x64/Set Channels.lvlibp"/>
 			</Item>
 			<Item Name="x86" Type="Folder">
-				<Item Name="Logging.lvlibp" Type="LVLibp" URL="../../../../build_temp/lvlibp/x86/Logging.lvlibp">
-					<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/Logging.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
-					<Item Name="MergeError.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/Logging.lvlibp/1abvi3w/vi.lib/NI VeriStand/Execution/Shared/MergeError.vi"/>
-					<Item Name="NI_VS Data Logging API.lvlib" Type="Library" URL="../../../../build_temp/lvlibp/x86/Logging.lvlibp/1abvi3w/vi.lib/NI Veristand/Execution/DataLogging/NI_VS Data Logging API.lvlib"/>
-					<Item Name="NI_VS Workspace ExecutionAPI.lvlib" Type="Library" URL="../../../../build_temp/lvlibp/x86/Logging.lvlibp/1abvi3w/vi.lib/NI VeriStand/Execution/Workspace/NI_VS Workspace ExecutionAPI.lvlib"/>
-					<Item Name="Start logging.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/Logging.lvlibp/Start logging.vi"/>
-					<Item Name="Stop Logging.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/Logging.lvlibp/Stop Logging.vi"/>
-					<Item Name="To .NET Object.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/Logging.lvlibp/1abvi3w/vi.lib/Platform/dotnet.llb/To .NET Object.vi"/>
-					<Item Name="VariantType.lvlib" Type="Library" URL="../../../../build_temp/lvlibp/x86/Logging.lvlibp/1abvi3w/vi.lib/Utility/VariantDataType/VariantType.lvlib"/>
-				</Item>
-				<Item Name="MiscHelperVIs.lvlibp" Type="LVLibp" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp">
-					<Item Name="application" Type="Folder">
-						<Item Name="VeristandInitialize.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/application/VeristandInitialize.vi"/>
-						<Item Name="VeristandStart.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/application/VeristandStart.vi"/>
-						<Item Name="VeristandStop.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/application/VeristandStop.vi"/>
-					</Item>
-					<Item Name="controls" Type="Folder">
-						<Item Name="VeriStand dotNet References.ctl" Type="VI" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/controls/VeriStand dotNet References.ctl"/>
-					</Item>
-					<Item Name="errors" Type="Folder">
-						<Item Name="ResolveError.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/errors/ResolveError.vi"/>
-					</Item>
-					<Item Name="faults" Type="Folder">
-						<Item Name="FaultClear.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/faults/FaultClear.vi"/>
-						<Item Name="FaultClearAll.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/faults/FaultClearAll.vi"/>
-						<Item Name="FaultGetValue.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/faults/FaultGetValue.vi"/>
-						<Item Name="FaultSetValue.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/faults/FaultSetValue.vi"/>
-					</Item>
-					<Item Name="models" Type="Folder">
-						<Item Name="ModelParameterValueGet.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/Models/ModelParameterValueGet.vi"/>
-						<Item Name="ModelParameterValueSet.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/Models/ModelParameterValueSet.vi"/>
-						<Item Name="ModelParameterValueUpdateFromFile.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/Models/ModelParameterValueUpdateFromFile.vi"/>
-					</Item>
-					<Item Name="project" Type="Folder">
-						<Item Name="ProjectClose.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/project/ProjectClose.vi"/>
-						<Item Name="ProjectConnect.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/project/ProjectConnect.vi"/>
-						<Item Name="ProjectDeploy.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/project/ProjectDeploy.vi"/>
-						<Item Name="ProjectDisconnect.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/project/ProjectDisconnect.vi"/>
-						<Item Name="ProjectOpen.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/project/ProjectOpen.vi"/>
-						<Item Name="ProjectOpenReferences.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/project/ProjectOpenReferences.vi"/>
-						<Item Name="ProjectRun.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/project/ProjectRun.vi"/>
-						<Item Name="ProjectSilentConnect.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/project/ProjectSilentConnect.vi"/>
-						<Item Name="ProjectSilentDisconnect.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/project/ProjectSilentDisconnect.vi"/>
-						<Item Name="ProjectUndeploy.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/project/ProjectUndeploy.vi"/>
-					</Item>
-					<Item Name="references" Type="Folder">
-						<Item Name="FileGlobalsCreate.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/references/FileGlobalsCreate.vi"/>
-						<Item Name="ReferencesFGV.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/references/ReferencesFGV.vi"/>
-					</Item>
-					<Item Name="subVIs" Type="Folder">
-						<Item Name="64BitOSCheck.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/subVIs/64BitOSCheck.vi"/>
-					</Item>
-					<Item Name="workspace" Type="Folder">
-						<Item Name="WorkspaceOpenClose.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/workspace/WorkspaceOpenClose.vi"/>
-					</Item>
-					<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
-					<Item Name="Get System Directory.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/1abvi3w/vi.lib/Utility/sysdir.llb/Get System Directory.vi"/>
-					<Item Name="MergeError.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/1abvi3w/vi.lib/NI VeriStand/Execution/Shared/MergeError.vi"/>
-					<Item Name="NI_VS ChannelFault ExecutionAPI.lvlib" Type="Library" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/1abvi3w/vi.lib/NI Veristand/Execution/ChannelFaultManager/NI_VS ChannelFault ExecutionAPI.lvlib"/>
-					<Item Name="NI_VS ModelManager ExecutionAPI.lvlib" Type="Library" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/1abvi3w/vi.lib/NI Veristand/Execution/ModelManager/NI_VS ModelManager ExecutionAPI.lvlib"/>
-					<Item Name="NI_VS Project ExecutionAPI.lvlib" Type="Library" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/1abvi3w/vi.lib/NI Veristand/Execution/Project/NI_VS Project ExecutionAPI.lvlib"/>
-					<Item Name="NI_VS Workspace ExecutionAPI.lvlib" Type="Library" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/1abvi3w/vi.lib/NI Veristand/Execution/Workspace/NI_VS Workspace ExecutionAPI.lvlib"/>
-					<Item Name="Space Constant.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/1abvi3w/vi.lib/dlg_ctls.llb/Space Constant.vi"/>
-					<Item Name="System Exec.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/1abvi3w/vi.lib/Platform/system.llb/System Exec.vi"/>
-				</Item>
-				<Item Name="RTSequenceVIs.lvlibp" Type="LVLibp" URL="../../../../build_temp/lvlibp/x86/RTSequenceVIs.lvlibp">
-					<Item Name="subVIs" Type="Folder">
-						<Item Name="Build Parameter Assignment Array.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/RTSequenceVIs.lvlibp/subVIs/Build Parameter Assignment Array.vi"/>
-						<Item Name="Expression Array String to Expression Array.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/RTSequenceVIs.lvlibp/subVIs/Expression Array String to Expression Array.vi"/>
-						<Item Name="Remove First and Last Characters.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/RTSequenceVIs.lvlibp/subVIs/Remove First and Last Characters.vi"/>
-					</Item>
-					<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/RTSequenceVIs.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
-					<Item Name="LabVIEW Test - Sequence Context.ctl" Type="VI" URL="../../../../build_temp/lvlibp/x86/RTSequenceVIs.lvlibp/1abvi3w/vi.lib/addons/TestStand/_TSLegacy.llb/LabVIEW Test - Sequence Context.ctl"/>
-					<Item Name="MergeError.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/RTSequenceVIs.lvlibp/1abvi3w/vi.lib/NI VeriStand/Execution/Shared/MergeError.vi"/>
-					<Item Name="NI_VS Sequence Execution Interface.lvlib" Type="Library" URL="../../../../build_temp/lvlibp/x86/RTSequenceVIs.lvlibp/1abvi3w/vi.lib/NI Veristand/Execution/SequenceExecutionInterface/NI_VS Sequence Execution Interface.lvlib"/>
-					<Item Name="NI_VS Workspace ExecutionAPI.lvlib" Type="Library" URL="../../../../build_temp/lvlibp/x86/RTSequenceVIs.lvlibp/1abvi3w/vi.lib/NI VeriStand/Execution/Workspace/NI_VS Workspace ExecutionAPI.lvlib"/>
-					<Item Name="Run RT Sequence.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/RTSequenceVIs.lvlibp/Run RT Sequence.vi"/>
-					<Item Name="Run Stimulus Profile.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/RTSequenceVIs.lvlibp/Run Stimulus Profile.vi"/>
-					<Item Name="TestStand - Close Termination Monitor.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/RTSequenceVIs.lvlibp/1abvi3w/vi.lib/addons/TestStand/_TSUtility.llb/TestStand - Close Termination Monitor.vi"/>
-					<Item Name="TestStand - Get Termination Monitor Status.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/RTSequenceVIs.lvlibp/1abvi3w/vi.lib/addons/TestStand/_TSUtility.llb/TestStand - Get Termination Monitor Status.vi"/>
-					<Item Name="TestStand - Initialize Termination Monitor.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/RTSequenceVIs.lvlibp/1abvi3w/vi.lib/addons/TestStand/_TSUtility.llb/TestStand - Initialize Termination Monitor.vi"/>
-					<Item Name="TestStand - Status Monitor.ctl" Type="VI" URL="../../../../build_temp/lvlibp/x86/RTSequenceVIs.lvlibp/1abvi3w/vi.lib/addons/TestStand/_TSUtility.llb/TestStand - Status Monitor.ctl"/>
-				</Item>
-				<Item Name="Set Channels.lvlibp" Type="LVLibp" URL="../../../../build_temp/lvlibp/x86/Set Channels.lvlibp">
-					<Item Name="Get Channel.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/Set Channels.lvlibp/Get Channel.vi"/>
-					<Item Name="Get Multiple Channels.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/Set Channels.lvlibp/Get Multiple Channels.vi"/>
-					<Item Name="MergeError.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/Set Channels.lvlibp/1abvi3w/vi.lib/NI VeriStand/Execution/Shared/MergeError.vi"/>
-					<Item Name="NI_VS Workspace ExecutionAPI.lvlib" Type="Library" URL="../../../../build_temp/lvlibp/x86/Set Channels.lvlibp/1abvi3w/vi.lib/NI Veristand/Execution/Workspace/NI_VS Workspace ExecutionAPI.lvlib"/>
-					<Item Name="Set Channel.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/Set Channels.lvlibp/Set Channel.vi"/>
-					<Item Name="Set Multiple Channels.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/Set Channels.lvlibp/Set Multiple Channels.vi"/>
-					<Item Name="TestStand - Close Termination Monitor.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/Set Channels.lvlibp/1abvi3w/vi.lib/addons/TestStand/_TSUtility.llb/TestStand - Close Termination Monitor.vi"/>
-					<Item Name="TestStand - Get Termination Monitor Status.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/Set Channels.lvlibp/1abvi3w/vi.lib/addons/TestStand/_TSUtility.llb/TestStand - Get Termination Monitor Status.vi"/>
-					<Item Name="TestStand - Initialize Termination Monitor.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/Set Channels.lvlibp/1abvi3w/vi.lib/addons/TestStand/_TSUtility.llb/TestStand - Initialize Termination Monitor.vi"/>
-					<Item Name="TestStand - Status Monitor.ctl" Type="VI" URL="../../../../build_temp/lvlibp/x86/Set Channels.lvlibp/1abvi3w/vi.lib/addons/TestStand/_TSUtility.llb/TestStand - Status Monitor.ctl"/>
-				</Item>
+				<Item Name="Logging.lvlibp" Type="LVLibp" URL="../../../../build_temp/lvlibp/x86/Logging.lvlibp"/>
+				<Item Name="MiscHelperVIs.lvlibp" Type="LVLibp" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp"/>
+				<Item Name="RTSequenceVIs.lvlibp" Type="LVLibp" URL="../../../../build_temp/lvlibp/x86/RTSequenceVIs.lvlibp"/>
+				<Item Name="Set Channels.lvlibp" Type="LVLibp" URL="../../../../build_temp/lvlibp/x86/Set Channels.lvlibp"/>
 			</Item>
 		</Item>
 		<Item Name="subVIs" Type="Folder">
@@ -241,10 +59,12 @@
 		<Item Name="VeristandSteps Assembly" Type="Folder">
 			<Item Name="NationalInstruments.Veristand.VeristandSteps.dll" Type="Document" URL="../../../../build_temp/NationalInstruments.Veristand.VeristandSteps.dll"/>
 		</Item>
+		<Item Name="BuildVIs.lvlib" Type="Library" URL="../../BuildVIs/BuildVIs.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
+				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
@@ -268,6 +88,7 @@
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
@@ -282,24 +103,6 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="mscorlib" Type="VI" URL="mscorlib">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="NationalInstruments.VeriStand" Type="Document" URL="NationalInstruments.VeriStand">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="NationalInstruments.VeriStand.ClientAPI" Type="Document" URL="NationalInstruments.VeriStand.ClientAPI">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="NationalInstruments.VeriStand.DataTypes" Type="Document" URL="NationalInstruments.VeriStand.DataTypes">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="NationalInstruments.VeriStand.RealTimeSequenceDefinitionApi" Type="Document" URL="NationalInstruments.VeriStand.RealTimeSequenceDefinitionApi">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Post Install Action" Type="EXE">
@@ -313,22 +116,24 @@
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Users/admin/Documents/github/adchurch/VeriStand-steps-for-TestStand/build_temp</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../build_temp</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/BuildVIs.lvlib/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B304BD25-3C20-4104-8DAF-694A7DC08EDC}</Property>
 				<Property Name="Bld_version.build" Type="Int">50</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">PostInstallAction.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Users/admin/Documents/github/adchurch/VeriStand-steps-for-TestStand/build_temp/PostInstallAction.exe</Property>
-				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].path" Type="Path">../build_temp/PostInstallAction.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/Users/admin/Documents/github/adchurch/VeriStand-steps-for-TestStand/build_temp/data</Property>
-				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[1].path" Type="Path">../build_temp/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{393E4D33-A82B-43C0-AF6D-346FA96C41FA}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{3285DF35-1717-4B21-9D2D-7096C80E4191}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Install Actions/Post-Install Action.vi</Property>
@@ -354,22 +159,24 @@
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Users/admin/Documents/github/adchurch/VeriStand-steps-for-TestStand/build_temp</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../build_temp</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/BuildVIs.lvlib/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{DB3A548B-1162-40B0-A1A9-44D31209883C}</Property>
 				<Property Name="Bld_version.build" Type="Int">8</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">PreUninstallAction.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Users/admin/Documents/github/adchurch/VeriStand-steps-for-TestStand/build_temp/PreUninstallAction.exe</Property>
-				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].path" Type="Path">../build_temp/PreUninstallAction.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/Users/admin/Documents/github/adchurch/VeriStand-steps-for-TestStand/build_temp/data</Property>
-				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[1].path" Type="Path">../build_temp/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{393E4D33-A82B-43C0-AF6D-346FA96C41FA}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{3285DF35-1717-4B21-9D2D-7096C80E4191}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Install Actions/Pre-Uninstall Action.vi</Property>
