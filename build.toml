@@ -1,5 +1,5 @@
 [archive]
-build_output_dir = 'Built'
+build_output_dir = 'Source\LV\Installer\built'
 archive_location = '\\us-aus-hilbuild\builds\niveristandadd-ons\archive\addons\veristand steps for teststand'
 
 [projects.misc]

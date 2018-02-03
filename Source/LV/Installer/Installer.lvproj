@@ -246,13 +246,13 @@
 				<Property Name="Destination[9].type" Type="Str">userFolder</Property>
 				<Property Name="DestinationCount" Type="Int">13</Property>
 				<Property Name="INST_author" Type="Str">NIC SE</Property>
-				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
-				<Property Name="INST_buildLocation" Type="Path">/C/Users/admin/Documents/github/adchurch/VeriStand-steps-for-TestStand/built/teststand-2014</Property>
+				<Property Name="INST_buildLocation" Type="Path">../Installer/built/teststand2014</Property>
+				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
 				<Property Name="INST_buildSpecName" Type="Str">TestStand 2014 Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{8A84B098-97AA-4F5B-8F0A-427266B807F6}</Property>
 				<Property Name="INST_includeError" Type="Bool">false</Property>
 				<Property Name="INST_productName" Type="Str">VeriStand Steps for TestStand</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.57</Property>
+				<Property Name="INST_productVersion" Type="Str">7.1.0</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">15018004</Property>
 				<Property Name="MSI_arpCompany" Type="Str">National Instruments Systems Engineering</Property>
