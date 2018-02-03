@@ -119,7 +119,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../build_temp</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/BuildVIs.lvlib/Post-Build Action.vi</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/BuildVIs.lvlib/Post-Build Action Post Pre Install.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B304BD25-3C20-4104-8DAF-694A7DC08EDC}</Property>
 				<Property Name="Bld_version.build" Type="Int">50</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
@@ -133,7 +133,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{3285DF35-1717-4B21-9D2D-7096C80E4191}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{AEDFEB64-F30D-4E9A-8BC6-D55DB8F87FC4}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Install Actions/Post-Install Action.vi</Property>
@@ -162,7 +162,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../build_temp</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/BuildVIs.lvlib/Post-Build Action.vi</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/BuildVIs.lvlib/Post-Build Action Post Pre Install.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{DB3A548B-1162-40B0-A1A9-44D31209883C}</Property>
 				<Property Name="Bld_version.build" Type="Int">8</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
@@ -176,7 +176,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{3285DF35-1717-4B21-9D2D-7096C80E4191}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{AEDFEB64-F30D-4E9A-8BC6-D55DB8F87FC4}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Install Actions/Pre-Uninstall Action.vi</Property>

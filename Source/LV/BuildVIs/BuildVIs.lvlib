@@ -4,5 +4,6 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">352354304</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="Post-Build Action Post Pre Install.vi" Type="VI" URL="../Post-Build Action Post Pre Install.vi"/>
 	<Item Name="Post-Build Action.vi" Type="VI" URL="../Post-Build Action.vi"/>
 </Library>
