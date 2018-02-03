@@ -31,10 +31,200 @@
 			<Item Name="LICENSE.txt" Type="Document" URL="../../../../LICENSE.txt"/>
 		</Item>
 		<Item Name="PPLs" Type="Folder">
-			<Item Name="Logging.lvlibp" Type="LVLibp" URL="../../../../build_temp/Logging.lvlibp"/>
-			<Item Name="MiscHelperVIs.lvlibp" Type="LVLibp" URL="../../../../build_temp/MiscHelperVIs.lvlibp"/>
-			<Item Name="RTSequenceVIs.lvlibp" Type="LVLibp" URL="../../../../build_temp/RTSequenceVIs.lvlibp"/>
-			<Item Name="Set Channels.lvlibp" Type="LVLibp" URL="../../../../build_temp/Set Channels.lvlibp"/>
+			<Item Name="x64" Type="Folder">
+				<Item Name="Logging.lvlibp" Type="LVLibp" URL="../../../../build_temp/lvlibp/x64/Logging.lvlibp">
+					<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/Logging.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
+					<Item Name="MergeError.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/Logging.lvlibp/1abvi3w/vi.lib/NI VeriStand/Execution/Shared/MergeError.vi"/>
+					<Item Name="NI_VS Data Logging API.lvlib" Type="Library" URL="../../../../build_temp/lvlibp/x64/Logging.lvlibp/1abvi3w/vi.lib/NI Veristand/Execution/DataLogging/NI_VS Data Logging API.lvlib"/>
+					<Item Name="NI_VS Workspace ExecutionAPI.lvlib" Type="Library" URL="../../../../build_temp/lvlibp/x64/Logging.lvlibp/1abvi3w/vi.lib/NI VeriStand/Execution/Workspace/NI_VS Workspace ExecutionAPI.lvlib"/>
+					<Item Name="Start logging.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/Logging.lvlibp/Start logging.vi"/>
+					<Item Name="Stop Logging.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/Logging.lvlibp/Stop Logging.vi"/>
+					<Item Name="To .NET Object.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/Logging.lvlibp/1abvi3w/vi.lib/Platform/dotnet.llb/To .NET Object.vi"/>
+					<Item Name="VariantType.lvlib" Type="Library" URL="../../../../build_temp/lvlibp/x64/Logging.lvlibp/1abvi3w/vi.lib/Utility/VariantDataType/VariantType.lvlib"/>
+				</Item>
+				<Item Name="MiscHelperVIs.lvlibp" Type="LVLibp" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp">
+					<Item Name="application" Type="Folder">
+						<Item Name="VeristandInitialize.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/application/VeristandInitialize.vi"/>
+						<Item Name="VeristandStart.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/application/VeristandStart.vi"/>
+						<Item Name="VeristandStop.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/application/VeristandStop.vi"/>
+					</Item>
+					<Item Name="controls" Type="Folder">
+						<Item Name="VeriStand dotNet References.ctl" Type="VI" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/controls/VeriStand dotNet References.ctl"/>
+					</Item>
+					<Item Name="errors" Type="Folder">
+						<Item Name="ResolveError.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/errors/ResolveError.vi"/>
+					</Item>
+					<Item Name="faults" Type="Folder">
+						<Item Name="FaultClear.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/faults/FaultClear.vi"/>
+						<Item Name="FaultClearAll.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/faults/FaultClearAll.vi"/>
+						<Item Name="FaultGetValue.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/faults/FaultGetValue.vi"/>
+						<Item Name="FaultSetValue.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/faults/FaultSetValue.vi"/>
+					</Item>
+					<Item Name="models" Type="Folder">
+						<Item Name="ModelParameterValueGet.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/Models/ModelParameterValueGet.vi"/>
+						<Item Name="ModelParameterValueSet.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/Models/ModelParameterValueSet.vi"/>
+						<Item Name="ModelParameterValueUpdateFromFile.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/Models/ModelParameterValueUpdateFromFile.vi"/>
+					</Item>
+					<Item Name="project" Type="Folder">
+						<Item Name="ProjectClose.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/project/ProjectClose.vi"/>
+						<Item Name="ProjectConnect.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/project/ProjectConnect.vi"/>
+						<Item Name="ProjectDeploy.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/project/ProjectDeploy.vi"/>
+						<Item Name="ProjectDisconnect.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/project/ProjectDisconnect.vi"/>
+						<Item Name="ProjectOpen.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/project/ProjectOpen.vi"/>
+						<Item Name="ProjectOpenReferences.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/project/ProjectOpenReferences.vi"/>
+						<Item Name="ProjectRun.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/project/ProjectRun.vi"/>
+						<Item Name="ProjectSilentConnect.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/project/ProjectSilentConnect.vi"/>
+						<Item Name="ProjectSilentDisconnect.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/project/ProjectSilentDisconnect.vi"/>
+						<Item Name="ProjectUndeploy.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/project/ProjectUndeploy.vi"/>
+					</Item>
+					<Item Name="references" Type="Folder">
+						<Item Name="FileGlobalsCreate.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/references/FileGlobalsCreate.vi"/>
+						<Item Name="ReferencesFGV.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/references/ReferencesFGV.vi"/>
+					</Item>
+					<Item Name="subVIs" Type="Folder">
+						<Item Name="64BitOSCheck.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/subVIs/64BitOSCheck.vi"/>
+					</Item>
+					<Item Name="workspace" Type="Folder">
+						<Item Name="WorkspaceOpenClose.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/workspace/WorkspaceOpenClose.vi"/>
+					</Item>
+					<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
+					<Item Name="Get System Directory.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/1abvi3w/vi.lib/Utility/sysdir.llb/Get System Directory.vi"/>
+					<Item Name="MergeError.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/1abvi3w/vi.lib/NI VeriStand/Execution/Shared/MergeError.vi"/>
+					<Item Name="NI_VS ChannelFault ExecutionAPI.lvlib" Type="Library" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/1abvi3w/vi.lib/NI Veristand/Execution/ChannelFaultManager/NI_VS ChannelFault ExecutionAPI.lvlib"/>
+					<Item Name="NI_VS ModelManager ExecutionAPI.lvlib" Type="Library" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/1abvi3w/vi.lib/NI Veristand/Execution/ModelManager/NI_VS ModelManager ExecutionAPI.lvlib"/>
+					<Item Name="NI_VS Project ExecutionAPI.lvlib" Type="Library" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/1abvi3w/vi.lib/NI Veristand/Execution/Project/NI_VS Project ExecutionAPI.lvlib"/>
+					<Item Name="NI_VS Workspace ExecutionAPI.lvlib" Type="Library" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/1abvi3w/vi.lib/NI Veristand/Execution/Workspace/NI_VS Workspace ExecutionAPI.lvlib"/>
+					<Item Name="Space Constant.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/1abvi3w/vi.lib/dlg_ctls.llb/Space Constant.vi"/>
+					<Item Name="System Exec.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/MiscHelperVIs.lvlibp/1abvi3w/vi.lib/Platform/system.llb/System Exec.vi"/>
+				</Item>
+				<Item Name="RTSequenceVIs.lvlibp" Type="LVLibp" URL="../../../../build_temp/lvlibp/x64/RTSequenceVIs.lvlibp">
+					<Item Name="subVIs" Type="Folder">
+						<Item Name="Build Parameter Assignment Array.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/RTSequenceVIs.lvlibp/subVIs/Build Parameter Assignment Array.vi"/>
+						<Item Name="Expression Array String to Expression Array.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/RTSequenceVIs.lvlibp/subVIs/Expression Array String to Expression Array.vi"/>
+						<Item Name="Remove First and Last Characters.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/RTSequenceVIs.lvlibp/subVIs/Remove First and Last Characters.vi"/>
+					</Item>
+					<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/RTSequenceVIs.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
+					<Item Name="LabVIEW Test - Sequence Context.ctl" Type="VI" URL="../../../../build_temp/lvlibp/x64/RTSequenceVIs.lvlibp/1abvi3w/vi.lib/addons/TestStand/_TSLegacy.llb/LabVIEW Test - Sequence Context.ctl"/>
+					<Item Name="MergeError.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/RTSequenceVIs.lvlibp/1abvi3w/vi.lib/NI VeriStand/Execution/Shared/MergeError.vi"/>
+					<Item Name="NI_VS Sequence Execution Interface.lvlib" Type="Library" URL="../../../../build_temp/lvlibp/x64/RTSequenceVIs.lvlibp/1abvi3w/vi.lib/NI Veristand/Execution/SequenceExecutionInterface/NI_VS Sequence Execution Interface.lvlib"/>
+					<Item Name="NI_VS Workspace ExecutionAPI.lvlib" Type="Library" URL="../../../../build_temp/lvlibp/x64/RTSequenceVIs.lvlibp/1abvi3w/vi.lib/NI VeriStand/Execution/Workspace/NI_VS Workspace ExecutionAPI.lvlib"/>
+					<Item Name="Run RT Sequence.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/RTSequenceVIs.lvlibp/Run RT Sequence.vi"/>
+					<Item Name="Run Stimulus Profile.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/RTSequenceVIs.lvlibp/Run Stimulus Profile.vi"/>
+					<Item Name="TestStand - Close Termination Monitor.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/RTSequenceVIs.lvlibp/1abvi3w/vi.lib/addons/TestStand/_TSUtility.llb/TestStand - Close Termination Monitor.vi"/>
+					<Item Name="TestStand - Get Termination Monitor Status.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/RTSequenceVIs.lvlibp/1abvi3w/vi.lib/addons/TestStand/_TSUtility.llb/TestStand - Get Termination Monitor Status.vi"/>
+					<Item Name="TestStand - Initialize Termination Monitor.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/RTSequenceVIs.lvlibp/1abvi3w/vi.lib/addons/TestStand/_TSUtility.llb/TestStand - Initialize Termination Monitor.vi"/>
+					<Item Name="TestStand - Status Monitor.ctl" Type="VI" URL="../../../../build_temp/lvlibp/x64/RTSequenceVIs.lvlibp/1abvi3w/vi.lib/addons/TestStand/_TSUtility.llb/TestStand - Status Monitor.ctl"/>
+				</Item>
+				<Item Name="Set Channels.lvlibp" Type="LVLibp" URL="../../../../build_temp/lvlibp/x64/Set Channels.lvlibp">
+					<Item Name="Get Channel.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/Set Channels.lvlibp/Get Channel.vi"/>
+					<Item Name="Get Multiple Channels.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/Set Channels.lvlibp/Get Multiple Channels.vi"/>
+					<Item Name="MergeError.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/Set Channels.lvlibp/1abvi3w/vi.lib/NI VeriStand/Execution/Shared/MergeError.vi"/>
+					<Item Name="NI_VS Workspace ExecutionAPI.lvlib" Type="Library" URL="../../../../build_temp/lvlibp/x64/Set Channels.lvlibp/1abvi3w/vi.lib/NI Veristand/Execution/Workspace/NI_VS Workspace ExecutionAPI.lvlib"/>
+					<Item Name="Set Channel.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/Set Channels.lvlibp/Set Channel.vi"/>
+					<Item Name="Set Multiple Channels.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/Set Channels.lvlibp/Set Multiple Channels.vi"/>
+					<Item Name="TestStand - Close Termination Monitor.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/Set Channels.lvlibp/1abvi3w/vi.lib/addons/TestStand/_TSUtility.llb/TestStand - Close Termination Monitor.vi"/>
+					<Item Name="TestStand - Get Termination Monitor Status.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/Set Channels.lvlibp/1abvi3w/vi.lib/addons/TestStand/_TSUtility.llb/TestStand - Get Termination Monitor Status.vi"/>
+					<Item Name="TestStand - Initialize Termination Monitor.vi" Type="VI" URL="../../../../build_temp/lvlibp/x64/Set Channels.lvlibp/1abvi3w/vi.lib/addons/TestStand/_TSUtility.llb/TestStand - Initialize Termination Monitor.vi"/>
+					<Item Name="TestStand - Status Monitor.ctl" Type="VI" URL="../../../../build_temp/lvlibp/x64/Set Channels.lvlibp/1abvi3w/vi.lib/addons/TestStand/_TSUtility.llb/TestStand - Status Monitor.ctl"/>
+				</Item>
+			</Item>
+			<Item Name="x86" Type="Folder">
+				<Item Name="Logging.lvlibp" Type="LVLibp" URL="../../../../build_temp/lvlibp/x86/Logging.lvlibp">
+					<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/Logging.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
+					<Item Name="MergeError.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/Logging.lvlibp/1abvi3w/vi.lib/NI VeriStand/Execution/Shared/MergeError.vi"/>
+					<Item Name="NI_VS Data Logging API.lvlib" Type="Library" URL="../../../../build_temp/lvlibp/x86/Logging.lvlibp/1abvi3w/vi.lib/NI Veristand/Execution/DataLogging/NI_VS Data Logging API.lvlib"/>
+					<Item Name="NI_VS Workspace ExecutionAPI.lvlib" Type="Library" URL="../../../../build_temp/lvlibp/x86/Logging.lvlibp/1abvi3w/vi.lib/NI VeriStand/Execution/Workspace/NI_VS Workspace ExecutionAPI.lvlib"/>
+					<Item Name="Start logging.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/Logging.lvlibp/Start logging.vi"/>
+					<Item Name="Stop Logging.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/Logging.lvlibp/Stop Logging.vi"/>
+					<Item Name="To .NET Object.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/Logging.lvlibp/1abvi3w/vi.lib/Platform/dotnet.llb/To .NET Object.vi"/>
+					<Item Name="VariantType.lvlib" Type="Library" URL="../../../../build_temp/lvlibp/x86/Logging.lvlibp/1abvi3w/vi.lib/Utility/VariantDataType/VariantType.lvlib"/>
+				</Item>
+				<Item Name="MiscHelperVIs.lvlibp" Type="LVLibp" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp">
+					<Item Name="application" Type="Folder">
+						<Item Name="VeristandInitialize.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/application/VeristandInitialize.vi"/>
+						<Item Name="VeristandStart.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/application/VeristandStart.vi"/>
+						<Item Name="VeristandStop.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/application/VeristandStop.vi"/>
+					</Item>
+					<Item Name="controls" Type="Folder">
+						<Item Name="VeriStand dotNet References.ctl" Type="VI" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/controls/VeriStand dotNet References.ctl"/>
+					</Item>
+					<Item Name="errors" Type="Folder">
+						<Item Name="ResolveError.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/errors/ResolveError.vi"/>
+					</Item>
+					<Item Name="faults" Type="Folder">
+						<Item Name="FaultClear.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/faults/FaultClear.vi"/>
+						<Item Name="FaultClearAll.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/faults/FaultClearAll.vi"/>
+						<Item Name="FaultGetValue.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/faults/FaultGetValue.vi"/>
+						<Item Name="FaultSetValue.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/faults/FaultSetValue.vi"/>
+					</Item>
+					<Item Name="models" Type="Folder">
+						<Item Name="ModelParameterValueGet.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/Models/ModelParameterValueGet.vi"/>
+						<Item Name="ModelParameterValueSet.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/Models/ModelParameterValueSet.vi"/>
+						<Item Name="ModelParameterValueUpdateFromFile.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/Models/ModelParameterValueUpdateFromFile.vi"/>
+					</Item>
+					<Item Name="project" Type="Folder">
+						<Item Name="ProjectClose.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/project/ProjectClose.vi"/>
+						<Item Name="ProjectConnect.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/project/ProjectConnect.vi"/>
+						<Item Name="ProjectDeploy.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/project/ProjectDeploy.vi"/>
+						<Item Name="ProjectDisconnect.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/project/ProjectDisconnect.vi"/>
+						<Item Name="ProjectOpen.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/project/ProjectOpen.vi"/>
+						<Item Name="ProjectOpenReferences.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/project/ProjectOpenReferences.vi"/>
+						<Item Name="ProjectRun.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/project/ProjectRun.vi"/>
+						<Item Name="ProjectSilentConnect.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/project/ProjectSilentConnect.vi"/>
+						<Item Name="ProjectSilentDisconnect.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/project/ProjectSilentDisconnect.vi"/>
+						<Item Name="ProjectUndeploy.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/project/ProjectUndeploy.vi"/>
+					</Item>
+					<Item Name="references" Type="Folder">
+						<Item Name="FileGlobalsCreate.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/references/FileGlobalsCreate.vi"/>
+						<Item Name="ReferencesFGV.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/references/ReferencesFGV.vi"/>
+					</Item>
+					<Item Name="subVIs" Type="Folder">
+						<Item Name="64BitOSCheck.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/subVIs/64BitOSCheck.vi"/>
+					</Item>
+					<Item Name="workspace" Type="Folder">
+						<Item Name="WorkspaceOpenClose.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/workspace/WorkspaceOpenClose.vi"/>
+					</Item>
+					<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
+					<Item Name="Get System Directory.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/1abvi3w/vi.lib/Utility/sysdir.llb/Get System Directory.vi"/>
+					<Item Name="MergeError.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/1abvi3w/vi.lib/NI VeriStand/Execution/Shared/MergeError.vi"/>
+					<Item Name="NI_VS ChannelFault ExecutionAPI.lvlib" Type="Library" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/1abvi3w/vi.lib/NI Veristand/Execution/ChannelFaultManager/NI_VS ChannelFault ExecutionAPI.lvlib"/>
+					<Item Name="NI_VS ModelManager ExecutionAPI.lvlib" Type="Library" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/1abvi3w/vi.lib/NI Veristand/Execution/ModelManager/NI_VS ModelManager ExecutionAPI.lvlib"/>
+					<Item Name="NI_VS Project ExecutionAPI.lvlib" Type="Library" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/1abvi3w/vi.lib/NI Veristand/Execution/Project/NI_VS Project ExecutionAPI.lvlib"/>
+					<Item Name="NI_VS Workspace ExecutionAPI.lvlib" Type="Library" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/1abvi3w/vi.lib/NI Veristand/Execution/Workspace/NI_VS Workspace ExecutionAPI.lvlib"/>
+					<Item Name="Space Constant.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/1abvi3w/vi.lib/dlg_ctls.llb/Space Constant.vi"/>
+					<Item Name="System Exec.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/MiscHelperVIs.lvlibp/1abvi3w/vi.lib/Platform/system.llb/System Exec.vi"/>
+				</Item>
+				<Item Name="RTSequenceVIs.lvlibp" Type="LVLibp" URL="../../../../build_temp/lvlibp/x86/RTSequenceVIs.lvlibp">
+					<Item Name="subVIs" Type="Folder">
+						<Item Name="Build Parameter Assignment Array.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/RTSequenceVIs.lvlibp/subVIs/Build Parameter Assignment Array.vi"/>
+						<Item Name="Expression Array String to Expression Array.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/RTSequenceVIs.lvlibp/subVIs/Expression Array String to Expression Array.vi"/>
+						<Item Name="Remove First and Last Characters.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/RTSequenceVIs.lvlibp/subVIs/Remove First and Last Characters.vi"/>
+					</Item>
+					<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/RTSequenceVIs.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
+					<Item Name="LabVIEW Test - Sequence Context.ctl" Type="VI" URL="../../../../build_temp/lvlibp/x86/RTSequenceVIs.lvlibp/1abvi3w/vi.lib/addons/TestStand/_TSLegacy.llb/LabVIEW Test - Sequence Context.ctl"/>
+					<Item Name="MergeError.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/RTSequenceVIs.lvlibp/1abvi3w/vi.lib/NI VeriStand/Execution/Shared/MergeError.vi"/>
+					<Item Name="NI_VS Sequence Execution Interface.lvlib" Type="Library" URL="../../../../build_temp/lvlibp/x86/RTSequenceVIs.lvlibp/1abvi3w/vi.lib/NI Veristand/Execution/SequenceExecutionInterface/NI_VS Sequence Execution Interface.lvlib"/>
+					<Item Name="NI_VS Workspace ExecutionAPI.lvlib" Type="Library" URL="../../../../build_temp/lvlibp/x86/RTSequenceVIs.lvlibp/1abvi3w/vi.lib/NI VeriStand/Execution/Workspace/NI_VS Workspace ExecutionAPI.lvlib"/>
+					<Item Name="Run RT Sequence.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/RTSequenceVIs.lvlibp/Run RT Sequence.vi"/>
+					<Item Name="Run Stimulus Profile.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/RTSequenceVIs.lvlibp/Run Stimulus Profile.vi"/>
+					<Item Name="TestStand - Close Termination Monitor.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/RTSequenceVIs.lvlibp/1abvi3w/vi.lib/addons/TestStand/_TSUtility.llb/TestStand - Close Termination Monitor.vi"/>
+					<Item Name="TestStand - Get Termination Monitor Status.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/RTSequenceVIs.lvlibp/1abvi3w/vi.lib/addons/TestStand/_TSUtility.llb/TestStand - Get Termination Monitor Status.vi"/>
+					<Item Name="TestStand - Initialize Termination Monitor.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/RTSequenceVIs.lvlibp/1abvi3w/vi.lib/addons/TestStand/_TSUtility.llb/TestStand - Initialize Termination Monitor.vi"/>
+					<Item Name="TestStand - Status Monitor.ctl" Type="VI" URL="../../../../build_temp/lvlibp/x86/RTSequenceVIs.lvlibp/1abvi3w/vi.lib/addons/TestStand/_TSUtility.llb/TestStand - Status Monitor.ctl"/>
+				</Item>
+				<Item Name="Set Channels.lvlibp" Type="LVLibp" URL="../../../../build_temp/lvlibp/x86/Set Channels.lvlibp">
+					<Item Name="Get Channel.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/Set Channels.lvlibp/Get Channel.vi"/>
+					<Item Name="Get Multiple Channels.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/Set Channels.lvlibp/Get Multiple Channels.vi"/>
+					<Item Name="MergeError.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/Set Channels.lvlibp/1abvi3w/vi.lib/NI VeriStand/Execution/Shared/MergeError.vi"/>
+					<Item Name="NI_VS Workspace ExecutionAPI.lvlib" Type="Library" URL="../../../../build_temp/lvlibp/x86/Set Channels.lvlibp/1abvi3w/vi.lib/NI Veristand/Execution/Workspace/NI_VS Workspace ExecutionAPI.lvlib"/>
+					<Item Name="Set Channel.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/Set Channels.lvlibp/Set Channel.vi"/>
+					<Item Name="Set Multiple Channels.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/Set Channels.lvlibp/Set Multiple Channels.vi"/>
+					<Item Name="TestStand - Close Termination Monitor.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/Set Channels.lvlibp/1abvi3w/vi.lib/addons/TestStand/_TSUtility.llb/TestStand - Close Termination Monitor.vi"/>
+					<Item Name="TestStand - Get Termination Monitor Status.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/Set Channels.lvlibp/1abvi3w/vi.lib/addons/TestStand/_TSUtility.llb/TestStand - Get Termination Monitor Status.vi"/>
+					<Item Name="TestStand - Initialize Termination Monitor.vi" Type="VI" URL="../../../../build_temp/lvlibp/x86/Set Channels.lvlibp/1abvi3w/vi.lib/addons/TestStand/_TSUtility.llb/TestStand - Initialize Termination Monitor.vi"/>
+					<Item Name="TestStand - Status Monitor.ctl" Type="VI" URL="../../../../build_temp/lvlibp/x86/Set Channels.lvlibp/1abvi3w/vi.lib/addons/TestStand/_TSUtility.llb/TestStand - Status Monitor.ctl"/>
+				</Item>
+			</Item>
 		</Item>
 		<Item Name="subVIs" Type="Folder">
 			<Item Name="Log.RetrievePaths.vi" Type="VI" URL="../subVIs/Log.RetrievePaths.vi"/>
@@ -91,6 +281,24 @@
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+			</Item>
+			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="mscorlib" Type="VI" URL="mscorlib">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="NationalInstruments.VeriStand" Type="Document" URL="NationalInstruments.VeriStand">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="NationalInstruments.VeriStand.ClientAPI" Type="Document" URL="NationalInstruments.VeriStand.ClientAPI">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="NationalInstruments.VeriStand.DataTypes" Type="Document" URL="NationalInstruments.VeriStand.DataTypes">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="NationalInstruments.VeriStand.RealTimeSequenceDefinitionApi" Type="Document" URL="NationalInstruments.VeriStand.RealTimeSequenceDefinitionApi">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
@@ -185,6 +393,18 @@
 				<Property Name="Destination[1].parent" Type="Str">{C63B6F86-C439-4240-9AAE-EC6A9DDD0A29}</Property>
 				<Property Name="Destination[1].tag" Type="Str">{C06F42D9-8548-4D1E-8C81-A5F0400B34FC}</Property>
 				<Property Name="Destination[1].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[10].name" Type="Str">Components</Property>
+				<Property Name="Destination[10].parent" Type="Str">{A846A1DE-25DD-4C8A-83AB-2FBADF07FE71}</Property>
+				<Property Name="Destination[10].tag" Type="Str">{918E94C2-172F-446B-A343-9600F80A28AA}</Property>
+				<Property Name="Destination[10].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[11].name" Type="Str">Icons</Property>
+				<Property Name="Destination[11].parent" Type="Str">{918E94C2-172F-446B-A343-9600F80A28AA}</Property>
+				<Property Name="Destination[11].tag" Type="Str">{63DBCFCD-E440-4AB5-9C08-4CF688B3A9A5}</Property>
+				<Property Name="Destination[11].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[12].name" Type="Str">TypePalettes</Property>
+				<Property Name="Destination[12].parent" Type="Str">{918E94C2-172F-446B-A343-9600F80A28AA}</Property>
+				<Property Name="Destination[12].tag" Type="Str">{48D9A840-CF89-4A95-97BA-C6A5FEA57855}</Property>
+				<Property Name="Destination[12].type" Type="Str">userFolder</Property>
 				<Property Name="Destination[2].name" Type="Str">Public</Property>
 				<Property Name="Destination[2].parent" Type="Str">{C06F42D9-8548-4D1E-8C81-A5F0400B34FC}</Property>
 				<Property Name="Destination[2].tag" Type="Str">{F9BFCB0A-3881-447F-9DE7-8BFE6068B4CC}</Property>
@@ -213,7 +433,11 @@
 				<Property Name="Destination[8].parent" Type="Str">{FC770C68-A456-41BE-B3EA-F8A5A2087763}</Property>
 				<Property Name="Destination[8].tag" Type="Str">{968110B2-0B8A-47E2-8AF7-B02E77CECE2C}</Property>
 				<Property Name="Destination[8].type" Type="Str">userFolder</Property>
-				<Property Name="DestinationCount" Type="Int">9</Property>
+				<Property Name="Destination[9].name" Type="Str">TestStand 2014 (64-bit)</Property>
+				<Property Name="Destination[9].parent" Type="Str">{F434B829-AA04-43D8-AB92-6BE88BF55E0F}</Property>
+				<Property Name="Destination[9].tag" Type="Str">{A846A1DE-25DD-4C8A-83AB-2FBADF07FE71}</Property>
+				<Property Name="Destination[9].type" Type="Str">userFolder</Property>
+				<Property Name="DestinationCount" Type="Int">13</Property>
 				<Property Name="INST_author" Type="Str">NIC SE</Property>
 				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
 				<Property Name="INST_buildLocation" Type="Path">/C/Users/admin/Documents/github/adchurch/VeriStand-steps-for-TestStand/built/teststand-2014</Property>
@@ -236,14 +460,34 @@
 				<Property Name="Source[1].name" Type="Str">RemoveFromGAC.exe</Property>
 				<Property Name="Source[1].tag" Type="Ref">/My Computer/GAC Install Utilities/RemoveFromGAC.exe</Property>
 				<Property Name="Source[1].type" Type="Str">File</Property>
-				<Property Name="Source[10].dest" Type="Str">{968110B2-0B8A-47E2-8AF7-B02E77CECE2C}</Property>
-				<Property Name="Source[10].name" Type="Str">Veristand_icon_vista.ico</Property>
-				<Property Name="Source[10].tag" Type="Ref">/My Computer/TypePalette File/Veristand_icon_vista.ico</Property>
+				<Property Name="Source[10].dest" Type="Str">{3370C310-171D-4863-93D3-AF04A10FD864}</Property>
+				<Property Name="Source[10].name" Type="Str">RTSequenceVIs.lvlibp</Property>
+				<Property Name="Source[10].tag" Type="Ref">/My Computer/PPLs/x86/RTSequenceVIs.lvlibp</Property>
 				<Property Name="Source[10].type" Type="Str">File</Property>
-				<Property Name="Source[11].dest" Type="Str">{8A84B098-97AA-4F5B-8F0A-427266B807F6}</Property>
-				<Property Name="Source[11].name" Type="Str">LICENSE.txt</Property>
-				<Property Name="Source[11].tag" Type="Ref">/My Computer/License/LICENSE.txt</Property>
+				<Property Name="Source[11].dest" Type="Str">{3370C310-171D-4863-93D3-AF04A10FD864}</Property>
+				<Property Name="Source[11].name" Type="Str">Set Channels.lvlibp</Property>
+				<Property Name="Source[11].tag" Type="Ref">/My Computer/PPLs/x86/Set Channels.lvlibp</Property>
 				<Property Name="Source[11].type" Type="Str">File</Property>
+				<Property Name="Source[12].dest" Type="Str">{63DBCFCD-E440-4AB5-9C08-4CF688B3A9A5}</Property>
+				<Property Name="Source[12].name" Type="Str">Veristand_icon_vista.ico</Property>
+				<Property Name="Source[12].tag" Type="Ref">/My Computer/TypePalette File/Veristand_icon_vista.ico</Property>
+				<Property Name="Source[12].type" Type="Str">File</Property>
+				<Property Name="Source[13].dest" Type="Str">{48D9A840-CF89-4A95-97BA-C6A5FEA57855}</Property>
+				<Property Name="Source[13].name" Type="Str">Logging.lvlibp</Property>
+				<Property Name="Source[13].tag" Type="Ref">/My Computer/PPLs/x64/Logging.lvlibp</Property>
+				<Property Name="Source[13].type" Type="Str">File</Property>
+				<Property Name="Source[14].dest" Type="Str">{48D9A840-CF89-4A95-97BA-C6A5FEA57855}</Property>
+				<Property Name="Source[14].name" Type="Str">MiscHelperVIs.lvlibp</Property>
+				<Property Name="Source[14].tag" Type="Ref">/My Computer/PPLs/x64/MiscHelperVIs.lvlibp</Property>
+				<Property Name="Source[14].type" Type="Str">File</Property>
+				<Property Name="Source[15].dest" Type="Str">{48D9A840-CF89-4A95-97BA-C6A5FEA57855}</Property>
+				<Property Name="Source[15].name" Type="Str">RTSequenceVIs.lvlibp</Property>
+				<Property Name="Source[15].tag" Type="Ref">/My Computer/PPLs/x64/RTSequenceVIs.lvlibp</Property>
+				<Property Name="Source[15].type" Type="Str">File</Property>
+				<Property Name="Source[16].dest" Type="Str">{48D9A840-CF89-4A95-97BA-C6A5FEA57855}</Property>
+				<Property Name="Source[16].name" Type="Str">Set Channels.lvlibp</Property>
+				<Property Name="Source[16].tag" Type="Ref">/My Computer/PPLs/x64/Set Channels.lvlibp</Property>
+				<Property Name="Source[16].type" Type="Str">File</Property>
 				<Property Name="Source[2].dest" Type="Str">{B1C272DB-7A45-4FF9-BC63-49FC8311081D}</Property>
 				<Property Name="Source[2].name" Type="Str">PostInstallAction.exe</Property>
 				<Property Name="Source[2].runEXE" Type="Bool">true</Property>
@@ -259,234 +503,26 @@
 				<Property Name="Source[4].tag" Type="Ref">/My Computer/VeristandSteps Assembly/NationalInstruments.Veristand.VeristandSteps.dll</Property>
 				<Property Name="Source[4].type" Type="Str">File</Property>
 				<Property Name="Source[5].dest" Type="Str">{3370C310-171D-4863-93D3-AF04A10FD864}</Property>
-				<Property Name="Source[5].name" Type="Str">Logging.lvlibp</Property>
-				<Property Name="Source[5].tag" Type="Ref">/My Computer/PPLs/Logging.lvlibp</Property>
+				<Property Name="Source[5].name" Type="Str">NI_VeristandTypes.ini</Property>
+				<Property Name="Source[5].tag" Type="Ref">/My Computer/TypePalette File/NI_VeristandTypes.ini</Property>
 				<Property Name="Source[5].type" Type="Str">File</Property>
-				<Property Name="Source[6].dest" Type="Str">{3370C310-171D-4863-93D3-AF04A10FD864}</Property>
-				<Property Name="Source[6].name" Type="Str">MiscHelperVIs.lvlibp</Property>
-				<Property Name="Source[6].tag" Type="Ref">/My Computer/PPLs/MiscHelperVIs.lvlibp</Property>
+				<Property Name="Source[6].dest" Type="Str">{968110B2-0B8A-47E2-8AF7-B02E77CECE2C}</Property>
+				<Property Name="Source[6].name" Type="Str">Veristand_icon_vista.ico</Property>
+				<Property Name="Source[6].tag" Type="Ref">/My Computer/TypePalette File/Veristand_icon_vista.ico</Property>
 				<Property Name="Source[6].type" Type="Str">File</Property>
-				<Property Name="Source[7].dest" Type="Str">{3370C310-171D-4863-93D3-AF04A10FD864}</Property>
-				<Property Name="Source[7].name" Type="Str">NI_VeristandTypes.ini</Property>
-				<Property Name="Source[7].tag" Type="Ref">/My Computer/TypePalette File/NI_VeristandTypes.ini</Property>
+				<Property Name="Source[7].dest" Type="Str">{8A84B098-97AA-4F5B-8F0A-427266B807F6}</Property>
+				<Property Name="Source[7].name" Type="Str">LICENSE.txt</Property>
+				<Property Name="Source[7].tag" Type="Ref">/My Computer/License/LICENSE.txt</Property>
 				<Property Name="Source[7].type" Type="Str">File</Property>
 				<Property Name="Source[8].dest" Type="Str">{3370C310-171D-4863-93D3-AF04A10FD864}</Property>
-				<Property Name="Source[8].name" Type="Str">RTSequenceVIs.lvlibp</Property>
-				<Property Name="Source[8].tag" Type="Ref">/My Computer/PPLs/RTSequenceVIs.lvlibp</Property>
+				<Property Name="Source[8].name" Type="Str">Logging.lvlibp</Property>
+				<Property Name="Source[8].tag" Type="Ref">/My Computer/PPLs/x86/Logging.lvlibp</Property>
 				<Property Name="Source[8].type" Type="Str">File</Property>
 				<Property Name="Source[9].dest" Type="Str">{3370C310-171D-4863-93D3-AF04A10FD864}</Property>
-				<Property Name="Source[9].name" Type="Str">Set Channels.lvlibp</Property>
-				<Property Name="Source[9].tag" Type="Ref">/My Computer/PPLs/Set Channels.lvlibp</Property>
+				<Property Name="Source[9].name" Type="Str">MiscHelperVIs.lvlibp</Property>
+				<Property Name="Source[9].tag" Type="Ref">/My Computer/PPLs/x86/MiscHelperVIs.lvlibp</Property>
 				<Property Name="Source[9].type" Type="Str">File</Property>
-				<Property Name="SourceCount" Type="Int">12</Property>
-			</Item>
-			<Item Name="TestStand 2016 Installer" Type="Installer">
-				<Property Name="Destination[0].name" Type="Str">VeriStand Steps for TestStand</Property>
-				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
-				<Property Name="Destination[0].tag" Type="Str">{8A84B098-97AA-4F5B-8F0A-427266B807F6}</Property>
-				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[1].name" Type="Str">Users</Property>
-				<Property Name="Destination[1].parent" Type="Str">{C63B6F86-C439-4240-9AAE-EC6A9DDD0A29}</Property>
-				<Property Name="Destination[1].tag" Type="Str">{C06F42D9-8548-4D1E-8C81-A5F0400B34FC}</Property>
-				<Property Name="Destination[1].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[2].name" Type="Str">Public</Property>
-				<Property Name="Destination[2].parent" Type="Str">{C06F42D9-8548-4D1E-8C81-A5F0400B34FC}</Property>
-				<Property Name="Destination[2].tag" Type="Str">{F9BFCB0A-3881-447F-9DE7-8BFE6068B4CC}</Property>
-				<Property Name="Destination[2].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[3].name" Type="Str">Documents</Property>
-				<Property Name="Destination[3].parent" Type="Str">{F9BFCB0A-3881-447F-9DE7-8BFE6068B4CC}</Property>
-				<Property Name="Destination[3].tag" Type="Str">{8B54A63F-F1CA-47EE-95D3-F3152757A407}</Property>
-				<Property Name="Destination[3].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[4].name" Type="Str">National Instruments</Property>
-				<Property Name="Destination[4].parent" Type="Str">{8B54A63F-F1CA-47EE-95D3-F3152757A407}</Property>
-				<Property Name="Destination[4].tag" Type="Str">{F434B829-AA04-43D8-AB92-6BE88BF55E0F}</Property>
-				<Property Name="Destination[4].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[5].name" Type="Str">TestStand 2016 (32-bit)</Property>
-				<Property Name="Destination[5].parent" Type="Str">{F434B829-AA04-43D8-AB92-6BE88BF55E0F}</Property>
-				<Property Name="Destination[5].tag" Type="Str">{C4C299A5-A16B-4251-A638-73B631234187}</Property>
-				<Property Name="Destination[5].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[6].name" Type="Str">Components</Property>
-				<Property Name="Destination[6].parent" Type="Str">{C4C299A5-A16B-4251-A638-73B631234187}</Property>
-				<Property Name="Destination[6].tag" Type="Str">{FC770C68-A456-41BE-B3EA-F8A5A2087763}</Property>
-				<Property Name="Destination[6].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[7].name" Type="Str">TypePalettes</Property>
-				<Property Name="Destination[7].parent" Type="Str">{FC770C68-A456-41BE-B3EA-F8A5A2087763}</Property>
-				<Property Name="Destination[7].tag" Type="Str">{3370C310-171D-4863-93D3-AF04A10FD864}</Property>
-				<Property Name="Destination[7].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[8].name" Type="Str">Icons</Property>
-				<Property Name="Destination[8].parent" Type="Str">{FC770C68-A456-41BE-B3EA-F8A5A2087763}</Property>
-				<Property Name="Destination[8].tag" Type="Str">{968110B2-0B8A-47E2-8AF7-B02E77CECE2C}</Property>
-				<Property Name="Destination[8].type" Type="Str">userFolder</Property>
-				<Property Name="DestinationCount" Type="Int">9</Property>
-				<Property Name="INST_author" Type="Str">NIC SE</Property>
-				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
-				<Property Name="INST_buildLocation" Type="Path">/C/Users/admin/Documents/github/adchurch/VeriStand-steps-for-TestStand/built/teststand-2016</Property>
-				<Property Name="INST_buildSpecName" Type="Str">TestStand 2016 Installer</Property>
-				<Property Name="INST_defaultDir" Type="Str">{8A84B098-97AA-4F5B-8F0A-427266B807F6}</Property>
-				<Property Name="INST_includeError" Type="Bool">false</Property>
-				<Property Name="INST_productName" Type="Str">VeriStand Steps for TestStand</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.57</Property>
-				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
-				<Property Name="InstSpecVersion" Type="Str">15018004</Property>
-				<Property Name="MSI_arpCompany" Type="Str">National Instruments Systems Engineering</Property>
-				<Property Name="MSI_distID" Type="Str">{EF9F0FAE-4E3D-4FE3-903C-2BEADF2868DC}</Property>
-				<Property Name="MSI_osCheck" Type="Int">0</Property>
-				<Property Name="MSI_upgradeCode" Type="Str">{4084CD7C-F20C-4982-A98B-EA20D380938F}</Property>
-				<Property Name="Source[0].dest" Type="Str">{B1C272DB-7A45-4FF9-BC63-49FC8311081D}</Property>
-				<Property Name="Source[0].name" Type="Str">InstallToGAC.exe</Property>
-				<Property Name="Source[0].tag" Type="Ref">/My Computer/GAC Install Utilities/InstallToGAC.exe</Property>
-				<Property Name="Source[0].type" Type="Str">File</Property>
-				<Property Name="Source[1].dest" Type="Str">{8A84B098-97AA-4F5B-8F0A-427266B807F6}</Property>
-				<Property Name="Source[1].name" Type="Str">RemoveFromGAC.exe</Property>
-				<Property Name="Source[1].tag" Type="Ref">/My Computer/GAC Install Utilities/RemoveFromGAC.exe</Property>
-				<Property Name="Source[1].type" Type="Str">File</Property>
-				<Property Name="Source[10].dest" Type="Str">{968110B2-0B8A-47E2-8AF7-B02E77CECE2C}</Property>
-				<Property Name="Source[10].name" Type="Str">Veristand_icon_vista.ico</Property>
-				<Property Name="Source[10].tag" Type="Ref">/My Computer/TypePalette File/Veristand_icon_vista.ico</Property>
-				<Property Name="Source[10].type" Type="Str">File</Property>
-				<Property Name="Source[11].dest" Type="Str">{8A84B098-97AA-4F5B-8F0A-427266B807F6}</Property>
-				<Property Name="Source[11].name" Type="Str">LICENSE.txt</Property>
-				<Property Name="Source[11].tag" Type="Ref">/My Computer/License/LICENSE.txt</Property>
-				<Property Name="Source[11].type" Type="Str">File</Property>
-				<Property Name="Source[2].dest" Type="Str">{B1C272DB-7A45-4FF9-BC63-49FC8311081D}</Property>
-				<Property Name="Source[2].name" Type="Str">PostInstallAction.exe</Property>
-				<Property Name="Source[2].runEXE" Type="Bool">true</Property>
-				<Property Name="Source[2].tag" Type="Ref">/My Computer/Install Actions/PostInstallAction.exe</Property>
-				<Property Name="Source[2].type" Type="Str">File</Property>
-				<Property Name="Source[3].dest" Type="Str">{8A84B098-97AA-4F5B-8F0A-427266B807F6}</Property>
-				<Property Name="Source[3].name" Type="Str">PreUninstallAction.exe</Property>
-				<Property Name="Source[3].runEXE_uninstall" Type="Bool">true</Property>
-				<Property Name="Source[3].tag" Type="Ref">/My Computer/Install Actions/PreUninstallAction.exe</Property>
-				<Property Name="Source[3].type" Type="Str">File</Property>
-				<Property Name="Source[4].dest" Type="Str">{8A84B098-97AA-4F5B-8F0A-427266B807F6}</Property>
-				<Property Name="Source[4].name" Type="Str">NationalInstruments.Veristand.VeristandSteps.dll</Property>
-				<Property Name="Source[4].tag" Type="Ref">/My Computer/VeristandSteps Assembly/NationalInstruments.Veristand.VeristandSteps.dll</Property>
-				<Property Name="Source[4].type" Type="Str">File</Property>
-				<Property Name="Source[5].dest" Type="Str">{3370C310-171D-4863-93D3-AF04A10FD864}</Property>
-				<Property Name="Source[5].name" Type="Str">Logging.lvlibp</Property>
-				<Property Name="Source[5].tag" Type="Ref">/My Computer/PPLs/Logging.lvlibp</Property>
-				<Property Name="Source[5].type" Type="Str">File</Property>
-				<Property Name="Source[6].dest" Type="Str">{3370C310-171D-4863-93D3-AF04A10FD864}</Property>
-				<Property Name="Source[6].name" Type="Str">MiscHelperVIs.lvlibp</Property>
-				<Property Name="Source[6].tag" Type="Ref">/My Computer/PPLs/MiscHelperVIs.lvlibp</Property>
-				<Property Name="Source[6].type" Type="Str">File</Property>
-				<Property Name="Source[7].dest" Type="Str">{3370C310-171D-4863-93D3-AF04A10FD864}</Property>
-				<Property Name="Source[7].name" Type="Str">NI_VeristandTypes.ini</Property>
-				<Property Name="Source[7].tag" Type="Ref">/My Computer/TypePalette File/NI_VeristandTypes.ini</Property>
-				<Property Name="Source[7].type" Type="Str">File</Property>
-				<Property Name="Source[8].dest" Type="Str">{3370C310-171D-4863-93D3-AF04A10FD864}</Property>
-				<Property Name="Source[8].name" Type="Str">RTSequenceVIs.lvlibp</Property>
-				<Property Name="Source[8].tag" Type="Ref">/My Computer/PPLs/RTSequenceVIs.lvlibp</Property>
-				<Property Name="Source[8].type" Type="Str">File</Property>
-				<Property Name="Source[9].dest" Type="Str">{3370C310-171D-4863-93D3-AF04A10FD864}</Property>
-				<Property Name="Source[9].name" Type="Str">Set Channels.lvlibp</Property>
-				<Property Name="Source[9].tag" Type="Ref">/My Computer/PPLs/Set Channels.lvlibp</Property>
-				<Property Name="Source[9].type" Type="Str">File</Property>
-				<Property Name="SourceCount" Type="Int">12</Property>
-			</Item>
-			<Item Name="TestStand 2017 Installer" Type="Installer">
-				<Property Name="Destination[0].name" Type="Str">VeriStand Steps for TestStand</Property>
-				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
-				<Property Name="Destination[0].tag" Type="Str">{8A84B098-97AA-4F5B-8F0A-427266B807F6}</Property>
-				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[1].name" Type="Str">Users</Property>
-				<Property Name="Destination[1].parent" Type="Str">{C63B6F86-C439-4240-9AAE-EC6A9DDD0A29}</Property>
-				<Property Name="Destination[1].tag" Type="Str">{C06F42D9-8548-4D1E-8C81-A5F0400B34FC}</Property>
-				<Property Name="Destination[1].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[2].name" Type="Str">Public</Property>
-				<Property Name="Destination[2].parent" Type="Str">{C06F42D9-8548-4D1E-8C81-A5F0400B34FC}</Property>
-				<Property Name="Destination[2].tag" Type="Str">{F9BFCB0A-3881-447F-9DE7-8BFE6068B4CC}</Property>
-				<Property Name="Destination[2].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[3].name" Type="Str">Documents</Property>
-				<Property Name="Destination[3].parent" Type="Str">{F9BFCB0A-3881-447F-9DE7-8BFE6068B4CC}</Property>
-				<Property Name="Destination[3].tag" Type="Str">{8B54A63F-F1CA-47EE-95D3-F3152757A407}</Property>
-				<Property Name="Destination[3].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[4].name" Type="Str">National Instruments</Property>
-				<Property Name="Destination[4].parent" Type="Str">{8B54A63F-F1CA-47EE-95D3-F3152757A407}</Property>
-				<Property Name="Destination[4].tag" Type="Str">{F434B829-AA04-43D8-AB92-6BE88BF55E0F}</Property>
-				<Property Name="Destination[4].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[5].name" Type="Str">TestStand 2017 (32-bit)</Property>
-				<Property Name="Destination[5].parent" Type="Str">{F434B829-AA04-43D8-AB92-6BE88BF55E0F}</Property>
-				<Property Name="Destination[5].tag" Type="Str">{C4C299A5-A16B-4251-A638-73B631234187}</Property>
-				<Property Name="Destination[5].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[6].name" Type="Str">Components</Property>
-				<Property Name="Destination[6].parent" Type="Str">{C4C299A5-A16B-4251-A638-73B631234187}</Property>
-				<Property Name="Destination[6].tag" Type="Str">{FC770C68-A456-41BE-B3EA-F8A5A2087763}</Property>
-				<Property Name="Destination[6].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[7].name" Type="Str">TypePalettes</Property>
-				<Property Name="Destination[7].parent" Type="Str">{FC770C68-A456-41BE-B3EA-F8A5A2087763}</Property>
-				<Property Name="Destination[7].tag" Type="Str">{3370C310-171D-4863-93D3-AF04A10FD864}</Property>
-				<Property Name="Destination[7].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[8].name" Type="Str">Icons</Property>
-				<Property Name="Destination[8].parent" Type="Str">{FC770C68-A456-41BE-B3EA-F8A5A2087763}</Property>
-				<Property Name="Destination[8].tag" Type="Str">{968110B2-0B8A-47E2-8AF7-B02E77CECE2C}</Property>
-				<Property Name="Destination[8].type" Type="Str">userFolder</Property>
-				<Property Name="DestinationCount" Type="Int">9</Property>
-				<Property Name="INST_author" Type="Str">NIC SE</Property>
-				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
-				<Property Name="INST_buildLocation" Type="Path">/C/Users/admin/Documents/github/adchurch/VeriStand-steps-for-TestStand/built/teststand-2017</Property>
-				<Property Name="INST_buildSpecName" Type="Str">TestStand 2017 Installer</Property>
-				<Property Name="INST_defaultDir" Type="Str">{8A84B098-97AA-4F5B-8F0A-427266B807F6}</Property>
-				<Property Name="INST_includeError" Type="Bool">false</Property>
-				<Property Name="INST_productName" Type="Str">VeriStand Steps for TestStand</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.57</Property>
-				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
-				<Property Name="InstSpecVersion" Type="Str">15018004</Property>
-				<Property Name="MSI_arpCompany" Type="Str">National Instruments Systems Engineering</Property>
-				<Property Name="MSI_distID" Type="Str">{F7887678-AB22-4798-8DC7-6F4DC04F1438}</Property>
-				<Property Name="MSI_osCheck" Type="Int">0</Property>
-				<Property Name="MSI_upgradeCode" Type="Str">{373854CC-96F0-4171-A720-6F9344AAB01A}</Property>
-				<Property Name="Source[0].dest" Type="Str">{B1C272DB-7A45-4FF9-BC63-49FC8311081D}</Property>
-				<Property Name="Source[0].name" Type="Str">InstallToGAC.exe</Property>
-				<Property Name="Source[0].tag" Type="Ref">/My Computer/GAC Install Utilities/InstallToGAC.exe</Property>
-				<Property Name="Source[0].type" Type="Str">File</Property>
-				<Property Name="Source[1].dest" Type="Str">{8A84B098-97AA-4F5B-8F0A-427266B807F6}</Property>
-				<Property Name="Source[1].name" Type="Str">RemoveFromGAC.exe</Property>
-				<Property Name="Source[1].tag" Type="Ref">/My Computer/GAC Install Utilities/RemoveFromGAC.exe</Property>
-				<Property Name="Source[1].type" Type="Str">File</Property>
-				<Property Name="Source[10].dest" Type="Str">{968110B2-0B8A-47E2-8AF7-B02E77CECE2C}</Property>
-				<Property Name="Source[10].name" Type="Str">Veristand_icon_vista.ico</Property>
-				<Property Name="Source[10].tag" Type="Ref">/My Computer/TypePalette File/Veristand_icon_vista.ico</Property>
-				<Property Name="Source[10].type" Type="Str">File</Property>
-				<Property Name="Source[11].dest" Type="Str">{8A84B098-97AA-4F5B-8F0A-427266B807F6}</Property>
-				<Property Name="Source[11].name" Type="Str">LICENSE.txt</Property>
-				<Property Name="Source[11].tag" Type="Ref">/My Computer/License/LICENSE.txt</Property>
-				<Property Name="Source[11].type" Type="Str">File</Property>
-				<Property Name="Source[2].dest" Type="Str">{B1C272DB-7A45-4FF9-BC63-49FC8311081D}</Property>
-				<Property Name="Source[2].name" Type="Str">PostInstallAction.exe</Property>
-				<Property Name="Source[2].runEXE" Type="Bool">true</Property>
-				<Property Name="Source[2].tag" Type="Ref">/My Computer/Install Actions/PostInstallAction.exe</Property>
-				<Property Name="Source[2].type" Type="Str">File</Property>
-				<Property Name="Source[3].dest" Type="Str">{8A84B098-97AA-4F5B-8F0A-427266B807F6}</Property>
-				<Property Name="Source[3].name" Type="Str">PreUninstallAction.exe</Property>
-				<Property Name="Source[3].runEXE_uninstall" Type="Bool">true</Property>
-				<Property Name="Source[3].tag" Type="Ref">/My Computer/Install Actions/PreUninstallAction.exe</Property>
-				<Property Name="Source[3].type" Type="Str">File</Property>
-				<Property Name="Source[4].dest" Type="Str">{8A84B098-97AA-4F5B-8F0A-427266B807F6}</Property>
-				<Property Name="Source[4].name" Type="Str">NationalInstruments.Veristand.VeristandSteps.dll</Property>
-				<Property Name="Source[4].tag" Type="Ref">/My Computer/VeristandSteps Assembly/NationalInstruments.Veristand.VeristandSteps.dll</Property>
-				<Property Name="Source[4].type" Type="Str">File</Property>
-				<Property Name="Source[5].dest" Type="Str">{3370C310-171D-4863-93D3-AF04A10FD864}</Property>
-				<Property Name="Source[5].name" Type="Str">Logging.lvlibp</Property>
-				<Property Name="Source[5].tag" Type="Ref">/My Computer/PPLs/Logging.lvlibp</Property>
-				<Property Name="Source[5].type" Type="Str">File</Property>
-				<Property Name="Source[6].dest" Type="Str">{3370C310-171D-4863-93D3-AF04A10FD864}</Property>
-				<Property Name="Source[6].name" Type="Str">MiscHelperVIs.lvlibp</Property>
-				<Property Name="Source[6].tag" Type="Ref">/My Computer/PPLs/MiscHelperVIs.lvlibp</Property>
-				<Property Name="Source[6].type" Type="Str">File</Property>
-				<Property Name="Source[7].dest" Type="Str">{3370C310-171D-4863-93D3-AF04A10FD864}</Property>
-				<Property Name="Source[7].name" Type="Str">NI_VeristandTypes.ini</Property>
-				<Property Name="Source[7].tag" Type="Ref">/My Computer/TypePalette File/NI_VeristandTypes.ini</Property>
-				<Property Name="Source[7].type" Type="Str">File</Property>
-				<Property Name="Source[8].dest" Type="Str">{3370C310-171D-4863-93D3-AF04A10FD864}</Property>
-				<Property Name="Source[8].name" Type="Str">RTSequenceVIs.lvlibp</Property>
-				<Property Name="Source[8].tag" Type="Ref">/My Computer/PPLs/RTSequenceVIs.lvlibp</Property>
-				<Property Name="Source[8].type" Type="Str">File</Property>
-				<Property Name="Source[9].dest" Type="Str">{3370C310-171D-4863-93D3-AF04A10FD864}</Property>
-				<Property Name="Source[9].name" Type="Str">Set Channels.lvlibp</Property>
-				<Property Name="Source[9].tag" Type="Ref">/My Computer/PPLs/Set Channels.lvlibp</Property>
-				<Property Name="Source[9].type" Type="Str">File</Property>
-				<Property Name="SourceCount" Type="Int">12</Property>
+				<Property Name="SourceCount" Type="Int">17</Property>
 			</Item>
 		</Item>
 	</Item>
