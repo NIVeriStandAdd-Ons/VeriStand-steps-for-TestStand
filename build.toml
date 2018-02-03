@@ -40,3 +40,17 @@ project = '{channels}'
 name = 'Logger PPL'
 type = 'lvBuildAll'
 project = '{logger}'
+
+[[build.steps]]
+name = 'Post Install Action'
+type = 'lvBuildSpec'
+project = '{installer}'
+target = 'My Computer'
+build_spec = 'Post Install Action'
+
+[[build.steps]]
+name = 'Pre Uninstall Action'
+type = 'lvBuildSpec'
+project = '{installer}'
+target = 'My Computer'
+build_spec = 'Pre Uninstall Action'
