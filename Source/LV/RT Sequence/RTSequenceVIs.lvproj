@@ -60,23 +60,24 @@
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Users/admin/Documents/github/adchurch/VeriStand-steps-for-TestStand/build_temp/lvlibp</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../build_temp</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/BuildVIs.lvlib/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{51E81AA6-8EE1-4A57-AD02-3B000AC5648E}</Property>
-				<Property Name="Bld_version.build" Type="Int">38</Property>
+				<Property Name="Bld_version.build" Type="Int">40</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">RTSequenceVIs.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Users/admin/Documents/github/adchurch/VeriStand-steps-for-TestStand/build_temp/lvlibp/NI_AB_PROJECTNAME.lvlibp</Property>
-				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].path" Type="Path">../build_temp/NI_AB_PROJECTNAME.lvlibp</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/Users/admin/Documents/github/adchurch/VeriStand-steps-for-TestStand/build_temp/lvlibp</Property>
-				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[1].path" Type="Path">../build_temp</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A89CEFEA-57E9-461A-99AC-51BDC6F9AD43}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E6B2FFF6-2D27-4AF1-A3B7-8732729C1465}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/RTSequenceVIs.lvlib</Property>
