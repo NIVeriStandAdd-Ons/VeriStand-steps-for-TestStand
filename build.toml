@@ -9,7 +9,7 @@ path = 'Source\LV\Misc\MiscHelperVIs.lvproj'
 path = 'Source\LV\RT Sequence\RTSequenceVIs.lvproj'
 
 [projects.channels]
-path = 'Source\LV\Set Channels.lvproj'
+path = 'Source\LV\Set Channels\Set Channels.lvproj'
 
 [projects.logger]
 path = 'Source\LV\TS VS Logger\TS VS Logger.lvproj'
