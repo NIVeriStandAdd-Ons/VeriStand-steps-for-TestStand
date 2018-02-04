@@ -111,3 +111,8 @@ type = 'lvBuildSpec'
 project = '{installer}'
 target = 'My Computer'
 build_spec = 'TestStand 2017 Installer'
+
+[package]
+type = 'vsStepsPackage'
+version = '7.1'
+teststand_versions = ['2014','2016','2017']
