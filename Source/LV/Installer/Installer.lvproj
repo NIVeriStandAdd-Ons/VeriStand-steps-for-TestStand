@@ -295,6 +295,10 @@
 				<Property Name="Source[16].name" Type="Str">Set Channels.lvlibp</Property>
 				<Property Name="Source[16].tag" Type="Ref">/My Computer/PPLs/x64/Set Channels.lvlibp</Property>
 				<Property Name="Source[16].type" Type="Str">File</Property>
+				<Property Name="Source[17].dest" Type="Str">{48D9A840-CF89-4A95-97BA-C6A5FEA57855}</Property>
+				<Property Name="Source[17].name" Type="Str">NI_VeristandTypes.ini</Property>
+				<Property Name="Source[17].tag" Type="Ref">/My Computer/TypePalette File/NI_VeristandTypes.ini</Property>
+				<Property Name="Source[17].type" Type="Str">File</Property>
 				<Property Name="Source[2].dest" Type="Str">{B1C272DB-7A45-4FF9-BC63-49FC8311081D}</Property>
 				<Property Name="Source[2].name" Type="Str">PostInstallAction.exe</Property>
 				<Property Name="Source[2].runEXE" Type="Bool">true</Property>
@@ -329,11 +333,9 @@
 				<Property Name="Source[9].name" Type="Str">MiscHelperVIs.lvlibp</Property>
 				<Property Name="Source[9].tag" Type="Ref">/My Computer/PPLs/x86/MiscHelperVIs.lvlibp</Property>
 				<Property Name="Source[9].type" Type="Str">File</Property>
-				<Property Name="SourceCount" Type="Int">17</Property>
+				<Property Name="SourceCount" Type="Int">18</Property>
 			</Item>
 			<Item Name="TestStand 2016 Installer" Type="Installer">
-				<Property Name="AB_Class_Path" Type="Path">/C/Program Files (x86)/National Instruments/LabVIEW 2015/vi.lib/AppBuilder/IB_Classes/MSI/IB_MSI.lvclass</Property>
-				<Property Name="AB_UIClass_Path" Type="Path">/C/Program Files (x86)/National Instruments/LabVIEW 2015/vi.lib/AppBuilder/IB_Classes/Installer/UI/AB_UI_Frmwk_Installer.lvclass</Property>
 				<Property Name="Destination[0].name" Type="Str">VeriStand Steps for TestStand</Property>
 				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
 				<Property Name="Destination[0].tag" Type="Str">{8A84B098-97AA-4F5B-8F0A-427266B807F6}</Property>
@@ -437,6 +439,10 @@
 				<Property Name="Source[16].name" Type="Str">Set Channels.lvlibp</Property>
 				<Property Name="Source[16].tag" Type="Ref">/My Computer/PPLs/x64/Set Channels.lvlibp</Property>
 				<Property Name="Source[16].type" Type="Str">File</Property>
+				<Property Name="Source[17].dest" Type="Str">{48D9A840-CF89-4A95-97BA-C6A5FEA57855}</Property>
+				<Property Name="Source[17].name" Type="Str">NI_VeristandTypes.ini</Property>
+				<Property Name="Source[17].tag" Type="Ref">/My Computer/TypePalette File/NI_VeristandTypes.ini</Property>
+				<Property Name="Source[17].type" Type="Str">File</Property>
 				<Property Name="Source[2].dest" Type="Str">{B1C272DB-7A45-4FF9-BC63-49FC8311081D}</Property>
 				<Property Name="Source[2].name" Type="Str">PostInstallAction.exe</Property>
 				<Property Name="Source[2].runEXE" Type="Bool">true</Property>
@@ -471,11 +477,9 @@
 				<Property Name="Source[9].name" Type="Str">MiscHelperVIs.lvlibp</Property>
 				<Property Name="Source[9].tag" Type="Ref">/My Computer/PPLs/x86/MiscHelperVIs.lvlibp</Property>
 				<Property Name="Source[9].type" Type="Str">File</Property>
-				<Property Name="SourceCount" Type="Int">17</Property>
+				<Property Name="SourceCount" Type="Int">18</Property>
 			</Item>
 			<Item Name="TestStand 2017 Installer" Type="Installer">
-				<Property Name="AB_Class_Path" Type="Path">/C/Program Files (x86)/National Instruments/LabVIEW 2015/vi.lib/AppBuilder/IB_Classes/MSI/IB_MSI.lvclass</Property>
-				<Property Name="AB_UIClass_Path" Type="Path">/C/Program Files (x86)/National Instruments/LabVIEW 2015/vi.lib/AppBuilder/IB_Classes/Installer/UI/AB_UI_Frmwk_Installer.lvclass</Property>
 				<Property Name="Destination[0].name" Type="Str">VeriStand Steps for TestStand</Property>
 				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
 				<Property Name="Destination[0].tag" Type="Str">{8A84B098-97AA-4F5B-8F0A-427266B807F6}</Property>
@@ -579,6 +583,10 @@
 				<Property Name="Source[16].name" Type="Str">Set Channels.lvlibp</Property>
 				<Property Name="Source[16].tag" Type="Ref">/My Computer/PPLs/x64/Set Channels.lvlibp</Property>
 				<Property Name="Source[16].type" Type="Str">File</Property>
+				<Property Name="Source[17].dest" Type="Str">{48D9A840-CF89-4A95-97BA-C6A5FEA57855}</Property>
+				<Property Name="Source[17].name" Type="Str">NI_VeristandTypes.ini</Property>
+				<Property Name="Source[17].tag" Type="Ref">/My Computer/TypePalette File/NI_VeristandTypes.ini</Property>
+				<Property Name="Source[17].type" Type="Str">File</Property>
 				<Property Name="Source[2].dest" Type="Str">{B1C272DB-7A45-4FF9-BC63-49FC8311081D}</Property>
 				<Property Name="Source[2].name" Type="Str">PostInstallAction.exe</Property>
 				<Property Name="Source[2].runEXE" Type="Bool">true</Property>
@@ -613,7 +621,7 @@
 				<Property Name="Source[9].name" Type="Str">MiscHelperVIs.lvlibp</Property>
 				<Property Name="Source[9].tag" Type="Ref">/My Computer/PPLs/x86/MiscHelperVIs.lvlibp</Property>
 				<Property Name="Source[9].type" Type="Str">File</Property>
-				<Property Name="SourceCount" Type="Int">17</Property>
+				<Property Name="SourceCount" Type="Int">18</Property>
 			</Item>
 		</Item>
 	</Item>
