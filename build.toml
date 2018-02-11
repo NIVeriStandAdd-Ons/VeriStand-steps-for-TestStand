@@ -2,17 +2,8 @@
 build_output_dir = 'Built'
 archive_location = '\\us-aus-hilbuild\builds\adchurch\archive\addons\veristand steps for teststand'
 
-[projects.misc]
+[projects.runtime]
 path = 'Source\LV\Misc\MiscHelperVIs.lvproj'
-
-[projects.rtSequence]
-path = 'Source\LV\RT Sequence\RTSequenceVIs.lvproj'
-
-[projects.channels]
-path = 'Source\LV\Set Channels\Set Channels.lvproj'
-
-[projects.logger]
-path = 'Source\LV\TS VS Logger\TS VS Logger.lvproj'
 
 [projects.installer]
 path = 'Source\LV\Installer\Installer.lvproj'
@@ -22,58 +13,16 @@ name = 'Update Project Files'
 type = 'lvUpdateProjectFiles'
 
 [[build.steps]]
-name = 'MiscHelperVIs PPL'
+name = 'VeriStand Steps RunTime PPL'
 type = 'lvBuildSpec'
-project = '{misc}'
+project = '{runtime}'
 target = 'My Computer'
 build_spec = 'Packed Library'
 
 [[build.steps]]
-name = 'RTSequenceVIs PPL'
-type = 'lvBuildSpec'
-project = '{rtSequence}'
-target = 'My Computer'
-build_spec = 'Packed Library'
-
-[[build.steps]]
-name = 'Set Channels PPL'
-type = 'lvBuildSpec'
-project = '{channels}'
-target = 'My Computer'
-build_spec = 'Packed Library'
-
-[[build.steps]]
-name = 'Logger PPL'
-type = 'lvBuildSpec'
-project = '{logger}'
-target = 'My Computer'
-build_spec = 'Packed Library'
-
-[[build.steps]]
-name = 'MiscHelperVIs PPL'
+name = 'VeriStand Steps RunTime PPL x64'
 type = 'lv64BuildSpec'
-project = '{misc}'
-target = 'My Computer'
-build_spec = 'Packed Library'
-
-[[build.steps]]
-name = 'RTSequenceVIs PPL'
-type = 'lv64BuildSpec'
-project = '{rtSequence}'
-target = 'My Computer'
-build_spec = 'Packed Library'
-
-[[build.steps]]
-name = 'Set Channels PPL'
-type = 'lv64BuildSpec'
-project = '{channels}'
-target = 'My Computer'
-build_spec = 'Packed Library'
-
-[[build.steps]]
-name = 'Logger PPL'
-type = 'lv64BuildSpec'
-project = '{logger}'
+project = '{runtime}'
 target = 'My Computer'
 build_spec = 'Packed Library'
 
