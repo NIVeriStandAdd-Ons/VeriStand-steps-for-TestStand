@@ -3,7 +3,7 @@ build_output_dir = 'Built'
 archive_location = '\\us-aus-hilbuild\builds\adchurch\archive\addons\veristand steps for teststand'
 
 [projects.runtime]
-path = 'Source\LV\Misc\MiscHelperVIs.lvproj'
+path = 'Source\LV\RunTime\VeriStand Steps RunTime Library.lvproj'
 
 [projects.installer]
 path = 'Source\LV\Installer\Installer.lvproj'
