@@ -25,6 +25,10 @@
 		<Item Name="FaultGetValue.vi" Type="VI" URL="../faults/FaultGetValue.vi"/>
 		<Item Name="FaultSetValue.vi" Type="VI" URL="../faults/FaultSetValue.vi"/>
 	</Item>
+	<Item Name="logging" Type="Folder">
+		<Item Name="Start logging.vi" Type="VI" URL="../logging/Start logging.vi"/>
+		<Item Name="Stop Logging.vi" Type="VI" URL="../logging/Stop Logging.vi"/>
+	</Item>
 	<Item Name="models" Type="Folder">
 		<Item Name="ModelParameterValueGet.vi" Type="VI" URL="../models/ModelParameterValueGet.vi"/>
 		<Item Name="ModelParameterValueSet.vi" Type="VI" URL="../models/ModelParameterValueSet.vi"/>
