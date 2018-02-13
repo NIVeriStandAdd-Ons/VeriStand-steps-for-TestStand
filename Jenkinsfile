@@ -1,13 +1,8 @@
 #!/usr/bin/env groovy
-node{
-    stage("Cleanup"){
-        cleanWs()
-    }
-    
-    branch="master"
-    org="NIVeriStandAdd-Ons"
-    release_version="7.1"
+//Leave the above line alone.  It identifies this as a groovy script.
+@Library('vs-steps-build') _
 
+<<<<<<< HEAD
     
     stage("build"){
         
@@ -37,3 +32,8 @@ node{
         }
     }
 }
+=======
+def lvVersions = ['2017','2016','2015']
+
+ni.vsbuild.PipelineExecutor.execute(this, lvVersions)
+>>>>>>> pr/11
