@@ -61,6 +61,10 @@ project = '{installer}'
 target = 'My Computer'
 build_spec = 'TestStand 2017 Installer'
 
+[test]
+sequence_path = 'Tests\Base Test Files\Main.seq'
+teststand_version = '2014'
+
 [package]
 type = 'vsStepsPackage'
 version = '7.1'
