@@ -17,6 +17,6 @@ build_spec = 'Packed Library'
 
 [[test.steps]]
 name = 'Execute Integration Test'
-type = 'runIntegrationTest'
+type = 'Test'
 sequence_path = 'Tests\Base Test Files\Main.seq'
 teststand_version = '2014'
