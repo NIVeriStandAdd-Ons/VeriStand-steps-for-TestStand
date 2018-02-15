@@ -19,6 +19,8 @@ project = '{runtime}'
 target = 'My Computer'
 build_spec = 'Packed Library'
 
-[test]
+[[test.steps]]
+name = 'Execute Integration Test'
+type = 'runIntegrationTest'
 sequence_path = 'Tests\Base Test Files\Main.seq'
 teststand_version = '2014'
