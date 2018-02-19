@@ -4,6 +4,11 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">352354304</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="alarms" Type="Folder">
+		<Item Name="AlarmGetList.vi" Type="VI" URL="../alarms/AlarmGetList.vi"/>
+		<Item Name="AlarmGetState.vi" Type="VI" URL="../alarms/AlarmGetState.vi"/>
+		<Item Name="AlarmSetState.vi" Type="VI" URL="../alarms/AlarmSetState.vi"/>
+	</Item>
 	<Item Name="application" Type="Folder">
 		<Item Name="VeristandInitialize.vi" Type="VI" URL="../application/VeristandInitialize.vi"/>
 		<Item Name="VeristandStart.vi" Type="VI" URL="../application/VeristandStart.vi"/>
