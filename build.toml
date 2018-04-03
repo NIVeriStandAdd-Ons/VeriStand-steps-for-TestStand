@@ -27,41 +27,6 @@ target = 'My Computer'
 build_spec = 'Packed Library'
 
 [[build.steps]]
-name = 'Post Install Action'
-type = 'lvBuildSpec'
+name = 'Installers'
+type = 'lvBuildAll'
 project = '{installer}'
-target = 'My Computer'
-build_spec = 'Post Install Action'
-
-[[build.steps]]
-name = 'Pre Uninstall Action'
-type = 'lvBuildSpec'
-project = '{installer}'
-target = 'My Computer'
-build_spec = 'Pre Uninstall Action'
-
-[[build.steps]]
-name = 'TestStand 2014 Installer'
-type = 'lvBuildSpec'
-project = '{installer}'
-target = 'My Computer'
-build_spec = 'TestStand 2014 Installer'
-
-[[build.steps]]
-name = 'TestStand 2014 Installer'
-type = 'lvBuildSpec'
-project = '{installer}'
-target = 'My Computer'
-build_spec = 'TestStand 2016 Installer'
-
-[[build.steps]]
-name = 'TestStand 2014 Installer'
-type = 'lvBuildSpec'
-project = '{installer}'
-target = 'My Computer'
-build_spec = 'TestStand 2017 Installer'
-
-[package]
-type = 'vsStepsPackage'
-version = '7.1'
-teststand_versions = ['2014','2016','2017']
