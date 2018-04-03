@@ -30,3 +30,9 @@ build_spec = 'Packed Library'
 name = 'Installers'
 type = 'lvBuildAll'
 project = '{installer}'
+
+[package]
+type = 'vsStepsPackage'
+version = '7.2'
+teststand_versions = ['2014','2016','2017']
+
