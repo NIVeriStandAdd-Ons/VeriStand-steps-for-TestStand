@@ -81,7 +81,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/BuildVIs.lvlib/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D975B79C-6A9C-4BFA-B908-817ED864B8DD}</Property>
-				<Property Name="Bld_version.build" Type="Int">9</Property>
+				<Property Name="Bld_version.build" Type="Int">11</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">ni-veristand-steps-runtime-lib.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../build_temp/ni-veristand-steps-runtime-lib.lvlibp</Property>
