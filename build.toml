@@ -19,18 +19,6 @@ project = '{runtime}'
 target = 'My Computer'
 build_spec = 'Packed Library'
 
-[[build.steps]]
-name = 'VeriStand Steps RunTime PPL x64'
-type = 'lv64BuildSpec'
-project = '{runtime}'
-target = 'My Computer'
-build_spec = 'Packed Library'
-
-[[build.steps]]
-name = 'Installers'
-type = 'lvBuildAll'
-project = '{installer}'
-
 [package]
 type = 'vsStepsPackage'
 version = '7.2.1'
