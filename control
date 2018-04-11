@@ -1,0 +1,15 @@
+Package: veristand{veristand_version}-steps-teststand{teststand_version}
+Version: 7.2.1
+Architecture: windows_x64
+Maintainer: National Instruments <support@ni.com>
+XB-Plugin: file
+Description:  This package provides the VeriStand Steps for TestStand.
+XB-Eula:  
+XB-UserVisible: yes
+Priority: standard
+Homepage: http://www.ni.com
+XB-LanguageSupport: en
+Section: Add-Ons
+XB-DisplayVersion: 7.2.1
+XB-DisplayName: VeriStand {veristand_version} Steps for TestStand {teststand_version}
+Depends: 
