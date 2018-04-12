@@ -8,10 +8,6 @@ path = 'Source\LV\RunTime\VeriStand Steps RunTime Library.lvproj'
 [projects.installer]
 path = 'Source\LV\Installer\Installer.lvproj'
 
-[[codegen.steps]]
-name = 'Update Project Files'
-type = 'lvUpdateProjectFiles'
-
 [[build.steps]]
 name = 'VeriStand Steps RunTime PPL'
 type = 'lvBuildSpec'
