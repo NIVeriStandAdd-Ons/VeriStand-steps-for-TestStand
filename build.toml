@@ -28,6 +28,6 @@ build_spec = 'Packed Library'
 
 [package]
 type = 'vsStepsPackage'
-version = '7.2.1'
+types_version = '7.2.1'
 teststand_versions = ['2014','2016','2017']
 
