@@ -1,5 +1,5 @@
 Package: veristand-{veristand_version}-steps-teststand
-Version: 7.2.1
+Version: {nipkg_version}
 Architecture: windows_x64
 Maintainer: National Instruments <support@ni.com>
 XB-Plugin: file
@@ -10,6 +10,6 @@ Priority: standard
 Homepage: https://github.com/NIVeriStandAdd-Ons/VeriStand-steps-for-TestStand
 XB-LanguageSupport: en
 Section: Add-Ons
-XB-DisplayVersion: 7.2.1
+XB-DisplayVersion: {nipkg_version}
 XB-DisplayName: VeriStand {veristand_version} Steps for TestStand
 Depends: 
