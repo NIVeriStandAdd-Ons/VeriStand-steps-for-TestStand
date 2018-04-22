@@ -26,6 +26,11 @@ project = '{runtime}'
 target = 'My Computer'
 build_spec = 'Packed Library'
 
+[[build.steps]]
+name = 'Installer Project'
+type = 'lvBuildAll'
+project = 'installer'
+
 [package]
 type = 'vsStepsPackage'
 types_version = '7.2.1'
