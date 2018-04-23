@@ -27,9 +27,25 @@ target = 'My Computer'
 build_spec = 'Packed Library'
 
 [[build.steps]]
-name = 'Installer Project'
-type = 'lvBuildAll'
+name = 'PostInstallAction'
+type = 'lvBuildSpec'
 project = 'installer'
+target = 'My Computer'
+build_spec = 'Post Install Action'
+
+[[build.steps]]
+name = 'PostInstallAction'
+type = 'lvBuildSpec'
+project = 'installer'
+target = 'My Computer'
+build_spec = 'Pre Uninstall Action'
+
+[[build.steps]]
+name = 'Installer'
+type = 'lvBuildSpec'
+project = 'installer'
+target = 'My Computer'
+build_spec = 'Installer'
 
 [package]
 type = 'vsStepsPackage'
