@@ -19,6 +19,10 @@ project = '{runtime}'
 target = 'My Computer'
 build_spec = 'Packed Library'
 
+[[build.steps]]
+name = 'Integration Test'
+type = 'Test'
+
 [package]
 type = 'vsStepsPackage'
 types_version = '7.2.2'
