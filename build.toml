@@ -19,7 +19,7 @@ project = '{runtime}'
 target = 'My Computer'
 build_spec = 'Packed Library'
 
-[[build.steps]]
+[[test.steps]]
 name = 'Integration Test'
 type = 'Test'
 
