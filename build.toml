@@ -1,6 +1,6 @@
 [archive]
 build_output_dir = 'Built'
-archive_location = '\\us-aus-hilbuild\builds\adchurch\archive\addons\veristand steps for teststand'
+archive_location = '\\us-aus-hilbuild\builds\NIVeriStandAdd-ons\archive\addons\veristand steps for teststand'
 
 [projects.runtime]
 path = 'Source\LV\RunTime\VeriStand Steps RunTime Library.lvproj'
@@ -27,12 +27,28 @@ target = 'My Computer'
 build_spec = 'Packed Library'
 
 [[build.steps]]
-name = 'Installers'
-type = 'lvBuildAll'
-project = '{installer}'
+name = 'PostInstallAction'
+type = 'lvBuildSpec'
+project = 'installer'
+target = 'My Computer'
+build_spec = 'Post Install Action'
+
+[[build.steps]]
+name = 'PostInstallAction'
+type = 'lvBuildSpec'
+project = 'installer'
+target = 'My Computer'
+build_spec = 'Pre Uninstall Action'
+
+[[build.steps]]
+name = 'Installer'
+type = 'lvBuildSpec'
+project = 'installer'
+target = 'My Computer'
+build_spec = 'Installer'
 
 [package]
 type = 'vsStepsPackage'
-version = '7.2.2'
+types_version = '7.2.2'
 teststand_versions = ['2014','2016','2017']
 
