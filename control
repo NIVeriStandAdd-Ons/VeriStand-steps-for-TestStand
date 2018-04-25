@@ -1,4 +1,4 @@
-Package: veristand-{veristand_version}-steps-teststand
+Package: veristand-{veristand_version}-steps-for-teststand
 Version: {nipkg_version}
 Architecture: windows_x64
 Maintainer: National Instruments <support@ni.com>
