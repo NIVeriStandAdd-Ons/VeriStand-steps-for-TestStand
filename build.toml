@@ -22,6 +22,8 @@ build_spec = 'Packed Library'
 [[test.steps]]
 name = 'Integration Test'
 type = 'Test'
+sequence_path = 'Tests\Sequences\Main.seq'
+teststand_version = '2014'
 
 [package]
 type = 'vsStepsPackage'
