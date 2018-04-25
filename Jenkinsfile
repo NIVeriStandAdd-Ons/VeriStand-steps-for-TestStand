@@ -2,6 +2,6 @@
 //Leave the above line alone.  It identifies this as a groovy script.
 @Library('vs-steps-build') _
 
-def lvVersions = ['2017','2016','2015']
+def lvVersions = ['2017']
 
-ni.vsbuild.PipelineExecutor.execute(this, lvVersions)
+ni.vsbuild.IntegrationPipelineExecutor.execute(this, lvVersions)

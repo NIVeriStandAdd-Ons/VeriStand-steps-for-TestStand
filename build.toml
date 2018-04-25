@@ -52,3 +52,8 @@ type = 'vsStepsPackage'
 types_version = '7.2.2'
 teststand_versions = ['2014','2016','2017']
 
+[test]
+sequence_path = 'Tests\Sequences\Main.seq'
+teststand_version = '2014'
+
+
