@@ -19,6 +19,34 @@ project = '{runtime}'
 target = 'My Computer'
 build_spec = 'Packed Library'
 
+[[build.steps]]
+name = 'VeriStand Steps RunTime PPL x64'
+type = 'lv64BuildSpec'
+project = '{runtime}'
+target = 'My Computer'
+build_spec = 'Packed Library'
+
+[[build.steps]]
+name = 'PostInstallAction'
+type = 'lvBuildSpec'
+project = 'installer'
+target = 'My Computer'
+build_spec = 'Post Install Action'
+
+[[build.steps]]
+name = 'PostInstallAction'
+type = 'lvBuildSpec'
+project = 'installer'
+target = 'My Computer'
+build_spec = 'Pre Uninstall Action'
+
+[[build.steps]]
+name = 'Installer'
+type = 'lvBuildSpec'
+project = 'installer'
+target = 'My Computer'
+build_spec = 'Installer'
+
 [[test.steps]]
 name = 'Integration Test'
 type = 'Test'
