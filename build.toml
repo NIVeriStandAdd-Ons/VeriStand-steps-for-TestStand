@@ -54,6 +54,12 @@ sequence_path = 'Tests\Sequences\Main.seq'
 teststand_version = '2014'
 
 [[test.steps]]
+name = 'TestStand 2016 Integration Test'
+type = 'Test'
+sequence_path = 'Tests\Sequences\Main.seq'
+teststand_version = '2016'
+
+[[test.steps]]
 name = 'TestStand 2017 Integration Test'
 type = 'Test'
 sequence_path = 'Tests\Sequences\Main.seq'
