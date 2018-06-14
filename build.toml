@@ -55,13 +55,6 @@ teststand_version = '2014'
 teststand_bitness = '32'
 
 [[test.steps]]
-name = 'TestStand 2014 Integration Test'
-type = 'Test'
-sequence_path = 'Tests\Sequences\Main.seq'
-teststand_version = '2014'
-teststand_bitness = '64'
-
-[[test.steps]]
 name = 'TestStand 2016 Integration Test'
 type = 'Test'
 sequence_path = 'Tests\Sequences\Main.seq'
