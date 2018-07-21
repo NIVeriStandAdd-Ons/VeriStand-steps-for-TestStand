@@ -4,7 +4,8 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">352354304</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
-	<Item Name="subCreateStagingPaths.vi" Type="VI" URL="../subCreateStagingPaths.vi"/>
+	<Item Name="subFormDestinationPaths.vi" Type="VI" URL="../subFormDestinationPaths.vi"/>
+	<Item Name="subFormSourcePaths.vi" Type="VI" URL="../subFormSourcePaths.vi"/>
 	<Item Name="subGetAssemblyHintPaths.vi" Type="VI" URL="../subGetAssemblyHintPaths.vi"/>
 	<Item Name="subGetTestStandVersionStringArray.vi" Type="VI" URL="../subGetTestStandVersionStringArray.vi"/>
 	<Item Name="subReadVersionFile.vi" Type="VI" URL="../subReadVersionFile.vi"/>
