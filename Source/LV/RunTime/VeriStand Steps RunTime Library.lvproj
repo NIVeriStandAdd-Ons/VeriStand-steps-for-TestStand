@@ -18,8 +18,10 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Tests" Type="Folder">
+			<Item Name="Test - Is VeriStand Running.vi" Type="VI" URL="../tests/Test - Is VeriStand Running.vi"/>
+		</Item>
 		<Item Name="ni-veristand-steps-runtime-lib.lvlib" Type="Library" URL="../ni-veristand-steps-runtime-lib.lvlib"/>
-		<Item Name="Test - Is VeriStand Running.vi" Type="VI" URL="../tests/Test - Is VeriStand Running.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
@@ -81,7 +83,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/ni-veristand-steps-runtime-lib.lvlib/build/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D975B79C-6A9C-4BFA-B908-817ED864B8DD}</Property>
-				<Property Name="Bld_version.build" Type="Int">12</Property>
+				<Property Name="Bld_version.build" Type="Int">13</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">ni-veristand-steps-runtime-lib.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../build_temp/ni-veristand-steps-runtime-lib.lvlibp</Property>
