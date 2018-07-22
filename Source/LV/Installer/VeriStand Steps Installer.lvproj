@@ -211,7 +211,8 @@
 				<Property Name="Destination[9].type" Type="Str">userFolder</Property>
 				<Property Name="DestinationCount" Type="Int">28</Property>
 				<Property Name="INST_author" Type="Str">NIC SE</Property>
-				<Property Name="INST_buildLocation" Type="Path">/C/Users/admin/Documents/github/NIVeristandAdd-ons/VeriStand-steps-for-TestStand/built/installer</Property>
+				<Property Name="INST_buildLocation" Type="Path">../Installer/builds</Property>
+				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
 				<Property Name="INST_buildSpecName" Type="Str">Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{D217104D-D4A1-46B5-BDF1-D31BF7C8204A}</Property>
 				<Property Name="INST_productName" Type="Str">NI VeriStand Steps for TestStand</Property>
