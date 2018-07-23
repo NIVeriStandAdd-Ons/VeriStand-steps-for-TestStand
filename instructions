@@ -2,7 +2,7 @@
 
    <customExecutes>
       <customExecute step="install" schedule="post" root="ProgramFiles_32" exeName="NI VeriStand Steps for TestStand\PostInstallAction.exe" wait="y" ignoreErrors="n"/>
-      <customExecute step="uninstall" schedule="pre" root="ProgramFiles_32" exeName="NI VeriStand Steps for TestStand\PreUninstallAction.exe" wait="y" ignoreErrors="n"/>
+      <customExecute step="uninstall" schedule="pre" root="ProgramFiles_32" exeName="NI VeriStand Steps for TestStand\PreUninstallAction.exe" wait="y" ignoreErrors="y"/>
    </customExecutes>
 
 </instructions>
