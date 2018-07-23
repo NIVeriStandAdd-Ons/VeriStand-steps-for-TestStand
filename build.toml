@@ -45,7 +45,7 @@ name = 'LV Installer'
 type = 'lvBuildSpec'
 project = 'installer'
 target = 'My Computer'
-build_spec = 'VeriStand Steps for TestStand'
+build_spec = 'NI VeriStand Steps for TestStand'
 
 [[test.steps]]
 name = 'TestStand 2014 Integration Test'
