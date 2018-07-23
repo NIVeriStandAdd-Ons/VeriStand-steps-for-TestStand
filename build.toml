@@ -1,12 +1,12 @@
 [archive]
 build_output_dir = 'Built'
-archive_location = '\\us-aus-hilbuild\builds\NIVeriStandAdd-ons\archive\addons\veristand steps for teststand'
+archive_location = '\\us-aus-hilbuild\builds\NIVeriStandAdd-ons\addons\veristand steps for teststand'
 
 [projects.runtime]
 path = 'Source\LV\RunTime\VeriStand Steps RunTime Library.lvproj'
 
 [projects.installer]
-path = 'Source\LV\Installer\Installer.lvproj'
+path = 'Source\LV\Installer\VeriStand Steps Installer.lvproj'
 
 [[codegen.steps]]
 name = 'Update Project Files'
@@ -31,21 +31,21 @@ name = 'PostInstallAction'
 type = 'lvBuildSpec'
 project = 'installer'
 target = 'My Computer'
-build_spec = 'Post Install Action'
+build_spec = 'Installer Post Install Action'
 
 [[build.steps]]
 name = 'PostInstallAction'
 type = 'lvBuildSpec'
 project = 'installer'
 target = 'My Computer'
-build_spec = 'Pre Uninstall Action'
+build_spec = 'Installer Pre Uninstall Action'
 
 [[build.steps]]
-name = 'Installer'
+name = 'LV Installer'
 type = 'lvBuildSpec'
 project = 'installer'
 target = 'My Computer'
-build_spec = 'Installer'
+build_spec = 'VeriStand Steps for TestStand'
 
 [[test.steps]]
 name = 'TestStand 2014 Integration Test'

@@ -14,6 +14,9 @@
 		<Item Name="VeristandStart.vi" Type="VI" URL="../application/VeristandStart.vi"/>
 		<Item Name="VeristandStop.vi" Type="VI" URL="../application/VeristandStop.vi"/>
 	</Item>
+	<Item Name="build" Type="Folder">
+		<Item Name="Post-Build Action.vi" Type="VI" URL="../build/Post-Build Action.vi"/>
+	</Item>
 	<Item Name="channels" Type="Folder">
 		<Item Name="ChannelsGetValues.vi" Type="VI" URL="../channels/ChannelsGetValues.vi"/>
 		<Item Name="ChannelsSetValues.vi" Type="VI" URL="../channels/ChannelsSetValues.vi"/>
