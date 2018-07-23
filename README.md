@@ -6,11 +6,22 @@ The steps are divided into several groups of steps which provide functionality l
 
 The NI VeriStand Steps for TestStand are distributed as *open-source* software and released under the *BSD 2-clause "Simplified" License*. 
 
-### Accessing Builds ###
+### Required Software ###
 
-All releases are available on the [*Releases*](https://github.com/NIVeriStandAdd-Ons/VeriStand-steps-for-TestStand/releases) page of this repository. 
+#### Currently supported NI VeriStand versions ####
 
-### Installation ###
+* VeriStand 2015 SP1
+* VeriStand 2017
+* VeriStand 2018
+
+Beginning with version 7.2.2 each package or installer for the NI VeriStand Step Types includes support for *one version of VeriStand* and *all currently supported TestStand versions*. It is **not necessary** to have every version of TestStand installed in order to use the step types.
+
+#### Currently supported NI TestStand versions ####
+* TestStand 2014 (32- and 64-bit)
+* TestStand 2016 (32- and 64-bit)
+* TestStand 2017 (32- and 64-bit)
+
+For example, the **ni-veristand-2018-steps-for-teststand_7.2.2+001.nipkg** package installs NI VeriStand 2018 compatible step types for all versions of TestStand listed above. 
 
 Beginning with version 7.2.2 the NI VeriStand Step Types are available as an NI Package with the .nipkg file extension. Previous versions were distributed as a LabVIEW Installer. NI Package files can be installed using [NI Package Manager](http://search.ni.com/nisearch/app/main/p/bot/no/ap/tech/lang/en/pg/1/sn/catnav:du/q/ni%20package%20manager/)
 
@@ -27,6 +38,9 @@ Version 7.2.2 is the last version available with a LabVIEW Installer.
 1. *Unzip* the installer files to your local drive
 1. *Run* **setup.exe**.
 
+### Accessing Builds ###
+
+All releases are available on the [*Releases*](https://github.com/NIVeriStandAdd-Ons/VeriStand-steps-for-TestStand/releases) page of this repository. 
 
 ### Release Notes ###
 
