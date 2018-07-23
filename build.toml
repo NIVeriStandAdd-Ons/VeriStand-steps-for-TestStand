@@ -40,6 +40,13 @@ project = 'installer'
 target = 'My Computer'
 build_spec = 'Installer Pre Uninstall Action'
 
+[[build.steps]]
+name = 'LV Installer'
+type = 'lvBuildSpec'
+project = 'installer'
+target = 'My Computer'
+build_spec = 'VeriStand Steps for TestStand'
+
 [package]
 type = 'vsStepsPackage'
 types_version = '7.2.2'
