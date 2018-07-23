@@ -96,322 +96,6 @@
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Installer" Type="Installer">
-				<Property Name="Destination[0].name" Type="Str">NI VeriStand Steps for TestStand</Property>
-				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
-				<Property Name="Destination[0].tag" Type="Str">{D217104D-D4A1-46B5-BDF1-D31BF7C8204A}</Property>
-				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[1].name" Type="Str">National Instruments</Property>
-				<Property Name="Destination[1].parent" Type="Str">{115F5F59-DED6-42E2-8467-4CD042208C47}</Property>
-				<Property Name="Destination[1].tag" Type="Str">{F1BBEBB5-6105-4781-BBEB-DD282B7BF196}</Property>
-				<Property Name="Destination[1].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[10].name" Type="Str">TestStand 2017 (32-bit)</Property>
-				<Property Name="Destination[10].parent" Type="Str">{4AA21E7E-D8CC-4DE2-B31A-5F89C829D74E}</Property>
-				<Property Name="Destination[10].tag" Type="Str">{DA53BC65-4201-496F-B4EA-C823F9841D46}</Property>
-				<Property Name="Destination[10].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[11].name" Type="Str">TestStand 2017 (64-bit)</Property>
-				<Property Name="Destination[11].parent" Type="Str">{4AA21E7E-D8CC-4DE2-B31A-5F89C829D74E}</Property>
-				<Property Name="Destination[11].tag" Type="Str">{2D00EDD4-A978-4769-BED3-777058AC7E22}</Property>
-				<Property Name="Destination[11].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[12].name" Type="Str">Components</Property>
-				<Property Name="Destination[12].parent" Type="Str">{1A5C2BA7-B483-49DD-A153-E30287D8FC3A}</Property>
-				<Property Name="Destination[12].tag" Type="Str">{24C28C7F-DDB3-4E9A-8550-CBEF68F25747}</Property>
-				<Property Name="Destination[12].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[13].name" Type="Str">Icons</Property>
-				<Property Name="Destination[13].parent" Type="Str">{24C28C7F-DDB3-4E9A-8550-CBEF68F25747}</Property>
-				<Property Name="Destination[13].tag" Type="Str">{B7943BDF-DFC7-4E99-9D55-D9275971B19A}</Property>
-				<Property Name="Destination[13].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[14].name" Type="Str">TypePalettes</Property>
-				<Property Name="Destination[14].parent" Type="Str">{24C28C7F-DDB3-4E9A-8550-CBEF68F25747}</Property>
-				<Property Name="Destination[14].tag" Type="Str">{200CEF20-F234-47CC-9FAE-CE9855433C20}</Property>
-				<Property Name="Destination[14].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[15].name" Type="Str">NI VeriStand Steps for TestStand</Property>
-				<Property Name="Destination[15].parent" Type="Str">{4AA21E7E-D8CC-4DE2-B31A-5F89C829D74E}</Property>
-				<Property Name="Destination[15].tag" Type="Str">{55741FEF-892D-489C-896C-BA6B69B8E797}</Property>
-				<Property Name="Destination[15].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[16].name" Type="Str">Components</Property>
-				<Property Name="Destination[16].parent" Type="Str">{56109F54-BD89-480C-90FD-F616293210FA}</Property>
-				<Property Name="Destination[16].tag" Type="Str">{C097A784-6143-4B0A-975A-8BE819CD237E}</Property>
-				<Property Name="Destination[16].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[17].name" Type="Str">Icons</Property>
-				<Property Name="Destination[17].parent" Type="Str">{C097A784-6143-4B0A-975A-8BE819CD237E}</Property>
-				<Property Name="Destination[17].tag" Type="Str">{8191836D-761C-4FF9-A290-007D5B725720}</Property>
-				<Property Name="Destination[17].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[18].name" Type="Str">TypePalettes</Property>
-				<Property Name="Destination[18].parent" Type="Str">{C097A784-6143-4B0A-975A-8BE819CD237E}</Property>
-				<Property Name="Destination[18].tag" Type="Str">{E803274E-E70B-4395-A68E-419D6E3F6B63}</Property>
-				<Property Name="Destination[18].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[19].name" Type="Str">Components</Property>
-				<Property Name="Destination[19].parent" Type="Str">{A84C09D8-2AEA-45F5-9356-B374B790D421}</Property>
-				<Property Name="Destination[19].tag" Type="Str">{FEB61BA8-DE3A-4E89-ADB1-E14CD2E16F32}</Property>
-				<Property Name="Destination[19].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[2].name" Type="Str">Users</Property>
-				<Property Name="Destination[2].parent" Type="Str">{D2272923-C63E-4A06-9729-85B1AD1CFB2A}</Property>
-				<Property Name="Destination[2].tag" Type="Str">{BC7AE8D0-22F6-4E72-9FD8-A84DDE308A2D}</Property>
-				<Property Name="Destination[2].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[20].name" Type="Str">Icons</Property>
-				<Property Name="Destination[20].parent" Type="Str">{FEB61BA8-DE3A-4E89-ADB1-E14CD2E16F32}</Property>
-				<Property Name="Destination[20].tag" Type="Str">{833F2F59-E07E-461B-8496-4C670901F9CF}</Property>
-				<Property Name="Destination[20].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[21].name" Type="Str">TypePalettes</Property>
-				<Property Name="Destination[21].parent" Type="Str">{FEB61BA8-DE3A-4E89-ADB1-E14CD2E16F32}</Property>
-				<Property Name="Destination[21].tag" Type="Str">{767BD5AE-2BC2-4698-AF27-ACA4575BE6F3}</Property>
-				<Property Name="Destination[21].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[22].name" Type="Str">Components</Property>
-				<Property Name="Destination[22].parent" Type="Str">{532EB7F2-4B8E-45A3-B082-29BE0744B697}</Property>
-				<Property Name="Destination[22].tag" Type="Str">{BF63A728-7A3A-4397-93F2-014958CC3A3F}</Property>
-				<Property Name="Destination[22].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[23].name" Type="Str">Components</Property>
-				<Property Name="Destination[23].parent" Type="Str">{DA53BC65-4201-496F-B4EA-C823F9841D46}</Property>
-				<Property Name="Destination[23].tag" Type="Str">{D8F60828-B7A9-453F-8517-74F48D95A25B}</Property>
-				<Property Name="Destination[23].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[24].name" Type="Str">Components</Property>
-				<Property Name="Destination[24].parent" Type="Str">{2D00EDD4-A978-4769-BED3-777058AC7E22}</Property>
-				<Property Name="Destination[24].tag" Type="Str">{67B36123-47FA-403F-93B0-2622F597C9E5}</Property>
-				<Property Name="Destination[24].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[25].name" Type="Str">Icons</Property>
-				<Property Name="Destination[25].parent" Type="Str">{BF63A728-7A3A-4397-93F2-014958CC3A3F}</Property>
-				<Property Name="Destination[25].tag" Type="Str">{6DB926C6-DF7B-4389-9217-D849AE450AE8}</Property>
-				<Property Name="Destination[25].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[26].name" Type="Str">Icons</Property>
-				<Property Name="Destination[26].parent" Type="Str">{D8F60828-B7A9-453F-8517-74F48D95A25B}</Property>
-				<Property Name="Destination[26].tag" Type="Str">{7530833F-BEA2-4E8D-A030-B0CDA422D424}</Property>
-				<Property Name="Destination[26].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[27].name" Type="Str">Icons</Property>
-				<Property Name="Destination[27].parent" Type="Str">{67B36123-47FA-403F-93B0-2622F597C9E5}</Property>
-				<Property Name="Destination[27].tag" Type="Str">{49ED0A1A-F206-4CA5-BA1D-BC0FFBE1660E}</Property>
-				<Property Name="Destination[27].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[28].name" Type="Str">TypePalettes</Property>
-				<Property Name="Destination[28].parent" Type="Str">{BF63A728-7A3A-4397-93F2-014958CC3A3F}</Property>
-				<Property Name="Destination[28].tag" Type="Str">{E4376C38-A5D7-4690-BDA6-BA9E318ED314}</Property>
-				<Property Name="Destination[28].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[29].name" Type="Str">TypePalettes</Property>
-				<Property Name="Destination[29].parent" Type="Str">{D8F60828-B7A9-453F-8517-74F48D95A25B}</Property>
-				<Property Name="Destination[29].tag" Type="Str">{123B9BA8-3468-4C07-93AA-E9013D0351F0}</Property>
-				<Property Name="Destination[29].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[3].name" Type="Str">Public</Property>
-				<Property Name="Destination[3].parent" Type="Str">{BC7AE8D0-22F6-4E72-9FD8-A84DDE308A2D}</Property>
-				<Property Name="Destination[3].tag" Type="Str">{7D5CAAB0-D32D-408A-89F3-701339A8EF12}</Property>
-				<Property Name="Destination[3].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[30].name" Type="Str">TypePalettes</Property>
-				<Property Name="Destination[30].parent" Type="Str">{67B36123-47FA-403F-93B0-2622F597C9E5}</Property>
-				<Property Name="Destination[30].tag" Type="Str">{BA0ECCD4-E53D-42A4-85F4-43FF2AAAF06C}</Property>
-				<Property Name="Destination[30].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[31].name" Type="Str">Examples</Property>
-				<Property Name="Destination[31].parent" Type="Str">{55741FEF-892D-489C-896C-BA6B69B8E797}</Property>
-				<Property Name="Destination[31].tag" Type="Str">{53B7E3E4-F0A2-45E0-99D2-E53F9F8613C7}</Property>
-				<Property Name="Destination[31].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[4].name" Type="Str">Documents</Property>
-				<Property Name="Destination[4].parent" Type="Str">{7D5CAAB0-D32D-408A-89F3-701339A8EF12}</Property>
-				<Property Name="Destination[4].tag" Type="Str">{506917A2-F275-4ACA-8236-57C3B4D88396}</Property>
-				<Property Name="Destination[4].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[5].name" Type="Str">National Instruments</Property>
-				<Property Name="Destination[5].parent" Type="Str">{506917A2-F275-4ACA-8236-57C3B4D88396}</Property>
-				<Property Name="Destination[5].tag" Type="Str">{4AA21E7E-D8CC-4DE2-B31A-5F89C829D74E}</Property>
-				<Property Name="Destination[5].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[6].name" Type="Str">TestStand 2014 (32-bit)</Property>
-				<Property Name="Destination[6].parent" Type="Str">{4AA21E7E-D8CC-4DE2-B31A-5F89C829D74E}</Property>
-				<Property Name="Destination[6].tag" Type="Str">{1A5C2BA7-B483-49DD-A153-E30287D8FC3A}</Property>
-				<Property Name="Destination[6].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[7].name" Type="Str">TestStand 2014 (64-bit)</Property>
-				<Property Name="Destination[7].parent" Type="Str">{4AA21E7E-D8CC-4DE2-B31A-5F89C829D74E}</Property>
-				<Property Name="Destination[7].tag" Type="Str">{56109F54-BD89-480C-90FD-F616293210FA}</Property>
-				<Property Name="Destination[7].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[8].name" Type="Str">TestStand 2016 (32-bit)</Property>
-				<Property Name="Destination[8].parent" Type="Str">{4AA21E7E-D8CC-4DE2-B31A-5F89C829D74E}</Property>
-				<Property Name="Destination[8].tag" Type="Str">{A84C09D8-2AEA-45F5-9356-B374B790D421}</Property>
-				<Property Name="Destination[8].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[9].name" Type="Str">TestStand 2016 (64-bit)</Property>
-				<Property Name="Destination[9].parent" Type="Str">{4AA21E7E-D8CC-4DE2-B31A-5F89C829D74E}</Property>
-				<Property Name="Destination[9].tag" Type="Str">{532EB7F2-4B8E-45A3-B082-29BE0744B697}</Property>
-				<Property Name="Destination[9].type" Type="Str">userFolder</Property>
-				<Property Name="DestinationCount" Type="Int">32</Property>
-				<Property Name="INST_author" Type="Str">NIC SE</Property>
-				<Property Name="INST_buildLocation" Type="Path">../Installer/builds</Property>
-				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
-				<Property Name="INST_buildSpecName" Type="Str">Installer</Property>
-				<Property Name="INST_defaultDir" Type="Str">{D217104D-D4A1-46B5-BDF1-D31BF7C8204A}</Property>
-				<Property Name="INST_productName" Type="Str">NI VeriStand Steps for TestStand</Property>
-				<Property Name="INST_productVersion" Type="Str">7.2.2</Property>
-				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
-				<Property Name="InstSpecVersion" Type="Str">15018004</Property>
-				<Property Name="MSI_arpCompany" Type="Str">National Instruments Systems Engineering</Property>
-				<Property Name="MSI_distID" Type="Str">{848F8109-331F-475B-9EEC-DB01B352F467}</Property>
-				<Property Name="MSI_hideNonRuntimes" Type="Bool">true</Property>
-				<Property Name="MSI_osCheck" Type="Int">0</Property>
-				<Property Name="MSI_upgradeCode" Type="Str">{772D42A5-7D01-42F7-937E-0A2AF958322E}</Property>
-				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
-				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
-				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
-				<Property Name="RegDestCount" Type="Int">1</Property>
-				<Property Name="Source[0].dest" Type="Str">{D217104D-D4A1-46B5-BDF1-D31BF7C8204A}</Property>
-				<Property Name="Source[0].name" Type="Str">NationalInstruments.Veristand.VeristandSteps.dll</Property>
-				<Property Name="Source[0].tag" Type="Ref">/My Computer/VeriStandStepsAssembly/NationalInstruments.Veristand.VeristandSteps.dll</Property>
-				<Property Name="Source[0].type" Type="Str">File</Property>
-				<Property Name="Source[1].dest" Type="Str">{D217104D-D4A1-46B5-BDF1-D31BF7C8204A}</Property>
-				<Property Name="Source[1].name" Type="Str">PostInstallAction.exe</Property>
-				<Property Name="Source[1].runEXE" Type="Bool">true</Property>
-				<Property Name="Source[1].tag" Type="Ref">/My Computer/Installer Action VIs/PostInstallAction.exe</Property>
-				<Property Name="Source[1].type" Type="Str">File</Property>
-				<Property Name="Source[10].dest" Type="Str">{04A93A51-C323-4921-8AA0-B0BEFE82DF61}</Property>
-				<Property Name="Source[10].name" Type="Str">ni-veristand-steps-runtime-lib.lvlibp</Property>
-				<Property Name="Source[10].tag" Type="Ref">/My Computer/Packed Libraries/x64/ni-veristand-steps-runtime-lib.lvlibp</Property>
-				<Property Name="Source[10].type" Type="Str">File</Property>
-				<Property Name="Source[11].dest" Type="Str">{B86CD178-DDCE-40A6-82AB-AB34427A454F}</Property>
-				<Property Name="Source[11].name" Type="Str">ni-veristand-steps-runtime-lib.lvlibp</Property>
-				<Property Name="Source[11].tag" Type="Ref">/My Computer/Packed Libraries/x64/ni-veristand-steps-runtime-lib.lvlibp</Property>
-				<Property Name="Source[11].type" Type="Str">File</Property>
-				<Property Name="Source[12].dest" Type="Str">{E2C476E5-6CCC-4AD4-B946-A602E8C945B9}</Property>
-				<Property Name="Source[12].name" Type="Str">ni-veristand-steps-runtime-lib.lvlibp</Property>
-				<Property Name="Source[12].tag" Type="Ref">/My Computer/Packed Libraries/x64/ni-veristand-steps-runtime-lib.lvlibp</Property>
-				<Property Name="Source[12].type" Type="Str">File</Property>
-				<Property Name="Source[13].dest" Type="Str">{265654FD-C930-4215-A4A0-34E2D4B94207}</Property>
-				<Property Name="Source[13].name" Type="Str">ni-veristand-steps-runtime-lib.lvlibp</Property>
-				<Property Name="Source[13].tag" Type="Ref">/My Computer/Packed Libraries/x86/ni-veristand-steps-runtime-lib.lvlibp</Property>
-				<Property Name="Source[13].type" Type="Str">File</Property>
-				<Property Name="Source[14].dest" Type="Str">{CB915E63-F77E-4386-AA08-7813B421EF17}</Property>
-				<Property Name="Source[14].name" Type="Str">ni-veristand-steps-runtime-lib.lvlibp</Property>
-				<Property Name="Source[14].tag" Type="Ref">/My Computer/Packed Libraries/x86/ni-veristand-steps-runtime-lib.lvlibp</Property>
-				<Property Name="Source[14].type" Type="Str">File</Property>
-				<Property Name="Source[15].dest" Type="Str">{42F4D869-DC12-49C3-899F-1EF5F9B25DD6}</Property>
-				<Property Name="Source[15].name" Type="Str">ni-veristand-steps-runtime-lib.lvlibp</Property>
-				<Property Name="Source[15].tag" Type="Ref">/My Computer/Packed Libraries/x86/ni-veristand-steps-runtime-lib.lvlibp</Property>
-				<Property Name="Source[15].type" Type="Str">File</Property>
-				<Property Name="Source[16].dest" Type="Str">{200CEF20-F234-47CC-9FAE-CE9855433C20}</Property>
-				<Property Name="Source[16].name" Type="Str">ni-veristand-steps-runtime-lib.lvlibp</Property>
-				<Property Name="Source[16].tag" Type="Ref">/My Computer/Packed Libraries/x64/ni-veristand-steps-runtime-lib.lvlibp</Property>
-				<Property Name="Source[16].type" Type="Str">File</Property>
-				<Property Name="Source[17].dest" Type="Str">{767BD5AE-2BC2-4698-AF27-ACA4575BE6F3}</Property>
-				<Property Name="Source[17].name" Type="Str">ni-veristand-steps-runtime-lib.lvlibp</Property>
-				<Property Name="Source[17].tag" Type="Ref">/My Computer/Packed Libraries/x64/ni-veristand-steps-runtime-lib.lvlibp</Property>
-				<Property Name="Source[17].type" Type="Str">File</Property>
-				<Property Name="Source[18].dest" Type="Str">{E803274E-E70B-4395-A68E-419D6E3F6B63}</Property>
-				<Property Name="Source[18].name" Type="Str">ni-veristand-steps-runtime-lib.lvlibp</Property>
-				<Property Name="Source[18].tag" Type="Ref">/My Computer/Packed Libraries/x86/ni-veristand-steps-runtime-lib.lvlibp</Property>
-				<Property Name="Source[18].type" Type="Str">File</Property>
-				<Property Name="Source[19].dest" Type="Str">{E4376C38-A5D7-4690-BDA6-BA9E318ED314}</Property>
-				<Property Name="Source[19].name" Type="Str">ni-veristand-steps-runtime-lib.lvlibp</Property>
-				<Property Name="Source[19].tag" Type="Ref">/My Computer/Packed Libraries/x86/ni-veristand-steps-runtime-lib.lvlibp</Property>
-				<Property Name="Source[19].type" Type="Str">File</Property>
-				<Property Name="Source[2].dest" Type="Str">{D217104D-D4A1-46B5-BDF1-D31BF7C8204A}</Property>
-				<Property Name="Source[2].name" Type="Str">PreUninstallAction.exe</Property>
-				<Property Name="Source[2].runEXE_uninstall" Type="Bool">true</Property>
-				<Property Name="Source[2].tag" Type="Ref">/My Computer/Installer Action VIs/PreUninstallAction.exe</Property>
-				<Property Name="Source[2].type" Type="Str">File</Property>
-				<Property Name="Source[20].dest" Type="Str">{123B9BA8-3468-4C07-93AA-E9013D0351F0}</Property>
-				<Property Name="Source[20].name" Type="Str">ni-veristand-steps-runtime-lib.lvlibp</Property>
-				<Property Name="Source[20].tag" Type="Ref">/My Computer/Packed Libraries/x64/ni-veristand-steps-runtime-lib.lvlibp</Property>
-				<Property Name="Source[20].type" Type="Str">File</Property>
-				<Property Name="Source[21].dest" Type="Str">{BA0ECCD4-E53D-42A4-85F4-43FF2AAAF06C}</Property>
-				<Property Name="Source[21].name" Type="Str">ni-veristand-steps-runtime-lib.lvlibp</Property>
-				<Property Name="Source[21].tag" Type="Ref">/My Computer/Packed Libraries/x86/ni-veristand-steps-runtime-lib.lvlibp</Property>
-				<Property Name="Source[21].type" Type="Str">File</Property>
-				<Property Name="Source[22].dest" Type="Str">{BA0ECCD4-E53D-42A4-85F4-43FF2AAAF06C}</Property>
-				<Property Name="Source[22].name" Type="Str">NI_VeristandTypes.ini</Property>
-				<Property Name="Source[22].tag" Type="Ref">/My Computer/TypePalette File/NI_VeristandTypes.ini</Property>
-				<Property Name="Source[22].type" Type="Str">File</Property>
-				<Property Name="Source[23].dest" Type="Str">{123B9BA8-3468-4C07-93AA-E9013D0351F0}</Property>
-				<Property Name="Source[23].name" Type="Str">NI_VeristandTypes.ini</Property>
-				<Property Name="Source[23].tag" Type="Ref">/My Computer/TypePalette File/NI_VeristandTypes.ini</Property>
-				<Property Name="Source[23].type" Type="Str">File</Property>
-				<Property Name="Source[24].dest" Type="Str">{E4376C38-A5D7-4690-BDA6-BA9E318ED314}</Property>
-				<Property Name="Source[24].name" Type="Str">NI_VeristandTypes.ini</Property>
-				<Property Name="Source[24].tag" Type="Ref">/My Computer/TypePalette File/NI_VeristandTypes.ini</Property>
-				<Property Name="Source[24].type" Type="Str">File</Property>
-				<Property Name="Source[25].dest" Type="Str">{767BD5AE-2BC2-4698-AF27-ACA4575BE6F3}</Property>
-				<Property Name="Source[25].name" Type="Str">NI_VeristandTypes.ini</Property>
-				<Property Name="Source[25].tag" Type="Ref">/My Computer/TypePalette File/NI_VeristandTypes.ini</Property>
-				<Property Name="Source[25].type" Type="Str">File</Property>
-				<Property Name="Source[26].dest" Type="Str">{E803274E-E70B-4395-A68E-419D6E3F6B63}</Property>
-				<Property Name="Source[26].name" Type="Str">NI_VeristandTypes.ini</Property>
-				<Property Name="Source[26].tag" Type="Ref">/My Computer/TypePalette File/NI_VeristandTypes.ini</Property>
-				<Property Name="Source[26].type" Type="Str">File</Property>
-				<Property Name="Source[27].dest" Type="Str">{200CEF20-F234-47CC-9FAE-CE9855433C20}</Property>
-				<Property Name="Source[27].name" Type="Str">NI_VeristandTypes.ini</Property>
-				<Property Name="Source[27].tag" Type="Ref">/My Computer/TypePalette File/NI_VeristandTypes.ini</Property>
-				<Property Name="Source[27].type" Type="Str">File</Property>
-				<Property Name="Source[28].dest" Type="Str">{49ED0A1A-F206-4CA5-BA1D-BC0FFBE1660E}</Property>
-				<Property Name="Source[28].name" Type="Str">Veristand_icon_vista.ico</Property>
-				<Property Name="Source[28].tag" Type="Ref">/My Computer/Icon File/Veristand_icon_vista.ico</Property>
-				<Property Name="Source[28].type" Type="Str">File</Property>
-				<Property Name="Source[29].dest" Type="Str">{7530833F-BEA2-4E8D-A030-B0CDA422D424}</Property>
-				<Property Name="Source[29].name" Type="Str">Veristand_icon_vista.ico</Property>
-				<Property Name="Source[29].tag" Type="Ref">/My Computer/Icon File/Veristand_icon_vista.ico</Property>
-				<Property Name="Source[29].type" Type="Str">File</Property>
-				<Property Name="Source[3].dest" Type="Str">{D217104D-D4A1-46B5-BDF1-D31BF7C8204A}</Property>
-				<Property Name="Source[3].name" Type="Str">InstallToGAC.exe</Property>
-				<Property Name="Source[3].tag" Type="Ref">/My Computer/GAC Utilities/InstallToGAC.exe</Property>
-				<Property Name="Source[3].type" Type="Str">File</Property>
-				<Property Name="Source[30].dest" Type="Str">{6DB926C6-DF7B-4389-9217-D849AE450AE8}</Property>
-				<Property Name="Source[30].name" Type="Str">Veristand_icon_vista.ico</Property>
-				<Property Name="Source[30].tag" Type="Ref">/My Computer/Icon File/Veristand_icon_vista.ico</Property>
-				<Property Name="Source[30].type" Type="Str">File</Property>
-				<Property Name="Source[31].dest" Type="Str">{833F2F59-E07E-461B-8496-4C670901F9CF}</Property>
-				<Property Name="Source[31].name" Type="Str">Veristand_icon_vista.ico</Property>
-				<Property Name="Source[31].tag" Type="Ref">/My Computer/Icon File/Veristand_icon_vista.ico</Property>
-				<Property Name="Source[31].type" Type="Str">File</Property>
-				<Property Name="Source[32].dest" Type="Str">{8191836D-761C-4FF9-A290-007D5B725720}</Property>
-				<Property Name="Source[32].name" Type="Str">Veristand_icon_vista.ico</Property>
-				<Property Name="Source[32].tag" Type="Ref">/My Computer/Icon File/Veristand_icon_vista.ico</Property>
-				<Property Name="Source[32].type" Type="Str">File</Property>
-				<Property Name="Source[33].dest" Type="Str">{B7943BDF-DFC7-4E99-9D55-D9275971B19A}</Property>
-				<Property Name="Source[33].name" Type="Str">Veristand_icon_vista.ico</Property>
-				<Property Name="Source[33].tag" Type="Ref">/My Computer/Icon File/Veristand_icon_vista.ico</Property>
-				<Property Name="Source[33].type" Type="Str">File</Property>
-				<Property Name="Source[34].dest" Type="Str">{55741FEF-892D-489C-896C-BA6B69B8E797}</Property>
-				<Property Name="Source[34].name" Type="Str">LICENSE.txt</Property>
-				<Property Name="Source[34].tag" Type="Ref">/My Computer/License/LICENSE.txt</Property>
-				<Property Name="Source[34].type" Type="Str">File</Property>
-				<Property Name="Source[35].dest" Type="Str">{53B7E3E4-F0A2-45E0-99D2-E53F9F8613C7}</Property>
-				<Property Name="Source[35].name" Type="Str">Get Rise Time.nivsseq</Property>
-				<Property Name="Source[35].tag" Type="Ref">/My Computer/Examples/Get Rise Time.nivsseq</Property>
-				<Property Name="Source[35].type" Type="Str">File</Property>
-				<Property Name="Source[36].dest" Type="Str">{53B7E3E4-F0A2-45E0-99D2-E53F9F8613C7}</Property>
-				<Property Name="Source[36].name" Type="Str">Monitor Engine Temp.seq</Property>
-				<Property Name="Source[36].tag" Type="Ref">/My Computer/Examples/Monitor Engine Temp.seq</Property>
-				<Property Name="Source[36].type" Type="Str">File</Property>
-				<Property Name="Source[37].dest" Type="Str">{53B7E3E4-F0A2-45E0-99D2-E53F9F8613C7}</Property>
-				<Property Name="Source[37].name" Type="Str">NIVS Engine Demo.seq</Property>
-				<Property Name="Source[37].tag" Type="Ref">/My Computer/Examples/NIVS Engine Demo.seq</Property>
-				<Property Name="Source[37].type" Type="Str">File</Property>
-				<Property Name="Source[38].dest" Type="Str">{53B7E3E4-F0A2-45E0-99D2-E53F9F8613C7}</Property>
-				<Property Name="Source[38].name" Type="Str">Training - NIVS Engine Demo.docx</Property>
-				<Property Name="Source[38].tag" Type="Ref">/My Computer/Examples/Training - NIVS Engine Demo.docx</Property>
-				<Property Name="Source[38].type" Type="Str">File</Property>
-				<Property Name="Source[39].dest" Type="Str">{55741FEF-892D-489C-896C-BA6B69B8E797}</Property>
-				<Property Name="Source[39].name" Type="Str">VeriStand Steps for TestStand Developer Guide.docx</Property>
-				<Property Name="Source[39].tag" Type="Ref">/My Computer/Documentation/VeriStand Steps for TestStand Developer Guide.docx</Property>
-				<Property Name="Source[39].type" Type="Str">File</Property>
-				<Property Name="Source[4].dest" Type="Str">{D217104D-D4A1-46B5-BDF1-D31BF7C8204A}</Property>
-				<Property Name="Source[4].name" Type="Str">RemoveFromGAC.exe</Property>
-				<Property Name="Source[4].tag" Type="Ref">/My Computer/GAC Utilities/RemoveFromGAC.exe</Property>
-				<Property Name="Source[4].type" Type="Str">File</Property>
-				<Property Name="Source[40].dest" Type="Str">{55741FEF-892D-489C-896C-BA6B69B8E797}</Property>
-				<Property Name="Source[40].name" Type="Str">VeriStand Steps for TestStand User Guide.docx</Property>
-				<Property Name="Source[40].tag" Type="Ref">/My Computer/Documentation/VeriStand Steps for TestStand User Guide.docx</Property>
-				<Property Name="Source[40].type" Type="Str">File</Property>
-				<Property Name="Source[5].dest" Type="Str">{E99D1084-D1F8-4A9D-8830-23727A5B29E4}</Property>
-				<Property Name="Source[5].name" Type="Str">VeriStand Steps for TestStand Developer Guide.docx</Property>
-				<Property Name="Source[5].tag" Type="Ref">/My Computer/Documentation/VeriStand Steps for TestStand Developer Guide.docx</Property>
-				<Property Name="Source[5].type" Type="Str">File</Property>
-				<Property Name="Source[6].dest" Type="Str">{E99D1084-D1F8-4A9D-8830-23727A5B29E4}</Property>
-				<Property Name="Source[6].name" Type="Str">VeriStand Steps for TestStand User Guide.docx</Property>
-				<Property Name="Source[6].tag" Type="Ref">/My Computer/Documentation/VeriStand Steps for TestStand User Guide.docx</Property>
-				<Property Name="Source[6].type" Type="Str">File</Property>
-				<Property Name="Source[7].dest" Type="Str">{28284879-806F-49D6-A6D5-43D4F03A5277}</Property>
-				<Property Name="Source[7].name" Type="Str">Monitor Engine Temp.seq</Property>
-				<Property Name="Source[7].tag" Type="Ref">/My Computer/Examples/Monitor Engine Temp.seq</Property>
-				<Property Name="Source[7].type" Type="Str">File</Property>
-				<Property Name="Source[8].dest" Type="Str">{28284879-806F-49D6-A6D5-43D4F03A5277}</Property>
-				<Property Name="Source[8].name" Type="Str">NIVS Engine Demo.seq</Property>
-				<Property Name="Source[8].tag" Type="Ref">/My Computer/Examples/NIVS Engine Demo.seq</Property>
-				<Property Name="Source[8].type" Type="Str">File</Property>
-				<Property Name="Source[9].dest" Type="Str">{28284879-806F-49D6-A6D5-43D4F03A5277}</Property>
-				<Property Name="Source[9].name" Type="Str">Training - NIVS Engine Demo.docx</Property>
-				<Property Name="Source[9].tag" Type="Ref">/My Computer/Examples/Training - NIVS Engine Demo.docx</Property>
-				<Property Name="Source[9].type" Type="Str">File</Property>
-				<Property Name="SourceCount" Type="Int">41</Property>
-			</Item>
 			<Item Name="Installer Post Install Action" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{84BBF4BC-FA74-43EA-A06D-9CE7D81B3058}</Property>
@@ -495,6 +179,267 @@
 				<Property Name="TgtF_productName" Type="Str">Installer Pre Uninstall Action</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{5A0734FB-E5DE-461A-AB57-FE9BAF55AFB4}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">PreUninstallAction.exe</Property>
+			</Item>
+			<Item Name="VeriStand Steps for TestStand" Type="Installer">
+				<Property Name="Destination[0].name" Type="Str">NI VeriStand Steps for TestStand</Property>
+				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
+				<Property Name="Destination[0].tag" Type="Str">{9F919F2B-CD65-4805-A1D9-3504B7976A32}</Property>
+				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[1].name" Type="Str">Users</Property>
+				<Property Name="Destination[1].parent" Type="Str">{D2272923-C63E-4A06-9729-85B1AD1CFB2A}</Property>
+				<Property Name="Destination[1].tag" Type="Str">{710C4CE7-898A-4399-951A-1C10DABA12A5}</Property>
+				<Property Name="Destination[1].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[10].name" Type="Str">TestStand 2017 (64-bit)</Property>
+				<Property Name="Destination[10].parent" Type="Str">{0D79AC4F-EFFB-4B15-8C12-9ED664590EB5}</Property>
+				<Property Name="Destination[10].tag" Type="Str">{6568BE1B-0F35-416B-9189-80C654E7BEEF}</Property>
+				<Property Name="Destination[10].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[11].name" Type="Str">Components</Property>
+				<Property Name="Destination[11].parent" Type="Str">{58774433-B530-458C-9A9B-419363DB4DE2}</Property>
+				<Property Name="Destination[11].tag" Type="Str">{76A54563-87A8-457D-B924-BA943B012E8E}</Property>
+				<Property Name="Destination[11].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[12].name" Type="Str">Components</Property>
+				<Property Name="Destination[12].parent" Type="Str">{6F5D58DD-196C-4D0D-A920-0BF1A910CCA4}</Property>
+				<Property Name="Destination[12].tag" Type="Str">{6FDEFF5A-5FE6-4C40-90AF-D164F7CB3CBC}</Property>
+				<Property Name="Destination[12].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[13].name" Type="Str">Components</Property>
+				<Property Name="Destination[13].parent" Type="Str">{52F56138-F352-493C-B233-AD4C91D37337}</Property>
+				<Property Name="Destination[13].tag" Type="Str">{40B4E38D-B8BF-4BD6-89CC-D535DBC76C52}</Property>
+				<Property Name="Destination[13].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[14].name" Type="Str">Components</Property>
+				<Property Name="Destination[14].parent" Type="Str">{781410CE-7384-4757-83C4-7A0D9D2A94DC}</Property>
+				<Property Name="Destination[14].tag" Type="Str">{9B71CE4E-6C53-4244-9B0F-B178CA60458A}</Property>
+				<Property Name="Destination[14].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[15].name" Type="Str">Components</Property>
+				<Property Name="Destination[15].parent" Type="Str">{EDF91D49-4332-4F1C-83F3-43F7BE1CA0AF}</Property>
+				<Property Name="Destination[15].tag" Type="Str">{B00E32F4-CE30-408E-9D23-A047DAD09FCD}</Property>
+				<Property Name="Destination[15].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[16].name" Type="Str">Components</Property>
+				<Property Name="Destination[16].parent" Type="Str">{6568BE1B-0F35-416B-9189-80C654E7BEEF}</Property>
+				<Property Name="Destination[16].tag" Type="Str">{BDBC1E5C-EF9B-4E27-AE11-31C2B008442C}</Property>
+				<Property Name="Destination[16].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[17].name" Type="Str">Icons</Property>
+				<Property Name="Destination[17].parent" Type="Str">{76A54563-87A8-457D-B924-BA943B012E8E}</Property>
+				<Property Name="Destination[17].tag" Type="Str">{C3A2F2E1-79EB-4F63-8575-3B0D272B4897}</Property>
+				<Property Name="Destination[17].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[18].name" Type="Str">Icons</Property>
+				<Property Name="Destination[18].parent" Type="Str">{6FDEFF5A-5FE6-4C40-90AF-D164F7CB3CBC}</Property>
+				<Property Name="Destination[18].tag" Type="Str">{FAFF3259-65E0-443E-A4B8-0EA96F68FAAD}</Property>
+				<Property Name="Destination[18].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[19].name" Type="Str">Icons</Property>
+				<Property Name="Destination[19].parent" Type="Str">{40B4E38D-B8BF-4BD6-89CC-D535DBC76C52}</Property>
+				<Property Name="Destination[19].tag" Type="Str">{ABC64CF4-F9A3-4D1A-B29D-B94E7CE76EB3}</Property>
+				<Property Name="Destination[19].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[2].name" Type="Str">Public</Property>
+				<Property Name="Destination[2].parent" Type="Str">{710C4CE7-898A-4399-951A-1C10DABA12A5}</Property>
+				<Property Name="Destination[2].tag" Type="Str">{AD74A323-9289-4819-9A84-921092672AF7}</Property>
+				<Property Name="Destination[2].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[20].name" Type="Str">Icons</Property>
+				<Property Name="Destination[20].parent" Type="Str">{9B71CE4E-6C53-4244-9B0F-B178CA60458A}</Property>
+				<Property Name="Destination[20].tag" Type="Str">{AE834161-B1C6-48F5-BA6C-3CBCA8519E4C}</Property>
+				<Property Name="Destination[20].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[21].name" Type="Str">Icons</Property>
+				<Property Name="Destination[21].parent" Type="Str">{B00E32F4-CE30-408E-9D23-A047DAD09FCD}</Property>
+				<Property Name="Destination[21].tag" Type="Str">{203B0FBB-BB4C-4A9D-8614-12A9ED1526F5}</Property>
+				<Property Name="Destination[21].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[22].name" Type="Str">Icons</Property>
+				<Property Name="Destination[22].parent" Type="Str">{BDBC1E5C-EF9B-4E27-AE11-31C2B008442C}</Property>
+				<Property Name="Destination[22].tag" Type="Str">{D9C41D86-9FBC-44E3-A4DD-DE3A4E200FB8}</Property>
+				<Property Name="Destination[22].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[23].name" Type="Str">TypePalettes</Property>
+				<Property Name="Destination[23].parent" Type="Str">{76A54563-87A8-457D-B924-BA943B012E8E}</Property>
+				<Property Name="Destination[23].tag" Type="Str">{201F184B-2A21-4B07-A8DF-6FE2562CDB75}</Property>
+				<Property Name="Destination[23].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[24].name" Type="Str">TypePalettes</Property>
+				<Property Name="Destination[24].parent" Type="Str">{6FDEFF5A-5FE6-4C40-90AF-D164F7CB3CBC}</Property>
+				<Property Name="Destination[24].tag" Type="Str">{C331F174-6C58-4CFB-AF0F-D5E4EFECE2FF}</Property>
+				<Property Name="Destination[24].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[25].name" Type="Str">TypePalettes</Property>
+				<Property Name="Destination[25].parent" Type="Str">{40B4E38D-B8BF-4BD6-89CC-D535DBC76C52}</Property>
+				<Property Name="Destination[25].tag" Type="Str">{1AF8E333-C672-4AD0-886D-18F7CE23595B}</Property>
+				<Property Name="Destination[25].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[26].name" Type="Str">TypePalettes</Property>
+				<Property Name="Destination[26].parent" Type="Str">{9B71CE4E-6C53-4244-9B0F-B178CA60458A}</Property>
+				<Property Name="Destination[26].tag" Type="Str">{735DAED2-98F1-402D-BC8C-75E10C1D648B}</Property>
+				<Property Name="Destination[26].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[27].name" Type="Str">TypePalettes</Property>
+				<Property Name="Destination[27].parent" Type="Str">{B00E32F4-CE30-408E-9D23-A047DAD09FCD}</Property>
+				<Property Name="Destination[27].tag" Type="Str">{86BFFC21-CA42-48D6-ABE2-4E0D7213CC05}</Property>
+				<Property Name="Destination[27].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[28].name" Type="Str">TypePalettes</Property>
+				<Property Name="Destination[28].parent" Type="Str">{BDBC1E5C-EF9B-4E27-AE11-31C2B008442C}</Property>
+				<Property Name="Destination[28].tag" Type="Str">{8C42876B-D6D3-4E06-A58A-1D7E6E35EEB2}</Property>
+				<Property Name="Destination[28].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[29].name" Type="Str">Examples</Property>
+				<Property Name="Destination[29].parent" Type="Str">{D8D56056-3604-4F93-9C5D-05531F89F8BB}</Property>
+				<Property Name="Destination[29].tag" Type="Str">{70E12DD8-1170-43DC-B013-D7C0CDD40367}</Property>
+				<Property Name="Destination[29].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[3].name" Type="Str">National Instruments</Property>
+				<Property Name="Destination[3].parent" Type="Str">{AD74A323-9289-4819-9A84-921092672AF7}</Property>
+				<Property Name="Destination[3].tag" Type="Str">{0D79AC4F-EFFB-4B15-8C12-9ED664590EB5}</Property>
+				<Property Name="Destination[3].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[4].name" Type="Str">NI VeriStand Steps for TestStand</Property>
+				<Property Name="Destination[4].parent" Type="Str">{0D79AC4F-EFFB-4B15-8C12-9ED664590EB5}</Property>
+				<Property Name="Destination[4].tag" Type="Str">{D8D56056-3604-4F93-9C5D-05531F89F8BB}</Property>
+				<Property Name="Destination[4].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[5].name" Type="Str">TestStand 2014 (32-bit)</Property>
+				<Property Name="Destination[5].parent" Type="Str">{0D79AC4F-EFFB-4B15-8C12-9ED664590EB5}</Property>
+				<Property Name="Destination[5].tag" Type="Str">{58774433-B530-458C-9A9B-419363DB4DE2}</Property>
+				<Property Name="Destination[5].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[6].name" Type="Str">TestStand 2014 (64-bit)</Property>
+				<Property Name="Destination[6].parent" Type="Str">{0D79AC4F-EFFB-4B15-8C12-9ED664590EB5}</Property>
+				<Property Name="Destination[6].tag" Type="Str">{6F5D58DD-196C-4D0D-A920-0BF1A910CCA4}</Property>
+				<Property Name="Destination[6].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[7].name" Type="Str">TestStand 2016 (32-bit)</Property>
+				<Property Name="Destination[7].parent" Type="Str">{0D79AC4F-EFFB-4B15-8C12-9ED664590EB5}</Property>
+				<Property Name="Destination[7].tag" Type="Str">{52F56138-F352-493C-B233-AD4C91D37337}</Property>
+				<Property Name="Destination[7].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[8].name" Type="Str">TestStand 2016 (64-bit)</Property>
+				<Property Name="Destination[8].parent" Type="Str">{0D79AC4F-EFFB-4B15-8C12-9ED664590EB5}</Property>
+				<Property Name="Destination[8].tag" Type="Str">{781410CE-7384-4757-83C4-7A0D9D2A94DC}</Property>
+				<Property Name="Destination[8].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[9].name" Type="Str">TestStand 2017 (32-bit)</Property>
+				<Property Name="Destination[9].parent" Type="Str">{0D79AC4F-EFFB-4B15-8C12-9ED664590EB5}</Property>
+				<Property Name="Destination[9].tag" Type="Str">{EDF91D49-4332-4F1C-83F3-43F7BE1CA0AF}</Property>
+				<Property Name="Destination[9].type" Type="Str">userFolder</Property>
+				<Property Name="DestinationCount" Type="Int">30</Property>
+				<Property Name="INST_author" Type="Str">NIC SE</Property>
+				<Property Name="INST_buildLocation" Type="Path">../builds/NI VeriStand Steps for TestStand/VeriStand Steps for TestStand</Property>
+				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
+				<Property Name="INST_buildSpecName" Type="Str">VeriStand Steps for TestStand</Property>
+				<Property Name="INST_defaultDir" Type="Str">{9F919F2B-CD65-4805-A1D9-3504B7976A32}</Property>
+				<Property Name="INST_productName" Type="Str">NI VeriStand Steps for TestStand</Property>
+				<Property Name="INST_productVersion" Type="Str">7.2.2</Property>
+				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
+				<Property Name="InstSpecVersion" Type="Str">15018004</Property>
+				<Property Name="MSI_arpCompany" Type="Str">National Instruments Systems Engineering</Property>
+				<Property Name="MSI_distID" Type="Str">{C68CE109-734A-45C2-B499-DB26C2EA34E0}</Property>
+				<Property Name="MSI_hideNonRuntimes" Type="Bool">true</Property>
+				<Property Name="MSI_osCheck" Type="Int">0</Property>
+				<Property Name="MSI_upgradeCode" Type="Str">{2F680110-3442-443B-A4BB-989702BC73B9}</Property>
+				<Property Name="MSI_windowTitle" Type="Str">Welcome to the VeriStand Steps for TestStand Installer</Property>
+				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
+				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
+				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
+				<Property Name="RegDestCount" Type="Int">1</Property>
+				<Property Name="Source[0].dest" Type="Str">{201F184B-2A21-4B07-A8DF-6FE2562CDB75}</Property>
+				<Property Name="Source[0].name" Type="Str">ni-veristand-steps-runtime-lib.lvlibp</Property>
+				<Property Name="Source[0].tag" Type="Ref">/My Computer/Packed Libraries/x64/ni-veristand-steps-runtime-lib.lvlibp</Property>
+				<Property Name="Source[0].type" Type="Str">File</Property>
+				<Property Name="Source[1].dest" Type="Str">{1AF8E333-C672-4AD0-886D-18F7CE23595B}</Property>
+				<Property Name="Source[1].name" Type="Str">ni-veristand-steps-runtime-lib.lvlibp</Property>
+				<Property Name="Source[1].tag" Type="Ref">/My Computer/Packed Libraries/x64/ni-veristand-steps-runtime-lib.lvlibp</Property>
+				<Property Name="Source[1].type" Type="Str">File</Property>
+				<Property Name="Source[10].dest" Type="Str">{C331F174-6C58-4CFB-AF0F-D5E4EFECE2FF}</Property>
+				<Property Name="Source[10].name" Type="Str">NI_VeristandTypes.ini</Property>
+				<Property Name="Source[10].tag" Type="Ref">/My Computer/TypePalette File/NI_VeristandTypes.ini</Property>
+				<Property Name="Source[10].type" Type="Str">File</Property>
+				<Property Name="Source[11].dest" Type="Str">{201F184B-2A21-4B07-A8DF-6FE2562CDB75}</Property>
+				<Property Name="Source[11].name" Type="Str">NI_VeristandTypes.ini</Property>
+				<Property Name="Source[11].tag" Type="Ref">/My Computer/TypePalette File/NI_VeristandTypes.ini</Property>
+				<Property Name="Source[11].type" Type="Str">File</Property>
+				<Property Name="Source[12].dest" Type="Str">{D9C41D86-9FBC-44E3-A4DD-DE3A4E200FB8}</Property>
+				<Property Name="Source[12].name" Type="Str">Veristand_icon_vista.ico</Property>
+				<Property Name="Source[12].tag" Type="Ref">/My Computer/Icon File/Veristand_icon_vista.ico</Property>
+				<Property Name="Source[12].type" Type="Str">File</Property>
+				<Property Name="Source[13].dest" Type="Str">{203B0FBB-BB4C-4A9D-8614-12A9ED1526F5}</Property>
+				<Property Name="Source[13].name" Type="Str">Veristand_icon_vista.ico</Property>
+				<Property Name="Source[13].tag" Type="Ref">/My Computer/Icon File/Veristand_icon_vista.ico</Property>
+				<Property Name="Source[13].type" Type="Str">File</Property>
+				<Property Name="Source[14].dest" Type="Str">{AE834161-B1C6-48F5-BA6C-3CBCA8519E4C}</Property>
+				<Property Name="Source[14].name" Type="Str">Veristand_icon_vista.ico</Property>
+				<Property Name="Source[14].tag" Type="Ref">/My Computer/Icon File/Veristand_icon_vista.ico</Property>
+				<Property Name="Source[14].type" Type="Str">File</Property>
+				<Property Name="Source[15].dest" Type="Str">{ABC64CF4-F9A3-4D1A-B29D-B94E7CE76EB3}</Property>
+				<Property Name="Source[15].name" Type="Str">Veristand_icon_vista.ico</Property>
+				<Property Name="Source[15].tag" Type="Ref">/My Computer/Icon File/Veristand_icon_vista.ico</Property>
+				<Property Name="Source[15].type" Type="Str">File</Property>
+				<Property Name="Source[16].dest" Type="Str">{FAFF3259-65E0-443E-A4B8-0EA96F68FAAD}</Property>
+				<Property Name="Source[16].name" Type="Str">Veristand_icon_vista.ico</Property>
+				<Property Name="Source[16].tag" Type="Ref">/My Computer/Icon File/Veristand_icon_vista.ico</Property>
+				<Property Name="Source[16].type" Type="Str">File</Property>
+				<Property Name="Source[17].dest" Type="Str">{D8D56056-3604-4F93-9C5D-05531F89F8BB}</Property>
+				<Property Name="Source[17].name" Type="Str">VeriStand Steps for TestStand User Guide.docx</Property>
+				<Property Name="Source[17].tag" Type="Ref">/My Computer/Documentation/VeriStand Steps for TestStand User Guide.docx</Property>
+				<Property Name="Source[17].type" Type="Str">File</Property>
+				<Property Name="Source[18].dest" Type="Str">{70E12DD8-1170-43DC-B013-D7C0CDD40367}</Property>
+				<Property Name="Source[18].name" Type="Str">Get Rise Time.nivsseq</Property>
+				<Property Name="Source[18].tag" Type="Ref">/My Computer/Examples/Get Rise Time.nivsseq</Property>
+				<Property Name="Source[18].type" Type="Str">File</Property>
+				<Property Name="Source[19].dest" Type="Str">{70E12DD8-1170-43DC-B013-D7C0CDD40367}</Property>
+				<Property Name="Source[19].name" Type="Str">Monitor Engine Temp.seq</Property>
+				<Property Name="Source[19].tag" Type="Ref">/My Computer/Examples/Monitor Engine Temp.seq</Property>
+				<Property Name="Source[19].type" Type="Str">File</Property>
+				<Property Name="Source[2].dest" Type="Str">{86BFFC21-CA42-48D6-ABE2-4E0D7213CC05}</Property>
+				<Property Name="Source[2].name" Type="Str">ni-veristand-steps-runtime-lib.lvlibp</Property>
+				<Property Name="Source[2].tag" Type="Ref">/My Computer/Packed Libraries/x64/ni-veristand-steps-runtime-lib.lvlibp</Property>
+				<Property Name="Source[2].type" Type="Str">File</Property>
+				<Property Name="Source[20].dest" Type="Str">{70E12DD8-1170-43DC-B013-D7C0CDD40367}</Property>
+				<Property Name="Source[20].name" Type="Str">NIVS Engine Demo.seq</Property>
+				<Property Name="Source[20].tag" Type="Ref">/My Computer/Examples/NIVS Engine Demo.seq</Property>
+				<Property Name="Source[20].type" Type="Str">File</Property>
+				<Property Name="Source[21].dest" Type="Str">{70E12DD8-1170-43DC-B013-D7C0CDD40367}</Property>
+				<Property Name="Source[21].name" Type="Str">Training - NIVS Engine Demo.docx</Property>
+				<Property Name="Source[21].tag" Type="Ref">/My Computer/Examples/Training - NIVS Engine Demo.docx</Property>
+				<Property Name="Source[21].type" Type="Str">File</Property>
+				<Property Name="Source[22].dest" Type="Str">{D8D56056-3604-4F93-9C5D-05531F89F8BB}</Property>
+				<Property Name="Source[22].name" Type="Str">VeriStand Steps for TestStand Developer Guide.docx</Property>
+				<Property Name="Source[22].tag" Type="Ref">/My Computer/Documentation/VeriStand Steps for TestStand Developer Guide.docx</Property>
+				<Property Name="Source[22].type" Type="Str">File</Property>
+				<Property Name="Source[23].dest" Type="Str">{D8D56056-3604-4F93-9C5D-05531F89F8BB}</Property>
+				<Property Name="Source[23].name" Type="Str">LICENSE.txt</Property>
+				<Property Name="Source[23].tag" Type="Ref">/My Computer/License/LICENSE.txt</Property>
+				<Property Name="Source[23].type" Type="Str">File</Property>
+				<Property Name="Source[24].dest" Type="Str">{9F919F2B-CD65-4805-A1D9-3504B7976A32}</Property>
+				<Property Name="Source[24].name" Type="Str">InstallToGAC.exe</Property>
+				<Property Name="Source[24].tag" Type="Ref">/My Computer/GAC Utilities/InstallToGAC.exe</Property>
+				<Property Name="Source[24].type" Type="Str">File</Property>
+				<Property Name="Source[25].dest" Type="Str">{9F919F2B-CD65-4805-A1D9-3504B7976A32}</Property>
+				<Property Name="Source[25].name" Type="Str">RemoveFromGAC.exe</Property>
+				<Property Name="Source[25].tag" Type="Ref">/My Computer/GAC Utilities/RemoveFromGAC.exe</Property>
+				<Property Name="Source[25].type" Type="Str">File</Property>
+				<Property Name="Source[26].dest" Type="Str">{9F919F2B-CD65-4805-A1D9-3504B7976A32}</Property>
+				<Property Name="Source[26].name" Type="Str">NationalInstruments.Veristand.VeristandSteps.dll</Property>
+				<Property Name="Source[26].tag" Type="Ref">/My Computer/VeriStandStepsAssembly/NationalInstruments.Veristand.VeristandSteps.dll</Property>
+				<Property Name="Source[26].type" Type="Str">File</Property>
+				<Property Name="Source[27].dest" Type="Str">{9F919F2B-CD65-4805-A1D9-3504B7976A32}</Property>
+				<Property Name="Source[27].name" Type="Str">PostInstallAction.exe</Property>
+				<Property Name="Source[27].runEXE" Type="Bool">true</Property>
+				<Property Name="Source[27].tag" Type="Ref">/My Computer/Installer Action VIs/PostInstallAction.exe</Property>
+				<Property Name="Source[27].type" Type="Str">File</Property>
+				<Property Name="Source[28].dest" Type="Str">{9F919F2B-CD65-4805-A1D9-3504B7976A32}</Property>
+				<Property Name="Source[28].name" Type="Str">PreUninstallAction.exe</Property>
+				<Property Name="Source[28].runEXE_uninstall" Type="Bool">true</Property>
+				<Property Name="Source[28].tag" Type="Ref">/My Computer/Installer Action VIs/PreUninstallAction.exe</Property>
+				<Property Name="Source[28].type" Type="Str">File</Property>
+				<Property Name="Source[3].dest" Type="Str">{8C42876B-D6D3-4E06-A58A-1D7E6E35EEB2}</Property>
+				<Property Name="Source[3].name" Type="Str">ni-veristand-steps-runtime-lib.lvlibp</Property>
+				<Property Name="Source[3].tag" Type="Ref">/My Computer/Packed Libraries/x86/ni-veristand-steps-runtime-lib.lvlibp</Property>
+				<Property Name="Source[3].type" Type="Str">File</Property>
+				<Property Name="Source[4].dest" Type="Str">{735DAED2-98F1-402D-BC8C-75E10C1D648B}</Property>
+				<Property Name="Source[4].name" Type="Str">ni-veristand-steps-runtime-lib.lvlibp</Property>
+				<Property Name="Source[4].tag" Type="Ref">/My Computer/Packed Libraries/x86/ni-veristand-steps-runtime-lib.lvlibp</Property>
+				<Property Name="Source[4].type" Type="Str">File</Property>
+				<Property Name="Source[5].dest" Type="Str">{C331F174-6C58-4CFB-AF0F-D5E4EFECE2FF}</Property>
+				<Property Name="Source[5].name" Type="Str">ni-veristand-steps-runtime-lib.lvlibp</Property>
+				<Property Name="Source[5].tag" Type="Ref">/My Computer/Packed Libraries/x86/ni-veristand-steps-runtime-lib.lvlibp</Property>
+				<Property Name="Source[5].type" Type="Str">File</Property>
+				<Property Name="Source[6].dest" Type="Str">{8C42876B-D6D3-4E06-A58A-1D7E6E35EEB2}</Property>
+				<Property Name="Source[6].name" Type="Str">NI_VeristandTypes.ini</Property>
+				<Property Name="Source[6].tag" Type="Ref">/My Computer/TypePalette File/NI_VeristandTypes.ini</Property>
+				<Property Name="Source[6].type" Type="Str">File</Property>
+				<Property Name="Source[7].dest" Type="Str">{86BFFC21-CA42-48D6-ABE2-4E0D7213CC05}</Property>
+				<Property Name="Source[7].name" Type="Str">NI_VeristandTypes.ini</Property>
+				<Property Name="Source[7].tag" Type="Ref">/My Computer/TypePalette File/NI_VeristandTypes.ini</Property>
+				<Property Name="Source[7].type" Type="Str">File</Property>
+				<Property Name="Source[8].dest" Type="Str">{735DAED2-98F1-402D-BC8C-75E10C1D648B}</Property>
+				<Property Name="Source[8].name" Type="Str">NI_VeristandTypes.ini</Property>
+				<Property Name="Source[8].tag" Type="Ref">/My Computer/TypePalette File/NI_VeristandTypes.ini</Property>
+				<Property Name="Source[8].type" Type="Str">File</Property>
+				<Property Name="Source[9].dest" Type="Str">{1AF8E333-C672-4AD0-886D-18F7CE23595B}</Property>
+				<Property Name="Source[9].name" Type="Str">NI_VeristandTypes.ini</Property>
+				<Property Name="Source[9].tag" Type="Ref">/My Computer/TypePalette File/NI_VeristandTypes.ini</Property>
+				<Property Name="Source[9].type" Type="Str">File</Property>
+				<Property Name="SourceCount" Type="Int">29</Property>
 			</Item>
 		</Item>
 	</Item>
