@@ -1,8 +1,8 @@
 ## NI VeriStand Steps for TestStand ##
 
-The **NI VeriStand Steps for TestStand** is a set of custom TestStand step types used to automate NI VeriStand from a TestStand sequence. 
+The **NI VeriStand Steps for TestStand** is a set of custom NI TestStand step types used to automate NI VeriStand from an NI TestStand sequence. 
 
-The steps are divided into several groups of steps which provide functionality like project control, channel read/write access, alarms, real-time sequences, logging, and faulting.
+The steps are divided into groups which provide functionality like project control, channel read/write access, alarms, real-time sequences, logging, and faulting.
 
 The NI VeriStand Steps for TestStand are distributed as *open-source* software and released under the *BSD 2-clause "Simplified" License*. 
 
@@ -40,9 +40,59 @@ Version 7.2.2 is the last version available with a LabVIEW Installer.
 
 ### Accessing Builds ###
 
-All releases are available on the [*Releases*](https://github.com/NIVeriStandAdd-Ons/VeriStand-steps-for-TestStand/releases) page of this repository. 
+#### Current version ####
+
+All current releases are available on the [*Releases*](https://github.com/NIVeriStandAdd-Ons/VeriStand-steps-for-TestStand/releases) page of this repository. Certain legacy releases are also available here.
+
+#### Legacy versions ####
+
+Legacy versions are also available at the deprecated [NI VeriStand Steps for TestStand Community Page](https://forums.ni.com/t5/NI-VeriStand-Add-Ons-Documents/NI-VeriStand-Add-on-VeriStand-Steps-for-TestStand/ta-p/3535888).  
 
 ### Release Notes ###
+
+* **7.2.2**
+ 1. Added **OpenVSTimeout** Step Property to *Initialize VeriStand* and *Start VeriStand* step types. This Step Property allows the user to specify the timeout used when waiting for the VeriStand.exe application to open when using these two steps.
+ 1. Added **CloseUIManager** Step Property to *Stop VeriStand* Step Type to toggle whether this step closes the NI VeriStand UI Manager. 
+ 1. Package now installs a **User Guide, Developer Guide, and Example Files** to *Public Documents\National Instruments\NI VeriStand Steps for TestStand*. 
+
+* **7.2.1**
+ 1. Fixed bug which caused reference errors in some cases when TestStand is configured to use the LabVIEW Development environment as the LabVIEW adapter.
+
+
+* **7.2**
+ 1. Fixed bug preventing alarm states from being returned correctly by Get Alarm State Step
+
+
+* **7.1**
+ 1. TestStand 2017 Support
+ 1. Single installer for TestStand 32- and 64-bit
+ 1. Fixed bug preventing sequences containing the steps from executing when the sequence is called by the TestStand API from the LabVIEW Development Environment.
+
+
+* **7.0**
+ 1. Launching VeriStand silently now suppresses both the Workspace and UI Manager.
+ 1. RT Sequence Steps and Stimulus Profile Steps now include an additional Timeout step property which causes the Step to Timeout. This is different from these Steps' existing Timeout_ms property which is the RT Sequence Timestep Timeout.
+ 1. Stop VeriStand Step now includes an additional CloseApp step property which closes the VeriStand application.
+
+
+* **6.0**
+ 1. Installer is now a LabVIEW installer
+ 1. TestStand 2016 x64 support
+
+
+* **5.0**
+ 1. Fixed bug preventing RT Sequence parameters of data type U32, U32 Array, U64, or U64 Array from being passed to RT Sequence correctly. 
+
+
+* **4.0**
+ 1. Fixed bug in Start VeriStand step type which caused the step's InstallationPath property to default to the wrong version of VeriStand. This change only affects the VeriStand.exe installation path in newly created instances of the step type.
+ 1. Fixed bug which prevented the Channel Value Limit Test step type from returning Units value to the step results.  
+ 1. Fixed bug which caused TestStand 2016 to crash when configuring the Channel Value Limit Test. 
+
+
+* **3.0** 
+ 1. Added the ability to specify the Target for running RT Sequences, and also the ability to specify a Timeout.  
+ 1. Fixed an issue where Double data-typed parameters were truncated to integers.  This update applies only to the steps for VeriStand 2015 and up, and only affects the following TestStand steps: RT Sequence Action, RT Sequence Numeric Limit Test, and RT Sequence Pass Fail Test.
 
 ### Support ###
 

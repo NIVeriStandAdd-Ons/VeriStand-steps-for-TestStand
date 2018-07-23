@@ -113,16 +113,7 @@
 					<Item Name="Get System Directory.vi" Type="VI" URL="../PPLs/x64/ni-veristand-steps-runtime-lib.lvlibp/1abvi3w/vi.lib/Utility/sysdir.llb/Get System Directory.vi"/>
 					<Item Name="LabVIEW Test - Sequence Context.ctl" Type="VI" URL="../PPLs/x64/ni-veristand-steps-runtime-lib.lvlibp/1abvi3w/vi.lib/addons/TestStand/_TSLegacy.llb/LabVIEW Test - Sequence Context.ctl"/>
 					<Item Name="MergeError.vi" Type="VI" URL="../PPLs/x64/ni-veristand-steps-runtime-lib.lvlibp/1abvi3w/vi.lib/NI Veristand/Execution/Shared/MergeError.vi"/>
-					<Item Name="NI_FileType.lvlib" Type="Library" URL="../PPLs/x64/ni-veristand-steps-runtime-lib.lvlibp/1abvi3w/vi.lib/Utility/lvfile.llb/NI_FileType.lvlib"/>
-					<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="../PPLs/x64/ni-veristand-steps-runtime-lib.lvlibp/1abvi3w/vi.lib/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
-					<Item Name="NI_VS Alarm ExecutionAPI.lvlib" Type="Library" URL="../PPLs/x64/ni-veristand-steps-runtime-lib.lvlibp/1abvi3w/vi.lib/NI Veristand/Execution/Alarm/NI_VS Alarm ExecutionAPI.lvlib"/>
 					<Item Name="NI_VS AlarmManager ExecutionAPI.lvlib" Type="Library" URL="../PPLs/x64/ni-veristand-steps-runtime-lib.lvlibp/1abvi3w/vi.lib/NI Veristand/Execution/AlarmManager/NI_VS AlarmManager ExecutionAPI.lvlib"/>
-					<Item Name="NI_VS ChannelFault ExecutionAPI.lvlib" Type="Library" URL="../PPLs/x64/ni-veristand-steps-runtime-lib.lvlibp/1abvi3w/vi.lib/NI Veristand/Execution/ChannelFaultManager/NI_VS ChannelFault ExecutionAPI.lvlib"/>
-					<Item Name="NI_VS Data Logging API.lvlib" Type="Library" URL="../PPLs/x64/ni-veristand-steps-runtime-lib.lvlibp/1abvi3w/vi.lib/NI Veristand/Execution/DataLogging/NI_VS Data Logging API.lvlib"/>
-					<Item Name="NI_VS ModelManager ExecutionAPI.lvlib" Type="Library" URL="../PPLs/x64/ni-veristand-steps-runtime-lib.lvlibp/1abvi3w/vi.lib/NI Veristand/Execution/ModelManager/NI_VS ModelManager ExecutionAPI.lvlib"/>
-					<Item Name="NI_VS Project ExecutionAPI.lvlib" Type="Library" URL="../PPLs/x64/ni-veristand-steps-runtime-lib.lvlibp/1abvi3w/vi.lib/NI Veristand/Execution/Project/NI_VS Project ExecutionAPI.lvlib"/>
-					<Item Name="NI_VS Sequence Execution Interface.lvlib" Type="Library" URL="../PPLs/x64/ni-veristand-steps-runtime-lib.lvlibp/1abvi3w/vi.lib/NI Veristand/Execution/SequenceExecutionInterface/NI_VS Sequence Execution Interface.lvlib"/>
-					<Item Name="NI_VS Workspace ExecutionAPI.lvlib" Type="Library" URL="../PPLs/x64/ni-veristand-steps-runtime-lib.lvlibp/1abvi3w/vi.lib/NI Veristand/Execution/Workspace/NI_VS Workspace ExecutionAPI.lvlib"/>
 					<Item Name="nirviCommon.vi" Type="VI" URL="../PPLs/x64/ni-veristand-steps-runtime-lib.lvlibp/1abvi3w/vi.lib/express/rvi/timingcommon/nirviCommon.vi"/>
 					<Item Name="Space Constant.vi" Type="VI" URL="../PPLs/x64/ni-veristand-steps-runtime-lib.lvlibp/1abvi3w/vi.lib/dlg_ctls.llb/Space Constant.vi"/>
 					<Item Name="System Directory Type.ctl" Type="VI" URL="../PPLs/x64/ni-veristand-steps-runtime-lib.lvlibp/1abvi3w/vi.lib/Utility/sysdir.llb/System Directory Type.ctl"/>
@@ -132,7 +123,6 @@
 					<Item Name="TestStand - Initialize Termination Monitor.vi" Type="VI" URL="../PPLs/x64/ni-veristand-steps-runtime-lib.lvlibp/1abvi3w/vi.lib/addons/TestStand/_TSUtility.llb/TestStand - Initialize Termination Monitor.vi"/>
 					<Item Name="TestStand - Status Monitor.ctl" Type="VI" URL="../PPLs/x64/ni-veristand-steps-runtime-lib.lvlibp/1abvi3w/vi.lib/addons/TestStand/_TSUtility.llb/TestStand - Status Monitor.ctl"/>
 					<Item Name="To .NET Object.vi" Type="VI" URL="../PPLs/x64/ni-veristand-steps-runtime-lib.lvlibp/1abvi3w/vi.lib/Platform/dotnet.llb/To .NET Object.vi"/>
-					<Item Name="VariantType.lvlib" Type="Library" URL="../PPLs/x64/ni-veristand-steps-runtime-lib.lvlibp/1abvi3w/vi.lib/Utility/VariantDataType/VariantType.lvlib"/>
 				</Item>
 			</Item>
 			<Item Name="x86" Type="Folder">
@@ -284,6 +274,7 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="AlarmManagerAPI.ctl" Type="VI" URL="../PPLs/x64/ni-veristand-steps-runtime-lib.lvlibp/1abvi3w/vi.lib/NI Veristand/Execution/AlarmManager/AlarmManagerAPI.ctl"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -302,6 +293,16 @@
 			<Item Name="NationalInstruments.VeriStand.RealTimeSequenceDefinitionApi" Type="Document" URL="NationalInstruments.VeriStand.RealTimeSequenceDefinitionApi">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="NI_FileType.lvlib" Type="Library" URL="../PPLs/x64/ni-veristand-steps-runtime-lib.lvlibp/1abvi3w/vi.lib/Utility/lvfile.llb/NI_FileType.lvlib"/>
+			<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="../PPLs/x64/ni-veristand-steps-runtime-lib.lvlibp/1abvi3w/vi.lib/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+			<Item Name="NI_VS Alarm ExecutionAPI.lvlib" Type="Library" URL="../PPLs/x64/ni-veristand-steps-runtime-lib.lvlibp/1abvi3w/vi.lib/NI Veristand/Execution/Alarm/NI_VS Alarm ExecutionAPI.lvlib"/>
+			<Item Name="NI_VS ChannelFault ExecutionAPI.lvlib" Type="Library" URL="../PPLs/x64/ni-veristand-steps-runtime-lib.lvlibp/1abvi3w/vi.lib/NI Veristand/Execution/ChannelFaultManager/NI_VS ChannelFault ExecutionAPI.lvlib"/>
+			<Item Name="NI_VS Data Logging API.lvlib" Type="Library" URL="../PPLs/x64/ni-veristand-steps-runtime-lib.lvlibp/1abvi3w/vi.lib/NI Veristand/Execution/DataLogging/NI_VS Data Logging API.lvlib"/>
+			<Item Name="NI_VS ModelManager ExecutionAPI.lvlib" Type="Library" URL="../PPLs/x64/ni-veristand-steps-runtime-lib.lvlibp/1abvi3w/vi.lib/NI Veristand/Execution/ModelManager/NI_VS ModelManager ExecutionAPI.lvlib"/>
+			<Item Name="NI_VS Project ExecutionAPI.lvlib" Type="Library" URL="../PPLs/x64/ni-veristand-steps-runtime-lib.lvlibp/1abvi3w/vi.lib/NI Veristand/Execution/Project/NI_VS Project ExecutionAPI.lvlib"/>
+			<Item Name="NI_VS Sequence Execution Interface.lvlib" Type="Library" URL="../PPLs/x64/ni-veristand-steps-runtime-lib.lvlibp/1abvi3w/vi.lib/NI Veristand/Execution/SequenceExecutionInterface/NI_VS Sequence Execution Interface.lvlib"/>
+			<Item Name="NI_VS Workspace ExecutionAPI.lvlib" Type="Library" URL="../PPLs/x64/ni-veristand-steps-runtime-lib.lvlibp/1abvi3w/vi.lib/NI Veristand/Execution/Workspace/NI_VS Workspace ExecutionAPI.lvlib"/>
+			<Item Name="VariantType.lvlib" Type="Library" URL="../PPLs/x64/ni-veristand-steps-runtime-lib.lvlibp/1abvi3w/vi.lib/Utility/VariantDataType/VariantType.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Installer Post Install Action" Type="EXE">
@@ -521,8 +522,8 @@
 				<Property Name="INST_defaultDir" Type="Str">{5AFC19D6-4EA2-4323-8E43-5E5D7B78490E}</Property>
 				<Property Name="INST_productName" Type="Str">NI VeriStand Steps for TestStand</Property>
 				<Property Name="INST_productVersion" Type="Str">7.2.2</Property>
-				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
-				<Property Name="InstSpecVersion" Type="Str">15018004</Property>
+				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
+				<Property Name="InstSpecVersion" Type="Str">15018025</Property>
 				<Property Name="MSI_arpCompany" Type="Str">National Instruments Systems Engineering</Property>
 				<Property Name="MSI_distID" Type="Str">{81B86D54-CCEF-4708-B575-D8FA2BEEE8BB}</Property>
 				<Property Name="MSI_hideNonRuntimes" Type="Bool">true</Property>
