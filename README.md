@@ -23,11 +23,11 @@ Beginning with version 7.2.2 each package or installer for the NI VeriStand Step
 
 For example, the **ni-veristand-2018-steps-for-teststand_7.2.2+001.nipkg** package installs NI VeriStand 2018 compatible step types for all versions of TestStand listed above. 
 
-Beginning with version 7.2.2 the NI VeriStand Step Types are available as an NI Package with the .nipkg file extension. Previous versions were distributed as a LabVIEW Installer. NI Package files can be installed using [NI Package Manager](http://search.ni.com/nisearch/app/main/p/bot/no/ap/tech/lang/en/pg/1/sn/catnav:du/q/ni%20package%20manager/)
+Beginning with version 8.0.0 the NI VeriStand Step Types are available as an NI Package with the .nipkg file extension. Previous versions were distributed as a LabVIEW Installer. NI Package files can be installed using [NI Package Manager](http://search.ni.com/nisearch/app/main/p/bot/no/ap/tech/lang/en/pg/1/sn/catnav:du/q/ni%20package%20manager/)
 
 Version 7.2.2 is the last version available with a LabVIEW Installer. 
 
-*** Installing version 7.2.2 and newer*** (using NI Package Manager)
+*** Installing version 8.0.0 and newer*** (using NI Package Manager)
 1. *Download* the .nipkg file from the [Releases](https://github.com/NIVeriStandAdd-Ons/VeriStand-steps-for-TestStand/releases) page of this repository
 1. *Locate* the .nipkg file on your local drive
 1. *Install* the .nipkg file by double-clicking the file
@@ -50,10 +50,14 @@ Legacy versions are also available at the deprecated [NI VeriStand Steps for Tes
 
 ### Release Notes ###
 
+* **8.0.0**
+ 1. First version available as an NI Package (.nipkg) instead of a LabVIEW Installer. 
+
 * **7.2.2**
  1. Added **OpenVSTimeout** Step Property to *Initialize VeriStand* and *Start VeriStand* step types. This Step Property allows the user to specify the timeout used when waiting for the VeriStand.exe application to open when using these two steps.
  1. Added **CloseUIManager** Step Property to *Stop VeriStand* Step Type to toggle whether this step closes the NI VeriStand UI Manager. 
- 1. Package now installs a **User Guide, Developer Guide, and Example Files** to *Public Documents\National Instruments\NI VeriStand Steps for TestStand*. 
+ 1. Fixed bug in **Channel Value Limit Test Step** which caused an error when using certain Comparison Types. A legacy **Channel Value Limit Test (TestStand 2014)** Step is now provided. 
+ 1. Package now installs a **User Guide, Developer Guide, and Example Files** to *Public Documents\National Instruments\NI VeriStand Steps for TestStand*.
 
 * **7.2.1**
  1. Fixed bug which caused reference errors in some cases when TestStand is configured to use the LabVIEW Development environment as the LabVIEW adapter.
