@@ -54,7 +54,7 @@ Legacy versions are also available at the deprecated [NI VeriStand Steps for Tes
  1. First version available as an NI Package (.nipkg) instead of a LabVIEW Installer. 
 
 * **7.2.2**
- 1. Added **OpenVSTimeout** Step Property to *Initialize VeriStand* and *Start VeriStand* step types. This Step Property allows the user to specify the timeout used when waiting for the VeriStand.exe application to open when using these two steps.
+ 1. Added **OpenVSTimeout** Step Property to *Initialize VeriStand* and *Start VeriStand* step types. This Step Property allows the user to specify the *Timeout* used when waiting for the VeriStand.exe application to open when using these two steps. This Timeout defaults to 120 seconds.
  1. Added **CloseUIManager** Step Property to *Stop VeriStand* Step Type to toggle whether this step closes the NI VeriStand UI Manager. 
  1. Fixed bug in **Channel Value Limit Test Step** which caused an error when using certain Comparison Types. A legacy **Channel Value Limit Test (TestStand 2014)** Step is now provided. 
  1. Package now installs a **User Guide, Developer Guide, and Example Files** to *Public Documents\National Instruments\NI VeriStand Steps for TestStand*.
