@@ -1,12 +1,12 @@
 [archive]
 build_output_dir = 'Built'
-archive_location = '\\us-aus-hilbuild\builds\adchurch\archive\addons\veristand steps for teststand'
+archive_location = '\\us-aus-hilbuild\builds\NIVeriStandAdd-ons\addons\veristand steps for teststand'
 
 [projects.runtime]
 path = 'Source\LV\RunTime\VeriStand Steps RunTime Library.lvproj'
 
 [projects.installer]
-path = 'Source\LV\Installer\Installer.lvproj'
+path = 'Source\LV\Installer\VeriStand Steps Installer.lvproj'
 
 [[codegen.steps]]
 name = 'Update Project Files'
@@ -27,12 +27,49 @@ target = 'My Computer'
 build_spec = 'Packed Library'
 
 [[build.steps]]
-name = 'Installers'
-type = 'lvBuildAll'
-project = '{installer}'
+name = 'PostInstallAction'
+type = 'lvBuildSpec'
+project = 'installer'
+target = 'My Computer'
+build_spec = 'Installer Post Install Action'
+
+[[build.steps]]
+name = 'PostInstallAction'
+type = 'lvBuildSpec'
+project = 'installer'
+target = 'My Computer'
+build_spec = 'Installer Pre Uninstall Action'
+
+[[build.steps]]
+name = 'LV Installer'
+type = 'lvBuildSpec'
+project = 'installer'
+target = 'My Computer'
+build_spec = 'NI VeriStand Steps for TestStand'
+
+[[test.steps]]
+name = 'TestStand 2017 Integration Test'
+type = 'Test'
+sequence_path = 'Tests\Sequences\Main.seq'
+teststand_version = '2017'
+teststand_bitness = '32'
+
+[[test.steps]]
+name = 'TestStand 2016 Integration Test'
+type = 'Test'
+sequence_path = 'Tests\Sequences\Main.seq'
+teststand_version = '2016'
+teststand_bitness = '32'
 
 [package]
 type = 'vsStepsPackage'
-version = '7.2.1'
+types_version = '7.2.2'
 teststand_versions = ['2014','2016','2017']
 
+[[release.steps]]
+name = 'Master Release'
+type = 'githubRelease'
+2015_release_branches = ["master",]
+2016_release_branches = ["master",]
+2017_release_branches = ["master",]
+2018_release_branches = ["master",]

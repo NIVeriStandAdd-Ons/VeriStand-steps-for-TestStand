@@ -1,43 +1,119 @@
-## VeriStand Steps for TestStand ##
+## NI VeriStand Steps for TestStand ##
 
-The **VeriStand Steps for TestStand** is a set of custom step types designed to be used with NI TestStand. The VeriStand Steps allow the user to control VeriStand from a TestStand sequence thereby providing a wide range of automation capability. 
+The **NI VeriStand Steps for TestStand** is a set of custom NI TestStand step types used to automate NI VeriStand from an NI TestStand sequence. 
 
-The VeriStand Steps are divided into several groups of steps which provide functionality like project control, channel read/write access, control of functions like alarms, real-time sequences, logging, faulting.
+The steps are divided into groups which provide functionality like project control, channel read/write access, alarms, real-time sequences, logging, and faulting.
 
-These custom step types are **open-source** and released under the *BSD 2-clause "Simplified" License*. 
+The NI VeriStand Steps for TestStand are distributed as *open-source* software and released under the *BSD 2-clause "Simplified" License*. 
+
+### Getting Started ###
+
+A **User Guide**, **Developer Guide**, and **Example Sequences** are installed to:
+
+**`<Public Documents>\National Instruments\NI VeriStand Steps for TestStand`**. 
+
+These files can also be found in the **[Documentation](https://github.com/NIVeriStandAdd-Ons/VeriStand-steps-for-TestStand/tree/develop/Documentation)** folder in the top-level of this repository.
+
+### Required Software ###
+
+#### Currently supported NI VeriStand versions ####
+
+* VeriStand 2015 SP1
+* VeriStand 2017
+* VeriStand 2018
+
+Beginning with version 7.2.2 each package or installer for the NI VeriStand Step Types includes support for *one version of VeriStand* and *all currently supported TestStand versions*. It is **not necessary** to have every version of TestStand installed in order to use the step types.
+
+#### Currently supported NI TestStand versions ####
+* TestStand 2014 (32- and 64-bit)
+* TestStand 2016 (32- and 64-bit)
+* TestStand 2017 (32- and 64-bit)
+
+For example, the **ni-veristand-2018-steps-for-teststand_7.2.2+001.nipkg** package installs NI VeriStand 2018 compatible step types for all versions of TestStand listed above. 
+
+Beginning with version 8.0.0 the NI VeriStand Step Types are available as an NI Package with the .nipkg file extension. Previous versions were distributed as a LabVIEW Installer. NI Package files can be installed using [NI Package Manager](http://search.ni.com/nisearch/app/main/p/bot/no/ap/tech/lang/en/pg/1/sn/catnav:du/q/ni%20package%20manager/)
+
+Version 7.2.2 is the last version available with a LabVIEW Installer. 
+
+##### Installing version 8.0.0 and newer (using NI Package Manager) #####
+1. *Download* the .nipkg file from the [Releases](https://github.com/NIVeriStandAdd-Ons/VeriStand-steps-for-TestStand/releases) page of this repository
+1. *Locate* the .nipkg file on your local drive
+1. *Install* the .nipkg file by double-clicking the file
+
+##### Installing version 7.2.2 and older (using LabVIEW Installer) #####
+1. **Uninstall any previous versions of the NI VeriStand Step Types using the Windows Control Panel**
+1. *Download* the .zip file containing the LabVIEW Installer for the new version from the [Releases](https://github.com/NIVeriStandAdd-Ons/VeriStand-steps-for-TestStand/releases) page of this repository
+1. *Unzip* the installer files to your local drive
+1. *Run* **setup.exe**.
+
+### Accessing Builds ###
+
+#### Current version ####
+
+All current releases are available on the [*Releases*](https://github.com/NIVeriStandAdd-Ons/VeriStand-steps-for-TestStand/releases) page of this repository. Certain legacy releases are also available here.
+
+#### Legacy versions ####
+
+Legacy versions are also available at the deprecated [NI VeriStand Steps for TestStand Community Page](https://forums.ni.com/t5/NI-VeriStand-Add-Ons-Documents/NI-VeriStand-Add-on-VeriStand-Steps-for-TestStand/ta-p/3535888).  
+
+### Release Notes ###
+
+* **8.0.0**
+ 1. First version available as an NI Package (.nipkg) instead of a LabVIEW Installer. 
+
+* **7.2.2**
+ 1. Added *OpenVSTimeout Step Property* to **Initialize VeriStand** and **Start VeriStand** step types. This Step Property allows the user to specify the timeout used when waiting for the VeriStand.exe application to open when using these two steps. *OpenVSTimeout* defaults to 120 seconds.
+ 1. Added *CloseUIManager Step Property* to **Stop VeriStand** Step Type to toggle whether this step closes the NI VeriStand UI Manager. 
+ 1. Fixed bug in **Channel Value Limit Test Step** which caused an error when using certain Comparison Types. A legacy **Channel Value Limit Test (TestStand 2014)** Step is now provided. 
+ 1. Package now installs a **User Guide, Developer Guide, and Example Files** to *`<Public Documents>\National Instruments\NI VeriStand Steps for TestStand`*.
+
+* **7.2.1**
+ 1. Fixed bug which caused reference errors in some cases when TestStand is configured to use the LabVIEW Development environment as the LabVIEW adapter.
+
+
+* **7.2**
+ 1. Fixed bug preventing alarm states from being returned correctly by Get Alarm State Step
+
+
+* **7.1**
+ 1. TestStand 2017 Support
+ 1. Single installer for TestStand 32- and 64-bit
+ 1. Fixed bug preventing sequences containing the steps from executing when the sequence is called by the TestStand API from the LabVIEW Development Environment.
+
+
+* **7.0**
+ 1. Launching VeriStand silently now suppresses both the Workspace and UI Manager.
+ 1. RT Sequence Steps and Stimulus Profile Steps now include an additional Timeout step property which causes the Step to Timeout. This is different from these Steps' existing Timeout_ms property which is the RT Sequence Timestep Timeout.
+ 1. Stop VeriStand Step now includes an additional CloseApp step property which closes the VeriStand application.
+
+
+* **6.0**
+ 1. Installer is now a LabVIEW installer
+ 1. TestStand 2016 x64 support
+
+
+* **5.0**
+ 1. Fixed bug preventing RT Sequence parameters of data type U32, U32 Array, U64, or U64 Array from being passed to RT Sequence correctly. 
+
+
+* **4.0**
+ 1. Fixed bug in Start VeriStand step type which caused the step's InstallationPath property to default to the wrong version of VeriStand. This change only affects the VeriStand.exe installation path in newly created instances of the step type.
+ 1. Fixed bug which prevented the Channel Value Limit Test step type from returning Units value to the step results.  
+ 1. Fixed bug which caused TestStand 2016 to crash when configuring the Channel Value Limit Test. 
+
+
+* **3.0** 
+ 1. Added the ability to specify the Target for running RT Sequences, and also the ability to specify a Timeout.  
+ 1. Fixed an issue where Double data-typed parameters were truncated to integers.  This update applies only to the steps for VeriStand 2015 and up, and only affects the following TestStand steps: RT Sequence Action, RT Sequence Numeric Limit Test, and RT Sequence Pass Fail Test.
 
 ### Support ###
 
 The VeriStand Steps for TestStand source code and built packages are provided as-is under an open source license. Neither the source code nor built packages are suppported by National Instruments. 
 
-Support for the VeriStand Steps for TestStand package is available from the community at the the [VeriStand Steps for TestStand Feedback Forum](https://forums.ni.com/t5/NI-VeriStand-Add-Ons-Discussions/VeriStand-Steps-for-TestStand-Feedback/td-p/3442166). 
+Support for the VeriStand Steps for TestStand package is available from the community at the the [*VeriStand Steps for TestStand Feedback Forum*](https://forums.ni.com/t5/NI-VeriStand-Add-Ons-Discussions/VeriStand-Steps-for-TestStand-Feedback/td-p/3442166). 
 
-We also encourage users to report bugs or issues to the community using the project's [Github Issues page](https://github.com/NIVeriStandAdd-Ons/VeriStand-steps-for-TestStand/issues).
+We also encourage users to report bugs or issues to the community using the project's [*GitHub Issues page*](https://github.com/NIVeriStandAdd-Ons/VeriStand-steps-for-TestStand/issues).
 
-### Repository Structure ###
-
-**Documentation** 
-
-The **\documentation** directory at the top level of the repository contains the existing public documentation for this package. This documentation currently includes:
-
-+ **VeriStand Steps for TestStand User Guide.docx**
-    The user guide provides a description of each VeriStand Step Type as well as comments on how to use them. 
-+ **VeriStand Steps for TestStand Developer Guide.docx** The developer guide provides basic background on how the source code for the step types is structured. *Sections of this document are out of date*.
-+ **Documentation\Tutorial** The \Tutorial directory contains a small tutorial to demonstrate use of the steps.
-
-**Source**
-
-The **\Source** directory at the top level of the repository contains all source code comprising the VeriStand Steps.
-
-+ **\Source\LV** The \LV directory contains all LabVIEW source code required to create the steps.
-+ **\Source\CSharp** The \Csharp directory contains all C# code required to create the steps.
-+ **\Source\CustomPaletteFile** The \CustomPaletteFile directory contains the TestStand custom type palette .ini file used by the steps. It also contains a VeriStand .ico file.
-+ **\Source\Test** The \Test directory contains several TestStand sequences which may be used to validate the functionality of the VeriStand Steps after they are installed. 
-    
-
-### Built Availability ###
-
-There are builds of this code available on the [community page](https://forums.ni.com/t5/NI-VeriStand-Add-Ons-Documents/NI-VeriStand-Add-on-VeriStand-Steps-for-TestStand/ta-p/3535888). 
 
 ### Quality, Limitations ###
 
