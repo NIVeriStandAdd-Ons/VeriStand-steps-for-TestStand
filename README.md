@@ -34,6 +34,7 @@ These files can also be found in the **[Documentation](https://github.com/NIVeri
 #### Currently supported NI VeriStand versions ####
 
 * NI VeriStand 2015 SP1
+* NI VeriStand 2016
 * NI VeriStand 2017
 * NI VeriStand 2018
 
