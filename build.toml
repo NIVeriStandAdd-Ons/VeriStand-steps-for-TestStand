@@ -40,13 +40,6 @@ project = 'installer'
 target = 'My Computer'
 build_spec = 'Installer Pre Uninstall Action'
 
-[[build.steps]]
-name = 'LV Installer'
-type = 'lvBuildSpec'
-project = 'installer'
-target = 'My Computer'
-build_spec = 'NI VeriStand Steps for TestStand'
-
 [[test.steps]]
 name = 'TestStand 2017 Integration Test'
 type = 'Test'
