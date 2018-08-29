@@ -12,7 +12,7 @@ XB-LanguageSupport: en
 Section: Add-Ons
 XB-DisplayVersion: {nipkg_version}
 XB-DisplayName: NI VeriStand {veristand_version} Steps for TestStand
-XB-Message: Please review the BSD-2 "Simplified" License Agreement below.
+XB-Message: This package is provided under the BSD-2 "Simplified" open-source software license.
  Copyright 2018
  National Instruments
  Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
