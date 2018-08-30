@@ -49,8 +49,7 @@ teststand_bitness = '32'
 
 [package]
 type = 'vsStepsPackage'
-types_version = '8.0.0'
-teststand_versions = ['2014','2016','2017']
+types_version = '8.0.1'
 
 [[release.steps]]
 name = 'Master Release'
