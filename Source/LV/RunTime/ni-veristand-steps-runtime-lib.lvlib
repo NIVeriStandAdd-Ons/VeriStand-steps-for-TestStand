@@ -69,6 +69,8 @@
 	</Item>
 	<Item Name="subVIs" Type="Folder">
 		<Item Name="64BitOSCheck.vi" Type="VI" URL="../subVIs/64BitOSCheck.vi"/>
+		<Item Name="Configuration File Get VeriStand Application Path.vi" Type="VI" URL="../subVIs/Configuration File Get VeriStand Application Path.vi"/>
+		<Item Name="Get Default VeriStand Application Path.vi" Type="VI" URL="../subVIs/Get Default VeriStand Application Path.vi"/>
 	</Item>
 	<Item Name="workspace" Type="Folder">
 		<Item Name="WorkspaceOpenClose.vi" Type="VI" URL="../workspace/WorkspaceOpenClose.vi"/>
