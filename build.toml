@@ -49,12 +49,12 @@ teststand_bitness = '32'
 
 [package]
 type = 'vsStepsPackage'
-types_version = '8.0.2'
+types_version = '8.1.0'
 
 [[release.steps]]
 name = 'Master Release'
 type = 'githubRelease'
 2015_release_branches = ["master",]
 2016_release_branches = ["master",]
-2017_release_branches = ["master",]
-2018_release_branches = ["master",]
+2017_release_branches = ["master","develop"]
+2018_release_branches = ["master","develop"]

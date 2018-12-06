@@ -1,7 +1,7 @@
 The ni-veristand-steps-configuration.conf file is an INI configuration file. 
 This file must be placed next to the ni-veristand-steps-runtime-lib.lvlibp Packed Project Library.
 This PPL is installed in the TestStand Public Documents Directory.
-This is typically <Public Documents>\National Instruments\TestStand 201x (XX-bit)\Components\TypePalettes
+This is always <Public Documents>\National Instruments\TestStand 201X (32-bit)\Components\TypePalettes
 
 Currently this configuration file only supports one parameter: veristand_application_path
 
