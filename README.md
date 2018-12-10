@@ -63,8 +63,8 @@ Legacy versions are also available at the deprecated [NI VeriStand Steps for Tes
 
 ### Release Notes ###
 
-* **8.0.2**
- 1. Fixed bug preventing VeriStand from launching correctly when VeriStand isn't installed to the C drive. 
+* **8.1.0**
+ 1. Added feature enabling user to define the VeriStand application directory using a configuration file.
 
 * **8.0.1**
  1. Fixed bug preventing .nipkg from being uninstalled properly in some cases when multiple versions are installed.
