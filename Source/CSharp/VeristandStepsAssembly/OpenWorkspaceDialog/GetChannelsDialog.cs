@@ -209,6 +209,8 @@ namespace OpenWorkspaceDialog
             selectedTSStep = null;
             propObjectFile = null;
             stepPropertyObject = null;
+            this._treeView.ReleaseStartNode();
+            this._aliasBrowser.ReleaseStartNode();
             this.Close(); //Close the form
 
         }
