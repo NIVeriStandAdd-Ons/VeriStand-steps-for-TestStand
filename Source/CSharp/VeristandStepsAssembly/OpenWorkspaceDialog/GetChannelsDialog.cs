@@ -211,6 +211,7 @@ namespace OpenWorkspaceDialog
             stepPropertyObject = null;
             this._treeView.ReleaseStartNode();
             this._aliasBrowser.ReleaseStartNode();
+            loggingChannelSelection.Dispose();
             this.Close(); //Close the form
 
         }
