@@ -213,12 +213,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="SetMultipleChannelsDialog.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="SetMultipleChannelsDialog.Designer.cs">
-      <DependentUpon>SetMultipleChannelsDialog.cs</DependentUpon>
-    </Compile>
     <Compile Include="StimulusProfileDialog.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -360,9 +354,6 @@
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="SetMultipleChannelsDialog.resx">
-      <DependentUpon>SetMultipleChannelsDialog.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="StimulusProfileDialog.resx">
       <DependentUpon>StimulusProfileDialog.cs</DependentUpon>
