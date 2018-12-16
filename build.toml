@@ -40,13 +40,6 @@ project = 'installer'
 target = 'My Computer'
 build_spec = 'Installer Pre Uninstall Action'
 
-[[test.steps]]
-name = 'TestStand 2017 Integration Test'
-type = 'Test'
-sequence_path = 'Tests\Sequences\Main.seq'
-teststand_version = '2017'
-teststand_bitness = '32'
-
 [package]
 type = 'vsStepsPackage'
 types_version = '8.0.1'
