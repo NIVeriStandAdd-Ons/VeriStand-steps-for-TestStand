@@ -152,6 +152,8 @@ namespace OpenWorkspaceDialog
                     stepPropertyObject.SetValVariant("VeriStand.ChannelNames", 0, channelNamesList.ToArray());
                     baseNodeArray = selections;
                     stepPropertyObject.SetValInterface("VeriStand.BaseNodeArray", 0, baseNodeArray);
+                    selections = null;
+                    baseNodeArray = null;
                 }
 
                 //sysDefPath;
@@ -165,6 +167,7 @@ namespace OpenWorkspaceDialog
                 {
                     //do nothing
                 }
+
             seqContext.SequenceFile.FileGlobalsDefaultValues.SetValString("Veristand.SystemDefinitionPath", 1, sysDefPath);
             seqContext.SequenceFile.FileGlobalsDefaultValues.SetFlags("Veristand.SystemDefinitionPath", 0, 0x4400000);
             propObjectFile.IncChangeCount();  //Sets the flag that means the sequence has changes to save  (dirty dot*)
@@ -184,7 +187,7 @@ namespace OpenWorkspaceDialog
             selectedTSStep = null;
             propObjectFile = null;
             stepPropertyObject = null;
-            loggingChannelSelection.Dispose();
+            this.loggingChannelSelection.ShowCheckBox = false;
             this.Close(); //Close the form
 
         }
