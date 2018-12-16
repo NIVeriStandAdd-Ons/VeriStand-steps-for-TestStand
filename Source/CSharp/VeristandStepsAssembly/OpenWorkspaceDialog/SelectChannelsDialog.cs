@@ -42,8 +42,6 @@ namespace OpenWorkspaceDialog
         public BaseNodeType[] baseNodeArray;
         public BaseNode baseNodeElement;
         SetMultipleChannelsDialogDGV CallingFormGlobal;
-        public SystemDefinitionBrowser _treeView { get; set; }
-        public SystemDefinitionBrowser _aliasBrowser { get; set; }
 
         public SelectChannelsDialog(SetMultipleChannelsDialogDGV CallingForm)
         {
@@ -59,27 +57,7 @@ namespace OpenWorkspaceDialog
             channelType = (ChannelType)CallingFormGlobal.channelType;
             baseNodeArray = CallingFormGlobal.baseNodeArray;
 
-            // These changes are in the 2014 VeriStand trunk so as soon as we start using that assembly we should revert these changes.
-            // This is a hack for now to get check boxes on the Windows Form TreeAliasBrowserWF.
-
-            Type TreeAliasBrowser = typeof(StorageChannelAndAliasBrowser);
-            FieldInfo m_ChanAliasWPFElement = typeof(NationalInstruments.VeriStand.SystemStorageUI.WinFormsWrapper.TreeAliasBrowserWF).GetField(
-                "m_ChanAliasWPFElement",
-                BindingFlags.NonPublic |
-                BindingFlags.Instance);
-            FieldInfo aliasBrowserInfo = TreeAliasBrowser.GetField(
-                "AliasTab",
-                BindingFlags.NonPublic |
-                BindingFlags.Instance);
-            FieldInfo treeviewInfo = TreeAliasBrowser.GetField(
-              "TreeView",
-              BindingFlags.NonPublic |
-              BindingFlags.Instance);
-            var topLevelBrowser = (StorageChannelAndAliasBrowser)m_ChanAliasWPFElement.GetValue(loggingChannelSelection);
-            this._aliasBrowser = (SystemDefinitionBrowser)aliasBrowserInfo.GetValue(topLevelBrowser);
-            this._treeView = (SystemDefinitionBrowser)treeviewInfo.GetValue(topLevelBrowser);
-            this._aliasBrowser.ShowCheckBox = true;
-            this._treeView.ShowCheckBox = true;
+            this.loggingChannelSelection.ShowCheckBox = true;
 
             //If the file at path FileGlobals.Veristand.SystemDefinitionPath exists and the extension is ".nivssdf" use that System Definition file to initialize the TreeAliasBrowserWF.
             if (System.IO.File.Exists(StringUtilities.unparseFilePathString(sysDefPath)) && System.IO.Path.GetExtension(StringUtilities.unparseFilePathString(sysDefPath)) == ".nivssdf")
@@ -141,8 +119,7 @@ namespace OpenWorkspaceDialog
                             baseNodeArray[i] = baseNodeElement.BaseNodeType;
                         }
                     }
-                    this._aliasBrowser.SetCheckBoxSelections(baseNodeArray);
-                    this._treeView.SetCheckBoxSelections(baseNodeArray);
+                    this.loggingChannelSelection.SetCheckBoxSelections(baseNodeArray);
                 }
             }
         }
@@ -152,8 +129,7 @@ namespace OpenWorkspaceDialog
             try
             {
                 BaseNodeType[] selections =
-                    this._aliasBrowser.GetCheckBoxSelections(false)
-                        .Concat(this._treeView.GetCheckBoxSelections(false))
+                    this.loggingChannelSelection.GetCheckBoxSelections(false)
                         .ToArray();
                 channelNamesList.Clear();
                 if (selections.Length > 0)
