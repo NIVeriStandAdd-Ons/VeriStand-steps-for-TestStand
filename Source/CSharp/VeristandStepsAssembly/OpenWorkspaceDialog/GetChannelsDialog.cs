@@ -169,6 +169,7 @@ namespace OpenWorkspaceDialog
             propObjectFile.IncChangeCount();  //Sets the flag that means the sequence has changes to save  (dirty dot*)
             this.baseNodeElement = null;
             this.baseNodeArray = null;
+            this.baseNodeElement.BaseNodeType.Dispose();
             this.Close(); //Close the form
 
         }
