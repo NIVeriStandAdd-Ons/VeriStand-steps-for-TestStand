@@ -152,11 +152,7 @@ namespace OpenWorkspaceDialog
                     stepPropertyObject.SetValVariant("VeriStand.ChannelNames", 0, channelNamesList.ToArray());
                     baseNodeArray = selections;
                     stepPropertyObject.SetValInterface("VeriStand.BaseNodeArray", 0, baseNodeArray);
-                    selections = null;
-                    baseNodeArray = null;
                 }
-
-                //sysDefPath;
 
                 }
                 catch (System.NullReferenceException ex)
@@ -171,9 +167,15 @@ namespace OpenWorkspaceDialog
             seqContext.SequenceFile.FileGlobalsDefaultValues.SetValString("Veristand.SystemDefinitionPath", 1, sysDefPath);
             seqContext.SequenceFile.FileGlobalsDefaultValues.SetFlags("Veristand.SystemDefinitionPath", 0, 0x4400000);
             propObjectFile.IncChangeCount();  //Sets the flag that means the sequence has changes to save  (dirty dot*)
+            baseNodeElement.BaseNodeType.Dispose();
+            foreach (BaseNodeType baseNode in baseNodeArray)
+            {
+                baseNode.Dispose();
+            }
             this.Close(); //Close the form
 
         }
+
         private void Cancel_Click(object sender, EventArgs e)
         {
             this.Close();
