@@ -167,6 +167,8 @@ namespace OpenWorkspaceDialog
             seqContext.SequenceFile.FileGlobalsDefaultValues.SetValString("Veristand.SystemDefinitionPath", 1, sysDefPath);
             seqContext.SequenceFile.FileGlobalsDefaultValues.SetFlags("Veristand.SystemDefinitionPath", 0, 0x4400000);
             propObjectFile.IncChangeCount();  //Sets the flag that means the sequence has changes to save  (dirty dot*)
+            this.baseNodeElement = null;
+            this.baseNodeArray = null;
             this.Close(); //Close the form
 
         }
