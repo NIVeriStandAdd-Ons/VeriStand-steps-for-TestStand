@@ -31,6 +31,7 @@ namespace OpenWorkspaceDialog
         public enum ChannelType { paramChannel, faultChannel, writableChannel, readableChannel };
         ChannelType channelType;
         public string sysDefPath;
+
         public NativeChannelSelectionDialog(SequenceContext _seqContext, ChannelType _channelType)
         {
             InitializeComponent();
