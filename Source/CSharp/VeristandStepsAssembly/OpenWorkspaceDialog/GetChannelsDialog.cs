@@ -151,7 +151,7 @@ namespace OpenWorkspaceDialog
                     channelNamesList.AddRange(from selection in selections where selection is NationalInstruments.VeriStand.SystemStorage.ChannelType || selection is AliasType select selection.NodePath);
                     stepPropertyObject.SetValVariant("VeriStand.ChannelNames", 0, channelNamesList.ToArray());
                     baseNodeArray = selections;
-                    stepPropertyObject.SetValInterface("VeriStand.BaseNodeArray", 0, baseNodeArray);
+                    //stepPropertyObject.SetValInterface("VeriStand.BaseNodeArray", 0, baseNodeArray);
                 }
 
                 }
