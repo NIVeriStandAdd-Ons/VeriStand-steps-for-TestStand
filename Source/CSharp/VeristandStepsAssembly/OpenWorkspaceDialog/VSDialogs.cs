@@ -260,10 +260,6 @@ namespace OpenWorkspaceDialog
         {
             Application.Run(new ConfigureLoggingFile(seqContext,channelType));
         }
-        public void SetMultipleChannelsDialog(NationalInstruments.TestStand.Interop.API.SequenceContext seqContext, SetMultipleChannelsDialog.ChannelType channelType)
-        {
-            Application.Run(new SetMultipleChannelsDialog(seqContext,channelType));
-        }
         public void GetMultipleChannelsDialog(NationalInstruments.TestStand.Interop.API.SequenceContext seqContext, GetChannelsDialog.ChannelType channelType)
         {
             Application.Run(new GetChannelsDialog(seqContext, channelType));

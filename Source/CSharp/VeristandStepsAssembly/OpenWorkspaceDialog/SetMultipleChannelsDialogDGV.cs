@@ -8,7 +8,6 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using NationalInstruments.TestStand.Interop.API;
-using NationalInstruments.VeriStand.ClientAPI;
 using NationalInstruments.VeriStand.SystemDefinitionAPI;
 using NationalInstruments.VeriStand.SystemStorageUI;
 using NationalInstruments.VeriStand.SystemStorage;
@@ -40,7 +39,7 @@ namespace OpenWorkspaceDialog
         public enum ChannelType { paramChannel, faultChannel, writableChannel, readableChannel };
         public ChannelType channelType;
         public string sysDefPath;
-        public BaseNodeType[] baseNodeArray;
+        public BaseNodeType[] baseNodeArray = new BaseNodeType[0];
         public BaseNode baseNodeElement;
 
         public SetMultipleChannelsDialogDGV(SequenceContext _seqContext, ChannelType _channelType)
@@ -64,15 +63,6 @@ namespace OpenWorkspaceDialog
             channelNamesList.AddRange(stepPropertyObject.GetValVariant("VeriStand.ChannelNames", 0));//Get ChannelNames array of strings.
             channelValuesArray = stepPropertyObject.GetValVariant("VeriStand.ValuesToSet", 0);//Get ValuesToSet array of numbers
             channelType = _channelType;
-
-            if (baseNodeArray != null)
-            {
-                baseNodeArray = (BaseNodeType[])stepPropertyObject.GetValInterface("Veristand.BaseNodeArray", 0);//Get the BaseNodeArray from TestStand and cast to a BaseNodeType[]
-            }
-            else
-            {
-                baseNodeArray = new BaseNodeType[0];
-            }
 
             VSDialogs vsdiag = new VSDialogs();
 
@@ -106,7 +96,6 @@ namespace OpenWorkspaceDialog
             }
             stepPropertyObject.SetValVariant("VeriStand.ChannelNames", 0, channelNamesList.ToArray());
             stepPropertyObject.SetValVariant("VeriStand.ValuesToSet", 0, channelValuesArray);
-            stepPropertyObject.SetValInterface("VeriStand.BaseNodeArray", 0, baseNodeArray);
             seqContext.SequenceFile.FileGlobalsDefaultValues.SetValString("VeriStand.SystemDefinitionPath", 1, sysDefPath);
             seqContext.SequenceFile.FileGlobalsDefaultValues.SetFlags("Veristand.SystemDefinitionPath", 0, 0x4400000);
             propObjectFile.IncChangeCount();  //Sets the flag that means the sequence has changes to save  (dirty dot*)

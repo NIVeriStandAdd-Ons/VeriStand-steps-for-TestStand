@@ -17,7 +17,7 @@ A **User Guide**, **Developer Guide**, and **Example Sequences** are installed t
 These files can also be found in the **[Documentation](https://github.com/NIVeriStandAdd-Ons/VeriStand-steps-for-TestStand/tree/develop/Documentation)** folder in the top-level of this repository.
 
 #### Installing version 8.0.0 and newer (using NI Package Manager) ####
-***IMPORTANT: If upgrading from version 7.x.x or older be sure to remove any previous versions using Add/Remove Programs in the Windows Control Panel. If upgrading from version 8.x.x it is not necessary to remove previous versions.***
+***IMPORTANT: If upgrading from version 7.x.x or older be sure to remove any previous versions using Add/Remove Programs in the Windows Control Panel. If upgrading from version 8.x.x or later it is not necessary to remove previous versions.***
 
 1. *Download* the .nipkg file from the [Releases](https://github.com/NIVeriStandAdd-Ons/VeriStand-steps-for-TestStand/releases) page of this repository
 1. *Locate* the .nipkg file on your local drive
@@ -63,60 +63,7 @@ Legacy versions are also available at the deprecated [NI VeriStand Steps for Tes
 
 ### Release Notes ###
 
-* **8.1.0**
- 1. Added feature enabling user to define the VeriStand application directory using a configuration file.
-
-* **8.0.1**
- 1. Fixed bug preventing .nipkg from being uninstalled properly in some cases when multiple versions are installed.
-
-* **8.0.0**
- 1. First version available as an NI Package (.nipkg) instead of a LabVIEW Installer. 
-
-* **7.2.2**
- 1. Installer now installs Step Types for TestStand 2014, 2016, and 2017.
- 1. Added *OpenVSTimeout Step Property* to **Initialize VeriStand** and **Start VeriStand** step types. This Step Property allows the user to specify the timeout used when waiting for the VeriStand.exe application to open when using these two steps. *OpenVSTimeout* defaults to 120 seconds.
- 1. Added *CloseUIManager Step Property* to **Stop VeriStand** Step Type to toggle whether this step closes the NI VeriStand UI Manager. 
- 1. Fixed bug in **Channel Value Limit Test Step** which caused an error when using certain Comparison Types. A legacy **Channel Value Limit Test (TestStand 2014)** Step is now provided. 
- 1. Package now installs a **User Guide, Developer Guide, and Example Files** to *`<Public Documents>\National Instruments\NI VeriStand Steps for TestStand`*.
-
-* **7.2.1**
- 1. Fixed bug which caused reference errors in some cases when TestStand is configured to use the LabVIEW Development environment as the LabVIEW adapter.
-
-
-* **7.2**
- 1. Fixed bug preventing alarm states from being returned correctly by Get Alarm State Step
-
-
-* **7.1**
- 1. TestStand 2017 Support
- 1. Single installer for TestStand 32- and 64-bit
- 1. Fixed bug preventing sequences containing the steps from executing when the sequence is called by the TestStand API from the LabVIEW Development Environment.
-
-
-* **7.0**
- 1. Launching VeriStand silently now suppresses both the Workspace and UI Manager.
- 1. RT Sequence Steps and Stimulus Profile Steps now include an additional Timeout step property which causes the Step to Timeout. This is different from these Steps' existing Timeout_ms property which is the RT Sequence Timestep Timeout.
- 1. Stop VeriStand Step now includes an additional CloseApp step property which closes the VeriStand application.
-
-
-* **6.0**
- 1. Installer is now a LabVIEW installer
- 1. TestStand 2016 x64 support
-
-
-* **5.0**
- 1. Fixed bug preventing RT Sequence parameters of data type U32, U32 Array, U64, or U64 Array from being passed to RT Sequence correctly. 
-
-
-* **4.0**
- 1. Fixed bug in Start VeriStand step type which caused the step's InstallationPath property to default to the wrong version of VeriStand. This change only affects the VeriStand.exe installation path in newly created instances of the step type.
- 1. Fixed bug which prevented the Channel Value Limit Test step type from returning Units value to the step results.  
- 1. Fixed bug which caused TestStand 2016 to crash when configuring the Channel Value Limit Test. 
-
-
-* **3.0** 
- 1. Added the ability to specify the Target for running RT Sequences, and also the ability to specify a Timeout.  
- 1. Fixed an issue where Double data-typed parameters were truncated to integers.  This update applies only to the steps for VeriStand 2015 and up, and only affects the following TestStand steps: RT Sequence Action, RT Sequence Numeric Limit Test, and RT Sequence Pass Fail Test.
+See [Release Notes Wiki](https://github.com/NIVeriStandAdd-Ons/VeriStand-steps-for-TestStand/wiki/Release-Notes).
 
 ### Support ###
 
@@ -137,6 +84,7 @@ This source code and all releases are provided under the Apache 2.0 open-source 
 
  Copyright 2018 National Instruments
  
+
   Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License.
   You may obtain a copy of the License at 
   http://www.apache.org/licenses/LICENSE-2.0
