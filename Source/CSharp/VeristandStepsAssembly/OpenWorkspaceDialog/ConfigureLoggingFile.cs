@@ -38,7 +38,7 @@ namespace OpenWorkspaceDialog
         string sysDefPath;
         public SystemDefinitionBrowser _treeView { get; set; }
         public SystemDefinitionBrowser _aliasBrowser { get; set; }
-        public BaseNodeType[] baseNodeArray;
+        public BaseNodeType[] baseNodeArray = new BaseNodeType[0];
         public BaseNode baseNodeElement;
         public List<string> filePropertyNames = new List<string>();
         public List<string> filePropertyValues = new List<string>();
@@ -73,36 +73,7 @@ namespace OpenWorkspaceDialog
             filePropertyNames.AddRange(stepPropertyObject.GetValVariant("Veristand.FilePropertyNames", 0));
             filePropertyValues.AddRange(stepPropertyObject.GetValVariant("Veristand.FilePropertyValues", 0));
             channelType = _channelType;
-            if (stepPropertyObject.GetValInterface("Veristand.BaseNodeArray", 0) != null)
-            {
-                baseNodeArray = (BaseNodeType[])stepPropertyObject.GetValInterface("Veristand.BaseNodeArray", 0);//Get the BaseNodeArray from TestStand and cast to a BaseNodeType[]
-            }
-                else
-            {
-                baseNodeArray = new BaseNodeType[0];
-            }
-
-            // These changes are in the 2014 VeriStand trunk so as soon as we start using that assembly we should revert these changes.
-            // This is a hack for now to get check boxes on the Windows Form TreeAliasBrowserWF.
-
-            Type TreeAliasBrowser = typeof(StorageChannelAndAliasBrowser);
-            FieldInfo m_ChanAliasWPFElement = typeof(NationalInstruments.VeriStand.SystemStorageUI.WinFormsWrapper.TreeAliasBrowserWF).GetField(
-                "m_ChanAliasWPFElement",
-                BindingFlags.NonPublic |
-                BindingFlags.Instance);
-            FieldInfo aliasBrowserInfo = TreeAliasBrowser.GetField(
-                "AliasTab",
-                BindingFlags.NonPublic |
-                BindingFlags.Instance);
-            FieldInfo treeviewInfo = TreeAliasBrowser.GetField(
-              "TreeView",
-              BindingFlags.NonPublic |
-              BindingFlags.Instance);
-            var topLevelBrowser = (StorageChannelAndAliasBrowser)m_ChanAliasWPFElement.GetValue(loggingChannelSelection);
-            this._aliasBrowser = (SystemDefinitionBrowser)aliasBrowserInfo.GetValue(topLevelBrowser);
-            this._treeView = (SystemDefinitionBrowser)treeviewInfo.GetValue(topLevelBrowser);
-            this._aliasBrowser.ShowCheckBox = true;
-            this._treeView.ShowCheckBox = true;
+            loggingChannelSelection.ShowCheckBox = true;
 
             //If the file at path FileGlobals.Veristand.SystemDefinitionPath exists and the extension is ".nivssdf" use that System Definition file to initialize the TreeAliasBrowserWF.
                 if (System.IO.File.Exists(StringUtilities.unparseFilePathString(sysDefPath)) && System.IO.Path.GetExtension(StringUtilities.unparseFilePathString(sysDefPath)) == ".nivssdf")
@@ -120,15 +91,7 @@ namespace OpenWorkspaceDialog
         private void InitializeListBox(string _sysDefPath)
         {
             currentSysDef = new SystemDefinition(StringUtilities.unparseFilePathString(_sysDefPath));
-            //if (baseNodeArray != null)
-            //{
-            //    //Root currentSysDefRoot = currentSysDef.Root;
-            //    //for (int i = 0; i < channelList.Length; i++)
-            //    //{
-            //    //    currentSysDefRoot.FindNodeByPath(channelList[i], out baseNodeElement);
-            //    //    baseNodeArray[i] = baseNodeElement.BaseNodeType;
-            //    //}
-            //}
+
             switch (channelType)
             {
                 case ChannelType.faultChannel:
@@ -174,8 +137,7 @@ namespace OpenWorkspaceDialog
                             baseNodeArray[i] = baseNodeElement.BaseNodeType;
                         }
                     }
-                    this._aliasBrowser.SetCheckBoxSelections(baseNodeArray);
-                    this._treeView.SetCheckBoxSelections(baseNodeArray);
+                    this.loggingChannelSelection.SetCheckBoxSelections(baseNodeArray);
                 }
             }
         }
@@ -209,13 +171,11 @@ namespace OpenWorkspaceDialog
         {
                 try
                 {
-                    BaseNodeType[] selections =
-                        this._aliasBrowser.GetCheckBoxSelections(false)
-                            .Concat(this._treeView.GetCheckBoxSelections(false))
+                BaseNodeType[] selections =
+                    this.loggingChannelSelection.GetCheckBoxSelections(false)
                             .ToArray();
                     channelList = (from selection in selections where selection is NationalInstruments.VeriStand.SystemStorage.ChannelType|| selection is AliasType select selection.NodePath).ToArray();
                     stepPropertyObject.SetValVariant("Veristand.ChannelPaths", 0, channelList);
-                    stepPropertyObject.SetValInterface("Veristand.BaseNodeArray", 0, selections);
                     stepPropertyObject.SetValString("Veristand.LogFilePath", 0, LogFilePath_exp.Text);
                     stepPropertyObject.SetValBoolean("Veristand.FileSegmenting", 0, SegmentFileSize_boolean.Checked);
                     stepPropertyObject.SetValNumber("Veristand.FileSegmentingSize", 0, (int)FileSegmentSize_num.Value);
@@ -233,7 +193,23 @@ namespace OpenWorkspaceDialog
                 {
                     //do nothing
                 }
-            propObjectFile.IncChangeCount();  //Sets the flag that means the sequence has changes to save (dirty dot*)   
+            propObjectFile.IncChangeCount();  //Sets the flag that means the sequence has changes to save (dirty dot*)
+            System.Runtime.InteropServices.Marshal.ReleaseComObject(seqContext);
+            System.Runtime.InteropServices.Marshal.ReleaseComObject(seqContextPO);
+            System.Runtime.InteropServices.Marshal.ReleaseComObject(selectedTSSequence);
+            System.Runtime.InteropServices.Marshal.ReleaseComObject(seqFile);
+            System.Runtime.InteropServices.Marshal.ReleaseComObject(permSeqContext);
+            System.Runtime.InteropServices.Marshal.ReleaseComObject(selectedTSStep);
+            System.Runtime.InteropServices.Marshal.ReleaseComObject(propObjectFile);
+            System.Runtime.InteropServices.Marshal.ReleaseComObject(stepPropertyObject);
+            seqContext = null;
+            seqContextPO = null;
+            selectedTSSequence = null;
+            seqFile = null;
+            permSeqContext = null;
+            selectedTSStep = null;
+            propObjectFile = null;
+            stepPropertyObject = null;
             this.Close();
         }
         private void Cancel_Click(object sender, EventArgs e)
