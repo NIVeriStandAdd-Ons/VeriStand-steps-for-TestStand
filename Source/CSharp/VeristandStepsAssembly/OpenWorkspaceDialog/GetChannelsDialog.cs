@@ -8,7 +8,6 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using NationalInstruments.TestStand.Interop.API;
-using NationalInstruments.VeriStand.ClientAPI;
 using NationalInstruments.VeriStand.SystemDefinitionAPI;
 using NationalInstruments.VeriStand.SystemStorageUI;
 using NationalInstruments.VeriStand.SystemStorage;
@@ -40,7 +39,7 @@ namespace OpenWorkspaceDialog
         public enum ChannelType { paramChannel, faultChannel, writableChannel, readableChannel };
         public ChannelType channelType;
         public string sysDefPath;
-        public BaseNodeType[] baseNodeArray;
+        public BaseNodeType[] baseNodeArray = new BaseNodeType[0];
         public BaseNode baseNodeElement;
 
         public GetChannelsDialog(SequenceContext _seqContext, ChannelType _channelType)
@@ -60,15 +59,6 @@ namespace OpenWorkspaceDialog
             seqContext.SequenceFile.FileGlobalsDefaultValues.SetFlags("Veristand.SystemDefinitionPath", 0, 0x4400000);
             channelNamesList.AddRange(stepPropertyObject.GetValVariant("VeriStand.ChannelNames", 0));//Get ChannelNames array of strings.
             channelType = _channelType;
-
-            if (baseNodeArray != null)
-            {
-                baseNodeArray = (BaseNodeType[])stepPropertyObject.GetValInterface("Veristand.BaseNodeArray", 0);//Get the BaseNodeArray from TestStand and cast to a BaseNodeType[]
-            }
-            else
-            {
-                baseNodeArray = new BaseNodeType[0];
-            }
 
             VSDialogs vsdiag = new VSDialogs();
             this.loggingChannelSelection.ShowCheckBox = true;
@@ -151,7 +141,6 @@ namespace OpenWorkspaceDialog
                     channelNamesList.AddRange(from selection in selections where selection is NationalInstruments.VeriStand.SystemStorage.ChannelType || selection is AliasType select selection.NodePath);
                     stepPropertyObject.SetValVariant("VeriStand.ChannelNames", 0, channelNamesList.ToArray());
                     baseNodeArray = selections;
-                    //stepPropertyObject.SetValInterface("VeriStand.BaseNodeArray", 0, baseNodeArray);
                 }
 
                 }
@@ -184,7 +173,6 @@ namespace OpenWorkspaceDialog
             propObjectFile = null;
             stepPropertyObject = null;
             this.Close(); //Close the form
-
         }
 
         private void Cancel_Click(object sender, EventArgs e)
