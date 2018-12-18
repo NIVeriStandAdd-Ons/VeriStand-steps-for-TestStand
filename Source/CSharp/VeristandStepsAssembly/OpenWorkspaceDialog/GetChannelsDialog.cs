@@ -167,8 +167,22 @@ namespace OpenWorkspaceDialog
             seqContext.SequenceFile.FileGlobalsDefaultValues.SetValString("Veristand.SystemDefinitionPath", 1, sysDefPath);
             seqContext.SequenceFile.FileGlobalsDefaultValues.SetFlags("Veristand.SystemDefinitionPath", 0, 0x4400000);
             propObjectFile.IncChangeCount();  //Sets the flag that means the sequence has changes to save  (dirty dot*)
-            this.baseNodeElement = null;
-            this.baseNodeArray = null;
+            System.Runtime.InteropServices.Marshal.ReleaseComObject(seqContext);
+            System.Runtime.InteropServices.Marshal.ReleaseComObject(seqContextPO);
+            System.Runtime.InteropServices.Marshal.ReleaseComObject(selectedTSSequence);
+            System.Runtime.InteropServices.Marshal.ReleaseComObject(seqFile);
+            System.Runtime.InteropServices.Marshal.ReleaseComObject(permSeqContext);
+            System.Runtime.InteropServices.Marshal.ReleaseComObject(selectedTSStep);
+            System.Runtime.InteropServices.Marshal.ReleaseComObject(propObjectFile);
+            System.Runtime.InteropServices.Marshal.ReleaseComObject(stepPropertyObject);
+            seqContext = null;
+            seqContextPO = null;
+            selectedTSSequence = null;
+            seqFile = null;
+            permSeqContext = null;
+            selectedTSStep = null;
+            propObjectFile = null;
+            stepPropertyObject = null;
             this.Close(); //Close the form
 
         }
