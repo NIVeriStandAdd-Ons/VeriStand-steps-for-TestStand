@@ -36,8 +36,6 @@ namespace OpenWorkspaceDialog
         ChannelType channelType;
         public string fileDescription;  //stepPropertyObject.GetValString("Veristand.Advanced.fieDescription", 1);
         string sysDefPath;
-        public SystemDefinitionBrowser _treeView { get; set; }
-        public SystemDefinitionBrowser _aliasBrowser { get; set; }
         public BaseNodeType[] baseNodeArray = new BaseNodeType[0];
         public BaseNode baseNodeElement;
         public List<string> filePropertyNames = new List<string>();

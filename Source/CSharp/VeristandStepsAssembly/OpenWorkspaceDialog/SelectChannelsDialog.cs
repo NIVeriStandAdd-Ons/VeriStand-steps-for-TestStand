@@ -19,17 +19,6 @@ namespace OpenWorkspaceDialog
 {
     public partial class SelectChannelsDialog : Form
     {
-        //TestStand Objects Initiliaze
-        //SequenceContext seqContext;
-        //PropertyObject seqContextPO;
-        //Sequence selectedTSSequence;
-        //SequenceFile seqFile;
-        //PropertyObject permSeqContext;
-        //Step selectedTSStep;
-        //PropertyObjectFile propObjectFile;
-        //string stepID;
-        //PropertyObject stepPropertyObject;
-
         //Veristand Objects Initialize
         SystemDefinition currentSysDef;
         public List<string> channelNamesList = new List<string>();
@@ -56,6 +45,7 @@ namespace OpenWorkspaceDialog
             channelValuesArrayOld = CallingFormGlobal.channelValuesArrayOld;
             channelType = (ChannelType)CallingFormGlobal.channelType;
             baseNodeArray = CallingFormGlobal.baseNodeArray;
+            baseNodeElement = CallingFormGlobal.baseNodeElement;
 
             this.loggingChannelSelection.ShowCheckBox = true;
 
@@ -151,7 +141,7 @@ namespace OpenWorkspaceDialog
                 {
                     //do nothing
                 }
-            this.Close();
+            this.Dispose();
 
         }
         private void Cancel_Click(object sender, EventArgs e)
