@@ -8,7 +8,6 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using NationalInstruments.TestStand.Interop.API;
-using NationalInstruments.VeriStand.ClientAPI;
 using NationalInstruments.VeriStand.SystemDefinitionAPI;
 using NationalInstruments.VeriStand.SystemStorageUI;
 using NationalInstruments.VeriStand.SystemStorage;
@@ -40,10 +39,8 @@ namespace OpenWorkspaceDialog
         public enum ChannelType { paramChannel, faultChannel, writableChannel, readableChannel };
         public ChannelType channelType;
         public string sysDefPath;
-        public BaseNodeType[] baseNodeArray;
+        public BaseNodeType[] baseNodeArray = new BaseNodeType[0];
         public BaseNode baseNodeElement;
-        public SystemDefinitionBrowser _treeView { get; set; }
-        public SystemDefinitionBrowser _aliasBrowser { get; set; }
 
         public GetChannelsDialog(SequenceContext _seqContext, ChannelType _channelType)
         {
@@ -63,38 +60,8 @@ namespace OpenWorkspaceDialog
             channelNamesList.AddRange(stepPropertyObject.GetValVariant("VeriStand.ChannelNames", 0));//Get ChannelNames array of strings.
             channelType = _channelType;
 
-            if (baseNodeArray != null)
-            {
-                baseNodeArray = (BaseNodeType[])stepPropertyObject.GetValInterface("Veristand.BaseNodeArray", 0);//Get the BaseNodeArray from TestStand and cast to a BaseNodeType[]
-            }
-            else
-            {
-                baseNodeArray = new BaseNodeType[0];
-            }
-
             VSDialogs vsdiag = new VSDialogs();
-
-            // These changes are in the 2014 VeriStand trunk so as soon as we start using that assembly we should revert these changes.
-            // This is a hack for now to get check boxes on the Windows Form TreeAliasBrowserWF.
-
-            Type TreeAliasBrowser = typeof(StorageChannelAndAliasBrowser);
-            FieldInfo m_ChanAliasWPFElement = typeof(NationalInstruments.VeriStand.SystemStorageUI.WinFormsWrapper.TreeAliasBrowserWF).GetField(
-                "m_ChanAliasWPFElement",
-                BindingFlags.NonPublic |
-                BindingFlags.Instance);
-            FieldInfo aliasBrowserInfo = TreeAliasBrowser.GetField(
-                "AliasTab",
-                BindingFlags.NonPublic |
-                BindingFlags.Instance);
-            FieldInfo treeviewInfo = TreeAliasBrowser.GetField(
-              "TreeView",
-              BindingFlags.NonPublic |
-              BindingFlags.Instance);
-            var topLevelBrowser = (StorageChannelAndAliasBrowser)m_ChanAliasWPFElement.GetValue(loggingChannelSelection);
-            this._aliasBrowser = (SystemDefinitionBrowser)aliasBrowserInfo.GetValue(topLevelBrowser);
-            this._treeView = (SystemDefinitionBrowser)treeviewInfo.GetValue(topLevelBrowser);
-            this._aliasBrowser.ShowCheckBox = true;
-            this._treeView.ShowCheckBox = true;
+            this.loggingChannelSelection.ShowCheckBox = true;
 
             //If the file at path FileGlobals.Veristand.SystemDefinitionPath exists and the extension is ".nivssdf" use that System Definition file to initialize the TreeAliasBrowserWF.
             if (System.IO.File.Exists(StringUtilities.unparseFilePathString(sysDefPath)) && System.IO.Path.GetExtension(StringUtilities.unparseFilePathString(sysDefPath)) == ".nivssdf")
@@ -156,8 +123,7 @@ namespace OpenWorkspaceDialog
                             baseNodeArray[i] = baseNodeElement.BaseNodeType;
                         }
                     }
-                    this._aliasBrowser.SetCheckBoxSelections(baseNodeArray);
-                    this._treeView.SetCheckBoxSelections(baseNodeArray);
+                    this.loggingChannelSelection.SetCheckBoxSelections(baseNodeArray);
                 }
             }
         }
@@ -167,8 +133,7 @@ namespace OpenWorkspaceDialog
             try
             {
                 BaseNodeType[] selections =
-                    this._aliasBrowser.GetCheckBoxSelections(false)
-                        .Concat(this._treeView.GetCheckBoxSelections(false))
+                    this.loggingChannelSelection.GetCheckBoxSelections(false)
                         .ToArray();
                 channelNamesList.Clear();
                 if (selections.Length > 0)
@@ -176,10 +141,7 @@ namespace OpenWorkspaceDialog
                     channelNamesList.AddRange(from selection in selections where selection is NationalInstruments.VeriStand.SystemStorage.ChannelType || selection is AliasType select selection.NodePath);
                     stepPropertyObject.SetValVariant("VeriStand.ChannelNames", 0, channelNamesList.ToArray());
                     baseNodeArray = selections;
-                    stepPropertyObject.SetValInterface("VeriStand.BaseNodeArray", 0, baseNodeArray);
                 }
-
-                //sysDefPath;
 
                 }
                 catch (System.NullReferenceException ex)
@@ -190,6 +152,7 @@ namespace OpenWorkspaceDialog
                 {
                     //do nothing
                 }
+
             seqContext.SequenceFile.FileGlobalsDefaultValues.SetValString("Veristand.SystemDefinitionPath", 1, sysDefPath);
             seqContext.SequenceFile.FileGlobalsDefaultValues.SetFlags("Veristand.SystemDefinitionPath", 0, 0x4400000);
             propObjectFile.IncChangeCount();  //Sets the flag that means the sequence has changes to save  (dirty dot*)
@@ -210,8 +173,8 @@ namespace OpenWorkspaceDialog
             propObjectFile = null;
             stepPropertyObject = null;
             this.Close(); //Close the form
-
         }
+
         private void Cancel_Click(object sender, EventArgs e)
         {
             this.Close();
