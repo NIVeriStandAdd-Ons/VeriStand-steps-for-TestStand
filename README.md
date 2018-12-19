@@ -33,17 +33,13 @@ These files can also be found in the **[Documentation](https://github.com/NIVeri
 
 #### Currently supported NI VeriStand versions ####
 
-* NI VeriStand 2015 SP1
-* NI VeriStand 2016
-* NI VeriStand 2017
-* NI VeriStand 2018
+* NI VeriStand 2015 SP1, 2016, 2017, and 2018
 
 Beginning with version 7.2.2 each package or installer for the NI VeriStand Step Types includes support for *one version of VeriStand* and *all currently supported TestStand versions*. It is *not* necessary to have every version of TestStand installed in order to use the step types. It is not necessary to reinstall the VeriStand Step Types after installing a new supported version of NI TestStand. 
 
 #### Currently supported NI TestStand versions ####
-* NI TestStand 2014 (32- and 64-bit)
-* NI TestStand 2016 (32- and 64-bit)
-* NI TestStand 2017 (32- and 64-bit)
+* NI TestStand 2014, 2016, and 2017 (32- and 64-bit)
+
 
 For example, the **ni-veristand-2018-steps-for-teststand_7.2.2+001.nipkg** package installs NI VeriStand 2018 compatible step types for all versions of TestStand listed above. 
 
@@ -55,7 +51,7 @@ Version 7.2.2 is the last version available with a LabVIEW Installer.
 
 #### Current version ####
 
-All current releases are available on the [*Releases*](https://github.com/NIVeriStandAdd-Ons/VeriStand-steps-for-TestStand/releases) page of this repository. Certain legacy releases are also available here.
+All current releases and certain legacy releases are available on the [*Releases*](https://github.com/NIVeriStandAdd-Ons/VeriStand-steps-for-TestStand/releases) page of this repository.
 
 #### Legacy versions ####
 
