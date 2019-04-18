@@ -1,6 +1,6 @@
 [archive]
 build_output_dir = 'Built'
-archive_location = '\\us-aus-hilbuild\builds\NIVeriStandAdd-ons\addons\veristand steps for teststand'
+archive_location = 'C:\Users\lvuser\Documents\Archive'
 
 [projects.runtime]
 path = 'Source\LV\RunTime\VeriStand Steps RunTime Library.lvproj'

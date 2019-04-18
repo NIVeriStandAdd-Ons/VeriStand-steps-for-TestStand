@@ -1,7 +1,8 @@
 #!/usr/bin/env groovy
 //Leave the above line alone.  It identifies this as a groovy script.
-@Library('vs-common-build') _
+@Library('vs-build-tools') _
 
-def lvVersions = ['2018','2017','2016','2015']
+def lvVersions = ['2017']
+def nodeLabel = 'LRU_IT'
 
-ni.vsbuild.PipelineExecutor.execute(this, lvVersions)
+ni.vsbuild.PipelineExecutor.execute(this, nodeLabel, lvVersions)
