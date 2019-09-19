@@ -1,3 +1,5 @@
+# :rotating_light:**This tool is not supported by NI R&D, please use the supported [ASAM XIL Steps for NI TestStand](http://www.ni.com/product-documentation/55126/en/) for future development**:rotating_light:
+
 ## NI VeriStand Steps for TestStand ##
 
 The **NI VeriStand Steps for TestStand** is a set of custom NI TestStand step types used to automate NI VeriStand from an NI TestStand sequence. 
