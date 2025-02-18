@@ -1,7 +1,7 @@
 # :rotating_light:**This tool is not supported by NI R&D, please use one of these options:
 
 - NI has released [a supported version of the VeriStand Steps for TestStand](https://www.ni.com/en/support/downloads/software-products/download.veristand-steps-for-teststand.html?srsltid=AfmBOoqYZk0O7-XACD_YLBsPhrVG_qMacfHMfk7SZAGO4ofdfr1ugli4#559863). These steps support VeriStand 2023 Q3 and later. Refer to [the user manual for these steps](https://www.ni.com/docs/en-US/bundle/veristand-steps-for-teststand/page/vsts_help/overview.html) for more information on how to use them.
-- If using another version of VeriStand that is not supported by the custom steps, use either the [ASAM XIL Steps for NI TestStand](http://www.ni.com/product-documentation/55126/en/) or you may call the VeriStand .NET APIs directly from TestStand.**:rotating_light:
+- If using another version of VeriStand that is not supported by the custom steps, use either the [ASAM XIL Steps for NI TestStand](http://www.ni.com/product-documentation/55126/en/) or you may call the VeriStand .NET APIs directly from TestStand.**
 
 ## NI VeriStand Steps for TestStand ##
 
